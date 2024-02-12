@@ -1,0 +1,1000 @@
+CodigoGrupo;NombreGrupo;Anilla;InfoAnilla;AnillaSustituida;NombreEspecie;CodigoEspecie;FechaCaptura;HoraCaptura;CodigoEdad;CodigoSexo;CodigoModoStatus;NombreLocalidad;MUNICIPIO;CodigoLocalidad;CodigoPROVINCIA;Observaciones;CodigoHabitat;CodigoMetodo;NumRedes;LongitudRed;HoraDesde;HoraHasta;Campanna;CodigoEstacion;MannanaCodigoFuerza;MannanaCodigoDireccion;MannanaCodigoNubosidad;MannanaCodigoLluvia;TardeCodigoFuerza;TardeCodigoDireccion;TardeCodigoNubosidad;TardeCodigoLluvia;Dato1;Dato2;Dato3;Dato4;Dato5;Dato6;Parentesco;TipoRegistro;CodigoCentro;CodigoCondicion;CodigoCircunstancia;CodigoReclamo;Ala;F8;Peso;Tarso;CodigoPlaca;CodigoGrasa;CodigoMusculo;CodigoPrecision;CodigoEstado;CodigoTamanoNidada;CodigoMuda;Manipulacion;Transporte;IniAnillador
+ZAMALLA;ZAMALLA;3285806;2;;Turdus merula;11870;25/06/2010;0:00;6;2;U;LOS RANCHOS DE GUADIAMAR;SANLUCAR LA MAYOR;ES667098;;;D6;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285807;2;;Turdus merula;11870;26/06/2010;0:00;3;0;U;BORMUJOS;BORMUJOS;ES66103;;;D6;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285808;2;;Turdus philomelos;12000;15/10/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285809;2;;Turdus merula;11870;15/10/2010;0:00;3;2;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285810;2;;Turdus philomelos;12000;16/10/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285811;2;;Turdus philomelos;12000;16/10/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285812;2;;Turdus philomelos;12000;16/10/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285813;2;;Turdus philomelos;12000;16/10/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285814;2;;Turdus philomelos;12000;16/10/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285815;2;;Turdus philomelos;12000;18/10/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285816;2;;Turdus philomelos;12000;18/10/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285817;2;;Turdus philomelos;12000;18/10/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285818;2;;Turdus philomelos;12000;18/10/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285819;2;;Turdus philomelos;12000;18/10/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285820;2;;Turdus philomelos;12000;18/10/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285821;2;;Turdus philomelos;12000;18/10/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285822;2;;Turdus philomelos;12000;18/10/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285823;2;;Turdus philomelos;12000;18/10/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285824;2;;Turdus philomelos;12000;18/10/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285825;2;;Turdus philomelos;12000;18/10/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285826;2;;Turdus philomelos;12000;18/10/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285827;2;;Turdus philomelos;12000;18/10/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285828;2;;Turdus philomelos;12000;18/10/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285829;2;;Turdus philomelos;12000;18/10/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285830;2;;Turdus merula;11870;18/10/2010;0:00;3;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285831;2;;Turdus philomelos;12000;18/10/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285832;2;;Turdus philomelos;12000;21/10/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285833;2;;Turdus philomelos;12000;21/10/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285834;2;;Turdus philomelos;12000;21/10/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285835;2;;Turdus philomelos;12000;21/10/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285836;2;;Turdus philomelos;12000;21/10/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285837;2;;Turdus philomelos;12000;21/10/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285838;2;;Turdus merula;11870;21/10/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285839;2;;Turdus merula;11870;25/10/2010;0:00;3;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285840;2;;Turdus merula;11870;25/10/2010;0:00;3;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285841;2;;Turdus merula;11870;25/10/2010;0:00;3;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285842;2;;Turdus merula;11870;25/10/2010;0:00;3;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285843;2;;Turdus merula;11870;25/10/2010;0:00;3;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285844;2;;Turdus merula;11870;25/10/2010;0:00;3;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285845;2;;Turdus merula;11870;25/10/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285846;2;;Turdus merula;11870;27/10/2010;0:00;3;2;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285847;2;;Turdus philomelos;12000;27/10/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285848;2;;Turdus philomelos;12000;27/10/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285849;2;;Turdus philomelos;12000;27/10/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285850;2;;Turdus philomelos;12000;28/10/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285851;2;;Turdus merula;11870;24/11/2010;0:00;3;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285852;2;;Turdus merula;11870;24/11/2010;0:00;3;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285853;2;;Turdus merula;11870;24/11/2010;0:00;3;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285854;2;;Turdus merula;11870;24/11/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285855;2;;Turdus merula;11870;24/11/2010;0:00;3;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285856;2;;Turdus merula;11870;24/11/2010;0:00;3;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285857;2;;Turdus philomelos;12000;24/11/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285858;2;;Turdus philomelos;12000;24/11/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285859;2;;Turdus merula;11870;24/11/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285860;2;;Turdus philomelos;12000;24/11/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285861;2;;Turdus merula;11870;24/11/2010;0:00;3;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285862;2;;Turdus merula;11870;11/11/2010;0:00;3;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285863;2;;Turdus philomelos;12000;11/11/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285864;2;;Turdus philomelos;12000;11/11/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285865;2;;Turdus merula;11870;11/11/2010;0:00;3;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285866;2;;Turdus merula;11870;11/11/2010;0:00;3;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285867;2;;Turdus merula;11870;11/11/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285868;2;;Turdus merula;11870;11/11/2010;0:00;3;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285869;2;;Turdus merula;11870;23/11/2010;0:00;3;1;U;EL HAMPA;CORIA DEL RIO;ES667173;;;D3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285870;2;;Turdus merula;11870;23/11/2010;0:00;3;2;U;EL HAMPA;CORIA DEL RIO;ES667173;;;D3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285871;2;;Turdus philomelos;12000;02/12/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285872;2;;Turdus philomelos;12000;02/12/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285873;2;;Turdus philomelos;12000;02/12/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285874;2;;Turdus philomelos;12000;03/12/2010;0:00;3;0;U;EL HAMPA;CORIA DEL RIO;ES667173;;;D3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285875;2;;Turdus merula;11870;03/12/2010;0:00;4;1;U;EL HAMPA;CORIA DEL RIO;ES667173;;;D3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285876;2;;Turdus merula;11870;13/12/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285877;2;;Turdus merula;11870;13/12/2010;0:00;3;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285878;2;;Turdus merula;11870;13/12/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285879;2;;Turdus philomelos;12000;13/12/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285880;2;;Turdus merula;11870;13/12/2010;0:00;3;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285881;2;;Turdus philomelos;12000;13/12/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285882;2;;Turdus philomelos;12000;29/12/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285883;2;;Turdus merula;11870;29/12/2010;0:00;3;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285884;2;;Turdus merula;11870;29/12/2010;0:00;3;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285885;2;;Turdus merula;11870;29/12/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3285886;2;;Turdus philomelos;12000;29/12/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6601;2;;Phylloscopus collybita;13110;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6602;2;;Phylloscopus collybita;13110;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6603;2;;Phylloscopus collybita;13110;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6604;2;;Phylloscopus collybita;13110;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6605;2;;Phylloscopus collybita;13110;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6606;2;;Phylloscopus collybita;13110;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6607;2;;Phylloscopus collybita;13110;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6608;2;;Phylloscopus collybita;13110;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6609;2;;Phylloscopus collybita;13110;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6610;2;;Phylloscopus collybita;13110;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6611;2;;Phylloscopus collybita;13110;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6612;2;;Phylloscopus collybita;13110;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6613;2;;Phylloscopus collybita;13110;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6614;2;;Phylloscopus collybita;13110;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6615;2;;Phylloscopus collybita;13110;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6616;2;;Phylloscopus collybita;13110;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6617;2;;Phylloscopus collybita;13110;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6618;2;;Phylloscopus collybita;13110;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6619;2;;Phylloscopus collybita;13110;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6620;2;;Phylloscopus collybita;13110;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6621;2;;Remiz pendulinus;14900;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6622;2;;Remiz pendulinus;14900;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6623;2;;Remiz pendulinus;14900;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6624;2;;Phylloscopus collybita;13110;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6625;2;;Phylloscopus collybita;13110;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6626;2;;Phylloscopus inornatus;aaaaa;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6627;2;;Remiz pendulinus;14900;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6628;2;;Phylloscopus collybita;13110;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6629;2;;Phylloscopus collybita;13110;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6630;2;;Phylloscopus collybita;13110;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6631;2;;Phylloscopus collybita;13110;02/11/2010;0:00;2;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6632;2;;Phylloscopus collybita;13110;02/11/2010;0:00;2;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6633;2;;Phylloscopus collybita;13110;23/11/2010;0:00;3;0;U;EL HAMPA;CORIA DEL RIO;ES667173;;;D3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6634;2;;Phylloscopus collybita;13110;23/11/2010;0:00;3;0;U;EL HAMPA;CORIA DEL RIO;ES667173;;;D3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6635;2;;Phylloscopus collybita;13110;26/11/2010;0:00;3;0;U;EL HAMPA;CORIA DEL RIO;ES667173;;;D3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6636;2;;Phylloscopus collybita;13110;26/11/2010;0:00;4;0;U;EL HAMPA;CORIA DEL RIO;ES667173;;;D3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6637;2;;Cisticola juncidis;12260;26/11/2010;0:00;3;0;U;EL HAMPA;CORIA DEL RIO;ES667173;;;D3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6638;2;;Phylloscopus collybita;13110;26/11/2010;0:00;2;0;U;EL HAMPA;CORIA DEL RIO;ES667173;;;D3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6639;2;;Phylloscopus collybita;13110;26/11/2010;0:00;2;0;U;EL HAMPA;CORIA DEL RIO;ES667173;;;D3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6640;2;;Phylloscopus collybita;13110;03/12/2010;0:00;4;0;U;EL HAMPA;CORIA DEL RIO;ES667173;;;D3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6641;2;;Phylloscopus collybita;13110;03/12/2010;0:00;3;0;U;EL HAMPA;CORIA DEL RIO;ES667173;;;D3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6642;2;;Phylloscopus collybita;13110;03/12/2010;0:00;2;0;U;EL HAMPA;CORIA DEL RIO;ES667173;;;D3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6643;2;;Phylloscopus collybita;13110;03/12/2010;0:00;3;0;U;EL HAMPA;CORIA DEL RIO;ES667173;;;D3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6644;2;;Phylloscopus collybita;13110;03/12/2010;0:00;3;0;U;EL HAMPA;CORIA DEL RIO;ES667173;;;D3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6645;2;;Phylloscopus collybita;13110;03/12/2010;0:00;3;0;U;EL HAMPA;CORIA DEL RIO;ES667173;;;D3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KG6646;2;;Phylloscopus collybita;13110;03/12/2010;0:00;2;0;U;EL HAMPA;CORIA DEL RIO;ES667173;;;D3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N68701;2;;Carduelis carduelis;16530;02/11/2010;0:00;3;1;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N68702;2;;Carduelis carduelis;16530;02/11/2010;0:00;3;2;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N68703;2;;Anthus pratensis;10110;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N68704;2;;Anthus pratensis;10110;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N68705;2;;Anthus pratensis;10110;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N68706;2;;Anthus pratensis;10110;02/11/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N68707;2;;Motacilla alba;10200;02/11/2010;0:00;3;2;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N68708;2;;Motacilla alba;10200;02/11/2010;0:00;3;1;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N68709;2;;Motacilla alba;10200;02/11/2010;0:00;3;2;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N68710;2;;Motacilla alba;10200;02/11/2010;0:00;3;2;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N68711;2;;Erithacus rubecula;10990;23/11/2010;0:00;3;0;U;EL HAMPA;CORIA DEL RIO;ES667173;;;D3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N68712;2;;Sylvia atricapilla;12770;23/11/2010;0:00;3;1;U;EL HAMPA;CORIA DEL RIO;ES667173;;;D3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N68713;2;;Carduelis carduelis;16530;26/11/2010;0:00;3;2;U;EL HAMPA;CORIA DEL RIO;ES667173;;;D3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N68714;2;;Fringilla coelebs;16360;26/11/2010;0:00;3;2;U;EL HAMPA;CORIA DEL RIO;ES667173;;;D3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N68715;2;;Fringilla coelebs;16360;03/12/2010;0:00;2;0;U;EL HAMPA;CORIA DEL RIO;ES667173;;;D3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N68716;2;;Erithacus rubecula;10990;03/12/2010;0:00;3;0;U;EL HAMPA;CORIA DEL RIO;ES667173;;;D3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N68717;2;;Erithacus rubecula;10990;03/12/2010;0:00;3;0;U;EL HAMPA;CORIA DEL RIO;ES667173;;;D3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329401;2;;Passer hispaniolensis;15920;02/11/2010;0:00;2;1;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329402;2;;Passer hispaniolensis;15920;02/11/2010;0:00;2;2;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329403;2;;Passer hispaniolensis;15920;02/11/2010;0:00;2;2;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329404;2;;Passer hispaniolensis;15920;02/11/2010;0:00;2;2;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329405;2;;Passer hispaniolensis;15920;02/11/2010;0:00;2;2;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329406;2;;Passer hispaniolensis;15920;02/11/2010;0:00;2;2;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329407;2;;Passer domesticus;15910;02/11/2010;0:00;2;1;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329408;2;;Passer hispaniolensis;15920;02/11/2010;0:00;2;2;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329409;2;;Carduelis chloris;16490;02/11/2010;0:00;3;1;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329410;2;;Carduelis chloris;16490;02/11/2010;0:00;3;2;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329411;2;;Passer hispaniolensis;15920;02/11/2010;0:00;2;2;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329412;2;;Passer hispaniolensis;15920;02/11/2010;0:00;2;2;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329413;2;;Passer hispaniolensis;15920;02/11/2010;0:00;2;1;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329414;2;;Passer hispaniolensis;15920;02/11/2010;0:00;2;1;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329415;2;;Passer hispaniolensis;15920;02/11/2010;0:00;2;2;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329416;2;;Passer hispaniolensis;15920;02/11/2010;0:00;2;1;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329417;2;;Passer hispaniolensis;15920;02/11/2010;0:00;2;2;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329418;2;;Passer hispaniolensis;15920;02/11/2010;0:00;2;1;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329419;2;;Passer hispaniolensis;15920;02/11/2010;0:00;2;2;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329420;2;;Passer hispaniolensis;15920;02/11/2010;0:00;2;2;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329421;2;;Passer hispaniolensis;15920;02/11/2010;0:00;2;2;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329422;2;;Passer hispaniolensis;15920;02/11/2010;0:00;2;1;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329423;2;;Passer hispaniolensis;15920;02/11/2010;0:00;2;2;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329424;2;;Passer hispaniolensis;15920;02/11/2010;0:00;2;2;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329425;2;;Passer hispaniolensis;15920;02/11/2010;0:00;2;2;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329426;2;;Passer hispaniolensis;15920;02/11/2010;0:00;2;2;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329427;2;;Passer hispaniolensis;15920;02/11/2010;0:00;2;1;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329428;2;;Carduelis chloris;16490;02/11/2010;0:00;3;2;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329429;2;;Passer hispaniolensis;15920;02/11/2010;0:00;2;2;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329430;2;;Passer hispaniolensis;15920;02/11/2010;0:00;2;1;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329431;2;;Passer domesticus;15910;02/11/2010;0:00;2;2;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329432;2;;Passer domesticus;15910;02/11/2010;0:00;2;1;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329433;2;;Passer domesticus;15910;02/11/2010;0:00;2;2;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329434;2;;Passer domesticus;15910;02/11/2010;0:00;2;1;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329435;2;;Passer domesticus;15910;02/11/2010;0:00;2;2;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329436;2;;Passer domesticus;15910;03/12/2010;0:00;2;2;U;EL HAMPA;CORIA DEL RIO;ES667173;;;D3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329437;2;;Parus major;14640;03/12/2010;0:00;3;2;U;EL HAMPA;CORIA DEL RIO;ES667173;;;D3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329438;2;;Passer domesticus;15910;03/12/2010;0:00;2;2;U;EL HAMPA;CORIA DEL RIO;ES667173;;;D3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A329439;2;;Passer domesticus;15910;03/12/2010;0:00;2;2;U;EL HAMPA;CORIA DEL RIO;ES667173;;;D3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094501;2;;Acrocephalus arundinaceus;12530;27/08/2010;0:00;4;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094502;2;;Acrocephalus arundinaceus;12530;27/08/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094503;2;;Acrocephalus arundinaceus;12530;27/08/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094504;2;;Acrocephalus arundinaceus;12530;27/08/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094505;2;;Acrocephalus arundinaceus;12530;27/08/2010;0:00;4;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094506;2;;Acrocephalus arundinaceus;12530;27/08/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094507;2;;Acrocephalus arundinaceus;12530;27/08/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094508;2;;Acrocephalus arundinaceus;12530;27/08/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094509;2;;Acrocephalus arundinaceus;12530;27/08/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094510;2;;Acrocephalus arundinaceus;12530;27/08/2010;0:00;4;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094511;2;;Acrocephalus arundinaceus;12530;27/08/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094512;2;;Acrocephalus arundinaceus;12530;30/08/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094513;2;;Lanius senator;15230;30/08/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094514;2;;Acrocephalus arundinaceus;12530;30/08/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094515;2;;Acrocephalus arundinaceus;12530;30/08/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094516;2;;Acrocephalus arundinaceus;12530;30/08/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094517;2;;Acrocephalus arundinaceus;12530;30/08/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094518;2;;Acrocephalus arundinaceus;12530;03/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094519;2;;Acrocephalus arundinaceus;12530;03/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094520;2;;Acrocephalus arundinaceus;12530;03/09/2010;0:00;4;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094521;2;;Acrocephalus arundinaceus;12530;03/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094522;2;;Acrocephalus arundinaceus;12530;03/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094523;2;;Acrocephalus arundinaceus;12530;03/09/2010;0:00;4;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094524;2;;Acrocephalus arundinaceus;12530;03/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094525;2;;Acrocephalus arundinaceus;12530;03/09/2010;0:00;4;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094526;2;;Acrocephalus arundinaceus;12530;03/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094527;2;;Acrocephalus arundinaceus;12530;03/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094528;2;;Acrocephalus arundinaceus;12530;03/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094529;2;;Acrocephalus arundinaceus;12530;08/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094530;2;;Acrocephalus arundinaceus;12530;08/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094531;2;;Acrocephalus arundinaceus;12530;08/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094532;2;;Acrocephalus arundinaceus;12530;08/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094533;2;;Acrocephalus arundinaceus;12530;08/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094534;2;;Acrocephalus arundinaceus;12530;10/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094535;2;;Acrocephalus arundinaceus;12530;10/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094536;2;;Acrocephalus arundinaceus;12530;10/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094537;2;;Acrocephalus arundinaceus;12530;10/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094538;2;;Acrocephalus arundinaceus;12530;10/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094539;2;;Acrocephalus arundinaceus;12530;10/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094540;2;;Acrocephalus arundinaceus;12530;10/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094541;2;;Acrocephalus arundinaceus;12530;10/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094542;2;;Acrocephalus arundinaceus;12530;10/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094543;2;;Acrocephalus arundinaceus;12530;15/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094544;2;;Galerida cristata;09720;15/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094545;2;;Acrocephalus arundinaceus;12530;15/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094546;2;;Acrocephalus arundinaceus;12530;15/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094547;2;;Acrocephalus arundinaceus;12530;15/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094548;2;;Acrocephalus arundinaceus;12530;15/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094549;2;;Acrocephalus arundinaceus;12530;17/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094550;2;;Acrocephalus arundinaceus;12530;17/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094551;2;;Acrocephalus arundinaceus;12530;17/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094552;2;;Acrocephalus arundinaceus;12530;17/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094553;2;;Acrocephalus arundinaceus;12530;17/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094554;2;;Acrocephalus arundinaceus;12530;22/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094555;2;;Acrocephalus arundinaceus;12530;22/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094556;2;;Acrocephalus arundinaceus;12530;22/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094557;2;;Acrocephalus arundinaceus;12530;22/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094558;2;;Acrocephalus arundinaceus;12530;22/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094559;2;;Acrocephalus arundinaceus;12530;22/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094560;2;;Acrocephalus arundinaceus;12530;22/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094561;2;;Acrocephalus arundinaceus;12530;24/09/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094562;2;;Acrocephalus arundinaceus;12530;01/10/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094563;2;;Acrocephalus arundinaceus;12530;13/10/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094564;2;;Acrocephalus arundinaceus;12530;15/10/2010;0:00;3;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094565;2;;Galerida cristata;09720;15/10/2010;0:00;2;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094566;2;;Miliaria calandra;18820;22/10/2010;0:00;2;2;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V094567;2;;Miliaria calandra;18820;02/11/2010;0:00;2;2;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;00:00;00:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

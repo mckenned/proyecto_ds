@@ -1,0 +1,967 @@
+CodigoGrupo;NombreGrupo;Anilla;InfoAnilla;AnillaSustituida;NombreEspecie;CodigoEspecie;FechaCaptura;HoraCaptura;CodigoEdad;CodigoSexo;CodigoModoStatus;NombreLocalidad;MUNICIPIO;CodigoLocalidad;CodigoPROVINCIA;Observaciones;CodigoHabitat;CodigoMetodo;NumRedes;LongitudRed;HoraDesde;HoraHasta;Campanna;CodigoEstacion;MannanaCodigoFuerza;MannanaCodigoDireccion;MannanaCodigoNubosidad;MannanaCodigoLluvia;TardeCodigoFuerza;TardeCodigoDireccion;TardeCodigoNubosidad;TardeCodigoLluvia;Dato1;Dato2;Dato3;Dato4;Dato5;Dato6;Parentesco;TipoRegistro;CodigoCentro;CodigoCondicion;CodigoCircunstancia;CodigoReclamo;Ala;F8;Peso;Tarso;CodigoPlaca;CodigoGrasa;CodigoMusculo;CodigoPrecision;CodigoEstado;CodigoTamanoNidada;CodigoMuda;Manipulacion;Transporte;IniAnillador
+ZAMALLA;ZAMALLA;N986401;2;;Passer montanus;15980;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986402;2;;Passer montanus;15980;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986403;2;;Passer montanus;15980;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986404;2;;Passer montanus;15980;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986405;2;;Passer montanus;15980;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986406;2;;Emberiza schoeniclus;18770;15/01/2010;0:00;4;1;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986407;2;;Passer montanus;15980;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986408;2;;Passer montanus;15980;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986409;2;;Passer montanus;15980;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986410;2;;Passer montanus;15980;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986411;2;;Passer montanus;15980;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986412;2;;Passer montanus;15980;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986413;2;;Passer montanus;15980;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986414;2;;Passer montanus;15980;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986415;2;;Passer montanus;15980;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986416;2;;Passer montanus;15980;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986417;2;;Passer montanus;15980;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986418;2;;Passer montanus;15980;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986419;2;;Passer montanus;15980;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986420;2;;Passer montanus;15980;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986421;2;;Passer montanus;15980;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986422;2;;Passer montanus;15980;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986423;2;;Passer montanus;15980;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986424;2;;Passer montanus;15980;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986425;2;;Passer montanus;15980;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986426;2;;Passer montanus;15980;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986427;2;;Passer montanus;15980;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986428;2;;Passer montanus;15980;21/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986429;2;;Passer montanus;15980;21/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986430;2;;Passer montanus;15980;21/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986431;2;;Euplectes afer;20420;21/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986432;2;;Euplectes afer;20420;21/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986433;2;;Euplectes afer;20420;21/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986434;2;;Euplectes afer;20420;21/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986435;2;;Euplectes afer;20420;21/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986436;2;;Euplectes afer;20420;21/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986437;2;;Euplectes afer;20420;21/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986438;2;;Euplectes afer;20420;21/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986439;2;;Euplectes afer;20420;21/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986440;2;;Euplectes afer;20420;21/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986441;2;;Euplectes afer;20420;21/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986442;2;;Euplectes afer;20420;21/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986443;2;;Euplectes afer;20420;21/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986444;2;;Euplectes afer;20420;21/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986445;2;;Euplectes afer;20420;21/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986446;2;;Euplectes afer;20420;21/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986447;2;;Euplectes afer;20420;21/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986448;2;;Euplectes afer;20420;21/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986449;2;;Euplectes afer;20420;21/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986450;2;;Euplectes afer;20420;21/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986451;2;;Passer montanus;15980;21/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986452;2;;Euplectes afer;20420;21/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986453;2;;Euplectes afer;20420;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986454;2;;Euplectes afer;20420;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986455;2;;Euplectes afer;20420;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986456;2;;Euplectes afer;20420;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986457;2;;Euplectes afer;20420;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986458;2;;Euplectes afer;20420;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986459;2;;Lonchura punctulata;20260;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986460;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986461;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986462;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986463;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986464;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986465;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986466;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986467;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986468;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986469;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986470;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986471;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986472;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986473;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986474;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986475;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986476;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986477;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986478;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986479;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986480;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986481;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986482;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986483;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986484;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986485;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986486;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986487;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986488;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986489;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986490;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986491;2;;Euplectes afer;20420;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986492;2;;Euplectes afer;20420;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986493;2;;Euplectes afer;20420;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986494;2;;Euplectes afer;20420;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986495;2;;Euplectes afer;20420;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986496;2;;Euplectes afer;20420;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986497;2;;Euplectes afer;20420;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986498;2;;Euplectes afer;20420;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986499;2;;Euplectes afer;20420;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986500;2;;Euplectes afer;20420;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874401;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874402;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874403;2;;Euplectes afer;20420;15/01/2010;0:00;4;1;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874404;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874405;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874406;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874407;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874408;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874409;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874410;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874411;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874412;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874413;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874414;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874415;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874416;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874417;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874418;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874419;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874420;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874421;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874422;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874423;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874424;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874425;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874426;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874427;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874428;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874429;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874430;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874431;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874432;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874433;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874434;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874435;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874436;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874437;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874438;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874439;2;;Euplectes afer;20420;15/01/2010;0:00;6;1;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874440;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874441;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874442;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874443;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874444;2;;Emberiza schoeniclus;18770;19/01/2010;0:00;4;1;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874445;2;;Emberiza schoeniclus;18770;19/01/2010;0:00;4;2;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874446;2;;Luscinia svecica;11060;20/01/2010;0:00;6;1;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874447;2;;Emberiza schoeniclus;18770;20/01/2010;0:00;4;2;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874448;2;;Emberiza schoeniclus;18770;20/01/2010;0:00;4;1;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874449;2;;Passer montanus;15980;20/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874450;2;;Passer montanus;15980;20/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874451;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874452;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874453;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874454;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874455;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874456;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874457;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874458;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874459;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874460;2;;Euplectes afer;20420;15/01/2010;0:00;4;1;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874461;2;;Euplectes afer;20420;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874462;2;;Passer montanus;15980;20/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874463;2;;Passer montanus;15980;20/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874464;2;;Passer montanus;15980;20/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874465;2;;Passer montanus;15980;20/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874466;2;;Passer montanus;15980;20/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874467;2;;Passer montanus;15980;20/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874468;2;;Passer montanus;15980;20/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874469;2;;Passer montanus;15980;20/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874470;2;;Passer montanus;15980;20/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874471;2;;Passer montanus;15980;20/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874472;2;;Passer montanus;15980;20/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874473;2;;Passer montanus;15980;20/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874474;2;;Passer montanus;15980;20/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874475;2;;Passer montanus;15980;20/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874476;2;;Passer montanus;15980;20/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874477;2;;Passer montanus;15980;20/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874478;2;;Passer montanus;15980;20/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874479;2;;Passer montanus;15980;20/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874480;2;;Passer montanus;15980;20/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874481;2;;Passer montanus;15980;20/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874482;2;;Passer montanus;15980;20/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874483;2;;Passer montanus;15980;20/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874484;2;;Luscinia svecica;11060;20/01/2010;0:00;5;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874485;2;;Passer montanus;15980;20/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874486;2;;Euplectes afer;20420;20/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874487;2;;Euplectes afer;20420;20/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874488;2;;Passer montanus;15980;20/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874489;2;;Passer montanus;15980;20/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874490;2;;Passer montanus;15980;20/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874491;2;;Passer montanus;15980;20/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874492;2;;Passer montanus;15980;20/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874493;2;;Passer montanus;15980;20/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874494;2;;Euplectes afer;20420;21/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874495;2;;Euplectes afer;20420;21/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874496;2;;Euplectes afer;20420;21/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874497;2;;Euplectes afer;20420;21/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874498;2;;Euplectes afer;20420;21/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874499;2;;Euplectes afer;20420;21/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N874500;2;;Euplectes afer;20420;21/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A095022;2;;Passer hispaniolensis;15920;20/01/2010;0:00;4;1;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A095023;2;;Passer hispaniolensis;15920;20/01/2010;0:00;4;1;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A095024;2;;Passer domesticus;15910;21/01/2010;0:00;4;1;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A095025;2;;Passer hispaniolensis;15920;22/01/2010;0:00;4;2;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A095026;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A095027;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A095028;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A095029;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A095030;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A095031;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A095032;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A095033;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A095034;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A095035;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A095036;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A095037;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A095038;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A095039;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A095040;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A095041;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A095042;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A095043;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A095044;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A095045;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A095046;2;;Passer montanus;15980;22/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A095047;2;;Passer montanus;15980;25/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A095048;2;;Passer montanus;15980;25/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A095049;2;;Passer montanus;15980;25/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A095050;2;;Passer montanus;15980;25/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986501;2;;Euplectes afer;20420;25/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986502;2;;Euplectes afer;20420;25/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986503;2;;Euplectes afer;20420;25/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986504;2;;Euplectes afer;20420;25/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986505;2;;Euplectes afer;20420;25/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986506;2;;Euplectes afer;20420;25/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986507;2;;Euplectes afer;20420;25/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986508;2;;Emberiza schoeniclus;18770;25/01/2010;0:00;4;1;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986509;2;;Euplectes afer;20420;25/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986510;2;;Euplectes afer;20420;25/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986511;2;;Euplectes afer;20420;25/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986512;2;;Passer montanus;15980;25/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986513;2;;Passer montanus;15980;25/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986514;2;;Passer montanus;15980;25/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986515;2;;Passer montanus;15980;25/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986516;2;;Passer montanus;15980;25/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986517;2;;Passer montanus;15980;25/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986518;2;;Passer montanus;15980;25/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986519;2;;Passer montanus;15980;25/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986520;2;;Euplectes afer;20420;27/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986521;2;;Euplectes afer;20420;27/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986522;2;;Emberiza schoeniclus;18770;27/01/2010;0:00;4;2;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986523;2;;Euplectes afer;20420;27/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986524;2;;Euplectes afer;20420;27/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986525;2;;Euplectes afer;20420;27/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986526;2;;Euplectes afer;20420;27/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986527;2;;Euplectes afer;20420;27/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986528;2;;Euplectes afer;20420;27/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986529;2;;Euplectes afer;20420;27/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986530;2;;Euplectes afer;20420;27/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986531;2;;Saxicola torquata;11390;27/01/2010;0:00;5;1;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986532;2;;Sylvia atricapilla;12770;29/01/2010;0:00;5;1;U;El Hampa;Coria del Rio;ES667173;;;B1;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986533;2;;Sylvia atricapilla;12770;29/01/2010;0:00;6;1;U;El Hampa;Coria del Rio;ES667173;;;B1;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986534;2;;Sylvia atricapilla;12770;29/01/2010;0:00;5;2;U;El Hampa;Coria del Rio;ES667173;;;B1;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986535;2;;Sylvia atricapilla;12770;29/01/2010;0:00;4;2;U;El Hampa;Coria del Rio;ES667173;;;B1;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986536;2;;Sylvia atricapilla;12770;29/01/2010;0:00;4;2;U;El Hampa;Coria del Rio;ES667173;;;B1;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986537;2;;Sylvia atricapilla;12770;29/01/2010;0:00;5;1;U;El Hampa;Coria del Rio;ES667173;;;B1;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986538;2;;Sylvia atricapilla;12770;29/01/2010;0:00;5;1;U;El Hampa;Coria del Rio;ES667173;;;B1;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986539;2;;Sylvia atricapilla;12770;29/01/2010;0:00;5;2;U;El Hampa;Coria del Rio;ES667173;;;B1;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986540;2;;Sylvia atricapilla;12770;29/01/2010;0:00;5;2;U;El Hampa;Coria del Rio;ES667173;;;B1;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986541;2;;Sylvia atricapilla;12770;29/01/2010;0:00;5;1;U;El Hampa;Coria del Rio;ES667173;;;B1;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986542;2;;Sylvia atricapilla;12770;29/01/2010;0:00;5;2;U;El Hampa;Coria del Rio;ES667173;;;B1;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986543;2;;Sylvia atricapilla;12770;29/01/2010;0:00;5;1;U;El Hampa;Coria del Rio;ES667173;;;B1;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986544;2;;Sylvia atricapilla;12770;29/01/2010;0:00;5;1;U;El Hampa;Coria del Rio;ES667173;;;B1;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986545;2;;Sylvia atricapilla;12770;29/01/2010;0:00;5;1;U;El Hampa;Coria del Rio;ES667173;;;B1;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986546;2;;Sylvia atricapilla;12770;29/01/2010;0:00;5;1;U;El Hampa;Coria del Rio;ES667173;;;B1;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986547;2;;Emberiza schoeniclus;18770;01/02/2010;0:00;5;2;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986548;2;;Emberiza schoeniclus;18770;01/02/2010;0:00;5;1;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986549;2;;Emberiza schoeniclus;18770;01/02/2010;0:00;4;2;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986550;2;;Luscinia svecica;11060;01/02/2010;0:00;5;2;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986551;2;;Luscinia svecica;11060;01/02/2010;0:00;5;1;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986552;2;;Emberiza schoeniclus;18770;01/02/2010;0:00;4;1;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986553;2;;Euplectes afer;20420;01/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986554;2;;Euplectes afer;20420;01/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986555;2;;Euplectes afer;20420;01/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986556;2;;Euplectes afer;20420;01/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986557;2;;Emberiza schoeniclus;18770;01/02/2010;0:00;4;2;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986558;2;;Passer montanus;15980;01/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986559;2;;Passer montanus;15980;01/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986560;2;;Passer montanus;15980;01/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986561;2;;Luscinia svecica;11060;02/02/2010;0:00;4;2;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986562;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986563;2;;Emberiza schoeniclus;18770;02/02/2010;0:00;4;2;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986564;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986565;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986566;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986567;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986568;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986569;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986570;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986571;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986572;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986573;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986574;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986575;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986576;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986577;2;;Euplectes afer;20420;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986578;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986579;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986580;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986581;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986582;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986583;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986584;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986585;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986586;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986587;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986588;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986589;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986590;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986591;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986592;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986593;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986594;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986595;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986596;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986597;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986598;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986599;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;N986600;2;;Passer montanus;15980;02/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318824;2;;Estrilda astrild;16150;08/01/2010;0:00;4;2;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318825;2;;Estrilda astrild;16150;08/01/2010;0:00;4;1;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318826;2;;Estrilda astrild;16150;08/01/2010;0:00;4;1;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318827;2;;Phylloscopus collybita;13110;08/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318828;2;;Phylloscopus collybita;13110;08/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318829;2;;Phylloscopus collybita;13110;08/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318830;2;;Estrilda astrild;16150;14/01/2010;0:00;4;1;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318831;2;;Phylloscopus collybita;13110;14/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318832;2;;Phylloscopus collybita;13110;14/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318833;2;;Phylloscopus collybita;13110;14/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318834;2;;Estrilda astrild;16150;14/01/2010;0:00;4;1;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318835;2;;Estrilda astrild;16150;14/01/2010;0:00;5;2;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318836;2;;Phylloscopus collybita;13110;14/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318837;2;;Phylloscopus collybita;13110;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318838;2;;Phylloscopus collybita;13110;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318839;2;;Phylloscopus collybita;13110;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318840;2;;Phylloscopus collybita;13110;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318841;2;;Phylloscopus collybita;13110;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318842;2;;Estrilda astrild;16150;15/01/2010;0:00;4;1;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318843;2;;Estrilda astrild;16150;15/01/2010;0:00;4;1;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318844;2;;Estrilda astrild;16150;15/01/2010;0:00;5;1;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318845;2;;Estrilda astrild;16150;15/01/2010;0:00;4;1;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318846;2;;Cisticola juncidis;12260;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318847;2;;Cisticola juncidis;12260;15/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318848;2;;Estrilda astrild;16150;19/01/2010;0:00;4;2;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318849;2;;Estrilda astrild;16150;19/01/2010;0:00;4;1;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318850;2;;Estrilda astrild;16150;19/01/2010;0:00;4;2;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318851;2;;Estrilda astrild;16150;19/01/2010;0:00;4;2;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318852;2;;Estrilda astrild;16150;19/01/2010;0:00;4;2;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318853;2;;Estrilda astrild;16150;19/01/2010;0:00;4;1;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318854;2;;Phylloscopus collybita;13110;19/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318855;2;;Estrilda astrild;16150;19/01/2010;0:00;4;2;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318856;2;;Estrilda astrild;16150;19/01/2010;0:00;4;2;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318857;2;;Estrilda astrild;16150;19/01/2010;0:00;4;1;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318858;2;;Estrilda astrild;16150;19/01/2010;0:00;4;2;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318859;2;;Estrilda astrild;16150;20/01/2010;0:00;4;2;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318860;2;;Estrilda astrild;16150;20/01/2010;0:00;4;2;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318861;2;;Cisticola juncidis;12260;21/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318862;2;;Estrilda astrild;16150;22/01/2010;0:00;4;2;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318863;2;;Phylloscopus collybita;13110;25/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318864;2;;Estrilda astrild;16150;27/01/2010;0:00;4;2;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318865;2;;Estrilda astrild;16150;27/01/2010;0:00;4;1;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318866;2;;Estrilda astrild;16150;27/01/2010;0:00;4;1;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318867;2;;Phylloscopus collybita;13110;27/01/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318868;2;;Sylvia melanocephala;12670;29/01/2010;0:00;5;2;U;El Hampa;Coria del Rio;ES667173;;;B1;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318869;2;;Sylvia melanocephala;12670;29/01/2010;0:00;6;2;U;El Hampa;Coria del Rio;ES667173;;;B1;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318870;2;;Phylloscopus collybita;13110;01/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318871;2;;Phylloscopus collybita;13110;01/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318872;2;;Amandava amandava;20250;01/02/2010;0:00;4;1;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318873;2;;Amandava amandava;20250;01/02/2010;0:00;5;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;C5;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318874;2;;Cisticola juncidis;12260;01/02/2010;0:00;4;0;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;A4;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318875;2;;Estrilda astrild;16150;01/02/2010;0:00;4;1;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;A4;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318876;2;;Estrilda astrild;16150;02/02/2010;0:00;4;1;U;Dehesa de Abajo;La Puebla del Rio;ES66297;;;A4;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318877;2;;Serinus serinus;16400;14/03/2010;0:00;5;2;U;EL ARRAYAN;HINOJOS;ES634091;;;A4;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318878;2;;Serinus serinus;16400;14/03/2010;0:00;5;2;U;EL ARRAYAN;HINOJOS;ES634091;;;A4;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318879;2;;Serinus serinus;16400;14/03/2010;0:00;5;2;U;EL ARRAYAN;HINOJOS;ES634091;;;A4;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318880;2;;Serinus serinus;16400;14/03/2010;0:00;6;2;U;EL ARRAYAN;HINOJOS;ES634091;;;A4;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318881;2;;Serinus serinus;16400;14/03/2010;0:00;6;1;U;EL ARRAYAN;HINOJOS;ES634091;;;A4;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318882;2;;Serinus serinus;16400;14/03/2010;0:00;4;1;U;EL ARRAYAN;HINOJOS;ES634091;;;A4;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318883;2;;Serinus serinus;16400;14/03/2010;0:00;4;1;U;EL ARRAYAN;HINOJOS;ES634091;;;A4;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318884;2;;Serinus serinus;16400;14/03/2010;0:00;5;1;U;EL ARRAYAN;HINOJOS;ES634091;;;A4;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318885;2;;Serinus serinus;16400;14/03/2010;0:00;6;1;U;EL ARRAYAN;HINOJOS;ES634091;;;A4;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318886;2;;Serinus serinus;16400;14/03/2010;0:00;5;2;U;EL ARRAYAN;HINOJOS;ES634091;;;A4;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318887;2;;Serinus serinus;16400;14/03/2010;0:00;6;1;U;EL ARRAYAN;HINOJOS;ES634091;;;A4;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318888;2;;Serinus serinus;16400;14/03/2010;0:00;4;2;U;EL ARRAYAN;HINOJOS;ES634091;;;A4;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318889;2;;Serinus serinus;16400;14/03/2010;0:00;6;2;U;EL ARRAYAN;HINOJOS;ES634091;;;A4;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318890;2;;Sylvia cantillans;12650;14/03/2010;0:00;4;1;U;EL ARRAYAN;HINOJOS;ES634091;;;A4;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318891;2;;Serinus serinus;16400;14/03/2010;0:00;6;1;U;EL ARRAYAN;HINOJOS;ES634091;;;A4;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318892;2;;Serinus serinus;16400;14/03/2010;0:00;5;1;U;EL ARRAYAN;HINOJOS;ES634091;;;A4;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318893;2;;Serinus serinus;16400;14/03/2010;0:00;5;2;U;EL ARRAYAN;HINOJOS;ES634091;;;A4;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318894;2;;Serinus serinus;16400;14/03/2010;0:00;5;1;U;EL ARRAYAN;HINOJOS;ES634091;;;A4;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318895;2;;Phylloscopus collybita;13110;14/03/2010;0:00;4;0;U;EL ARRAYAN;HINOJOS;ES634091;;;A4;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318896;2;;Serinus serinus;16400;14/03/2010;0:00;6;1;U;EL ARRAYAN;HINOJOS;ES634091;;;A4;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318897;2;;Serinus serinus;16400;14/03/2010;0:00;5;1;U;EL ARRAYAN;HINOJOS;ES634091;;;A4;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318898;2;;Serinus serinus;16400;14/03/2010;0:00;5;2;U;EL ARRAYAN;HINOJOS;ES634091;;;A4;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318899;2;;Serinus serinus;16400;14/03/2010;0:00;6;1;U;EL ARRAYAN;HINOJOS;ES634091;;;A4;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;318900;2;;Serinus serinus;16400;14/03/2010;0:00;6;2;U;EL ARRAYAN;HINOJOS;ES634091;;;A4;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278402;2;;Passer domesticus;15910;11/02/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278403;2;;Passer domesticus;15910;11/02/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278404;2;;Passer domesticus;15910;11/02/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278405;2;;Passer domesticus;15910;11/02/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278406;2;;Passer domesticus;15910;11/02/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278407;2;;Passer domesticus;15910;11/02/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278408;2;;Passer domesticus;15910;11/02/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278409;2;;Passer domesticus;15910;11/02/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278410;2;;Passer domesticus;15910;11/02/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278411;2;;Passer domesticus;15910;11/02/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278412;2;;Passer domesticus;15910;11/02/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278413;2;;Passer domesticus;15910;11/02/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278414;2;;Passer domesticus;15910;10/03/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278415;2;;Carduelis chloris;16490;10/03/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278416;2;;Carduelis chloris;16490;10/03/2010;0:00;6;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278417;2;;Carduelis chloris;16490;10/03/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278418;2;;Passer hispaniolensis;15920;10/03/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278419;2;;Passer hispaniolensis;15920;10/03/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278420;2;;Passer domesticus;15910;10/03/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278421;2;;Passer domesticus;15910;10/03/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278422;2;;Passer domesticus;15910;10/03/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278423;2;;Passer domesticus;15910;10/03/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278424;2;;Passer domesticus;15910;10/03/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278425;2;;Passer domesticus;15910;10/03/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278426;2;;Passer domesticus;15910;10/03/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278427;2;;Passer domesticus;15910;10/03/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278428;2;;Passer domesticus;15910;10/03/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278429;2;;Passer domesticus;15910;10/03/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278430;2;;Passer domesticus;15910;10/03/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278431;2;;Passer hispaniolensis;15920;17/03/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278432;2;;Carduelis chloris;16490;17/03/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278433;2;;Carduelis chloris;16490;30/03/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278434;2;;Carduelis chloris;16490;30/03/2010;0:00;6;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278435;2;;Carduelis chloris;16490;30/03/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278436;2;;Carduelis chloris;16490;30/03/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278437;2;;Passer hispaniolensis;15920;30/03/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278438;2;;Sylvia hortensis;12720;30/03/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278439;2;;Sylvia hortensis;12720;30/03/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278440;2;;Sylvia hortensis;12720;30/03/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278441;2;;Passer domesticus;15910;30/03/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278442;2;;Passer hispaniolensis;15920;30/03/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278443;2;;Carduelis chloris;16490;30/03/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278444;2;;Carduelis chloris;16490;30/03/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278445;2;;Carduelis chloris;16490;30/03/2010;0:00;6;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278446;2;;Carduelis chloris;16490;30/03/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278447;2;;Carduelis chloris;16490;30/03/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278448;2;;Passer hispaniolensis;15920;30/03/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278449;2;;Passer domesticus;15910;30/03/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278450;2;;Passer domesticus;15910;30/03/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278451;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278452;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278453;2;;Carduelis chloris;16490;10/04/2010;0:00;6;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278454;2;;Carduelis chloris;16490;10/04/2010;0:00;6;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278455;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278456;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278457;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278458;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278459;2;;Carduelis chloris;16490;10/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278460;2;;Carduelis chloris;16490;10/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278461;2;;Carduelis chloris;16490;10/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278462;2;;Carduelis chloris;16490;10/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278463;2;;Carduelis chloris;16490;10/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278464;2;;Carduelis chloris;16490;10/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278465;2;;Carduelis chloris;16490;10/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278466;2;;Carduelis chloris;16490;10/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278467;2;;Carduelis chloris;16490;10/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278468;2;;Carduelis chloris;16490;10/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278469;2;;Carduelis chloris;16490;10/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278470;2;;Carduelis chloris;16490;10/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278471;2;;Carduelis chloris;16490;10/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278472;2;;Carduelis chloris;16490;10/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278473;2;;Carduelis chloris;16490;10/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278474;2;;Carduelis chloris;16490;10/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278475;2;;Carduelis chloris;16490;10/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278476;2;;Carduelis chloris;16490;10/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278477;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278478;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278479;2;;Carduelis chloris;16490;10/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278480;2;;Carduelis chloris;16490;10/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278481;2;;Carduelis chloris;16490;10/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278482;2;;Carduelis chloris;16490;10/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278483;2;;Carduelis chloris;16490;10/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278484;2;;Carduelis chloris;16490;10/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278485;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278486;2;;Carduelis chloris;16490;10/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278487;2;;Carduelis chloris;16490;10/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278488;2;;Carduelis chloris;16490;10/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278489;2;;Carduelis chloris;16490;10/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278490;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278491;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278492;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278493;2;;Carduelis chloris;16490;10/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278494;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278495;2;;Carduelis chloris;16490;10/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278496;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278497;2;;Carduelis chloris;16490;10/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278498;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278499;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A278500;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304101;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304102;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304103;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304104;2;;Carduelis chloris;16490;10/04/2010;0:00;6;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304105;2;;Carduelis chloris;16490;10/04/2010;0:00;6;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304106;2;;Carduelis chloris;16490;10/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304107;2;;Carduelis chloris;16490;10/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304108;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304109;2;;Carduelis chloris;16490;10/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304110;2;;Carduelis chloris;16490;10/04/2010;0:00;6;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304111;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304112;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304113;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304114;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304115;2;;Carduelis chloris;16490;10/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304116;2;;Carduelis chloris;16490;10/04/2010;0:00;6;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304117;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304118;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304119;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304120;2;;Carduelis chloris;16490;10/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304121;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304122;2;;Carduelis chloris;16490;10/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304123;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304124;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304125;2;;Carduelis chloris;16490;10/04/2010;0:00;6;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304126;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304127;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304128;2;;Carduelis chloris;16490;10/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304129;2;;Carduelis chloris;16490;10/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304130;2;;Carduelis chloris;16490;10/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304131;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304132;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304133;2;;Carduelis chloris;16490;10/04/2010;0:00;6;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304134;2;;Carduelis chloris;16490;10/04/2010;0:00;6;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304135;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304136;2;;Carduelis chloris;16490;10/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304137;2;;Carduelis chloris;16490;10/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304138;2;;Carduelis chloris;16490;10/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304139;2;;Carduelis chloris;16490;10/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304140;2;;Carduelis chloris;16490;10/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304141;2;;Carduelis chloris;16490;10/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304142;2;;Carduelis chloris;16490;10/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304143;2;;Carduelis chloris;16490;10/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304144;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304145;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304146;2;;Carduelis chloris;16490;10/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304147;2;;Carduelis chloris;16490;10/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304148;2;;Carduelis chloris;16490;10/04/2010;0:00;6;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304149;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304150;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304151;2;;Carduelis chloris;16490;10/04/2010;0:00;6;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304152;2;;Carduelis chloris;16490;10/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304153;2;;Carduelis chloris;16490;10/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304154;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304155;2;;Carduelis chloris;16490;10/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304156;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304157;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304158;2;;Carduelis chloris;16490;10/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304159;2;;Carduelis chloris;16490;10/04/2010;0:00;6;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304160;2;;Carduelis chloris;16490;10/04/2010;0:00;6;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304161;2;;Carduelis chloris;16490;10/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304162;2;;Carduelis chloris;16490;10/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304163;2;;Carduelis chloris;16490;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304164;2;;Carduelis chloris;16490;10/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304165;2;;Luscinia megarhynchos;11040;15/04/2010;0:00;6;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304166;2;;Luscinia megarhynchos;11040;20/04/2010;0:00;5;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304167;2;;Sylvia hortensis;12720;20/04/2010;0:00;5;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304168;2;;Carduelis chloris;16490;20/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304169;2;;Carduelis chloris;16490;20/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304170;2;;Carduelis chloris;16490;20/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304171;2;;Carduelis chloris;16490;20/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304172;2;;Carduelis chloris;16490;20/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304173;2;;Carduelis chloris;16490;20/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304174;2;;Carduelis chloris;16490;20/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304175;2;;Carduelis chloris;16490;20/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304176;2;;Passer domesticus;15910;20/04/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304177;2;;Passer domesticus;15910;20/04/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304178;2;;Passer domesticus;15910;20/04/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304179;2;;Passer domesticus;15910;20/04/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304180;2;;Passer domesticus;15910;20/04/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304181;2;;Passer domesticus;15910;20/04/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304182;2;;Passer domesticus;15910;20/04/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304183;2;;Passer domesticus;15910;20/04/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304184;2;;Passer domesticus;15910;20/04/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304185;2;;Passer domesticus;15910;20/04/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304186;2;;Carduelis chloris;16490;20/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304187;2;;Carduelis chloris;16490;20/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304188;2;;Carduelis chloris;16490;20/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304189;2;;Carduelis chloris;16490;20/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304190;2;;Carduelis chloris;16490;20/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304191;2;;Carduelis chloris;16490;20/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304192;2;;Passer domesticus;15910;20/04/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304193;2;;Passer domesticus;15910;20/04/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304194;2;;Passer domesticus;15910;20/04/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304195;2;;Passer domesticus;15910;20/04/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304196;2;;Passer domesticus;15910;20/04/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304197;2;;Passer domesticus;15910;20/04/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304198;2;;Sylvia hortensis;12720;20/04/2010;0:00;5;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304199;2;;Carduelis chloris;16490;20/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;2A304200;2;;Passer domesticus;15910;20/04/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48001;2;;Carduelis carduelis;16530;11/02/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48002;2;;Saxicola torquata;11390;11/02/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48003;2;;Erithacus rubecula;10990;11/02/2010;0:00;5;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48004;2;;Fringilla coelebs;16360;11/02/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48005;2;;Fringilla coelebs;16360;11/02/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48006;2;;Phoenicurus ochruros;11210;11/02/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48007;2;;Saxicola torquata;11390;11/02/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48008;2;;Hirundo rustica;9920;10/03/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48009;2;;Cettia cetti;12200;10/03/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48010;2;;Hirundo rustica;9920;10/03/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48011;2;;Sylvia atricapilla;12770;10/03/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48012;2;;Delichon urbica;10010;10/03/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48013;2;;Luscinia svecica;11060;17/03/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48014;2;;Acrocephalus schoenobaenus;12430;17/03/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48015;2;;Acrocephalus schoenobaenus;12430;17/03/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48016;2;;Acrocephalus schoenobaenus;12430;17/03/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48017;2;;Carduelis carduelis;16530;30/03/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48018;2;;Carduelis carduelis;16530;30/03/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48019;2;;Acrocephalus scirpaceus;12510;30/03/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48020;2;;Sylvia atricapilla;12770;30/03/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48021;2;;Sylvia atricapilla;12770;30/03/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48022;2;;Carduelis carduelis;16530;10/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48023;2;;Carduelis carduelis;16530;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48024;2;;Carduelis carduelis;16530;10/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48025;2;;Carduelis carduelis;16530;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48026;2;;Carduelis carduelis;16530;10/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48027;2;;Carduelis carduelis;16530;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48028;2;;Carduelis carduelis;16530;10/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48029;2;;Carduelis carduelis;16530;10/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48030;2;;Carduelis carduelis;16530;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48031;2;;Carduelis carduelis;16530;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48032;2;;Carduelis carduelis;16530;10/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48033;2;;Carduelis carduelis;16530;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48034;2;;Carduelis carduelis;16530;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48035;2;;Carduelis carduelis;16530;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48036;2;;Carduelis carduelis;16530;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48037;2;;Carduelis carduelis;16530;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48038;2;;Carduelis carduelis;16530;10/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48039;2;;Carduelis carduelis;16530;10/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48040;2;;Sylvia communis;12750;20/04/2010;0:00;5;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48041;2;;Sylvia communis;12750;20/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48042;2;;Sylvia communis;12750;20/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48043;2;;Sylvia borin;12760;20/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48044;2;;Sylvia borin;12760;20/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48045;2;;Carduelis carduelis;16530;20/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48046;2;;Acrocephalus scirpaceus;12510;20/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48047;2;;Acrocephalus scirpaceus;12510;20/04/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48048;2;;Acrocephalus scirpaceus;12510;20/04/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48049;2;;Acrocephalus scirpaceus;12510;20/04/2010;0:00;4;3;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48050;2;;Acrocephalus schoenobaenus;12430;20/04/2010;0:00;4;4;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48051;2;;Hirundo rustica;9920;20/04/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48052;2;;Sylvia communis;12750;20/04/2010;0:00;6;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48053;2;;Sylvia communis;12750;20/04/2010;0:00;5;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48054;2;;Acrocephalus scirpaceus;12510;20/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48055;2;;Acrocephalus scirpaceus;12510;28/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48056;2;;Acrocephalus scirpaceus;12510;28/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48057;2;;Acrocephalus scirpaceus;12510;28/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48058;2;;Acrocephalus scirpaceus;12510;28/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48059;2;;Sylvia communis;12750;28/04/2010;0:00;5;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48060;2;;Acrocephalus schoenobaenus;12430;28/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48061;2;;Acrocephalus scirpaceus;12510;28/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48062;2;;Acrocephalus scirpaceus;12510;28/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48063;2;;Acrocephalus scirpaceus;12510;28/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48064;2;;Acrocephalus scirpaceus;12510;28/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48065;2;;Sylvia atricapilla;12770;28/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48066;2;;Acrocephalus schoenobaenus;12430;28/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48067;2;;Acrocephalus scirpaceus;12510;28/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48068;2;;Acrocephalus scirpaceus;12510;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48069;2;;Acrocephalus scirpaceus;12510;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48070;2;;Acrocephalus scirpaceus;12510;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48071;2;;Acrocephalus scirpaceus;12510;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48072;2;;Acrocephalus scirpaceus;12510;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48073;2;;Acrocephalus scirpaceus;12510;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48074;2;;Acrocephalus scirpaceus;12510;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48075;2;;Acrocephalus scirpaceus;12510;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48076;2;;Acrocephalus scirpaceus;12510;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48077;2;;Acrocephalus scirpaceus;12510;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48078;2;;Acrocephalus scirpaceus;12510;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48079;2;;Acrocephalus scirpaceus;12510;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48080;2;;Acrocephalus scirpaceus;12510;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48081;2;;Acrocephalus scirpaceus;12510;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48082;2;;Acrocephalus schoenobaenus;12430;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48083;2;;Carduelis carduelis;16530;05/05/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48084;2;;Sylvia borin;12760;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48085;2;;Sylvia borin;12760;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48086;2;;Sylvia borin;12760;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48087;2;;Hirundo rustica;9920;05/05/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48088;2;;Sylvia communis;12750;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48089;2;;Acrocephalus scirpaceus;12510;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48090;2;;Acrocephalus scirpaceus;12510;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48091;2;;Acrocephalus scirpaceus;12510;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48092;2;;Acrocephalus scirpaceus;12510;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48093;2;;Carduelis carduelis;16530;05/05/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48094;2;;Acrocephalus schoenobaenus;12430;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48095;2;;Hirundo daurica;9950;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48096;2;;Delichon urbica;10010;05/05/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48097;2;;Sylvia borin;12760;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48098;2;;Sylvia borin;12760;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48099;2;;Acrocephalus scirpaceus;12510;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48100;2;;Acrocephalus scirpaceus;12510;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4301;2;;Phylloscopus collybita;13110;11/02/2010;0:00;5;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4302;2;;Phylloscopus collybita;13110;11/02/2010;0:00;5;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4303;2;;Phylloscopus collybita;13110;11/02/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4304;2;;Phylloscopus collybita;13110;11/02/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4305;2;;Phylloscopus collybita;13110;11/02/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4306;2;;Phylloscopus collybita;13110;11/02/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4307;2;;Phylloscopus collybita;13110;11/02/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4308;2;;Phylloscopus collybita;13110;11/02/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4309;2;;Phylloscopus collybita;13110;10/03/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4310;2;;Phylloscopus collybita;13110;10/03/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4311;2;;Phylloscopus collybita;13110;10/03/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4312;2;;Phylloscopus collybita;13110;10/03/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4313;2;;Phylloscopus collybita;13110;10/03/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4314;2;;Phylloscopus collybita;13110;10/03/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4315;2;;Phylloscopus collybita;13110;10/03/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4316;2;;Phylloscopus collybita;13110;10/03/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4317;2;;Phylloscopus collybita;13110;10/03/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4318;2;;Phylloscopus collybita;13110;10/03/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4319;2;;Phylloscopus collybita;13110;10/03/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4320;2;;Phylloscopus collybita;13110;17/03/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4321;2;;Phylloscopus collybita;13110;17/03/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4322;2;;Phylloscopus collybita;13110;17/03/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4323;2;;Phylloscopus collybita;13110;17/03/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4324;2;;Phylloscopus collybita;13110;17/03/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4325;2;;Phylloscopus collybita;13110;17/03/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4326;2;;Phylloscopus collybita;13110;17/03/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4327;2;;Phylloscopus collybita;13110;17/03/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4328;2;;Remiz pendulinus;14900;17/03/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4329;2;;Remiz pendulinus;14900;17/03/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4330;2;;Cisticola juncidis;12260;17/03/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4331;2;;Phylloscopus collybita;13110;30/03/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4332;2;;Phylloscopus trochilus;13120;30/03/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4333;2;;Phylloscopus trochilus;13120;30/03/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4334;2;;Phylloscopus trochilus;13120;30/03/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4335;2;;Hippolais polyglotta;16600;20/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4336;2;;Hippolais polyglotta;16600;20/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4337;2;;Hippolais polyglotta;16600;20/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4338;2;;Hippolais polyglotta;16600;20/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4339;2;;Hippolais polyglotta;16600;20/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4340;2;;Hippolais polyglotta;16600;20/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4341;2;;Cisticola juncidis;12260;20/04/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4342;2;;Serinus serinus;16400;20/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4343;2;;Phylloscopus trochilus;13120;20/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4344;2;;Hippolais polyglotta;16600;20/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4345;2;;Hippolais polyglotta;16600;20/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4346;2;;Hippolais polyglotta;16600;28/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4347;2;;Hippolais polyglotta;16600;28/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4348;2;;Hippolais polyglotta;16600;28/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4349;2;;Hippolais polyglotta;16600;28/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4350;2;;Phylloscopus trochilus;13120;28/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4351;2;;Hippolais polyglotta;16600;28/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4352;2;;Hippolais polyglotta;16600;28/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4353;2;;Remiz pendulinus;14900;28/04/2010;0:00;5;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4354;2;;Ficedula hypoleuca;13490;28/04/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4355;2;;Hippolais polyglotta;16600;28/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4356;2;;Cisticola juncidis;12260;28/04/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4357;2;;Muscicapa striata;13350;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4358;2;;Muscicapa striata;13350;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4359;2;;Muscicapa striata;13350;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4360;2;;Ficedula hypoleuca;13490;05/05/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4361;2;;Hippolais polyglotta;16600;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4362;2;;Phylloscopus trochilus;13120;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4363;2;;Hippolais polyglotta;16600;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4364;2;;Hippolais polyglotta;16600;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4365;2;;Hippolais polyglotta;16600;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4366;2;;Hippolais polyglotta;16600;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4367;2;;Hippolais polyglotta;16600;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4368;2;;Hippolais polyglotta;16600;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4369;2;;Hippolais polyglotta;16600;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4370;2;;Hippolais polyglotta;16600;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4371;2;;Hippolais polyglotta;16600;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4372;2;;Muscicapa striata;13350;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4373;2;;Muscicapa striata;13350;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4374;2;;Muscicapa striata;13350;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4375;2;;Cisticola juncidis;12260;05/05/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4376;2;;Hippolais polyglotta;16600;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4377;2;;Hippolais polyglotta;16600;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4378;2;;Hippolais polyglotta;16600;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4379;2;;Hippolais polyglotta;16600;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4380;2;;Hippolais polyglotta;16600;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4381;2;;Riparia riparia;9810;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4382;2;;Muscicapa striata;13350;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4383;2;;Remiz pendulinus;14900;05/05/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4384;2;;Hippolais polyglotta;16600;13/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4385;2;;Hippolais polyglotta;16600;13/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4386;2;;Hippolais polyglotta;16600;13/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4387;2;;Hippolais polyglotta;16600;13/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4388;2;;Hippolais polyglotta;16600;13/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4389;2;;Hippolais polyglotta;16600;13/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4390;2;;Hippolais polyglotta;16600;13/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4391;2;;Hippolais polyglotta;16600;13/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4392;2;;Hippolais polyglotta;16600;13/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4393;2;;Hippolais polyglotta;16600;13/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4394;2;;Hippolais polyglotta;16600;13/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4395;2;;Hippolais polyglotta;16600;13/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4396;2;;Hippolais polyglotta;16600;13/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4397;2;;Hippolais polyglotta;16600;13/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4398;2;;Hirundo rustica;9920;13/05/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4399;2;;Muscicapa striata;13350;13/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;KE4400;2;;Muscicapa striata;13350;28/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3284081;2;;Turdus philomelos;12000;29/01/2010;0:00;5;0;U;El Hampa;Coria del Rio;ES667173;;;B1;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3284082;2;;Turdus philomelos;12000;29/01/2010;0:00;5;0;U;El Hampa;Coria del Rio;ES667173;;;B1;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3284083;2;;Turdus philomelos;12000;29/01/2010;0:00;5;0;U;El Hampa;Coria del Rio;ES667173;;;B1;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3284084;2;;Turdus merula;11870;29/01/2010;0:00;5;1;U;El Hampa;Coria del Rio;ES667173;;;B1;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3284085;2;;Turdus philomelos;12000;29/01/2010;0:00;5;0;U;El Hampa;Coria del Rio;ES667173;;;B1;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3284086;2;;Turdus merula;11870;29/01/2010;0:00;5;1;U;El Hampa;Coria del Rio;ES667173;;;B1;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3284087;2;;Turdus merula;11870;11/02/2010;0:00;6;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3284088;2;;Turdus philomelos;12000;10/03/2010;0:00;5;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3284089;2;;Turdus merula;11870;10/03/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3284090;2;;Turdus merula;11870;17/03/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3284091;2;;Turdus merula;11870;17/03/2010;0:00;6;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3284092;2;;Turdus merula;11870;19/03/2010;0:00;5;2;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3284093;2;;Turdus philomelos;12000;19/03/2010;0:00;5;0;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3284094;2;;Turdus merula;11870;20/04/2010;0:00;6;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3284095;2;;Turdus merula;11870;28/04/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3284096;2;;Turdus merula;11870;06/05/2010;0:00;6;1;U;Rio Guadaira;Coria del Rio;ES66851;;;C3;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3284097;2;;Turdus merula;11870;13/05/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3284098;2;;Turdus merula;11870;19/05/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3284099;2;;Turdus merula;11870;19/05/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;3284100;2;;Turdus merula;11870;19/05/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073410;2;;Miliaria calandra;18820;10/03/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073411;2;;Miliaria calandra;18820;30/03/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073412;2;;Acrocephalus arundinaceus;12530;30/03/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073413;2;;Galerida cristata;9720;30/03/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073414;2;;Lanius senator;15230;30/03/2010;0:00;6;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073415;2;;Miliaria calandra;18820;10/04/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073416;2;;Miliaria calandra;18820;20/04/2010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073417;2;;Miliaria calandra;18820;20/04/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073418;2;;Lanius senator;15230;20/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073419;2;;Lanius senator;15230;20/04/2010;0:00;6;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073420;2;;Lanius senator;15230;20/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073421;2;;Acrocephalus arundinaceus;12530;20/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073422;2;;Acrocephalus arundinaceus;12530;20/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073423;2;;Acrocephalus arundinaceus;12530;20/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073424;2;;Lanius senator;15230;20/04/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073425;2;;Miliaria calandra;18820;20/04/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073426;2;;Miliaria calandra;18820;20/04/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073427;2;;Acrocephalus arundinaceus;12530;28/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073428;2;;Acrocephalus arundinaceus;12530;28/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073429;2;;Acrocephalus arundinaceus;12530;28/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073430;2;;Galerida cristata;9720;28/04/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073431;2;;Acrocephalus arundinaceus;12530;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073432;2;;Lanius senator;15230;05/05/2010;0:00;5;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073433;2;;Apus pallidus;7960;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073434;2;;Apus pallidus;7960;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073435;2;;Acrocephalus arundinaceus;12530;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073436;2;;Lanius senator;15230;05/05/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073437;2;;Lanius senator;15230;05/05/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073438;2;;Lanius senator;15230;13/05/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073439;2;;Lanius senator;15230;13/05/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073440;2;;Acrocephalus arundinaceus;12530;13/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073441;2;;Merops apiaster;8400;13/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073442;2;;Merops apiaster;8400;13/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073443;2;;Lanius senator;15230;13/05/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073444;2;;Miliaria calandra;18820;13/05/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073445;2;;Acrocephalus arundinaceus;12530;13/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073446;2;;Miliaria calandra;18820;13/05/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073447;2;;Miliaria calandra;18820;13/05/2010;0:00;4;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073448;2;;Lanius senator;15230;13/05/2010;0:00;6;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073449;2;;Lanius senator;15230;13/05/2010;0:00;5;1;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;V073450;2;;Acrocephalus arundinaceus;12530;19/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48101;2;;Hirundo rustica;9920;05/05/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48102;2;;Acrocephalus scirpaceus;12510;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48103;2;;Acrocephalus schoenobaenus;12430;05/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48104;2;;Delichon urbica;10010;13/052010;0:00;4;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48105;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48106;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48107;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48108;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48109;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48110;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48111;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48112;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48113;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48114;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48115;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48116;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48117;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48118;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48119;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48120;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48121;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48122;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48123;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48124;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48125;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48126;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48127;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48128;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48129;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48130;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48131;2;;Hirundo rustica;9920;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48132;2;;Acrocephalus schoenobaenus;12430;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48133;2;;Sylvia borin;12760;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48134;2;;Sylvia borin;12760;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48135;2;;Sylvia borin;12760;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48136;2;;Sylvia borin;12760;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48137;2;;Sylvia borin;12760;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48138;2;;Sylvia borin;12760;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48139;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48140;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48141;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48142;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48143;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48144;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48145;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48146;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48147;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48148;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48149;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48150;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48151;2;;Acrocephalus scirpaceus;12510;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48152;2;;Acrocephalus schoenobaenus;12430;13/052010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48153;2;;Acrocephalus scirpaceus;12510;19/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48154;2;;Acrocephalus scirpaceus;12510;19/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48155;2;;Acrocephalus scirpaceus;12510;19/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48156;2;;Acrocephalus scirpaceus;12510;19/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48157;2;;Acrocephalus scirpaceus;12510;19/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48158;2;;Acrocephalus scirpaceus;12510;19/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48159;2;;Acrocephalus scirpaceus;12510;19/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48160;2;;Sylvia borin;12760;19/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48161;2;;Acrocephalus scirpaceus;12510;19/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48162;2;;Acrocephalus scirpaceus;12510;19/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48163;2;;Acrocephalus scirpaceus;12510;19/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48164;2;;Acrocephalus scirpaceus;12510;19/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48165;2;;Acrocephalus scirpaceus;12510;19/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48166;2;;Acrocephalus scirpaceus;12510;19/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48167;2;;Acrocephalus scirpaceus;12510;19/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48168;2;;Carduelis carduelis;16530;19/05/2010;0:00;5;2;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48169;2;;Hippolais pallida;12550;19/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48170;2;;Hippolais pallida;12550;27/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48171;2;;Hirundo rustica;9920;27/05/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48172;2;;Hirundo rustica;9920;27/05/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48173;2;;Hirundo rustica;9920;27/05/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48174;2;;Hirundo rustica;9920;27/05/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48175;2;;Hirundo rustica;9920;27/05/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48176;2;;Hippolais pallida;12550;27/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48177;2;;Sylvia borin;12760;27/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48178;2;;Motacilla flava;10170;27/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48179;2;;Hirundo rustica;9920;27/05/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48180;2;;Hirundo rustica;9920;27/05/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48181;2;;Hirundo rustica;9920;27/05/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48182;2;;Hirundo rustica;9920;27/05/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48183;2;;Acrocephalus scirpaceus;12510;27/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48184;2;;Acrocephalus scirpaceus;12510;27/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48185;2;;Acrocephalus scirpaceus;12510;27/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48186;2;;Acrocephalus scirpaceus;12510;27/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48187;2;;Acrocephalus scirpaceus;12510;27/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48188;2;;Acrocephalus scirpaceus;12510;27/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48189;2;;Acrocephalus scirpaceus;12510;27/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48190;2;;Acrocephalus scirpaceus;12510;27/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48191;2;;Acrocephalus scirpaceus;12510;27/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48192;2;;Sylvia communis;12750;27/05/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48193;2;;Sylvia communis;12750;27/05/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48194;2;;Sylvia communis;12750;27/05/2010;0:00;3;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48195;2;;Acrocephalus scirpaceus;12510;27/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48196;2;;Acrocephalus scirpaceus;12510;27/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48197;2;;Acrocephalus scirpaceus;12510;27/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48198;2;;Acrocephalus scirpaceus;12510;27/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48199;2;;Acrocephalus scirpaceus;12510;27/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
+ZAMALLA;ZAMALLA;1N48200;2;;Acrocephalus scirpaceus;12510;27/05/2010;0:00;4;0;U;EL ACEBUCHAL;ALCALA DE GUADAIRA;ES667041;;;B2;M;0;0;0:00;0:00;;;;;;;;;;;;;;;Zamalla MV;;;A;ESI;;;U;;;;;;;;;;;;;;660019
