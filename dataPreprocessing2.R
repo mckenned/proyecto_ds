@@ -1,4 +1,6 @@
 library("readxl")
+library(data.table)
+
 
 setwd("~/Programming/erasmusCourses/DS/Final Project/proyecto_ds")
 
@@ -29,6 +31,8 @@ colTypes[8] <- "date"
 d07 <- read_excel("data/uncleaned/2007/2007_todos.xlsx", sheet = 1, col_types = colTypes)
 # Same; the hora is text. 
 d08 <- read_excel("data/uncleaned/2008/2008_todos.xlsx", sheet = 1)
+d08$CodigoGrupo <-660019
+d08$NombreGrupo <- "MANUEL VAZQUEZ CASTRO"
 
 colTypes <- rep("text", 59)
 colTypes[8] <- "date"
@@ -332,7 +336,20 @@ for (df_name in dataframe_names) {
 
 unique_column_names <- unique(all_column_names)
 
-print(unique_column_names)
+print(sort(unique_column_names))
+
+
+for (name in dataframe_names) {
+  # Check if columns exist before renaming
+  if ("NombreGrupo" %in% colnames(get(name))) {
+    assign(name, transform(get(name), 
+                           NombreAnillador = NombreGrupo))
+  }
+  if ("CodigoGrupo" %in% colnames(get(name))) {
+    assign(name, transform(get(name), 
+                           CodigoAnillador = CodigoGrupo))
+  }
+}
 
 # Define the desired columns
 desired_columns <- c("CodigoAnillador", "NombreAnillador", "Anilla", 
@@ -341,7 +358,14 @@ desired_columns <- c("CodigoAnillador", "NombreAnillador", "Anilla",
                      "MUNICIPIO", "CodigoLocalidad", "Observaciones", 
                      "CodigoHabitat", "CodigoMetodo", "NumRedes", 
                      "HoraCaptura", "HoraDesde", "HoraHasta", 
-                     "TipoRegistro", "CodigoCentro", "CodigoReclamo")
+                     "TipoRegistro", "CodigoCentro", "CodigoReclamo", "DataFrameName")
+
+# Add a new column with the dataframe name
+for (df_name in dataframe_names) {
+  current_df <- get(df_name)
+  current_df$DataFrameName <- df_name
+  assign(df_name, current_df)
+}
 
 # Combine dataframes and select desired columns
 combined_df <- do.call(rbind, lapply(dataframe_names, function(x) {
@@ -356,3 +380,54 @@ combined_df <- do.call(rbind, lapply(dataframe_names, function(x) {
   return(df)
 }))
 
+missing_counts <- colSums(is.na(combined_df))
+
+############# INSPECTING MISSING VALUES ######################
+missing_counts
+unique(subset(combined_df, is.na(CodigoAnillador))$DataFrameName)
+unique(subset(combined_df, is.na(FechaCaptura))$DataFrameName)
+unique(subset(combined_df, is.na(NombreLocalidad))$DataFrameName)
+
+# These sheets all have a lot of dates missing, most likely just because the 
+# date is in the wrong format (dd/mm/yy and mm/dd/yyyy combo)
+length(subset(d04, is.na(FechaCaptura))$DataFrameName)
+length(subset(d05, is.na(FechaCaptura))$DataFrameName)
+length(subset(d07, is.na(FechaCaptura))$DataFrameName)
+length(subset(d09, is.na(FechaCaptura))$DataFrameName)
+length(subset(d10, is.na(FechaCaptura))$DataFrameName)
+length(subset(d16, is.na(FechaCaptura))$DataFrameName)
+length(subset(d17, is.na(FechaCaptura))$DataFrameName)
+
+# This sheet is just missing data; nothing I can do about it. Maybe Manolo's data
+# will be able to fill it in a bit
+length(subset(d08, is.na(NombreLocalidad))$DataFrameName)
+
+# write.csv(combined_df, file = './data/combined_anillamiento.csv', row.names = FALSE)
+
+###################### FILL IN MANOLOS DATA #######################
+
+manolos_data <- fread("limpieza/limpio/anillamiento_de_Manolo.csv")
+
+# missing_values <- manolos_data$METAL[!manolos_data$METAL %in% combined_df$Anilla]
+# 76000 missing, but prob from 1987-2003
+
+manolos_subset_2004_onwards <- manolos_data[manolos_data$AÑO > 2003, ]
+
+
+# Find the values in 'manolos_subset$METAL' that are not present in 'combined_subset$Anilla'
+missing_values <- manolos_subset_2004_onwards$METAL[!manolos_subset_2004_onwards$METAL %in% combined_df$Anilla]
+print(length(missing_values))
+# There's still another 17500 missing rings.
+
+# Prep to combine
+manolos_data$CodigoAnillador <-660019
+manolos_data$NombreAnillador <- "MANUEL VAZQUEZ CASTRO"
+names(manolos_data)[which(names(manolos_data) == "METAL")] <- "Anilla"
+names(manolos_data)[which(names(manolos_data) == "ESPECIE")] <- "NombreEspecie"
+names(manolos_data)[which(names(manolos_data) == "FECHA")] <- "FechaCaptura"
+names(manolos_data)[which(names(manolos_data) == "LUGAR")] <- "NombreLocalidad"
+names(manolos_data)[which(names(manolos_data) == "EDAD")] <- "CodigoEdad"
+names(manolos_data)[which(names(manolos_data) == "SEXO")] <- "CodigoSexo"
+
+### TODO: I still need to combine Manolo's to the other. If there are any missing
+# the location (esp for 2008), then the location should be copied over.
