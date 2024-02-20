@@ -82,6 +82,7 @@ names(d14)[which(names(d14) == "Anilla METAL")] <- "Anilla"
 d14 <- rbind(d14, d14_extra)
 
 d15 <- read_excel("data/uncleaned/2015/2015_todos.xls", sheet = "DATOS", col_types = colTypes)
+names(d15)[which(names(d15) == "Anilla METAL")] <- "Anilla"
 
 combine_if_no_common_anillas <- function(df1, df2) {
   # Check if any values in "Anilla" column of df1 are the same as df2
@@ -258,22 +259,50 @@ d22 <- combine_if_no_common_anillas(d22_3, d22)
 d22_4 <- read_excel("data/uncleaned/2022/ZamJuan Carlos Adame Mejias2022.xls", sheet="DATOS", col_types = colTypes)
 d22_4$NombreGrupo <-"JUAN CARLOS ADAME MEJIAS"
 d22 <- combine_if_no_common_anillas(d22_4, d22)
-d22_5 <- read_excel("data/uncleaned/2021/ZamMaria Harana Herrera2022.xls", sheet="DATOS", col_types = colTypes)
+d22_5 <- read_excel("data/uncleaned/2022/ZamMaria Harana Herrera2022.xls", sheet="DATOS", col_types = colTypes)
 d22_5$NombreGrupo <-"MARIA HARANA HERRERA"
 d22 <- combine_if_no_common_anillas(d22_5, d22)
-
-
 colTypes <- rep("text", 63)
 colTypes[8] <- "date"
-d21_6 <- read_excel("data/uncleaned/2021/ZamPVC-JMSM2021.xls", sheet="DATOS", col_types = colTypes)
-d21_6$NombreGrupo <-"JUAN MANUEL SAEZ MUNOZ"
-d21 <- prep_for_combo_and_combine(d21_6, d21)
-d21_7 <- read_excel("data/uncleaned/2021/ZamPVC-JMSR2021.xls", sheet="DATOS", col_types = "text")
-d21_7$NombreGrupo <-"JOSE MANUEL SAYAGO ROBLES"
-d21 <- prep_for_combo_and_combine(d21_7, d21)
+d22_6 <- read_excel("data/uncleaned/2022/ZamPVCJuan Manuel Saenz Muñoz2022.xls", sheet="DATOS", col_types = colTypes)
+d22_6$NombreGrupo <-"JUAN MANUEL SAEZ MUNOZ"
+d22 <- prep_for_combo_and_combine(d22_6, d22)
+d22_7 <- read_excel("data/uncleaned/2022/ZamPVCJose Manuel Sayago Robles2022.xls", sheet="DATOS", col_types = colTypes)
+d22_7$NombreGrupo <-"JOSE MANUEL SAYAGO ROBLES"
+d22 <- prep_for_combo_and_combine(d22_7, d22)
+
+d23_1 <- read_excel("data/uncleaned/2023/Zam-EusebioGomez2023.xls", col_types = "text")
+names(d23_1)[which(names(d23_1) == "Fecha")] <- "FechaCaptura"
+d23_1$FechaCaptura <- as.Date(d23_1$FechaCaptura, format = "%d/%m/%Y")
+d23_1$NombreGrupo <-"EUSEBIO GOMEZ REINA"
+colTypes <- rep("text", 64)
+colTypes[8] <- "date"
+d23_2 <- read_excel("data/uncleaned/2023/ZamPVC-ManuelVazquez2023.xls", sheet="DATOS", col_types = colTypes)
+d23_2$NombreGrupo <-"MANUEL VAZQUEZ CASTRO"
+d23 <- prep_for_combo_and_combine(d23_2, d23_1)
+colTypes <- rep("text", 59)
+colTypes[8] <- "date"
+d23_3 <- read_excel("data/uncleaned/2023/Zam-JuanCarlosAdame2023.xls", sheet="DATOS", col_types = colTypes)
+d23_3$NombreGrupo <-"JUAN CARLOS ADAME MEJIAS"
+d23 <- combine_if_no_common_anillas(d23_3, d23)
+d23_4 <- read_excel("data/uncleaned/2023/Zam-MariaHarana2023.xls", sheet="DATOS", col_types = colTypes)
+d23_4$NombreGrupo <-"MARIA HARANA HERRERA"
+d23 <- combine_if_no_common_anillas(d23_4, d23)
+colTypes <- rep("text", 63)
+colTypes[8] <- "date"
+d23_5 <- read_excel("data/uncleaned/2023/ZamPVC-JoseManuelSayago2023.xls", sheet="DATOS", col_types = colTypes)
+d23_5$NombreGrupo <-"JOSE MANUEL SAYAGO ROBLES"
+d23 <- prep_for_combo_and_combine(d23_5, d23)
 
 
+rm(d13_extra, d14_extra, d10_01, d10_02, d10_03, d10_04, d10_05, d10_06, d10_07, d10_08, d10_09,
+   d10_10,d10_11,d10_12, dfs_2010, d16_1, d16_2, d16_3, d16_4, d16_5, d16_6, d16_7, d16_8, d16_9,
+   d17_extra, d18_1, d18_2, d18_3, d18_4, d18_5, d18_6, d18_7, d18_8, d18_9, d18_10, d18_11,
+   d19_1, d19_2, d19_3, d19_4, d21_1, d21_2, d21_3, d21_4, d21_5, d21_6, d21_7,
+   d22_1, d22_2, d22_3, d22_4, d22_5, d22_6, d22_7,
+   d23_1, d23_2, d23_3, d23_4, d23_5)
 
+# Names of ringers:
 # MANUEL VAZQUEZ CASTRO
 # EUSEBIO GOMEZ REINA
 # JOSE MANUEL SAYAGO ROBLES
@@ -286,9 +315,44 @@ d21 <- prep_for_combo_and_combine(d21_7, d21)
 # FRANCISCO JAVIER PEREZ MATA
 
 
-rm(d13_extra, d14_extra, d10_01, d10_02, d10_03, d10_04, d10_05, d10_06, d10_07, d10_08, d10_09,
-   d10_10,d10_11,d10_12, dfs_2010, d16_1, d16_2, d16_3, d16_4, d16_5, d16_6, d16_7, d16_8, d16_9,
-   d17_extra, d18_1, d18_2, d18_3, d18_4, d18_5, d18_6, d18_7, d18_8, d18_9, d18_10, d18_11,
-   d19_1, d19_2, d19_3, d19_4, d21_1, d21_2, d21_3, d21_4, d21_5, d21_6, d21_7)
 
+#################### DONE READING FILES. NOW COMBINING #########################
+
+
+# List of dataframe names
+dataframe_names <- c("d04", "d05", "d06", "d07", "d08", "d09", "d10", "d11", "d12", 
+                     "d13", "d14", "d15", "d16", "d17", "d18", "d19", "d20", "d21", 
+                     "d22", "d23")
+all_column_names <- c()
+
+for (df_name in dataframe_names) {
+  df_col_names <- colnames(get(df_name))
+  all_column_names <- c(all_column_names, df_col_names)
+}
+
+unique_column_names <- unique(all_column_names)
+
+print(unique_column_names)
+
+# Define the desired columns
+desired_columns <- c("CodigoAnillador", "NombreAnillador", "Anilla", 
+                     "NombreEspecie", "CodigoEspecie", "FechaCaptura", 
+                     "CodigoEdad", "CodigoSexo", "NombreLocalidad", 
+                     "MUNICIPIO", "CodigoLocalidad", "Observaciones", 
+                     "CodigoHabitat", "CodigoMetodo", "NumRedes", 
+                     "HoraCaptura", "HoraDesde", "HoraHasta", 
+                     "TipoRegistro", "CodigoCentro", "CodigoReclamo")
+
+# Combine dataframes and select desired columns
+combined_df <- do.call(rbind, lapply(dataframe_names, function(x) {
+  df <- get(x)
+  # Add missing columns with NA values
+  missing_columns <- setdiff(desired_columns, colnames(df))
+  for (col in missing_columns) {
+    df[[col]] <- NA
+  }
+  # Reorder columns
+  df <- df[, desired_columns]
+  return(df)
+}))
 
