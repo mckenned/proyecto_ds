@@ -7,7 +7,7 @@
 
 ## Dani
 
-- ¿Cuántas veces se ha anillado una especie en cada año/mes? Representado como histograma. Se podría representar como animación si nos vemos con tiempo
+- ¿Cómo evoluciona la tasa de anillamiento de especies clave a lo largo del tiempo?
 
 ## Pablo
 
@@ -19,18 +19,17 @@
 
 ## Matthew
 
-- ¿Cuál es la especie más rara que se ha anillado? Podría acotarse por tiempo
-
+- ¿Cuántas veces se ha anillado una especie en cada año/mes? Representado como histograma. Se podría representar como animación si nos vemos con tiempo
 
 
 ### Preguntas de reserva
 
 - Predicción de edad en base a la localización, mes de anillamiento y especie -> ¿Qué edad tiene un ave en el mes de anillamiento (de X especie y en Y lugar)? -> General
 
+- ¿Cuál es la especie más rara que se ha anillado? Podría acotarse por tiempo
 - Predecir localización o año en base a la especie
 - Diferencias significativas
 - Ver reglas por mes para observar comportamientos -> Ya está muy estudiado, pero estaría guay para aprender
-- Series temporales para observaciones/anillamientos de aves
 - Relaciones de especies más avistadas/anilladas/controladas por el tiempo
 - Cambios en localizaciones
 - Animación de las especies más anilladas/encontradas por tiempo o lugar
