@@ -2,8 +2,8 @@
 ## Preguntas grupales
 
 - ¿Qué recorrido hace X especie de ave a lo largo del año?
-- ¿Qué formas de control son las más frecuentes para cada especie?
-
+(- ¿Qué formas de control son las más frecuentes para cada especie?)
+- Predicción de edad en base a la localización, mes de anillamiento y especie -> ¿Qué edad tiene un ave en el mes de anillamiento (de X especie y en Y lugar)? -> General
 
 ## Dani
 
@@ -15,17 +15,17 @@
 
 ## David
 
-- ¿Cuál es el tiempo entre anillamiento y control para cada especie? Podría medirse en promedio, o incluso una regresión
+- ¿Como cambió el anillamiento a lo largo del tiempo? (cantidad total de especies anilladas, cantidad de familias anilladas, lugares donde anillan)
+- > foco en cantidad total de anillamientos
 
 ## Matthew
 
 - ¿Cuántas veces se ha anillado una especie en cada año/mes? Representado como histograma. Se podría representar como animación si nos vemos con tiempo
-
+- > foco en especies
 
 ### Preguntas de reserva
 
-- Predicción de edad en base a la localización, mes de anillamiento y especie -> ¿Qué edad tiene un ave en el mes de anillamiento (de X especie y en Y lugar)? -> General
-
+(- ¿Cuál es el tiempo entre anillamiento y control para cada especie? Podría medirse en promedio, o incluso una regresión)
 - ¿Cuál es la especie más rara que se ha anillado? Podría acotarse por tiempo
 - Predecir localización o año en base a la especie
 - Diferencias significativas
