@@ -1,343 +1,343 @@
-Anilla,NombreEspecie,E,S,G,Ala,Peso,Tarso,Dia,Mes,Año,Hora.C,Hora.F,Ancho.tarso,Cola,Pico,Lugar,Municipio,Provincia,Anillador,Observaciones,FECHA,Observaciones simple
-3062713,Miliaria calandra,2,0,0,92,41,24.4,21,12,1991,NA,NA,NA,78,12.4,Cantaritas,Puebla del Rio,Sevilla,Manuel Vazquez,,1991-12-21,control
-4098891,Falco naumanni,3,0,NA,NA,NA,NA,29,6,2004,NA,NA,NA,NA,NA,La Cartuja,Jerez de la Frontera,Cadiz,Otro,,2004-06-29,control
-4098892,Falco naumanni,3,0,NA,NA,NA,NA,30,6,2004,NA,NA,NA,NA,NA,La Cartuja,Jerez de la Frontera,Cadiz,Otro,,2004-06-30,control
-4098895,Falco naumanni,3,0,NA,NA,NA,NA,4,7,2004,NA,NA,NA,NA,NA,La Cartuja,Jerez de la Frontera,Cadiz,Otro,,2004-07-04,control
-5007300,Falco tinnunculus,4,2,NA,NA,NA,NA,30,11,1991,NA,NA,NA,NA,NA,Puebla del Rio,Puebla del Rio,Sevilla,Cazador,Cazada con escopeta,1991-11-30,muerto
-5080011,Falco tinnunculus,4,1,NA,255,230,NA,20,12,2005,NA,NA,NA,NA,NA,La Fao,Aznalcazar,Sevilla,JL del Valle,,2005-12-20,control
-2169202,Alcedo atthis,3,2,1,NA,NA,NA,2,8,1987,6,7,NA,NA,NA,Huerta Daniel,Puebla del Rio,Sevilla,Manuel Vazquez,,1987-08-02,control
-2219990,Alcedo atthis,3,2,2,76,38,NA,14,12,1988,18,19,NA,NA,NA,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-12-14,control
-2219994,Alcedo atthis,3,2,4,76,39.5,NA,26,12,1988,18,19,NA,NA,NA,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-12-26,control
-2220911,Alcedo atthis,3,0,NA,NA,NA,NA,1,7,1990,7,8,NA,NA,NA,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1990-07-01,control
-2220911,Alcedo atthis,3,1,1,NA,NA,NA,15,7,1990,9,10,NA,NA,NA,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1990-07-15,control
-2220911,Alcedo atthis,3,0,2,78.5,36,NA,1,11,1990,18,19,NA,NA,NA,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1990-11-01,control
-2220911,Alcedo atthis,3,1,2,NA,NA,NA,16,12,1990,16,17,NA,NA,NA,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1990-12-16,control
-229711,Riparia riparia,4,0,NA,NA,NA,NA,15,5,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
-229729,Riparia riparia,4,2,3,NA,NA,NA,31,3,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-03-31,control
-229743,Riparia riparia,4,0,2,NA,NA,NA,31,3,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-03-31,control
-229738,Riparia riparia,4,0,1,NA,NA,NA,31,3,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-03-31,control
-229788,Riparia riparia,4,1,NA,NA,NA,NA,15,5,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
-229823,Riparia riparia,4,2,0,NA,NA,NA,15,5,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
-229838,Riparia riparia,4,1,NA,NA,NA,NA,15,5,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
-229843,Riparia riparia,4,0,2,NA,NA,NA,31,3,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-03-31,control
-229848,Riparia riparia,4,1,NA,NA,NA,NA,15,5,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
-229877,Riparia riparia,4,2,NA,NA,NA,NA,15,5,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
-229882,Riparia riparia,4,1,1,NA,NA,NA,15,5,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
-229902,Riparia riparia,4,2,3,NA,NA,NA,31,3,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-03-31,control
-229902,Riparia riparia,4,2,NA,NA,NA,NA,15,5,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
-229912,Riparia riparia,4,1,0,NA,NA,NA,15,5,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
-229937,Riparia riparia,4,2,1,NA,NA,NA,15,5,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
-229949,Riparia riparia,4,2,1,NA,NA,NA,15,5,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
-229951,Riparia riparia,4,2,NA,NA,NA,NA,15,5,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
-229952,Riparia riparia,4,2,NA,NA,NA,NA,15,5,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
-230008,Riparia riparia,4,1,NA,NA,NA,NA,15,5,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
-230011,Riparia riparia,4,1,NA,NA,NA,NA,15,5,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
-230016,Riparia riparia,4,1,NA,NA,NA,NA,15,5,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
-230018,Riparia riparia,4,2,NA,NA,NA,NA,15,5,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
-230020,Riparia riparia,4,1,NA,NA,NA,NA,15,5,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
-230021,Riparia riparia,4,0,NA,NA,NA,NA,15,5,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
-230024,Riparia riparia,4,2,NA,NA,NA,NA,15,5,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
-230039,Riparia riparia,4,1,NA,NA,NA,NA,15,5,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
-230041,Riparia riparia,4,1,NA,NA,NA,NA,15,5,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
-230044,Riparia riparia,4,2,NA,NA,NA,NA,15,5,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
-230045,Riparia riparia,4,1,NA,NA,NA,NA,15,5,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
-230047,Riparia riparia,4,2,NA,NA,NA,NA,15,5,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
-230054,Riparia riparia,4,1,NA,NA,NA,NA,31,3,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-03-31,control
-230056,Riparia riparia,4,0,NA,NA,NA,NA,15,5,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
-230081,Riparia riparia,4,1,1,NA,NA,NA,15,5,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
-230088,Riparia riparia,4,1,3,NA,NA,NA,15,5,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
-230095,Riparia riparia,4,2,3,NA,NA,NA,15,5,1988,5,6,NA,NA,NA,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
-188649,Hirundo rustica,6,2,3,121,20.5,NA,26,6,1988,11,12,NA,NA,NA,Cortijo La Atalaya,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-06-26,control
-188865,Hirundo rustica,5,1,3,NA,NA,NA,12,3,1988,17,18,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-12,control
-188889,Hirundo rustica,5,1,3,NA,NA,NA,26,3,1988,16,17,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-26,control
-191639,Hirundo rustica,4,2,3,NA,NA,NA,12,3,1988,17,18,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-12,control
-191642,Hirundo rustica,4,0,3,NA,NA,NA,5,3,1988,17,18,NA,107,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-05,control
-191645,Hirundo rustica,4,2,4,NA,NA,NA,6,3,1988,17,18,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-06,control
-191646,Hirundo rustica,4,0,3,NA,NA,NA,12,3,1988,17,18,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-12,control
-191646,Hirundo rustica,4,1,2,NA,NA,NA,19,3,1988,15,16,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-19,control
-191657,Hirundo rustica,4,2,2,NA,NA,NA,6,3,1988,17,18,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-06,control
-191657,Hirundo rustica,4,2,2,NA,NA,NA,12,3,1988,17,18,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-12,control
-191659,Hirundo rustica,4,2,4,NA,NA,NA,6,3,1988,17,18,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-06,control
-191662,Hirundo rustica,4,2,4,NA,NA,NA,13,3,1988,17,18,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-13,control
-191662,Hirundo rustica,4,2,NA,NA,NA,NA,16,4,1988,NA,NA,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,Muerta en nido,1988-04-16,control
-191664,Hirundo rustica,4,2,3,NA,NA,NA,6,3,1988,17,18,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-06,control
-191664,Hirundo rustica,4,2,3,NA,NA,NA,2,4,1988,18,19,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-04-02,control
-191648,Hirundo rustica,4,0,3,NA,NA,NA,5,3,1988,17,18,NA,103,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-05,control
-191648,Hirundo rustica,4,0,3,NA,NA,NA,6,3,1988,17,18,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-06,control
-191648,Hirundo rustica,4,0,4,NA,NA,NA,26,3,1988,17,18,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-26,control
-191665,Hirundo rustica,4,0,3,NA,NA,NA,6,3,1988,17,18,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-06,control
-191665,Hirundo rustica,4,0,3,NA,NA,NA,2,4,1988,18,19,NA,106,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-04-02,control
-191666,Hirundo rustica,4,0,3,NA,NA,NA,6,3,1988,17,18,NA,84,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-06,control
-191679,Hirundo rustica,4,2,3,NA,NA,NA,19,3,1988,15,16,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-19,control
-191682,Hirundo rustica,4,1,3,NA,NA,NA,19,3,1988,18,19,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-19,control
-191683,Hirundo rustica,4,2,3,NA,NA,NA,19,3,1988,18,19,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-19,control
-230680,Hirundo rustica,4,0,0,121,19.3,NA,26,6,1988,11,12,NA,NA,NA,Cortijo La Atalaya,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-06-26,control
-2168411,Anthus pratensis,2,0,NA,NA,NA,NA,12,3,1988,NA,NA,NA,NA,NA,Fuentes,Puebla del Rio,Sevilla,Manuel Vazquez,Cazada por gavilan,1988-03-12,control
-2168825,Anthus pratensis,4,0,4,NA,NA,NA,26,3,1989,19,20,NA,NA,NA,La Estrella,Palomares del Rio,Sevilla,Manuel Vazquez,,1989-03-26,control
-2223679,Motacilla alba,5,2,3,88,22.5,NA,3,2,1989,18,19,NA,NA,NA,C/ Sanchez Arjona,Sevilla,Sevilla,Manuel Vazquez,,1989-02-03,control
-7044881,Anas platyrhynchos,3,2,NA,NA,NA,NA,25,9,1999,NA,NA,NA,NA,NA,Laguna del Gobierno,La Lantejuela,Sevilla,Manuel Vazquez,Encontrado muerto,1999-09-25,muerto
-7044864,Mivuls migrans,2,0,NA,NA,NA,NA,4,3,2000,NA,NA,NA,NA,NA,Los Montes,Puebla del Rio,Sevilla,Alfonso Romero,Encontrado solo anilla,2000-03-04,control
-4003534,Falco naumanni,2,0,NA,NA,NA,NA,16,6,1991,NA,NA,NA,NA,NA,Cortijo Habichuela,Estepa,Sevilla,Manuel Vazquez,Encontrado muerto,1991-06-16,muerto
-4003539,Falco naumanni,1,0,NA,NA,NA,NA,23,6,1991,NA,NA,NA,NA,NA,Cortijo Habichuela,Estepa,Sevilla,Manuel Vazquez,Encontrado muerto,1991-06-23,muerto
-4003540,Falco naumanni,1,0,NA,NA,NA,NA,23,6,1991,NA,NA,NA,NA,NA,Cortijo Habichuela,Estepa,Sevilla,Manuel Vazquez,Encontrado muerto,1991-06-23,muerto
-4003541,Falco naumanni,1,0,NA,NA,NA,NA,23,6,1991,NA,NA,NA,NA,NA,Cortijo Habichuela,Estepa,Sevilla,Manuel Vazquez,Encontrado muerto,1991-06-23,muerto
-4003544,Falco naumanni,1,0,NA,NA,NA,NA,23,6,1991,NA,NA,NA,NA,NA,Cortijo Habichuela,Estepa,Sevilla,Manuel Vazquez,Encontrado muerto,1991-06-23,muerto
-4003551,Falco naumanni,1,0,NA,NA,NA,NA,30,6,1991,NA,NA,NA,NA,NA,Villar de las Culebras,Osuna,Sevilla,Manuel Vazquez,Encontrado muerto,1991-06-30,muerto
-5010269,Falco tinnunculus,1,0,NA,NA,NA,NA,21,7,1991,NA,NA,NA,NA,NA,Cortijo Habichuela,Estepa,Sevilla,Manuel Vazquez,Encontrado muerto,1991-07-21,muerto
-7009760,Fulica atra,1,0,NA,NA,NA,NA,30,6,1990,NA,NA,NA,NA,NA,Laguna Escalera,El Rubio,Sevilla,Manuel Vazquez,Atropellado,1990-06-30,muerto
-T027808,Cahradrius alexandrinus,4,0,NA,NA,NA,NA,1,10,2000,NA,NA,NA,NA,NA,Laguna del Gobierno,La Lantejuela,Sevilla,Manuel Vazquez,Encontrado muerto,2000-10-01,muerto
-4003661,Coracias garrulus,1,0,NA,NA,NA,NA,13,7,1991,NA,NA,NA,NA,NA,Cortijo Habichuela,Estepa,Sevilla,Manuel Vazquez,Encontrado muerto,1991-07-13,muerto
-7045436,Asio otus,1,0,NA,NA,NA,NA,25,7,2000,NA,NA,NA,NA,NA,Pino Dorado,Puebla del Rio,Sevilla,Alfonso Romero,Encontrado muerto,2000-07-25,muerto
-3090235,Upupa epops,3,0,NA,NA,NA,NA,5,9,1994,NA,NA,NA,NA,NA,Manecorro,Almonte,Huelva,JL Arroyo,,1994-09-05,control
-T007755,Caildris ferruginea,4,0,NA,NA,NA,NA,6,5,1998,NA,NA,NA,NA,NA,Marismas del Odiel,Huelva,Huelva,JL Arroyo,,1998-05-06,control
-4048368,Tringa totanus,4,0,NA,NA,NA,NA,24,9,1998,NA,NA,NA,NA,NA,Marismas del Odiel,Huelva,Huelva,JL Arroyo,,1998-09-24,control
-9015558,Ciconia ciconia,2,0,NA,NA,NA,NA,12,6,1994,NA,NA,NA,NA,NA,Dehesa de Abajo,Puebla del Rio,Sevilla,Manuel Vazquez,Encontrado solo anilla,1994-06-12,control
-9004110,Ciconia ciconia,4,0,NA,NA,NA,NA,12,6,1994,NA,NA,NA,NA,NA,Dehesa de Abajo,Puebla del Rio,Sevilla,Manuel Vazquez,Encontrado solo anilla,1994-06-12,control
-3037708,Cyanopica cyana,4,0,NA,NA,NA,NA,3,3,1991,NA,NA,NA,NA,NA,El Acebuche,Almonte,Huelva,Manuel Vazquez,,1991-03-03,control
-3037708,Cyanopica cyana,4,0,2,127,67,NA,18,3,1991,NA,NA,NA,NA,NA,El Acebuche,Almonte,Huelva,Manuel Vazquez,,1991-03-18,control
-3037708,Cyanopica cyana,4,0,1,NA,NA,NA,7,4,1991,NA,NA,NA,NA,NA,El Acebuche,Almonte,Huelva,Manuel Vazquez,,1991-04-07,control
-3037709,Cyanopica cyana,4,0,NA,NA,NA,NA,20,2,1991,NA,NA,NA,NA,NA,El Acebuche,Almonte,Huelva,Manuel Vazquez,,1991-02-20,control
-3037709,Cyanopica cyana,4,0,NA,NA,NA,NA,16,3,1991,NA,NA,NA,NA,NA,El Acebuche,Almonte,Huelva,Manuel Vazquez,,1991-03-16,control
-3037709,Cyanopica cyana,4,0,NA,NA,NA,NA,17,3,1991,NA,NA,NA,NA,NA,El Acebuche,Almonte,Huelva,Manuel Vazquez,,1991-03-17,control
-3037710,Cyanopica cyana,4,0,0,NA,75,NA,6,4,1991,NA,NA,NA,NA,NA,El Acebuche,Almonte,Huelva,Manuel Vazquez,,1991-04-06,control
-3037711,Cyanopica cyana,4,0,0,NA,NA,NA,3,3,1991,NA,NA,NA,NA,NA,El Acebuche,Almonte,Huelva,Manuel Vazquez,,1991-03-03,control
-3037114,Cyanopica cyana,4,0,NA,NA,NA,NA,3,3,1991,NA,NA,NA,NA,NA,El Acebuche,Almonte,Huelva,Manuel Vazquez,,1991-03-03,control
-3037114,Cyanopica cyana,4,0,0,NA,77.5,NA,7,4,1991,NA,NA,NA,NA,NA,El Acebuche,Almonte,Huelva,Manuel Vazquez,,1991-04-07,control
-176655,Cettia cetti,4,2,0,NA,NA,NA,21,6,1987,NA,NA,NA,NA,NA,Huerta Daniel,Puebla del Rio,Sevilla,Manuel Vazquez,,1987-06-21,control
-176664,Cettia cetti,3,0,0,NA,NA,NA,5,7,1987,NA,NA,NA,NA,NA,Huerta Daniel,Puebla del Rio,Sevilla,Manuel Vazquez,,1987-07-05,control
-191389,Cettia cetti,4,2,1,NA,NA,NA,11,3,1988,NA,NA,NA,NA,NA,Cerrado Chico,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-03-11,control
-191400,Cettia cetti,4,1,2,NA,NA,NA,11,3,1988,NA,NA,NA,NA,NA,Cerrado Chico,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-03-11,control
-230331,Cettia cetti,3,2,3,57,10.5,NA,14,12,1988,NA,NA,NA,NA,NA,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-12-14,control
-231629,Cettia cetti,3,2,4,57,11,NA,17,11,1988,NA,NA,NA,NA,NA,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-11-17,control
-231630,Cettia cetti,2,2,4,55.5,NA,NA,29,12,1988,NA,NA,NA,NA,NA,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-12-29,control
-231698,Cettia cetti,4,1,1,NA,NA,NA,20,4,1988,NA,NA,NA,NA,NA,Cerrado Chico,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-04-20,control
-231665,Cettia cetti,4,2,3,NA,NA,NA,11,3,1988,NA,NA,NA,NA,NA,Cerrado Chico,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-03-11,control
-309697,Cettia cetti,4,1,3,63,13,NA,3,11,1990,NA,NA,NA,NA,NA,Cerrado Chico,Puebla del Rio,Sevilla,Manuel Vazquez,,1990-11-03,control
-268253,Cisticola juncidis,3,0,4,47,9,NA,12,11,1988,NA,NA,NA,NA,NA,Huerta Daniel,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-11-12,control
-268255,Cisticola juncidis,3,0,4,46,7.5,NA,12,11,1988,NA,NA,NA,NA,NA,Huerta Daniel,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-11-12,control
-268287,Cisticola juncidis,3,0,4,48,8,NA,12,11,1988,NA,NA,NA,NA,NA,Huerta Daniel,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-11-12,control
-271225,Cisticola juncidis,3,0,4,50,8.5,NA,12,11,1988,NA,NA,NA,NA,NA,Huerta Daniel,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-11-12,control
-271403,Cisticola juncidis,3,0,5,52,9.5,NA,12,11,1988,NA,NA,NA,NA,NA,Huerta Daniel,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-11-12,control
-271414,Cisticola juncidis,3,0,4,50,8,NA,12,11,1988,NA,NA,NA,NA,NA,Huerta Daniel,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-11-12,control
-271428,Cisticola juncidis,3,0,3,52,805,NA,12,11,1988,NA,NA,NA,NA,NA,Huerta Daniel,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-11-12,control
-271430,Cisticola juncidis,3,0,4,48,8,NA,12,11,1988,NA,NA,NA,NA,NA,Huerta Daniel,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-11-12,control
-2223884,Lanius senator,4,2,NA,NA,NA,NA,20,7,1989,NA,NA,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,Ahogado en alberca,1989-07-20,control
-191453,Acrocephalus scirpaceus,4,0,0,65.5,11,NA,14,5,1988,7,9,NA,NA,NA,Cerrado Chico,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-14,control
-309767,Acrocephalus scirpaceus,4,0,1,61,NA,NA,15,8,1990,8,9,NA,NA,NA,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1990-08-15,control
-309906,Acrocephalus scirpaceus,2,0,1,NA,NA,NA,22,7,1990,8,9,NA,NA,NA,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1990-07-22,control
-2168534,Acrocephalus arundinaceus,4,2,0,91,32.2,NA,14,5,1988,7,8,NA,NA,NA,Cerrado Chico,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-14,control
-2255177,Acrocephalus arundinaceus,4,1,0,95,NA,NA,13,6,1990,9,10,NA,NA,NA,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1990-06-13,control
-2255195,Acrocephalus arundinaceus,4,2,1,NA,NA,NA,22,7,1990,9,10,NA,NA,NA,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1990-07-22,control
-2255197,Acrocephalus arundinaceus,4,0,2,NA,NA,NA,7,7,1990,19,20,NA,NA,NA,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1990-07-07,control
-2258410,Acrocephalus arundinaceus,4,2,1,NA,NA,NA,22,7,1990,9,10,NA,NA,NA,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1990-07-22,control
-176742,Hippolais pallida,3,0,1,NA,NA,NA,2,8,1987,6,7,NA,NA,NA,Huerta Daniel,Puebla del Rio,Sevilla,Manuel Vazquez,,1987-08-02,control
-176744,Hippolais pallida,4,2,0,NA,NA,NA,2,8,1987,10,11,NA,NA,NA,Huerta Daniel,Puebla del Rio,Sevilla,Manuel Vazquez,,1987-08-02,control
-191481,Hippolais pallida,4,1,0,NA,NA,NA,21,7,1988,8,9,NA,NA,NA,Huerta Daniel,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-07-21,control
-2226034,Sylvia borin,2,0,3,NA,22,NA,17,9,1990,12,13,NA,NA,NA,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1990-09-17,control
-2169107,Sylvia atricapilla,6,1,3,NA,NA,NA,1,1,1988,NA,NA,NA,NA,NA,Dehesa de Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1988-01-01,control
-2169107,Sylvia atricapilla,6,1,3,NA,NA,NA,24,1,1988,NA,NA,NA,NA,NA,Dehesa de Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1988-01-24,control
-2195584,Sylvia atricapilla,5,2,0,NA,NA,NA,30,1,1988,9,10,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-01-30,control
-2195594,Sylvia atricapilla,3,1,0,NA,NA,NA,5,12,1987,10,11,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1987-12-05,control
-2195601,Sylvia atricapilla,5,1,1,NA,NA,NA,30,1,1988,9,10,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-01-30,control
-2220251,Sylvia atricapilla,4,1,3,NA,NA,NA,24,1,1988,16,17,NA,NA,NA,Dehesa de Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1988-01-24,control
-271105,Sylvia atricapilla,4,2,5,NA,NA,NA,14,3,1989,16,17,NA,NA,NA,La Estrella,Palomares del Rio,Sevilla,Manuel Vazquez,,1989-03-14,control
-271120,Sylvia atricapilla,4,1,1,NA,NA,NA,4,3,1989,12,13,NA,NA,NA,La Estrella,Palomares del Rio,Sevilla,Manuel Vazquez,,1989-03-04,control
-2168425,Sylvia atricapilla,3,1,1,NA,NA,NA,20,12,1987,12,13,NA,NA,NA,Dehesa de Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1987-12-20,control
-2168425,Sylvia atricapilla,3,1,1,NA,NA,NA,21,12,1987,17,18,NA,NA,NA,Dehesa de Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1987-12-21,control
-2168425,Sylvia atricapilla,3,1,2,NA,NA,NA,25,12,1987,17,18,NA,NA,NA,Dehesa de Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1987-12-25,control
-2168436,Sylvia atricapilla,5,2,2,NA,NA,NA,30,1,1988,18,19,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-01-30,control
-2168458,Sylvia atricapilla,5,2,2,NA,NA,NA,14,2,1988,9,10,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-02-14,control
-2168459,Sylvia atricapilla,5,2,3,NA,NA,NA,14,2,1988,10,11,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-02-14,control
-2168466,Sylvia atricapilla,5,2,2,NA,NA,NA,31,1,1988,18,19,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-01-31,control
-2168484,Sylvia atricapilla,5,1,3,NA,NA,NA,14,2,1988,18,19,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-02-14,control
-2169066,Sylvia atricapilla,2,2,1,NA,NA,NA,20,12,1987,10,11,NA,NA,NA,Dehesa de Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1987-12-20,control
-2169066,Sylvia atricapilla,4,2,2,NA,NA,NA,21,2,1988,15,16,NA,NA,NA,Dehesa de Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1988-02-21,control
-2169066,Sylvia atricapilla,4,2,3,NA,NA,NA,6,3,1988,14,15,NA,NA,NA,Dehesa de Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1988-03-06,control
-2169068,Sylvia atricapilla,2,2,2,NA,NA,NA,1,1,1988,17,18,NA,NA,NA,Dehesa de Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1988-01-01,control
-2169068,Sylvia atricapilla,4,2,4,NA,NA,NA,31,1,1988,17,18,NA,NA,NA,Dehesa de Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1988-01-31,control
-2169101,Sylvia atricapilla,3,1,2,NA,NA,NA,1,1,1988,17,18,NA,NA,NA,Dehesa de Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1988-01-01,control
-2169106,Sylvia atricapilla,5,1,4,NA,NA,NA,24,1,1988,17,18,NA,NA,NA,Dehesa de Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1988-01-24,control
-2169114,Sylvia atricapilla,4,1,3,NA,NA,NA,21,2,1988,16,17,NA,NA,NA,Dehesa de Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1988-02-21,control
-2169141,Sylvia atricapilla,6,2,3,NA,NA,NA,13,2,1988,18,19,NA,NA,NA,Caño Real,Palomares del Rio,Sevilla,Manuel Vazquez,,1988-02-13,control
-2169143,Sylvia atricapilla,5,1,4,NA,NA,NA,13,2,1988,16,17,NA,NA,NA,Caño Real,Palomares del Rio,Sevilla,Manuel Vazquez,,1988-02-13,control
-2169145,Sylvia atricapilla,5,2,3,NA,NA,NA,13,2,1988,18,19,NA,NA,NA,Caño Real,Palomares del Rio,Sevilla,Manuel Vazquez,,1988-02-13,control
-2169147,Sylvia atricapilla,5,2,3,NA,NA,NA,13,2,1988,18,19,NA,NA,NA,Caño Real,Palomares del Rio,Sevilla,Manuel Vazquez,,1988-02-13,control
-2169149,Sylvia atricapilla,5,2,2,NA,NA,NA,13,2,1988,18,19,NA,NA,NA,Caño Real,Palomares del Rio,Sevilla,Manuel Vazquez,,1988-02-13,control
-2169783,Sylvia atricapilla,5,2,0,NA,NA,NA,30,1,1988,9,10,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-01-30,control
-2169790,Sylvia atricapilla,3,1,0,NA,NA,NA,5,12,1987,10,11,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1987-12-05,control
-2169792,Sylvia atricapilla,6,1,2,NA,NA,NA,30,1,1988,9,10,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-01-30,control
-2169851,Sylvia atricapilla,6,1,3,NA,NA,NA,12,2,1988,18,19,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-02-12,control
-2169853,Sylvia atricapilla,6,2,5,NA,NA,NA,12,2,1988,18,19,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-02-12,control
-2220885,Sylvia atricapilla,5,1,2,NA,NA,NA,14,2,1988,18,19,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-02-14,control
-2255150,Sylvia atricapilla,4,1,3,74.5,19.5,NA,6,11,1990,16,17,NA,NA,NA,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1990-11-06,control
-2255263,Sylvia atricapilla,4,2,3,70,NA,NA,14,1,1990,19,20,NA,NA,NA,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1990-01-14,control
-2255272,Sylvia atricapilla,5,1,3,NA,NA,NA,24,3,1990,18,19,NA,NA,NA,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1990-03-24,control
-2286625,Sylvia atricapilla,4,2,0,70.5,17.5,NA,4,1,1990,12,13,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1990-01-04,control
-2286627,Sylvia atricapilla,4,2,1,75,19.5,NA,4,1,1990,11,12,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1990-01-04,control
-2286631,Sylvia atricapilla,4,2,0,73.5,17.5,NA,4,1,1990,9,10,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1990-01-04,control
-2286634,Sylvia atricapilla,4,2,1,71.5,19.5,NA,4,1,1990,10,11,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1990-01-04,control
-33854,Sylvia melanocephala,6,1,0,NA,NA,NA,30,1,1988,9,10,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-01-30,control
-191314,Sylvia melanocephala,6,1,2,NA,NA,NA,12,2,1988,18,19,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-02-12,control
-191364,Sylvia melanocephala,5,1,3,NA,NA,NA,26,12,1988,12,13,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-12-26,control
-268004,Sylvia melanocephala,3,2,2,NA,NA,NA,30,10,1988,11,12,NA,NA,NA,Huerta La Libertad,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-10-30,control
-309100,Sylvia melanocephala,6,1,5,NA,NA,NA,10,2,1990,18,19,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-02-10,control
-309317,Sylvia melanocephala,4,1,0,58,NA,NA,29,7,1990,18,19,NA,NA,NA,Cantera del Duende,El Rubio,Sevilla,Manuel Vazquez,,1990-07-29,control
-309317,Sylvia melanocephala,4,1,1,58,NA,NA,9,9,1990,19,20,NA,NA,NA,Cantera del Duende,El Rubio,Sevilla,Manuel Vazquez,,1990-09-09,control
-4003522,Pica pica,4,0,NA,NA,NA,NA,17,11,1992,NA,NA,NA,NA,NA,El Acebuche,Almonte,Huelva,Hector Garrido,,1992-11-17,control
-4003522,Pica pica,4,0,NA,NA,NA,NA,19,10,1993,NA,NA,NA,NA,NA,El Acebuche,Almonte,Huelva,Hector Garrido,,1993-10-19,control
-2223884,Lanius senator,2,0,NA,NA,NA,NA,20,7,1989,NA,NA,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,Ahogado en alberca,1989-07-20,control
-191310,Phylloscopus collybita,4,0,1,56,NA,NA,12,2,1988,18,19,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-02-12,control
-191317,Phylloscopus collybita,4,0,4,54,NA,NA,12,2,1988,17,18,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-02-12,control
-191348,Phylloscopus collybita,4,0,3,NA,NA,NA,19,1,1988,18,19,NA,NA,NA,Vuelta Cojo,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-01-19,control
-191382,Phylloscopus collybita,4,0,2,51,NA,NA,11,3,1988,16,17,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-11,control
-191395,Phylloscopus collybita,4,0,4,54,NA,NA,11,3,1988,18,19,NA,NA,NA,Cerrado Chico,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-03-11,control
-191410,Phylloscopus collybita,4,0,2,NA,NA,NA,31,1,1988,17,18,NA,NA,NA,Dehesa Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1988-01-31,control
-191428,Phylloscopus collybita,4,0,1,57,NA,NA,13,2,1988,18,19,NA,NA,NA,Caño Real,Palomares del Rio,Sevilla,Manuel Vazquez,,1988-02-13,control
-191430,Phylloscopus collybita,4,0,1,57,NA,NA,13,2,1988,18,19,NA,NA,NA,Caño Real,Palomares del Rio,Sevilla,Manuel Vazquez,,1988-02-13,control
-191617,Phylloscopus collybita,4,0,3,NA,NA,NA,31,8,1988,17,18,NA,NA,NA,Dehesa Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1988-08-31,control
-230369,Phylloscopus collybita,4,0,4,56,7,NA,26,12,1988,18,19,NA,NA,NA,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-12-26,control
-230369,Phylloscopus collybita,4,0,1,55,NA,NA,4,2,1989,19,20,NA,NA,NA,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1989-02-04,control
-230398,Phylloscopus collybita,3,0,2,55,6.5,NA,26,12,1988,18,19,NA,NA,NA,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-12-26,control
-231653,Phylloscopus collybita,4,0,3,55,NA,NA,11,3,1988,16,17,NA,NA,NA,Cerrado Chico,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-03-11,control
-231699,Phylloscopus collybita,2,0,2,59,6.5,NA,26,12,1988,18,19,NA,NA,NA,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-12-26,control
-268014,Phylloscopus collybita,2,0,5,NA,NA,NA,30,10,1988,13,14,NA,NA,NA,Huerta La Libertad,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-10-30,control
-268196,Phylloscopus collybita,2,0,1,NA,NA,NA,3,2,1989,13,14,NA,NA,NA,La Estrella,Palomares del Rio,Sevilla,Manuel Vazquez,,1989-02-03,control
-271043,Phylloscopus collybita,2,0,1,NA,NA,NA,25,1,1989,19,20,NA,NA,NA,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1989-01-25,control
-271093,Phylloscopus collybita,2,0,2,61,NA,NA,29,12,1988,18,19,NA,NA,NA,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-12-29,control
-272343,Phylloscopus collybita,4,0,3,54,NA,NA,10,12,1989,19,20,NA,NA,NA,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1989-12-10,control
-272369,Phylloscopus collybita,4,0,0,54.5,NA,NA,2,1,1989,19,20,NA,NA,NA,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1989-01-02,control
-272377,Phylloscopus collybita,4,0,3,53.5,NA,NA,2,1,1989,19,20,NA,NA,NA,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1989-01-02,control
-309633,Phylloscopus collybita,4,0,4,57,7.5,NA,6,11,1990,17,18,NA,NA,NA,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1990-11-06,control
-309704,Phylloscopus collybita,4,0,2,55,7,NA,6,11,1990,17,18,NA,NA,NA,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1990-11-06,control
-403294,Phylloscopus collybita,2,0,2,NA,NA,NA,16,12,1990,19,20,NA,NA,NA,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1990-12-16,control
-473006,Erithacus rubecula,5,0,NA,NA,NA,NA,29,1,1992,NA,NA,NA,NA,NA,La Algaida,Sanlucar de Barrameda,Cadiz,Particular,Cazada ,1992-01-29,muerto
-2195591,Erithacus rubecula,4,0,2,NA,NA,NA,5,12,1987,8,9,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1987-12-05,control
-2195581,Erithacus rubecula,3,0,0,NA,NA,NA,5,12,1987,9,10,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1987-12-05,control
-2255287,Erithacus rubecula,4,0,NA,NA,NA,NA,15,1,1991,NA,NA,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,Cazada por gato,1991-01-15,control
-2550945,Luscinia megarhynchos,2,0,NA,NA,NA,NA,1,9,1994,NA,NA,NA,NA,NA,Manecorro,Almonte,Huelva,JL Arroyo,,1994-09-01,control
-2550947,Luscinia megarhynchos,2,0,NA,NA,NA,NA,3,9,1994,NA,NA,NA,NA,NA,Manecorro,Almonte,Huelva,JL Arroyo,,1994-09-03,control
-309228,Muscicapa striata,4,0,1,NA,NA,NA,9,5,1990,13,14,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-05-09,control
-2168443,Phoenicurus ochruros,2,0,2,NA,NA,NA,3,1,1988,17,18,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-01-03,control
-2168444,Phoenicurus ochruros,6,1,1,NA,NA,NA,6,2,1988,17,18,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-02-06,control
-2168461,Phoenicurus ochruros,4,0,2,NA,NA,NA,31,1,1988,18,19,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-01-31,control
-2168462,Phoenicurus ochruros,4,0,1,NA,NA,NA,6,2,1988,17,18,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-02-06,control
-2220856,Phoenicurus ochruros,4,2,NA,NA,NA,NA,26,12,1988,12,13,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-12-26,control
-231697,Luscinia svecica,6,1,2,71,NA,NA,28,2,1990,19,20,NA,NA,NA,Cerrado Chico,Puebla del Rio,Sevilla,Manuel Vazquez,,1990-02-28,control
-2219910,Luscinia svecica,4,2,3,72,16.5,NA,14,12,1988,18,19,NA,NA,NA,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-12-14,control
-271018,Erithacus rubecula,5,0,1,NA,NA,NA,25,1,1989,19,20,NA,NA,NA,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1989-01-25,control
-401183,Erithacus rubecula,5,0,0,NA,NA,NA,16,11,1990,11,12,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1990-11-16,control
-403207,Erithacus rubecula,3,0,0,NA,NA,NA,23,12,1990,13,14,NA,NA,NA,Cantera del Duende,El Rubio,Sevilla,Manuel Vazquez,,1990-12-23,control
-403212,Erithacus rubecula,3,0,1,NA,NA,NA,23,12,1990,12,13,NA,NA,NA,Cantera del Duende,El Rubio,Sevilla,Manuel Vazquez,,1990-12-23,control
-403228,Erithacus rubecula,2,0,2,NA,NA,NA,23,12,1990,18,19,NA,NA,NA,Cantera del Duende,El Rubio,Sevilla,Manuel Vazquez,,1990-12-23,control
-403249,Erithacus rubecula,4,0,0,71,16.5,NA,4,1,1991,9,10,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1991-01-04,control
-403707,Erithacus rubecula,4,0,1,NA,NA,NA,26,1,1991,13,14,NA,NA,NA,Cantera del Duende,El Rubio,Sevilla,Manuel Vazquez,,1991-01-26,control
-2035276,Erithacus rubecula,4,0,0,NA,NA,NA,5,12,1987,8,9,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1987-12-05,control
-2168474,Erithacus rubecula,5,0,3,NA,NA,NA,14,2,1988,17,18,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-02-14,control
-2168475,Erithacus rubecula,5,0,2,NA,NA,NA,14,2,1988,15,16,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-02-14,control
-2169070,Erithacus rubecula,2,0,0,NA,NA,NA,20,12,1987,12,13,NA,NA,NA,Dehesa Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1987-12-20,control
-2169861,Erithacus rubecula,5,0,2,NA,NA,NA,12,2,1987,17,18,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1987-02-12,control
-2219908,Erithacus rubecula,4,0,1,NA,NA,NA,11,3,1988,16,17,NA,NA,NA,Cerrado Chico,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-03-11,control
-2255832,Erithacus rubecula,6,0,2,NA,NA,NA,27,12,1989,17,18,NA,NA,NA,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1989-12-27,control
-2255833,Erithacus rubecula,4,0,0,NA,NA,NA,14,12,1988,17,18,NA,NA,NA,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1988-12-14,control
-2285910,Erithacus rubecula,2,0,1,NA,NA,NA,23,12,1990,13,14,NA,NA,NA,Cantera del Duende,El Rubio,Sevilla,Manuel Vazquez,,1990-12-23,control
-2168717,Luscinia megarhynchos,3,0,2,NA,NA,NA,15,8,1988,8,9,NA,NA,NA,Huerta Santa Eufemia,Coria del Rio,Sevilla,Manuel Vazquez,,1988-08-15,control
-3005570,Turdus merula,3,2,3,NA,NA,NA,5,7,1987,7,8,NA,NA,NA,Huerta Daniel,Puebla del Rio,Sevilla,Manuel Vazquez,,1987-07-05,control
-3005661,Turdus merula,5,2,0,120,NA,NA,26,8,1990,8,9,NA,NA,NA,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1990-08-26,control
-3005663,Turdus merula,5,1,2,120,NA,NA,14,1,1990,19,20,NA,NA,NA,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1990-01-14,control
-3005667,Turdus merula,6,2,1,NA,NA,NA,30,3,1991,18,19,NA,NA,NA,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1991-03-30,control
-3005682,Turdus merula,3,0,1,NA,NA,NA,17,9,1990,13,14,NA,NA,NA,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1990-09-17,control
-3005690,Turdus merula,3,1,1,NA,NA,NA,4,10,1990,11,12,NA,NA,NA,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1990-10-04,control
-3027711,Turdus merula,5,2,1,NA,NA,NA,26,1,1991,18,19,NA,NA,NA,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1991-01-26,control
-3027803,Turdus merula,5,2,2,NA,NA,NA,7,2,1988,16,17,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-02-07,control
-3027803,Turdus merula,5,2,2,NA,NA,NA,7,5,1988,17,18,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-05-07,control
-3027807,Turdus merula,4,1,2,NA,NA,NA,13,2,1988,17,18,NA,NA,NA,Caño Real,Palomares del Rio,Sevilla,Manuel Vazquez,,1988-02-13,control
-3027856,Turdus merula,3,0,1,NA,NA,NA,9,4,1988,18,19,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-04-09,control
-3027868,Turdus merula,5,1,1,NA,NA,NA,2,1,1989,19,20,NA,NA,NA,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1989-01-02,control
-3027874,Turdus merula,4,1,1,NA,NA,NA,2,1,1989,19,20,NA,NA,NA,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1989-01-02,control
-3027874,Turdus merula,6,1,1,NA,NA,NA,29,3,1991,18,19,NA,NA,NA,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1991-03-29,control
-3027877,Turdus merula,6,2,3,NA,NA,NA,28,1,1989,18,19,NA,NA,NA,El Copero,Dos Hermanas ,Sevilla,Manuel Vazquez,,1989-01-28,control
-3027877,Turdus merula,6,2,1,NA,NA,NA,25,2,1990,19,20,NA,NA,NA,El Copero,Dos Hermanas ,Sevilla,Manuel Vazquez,,1990-02-25,control
-3090233,Turdus merula,2,0,NA,NA,NA,NA,4,9,1994,NA,NA,NA,NA,NA,Manecorro,Almonte,Huelva,JL Arroyo,,1994-09-04,control
-3090208,Turdus merula,4,2,NA,NA,NA,NA,12,8,1995,NA,NA,NA,NA,NA,El Rincon,Almonte,Huelva,JL Arroyo,,1995-08-12,control
-3005568,Turdus merula,3,1,NA,NA,NA,NA,8,9,1987,NA,NA,NA,NA,NA,Huerta Daniel,Puebla del Rio,Sevilla,Manuel Vazquez,Cazado,1987-09-08,muerto
-3090277,Turdus merula,4,0,NA,NA,NA,NA,13,6,1997,NA,NA,NA,NA,NA,La Escribana,Coria del Rio,Sevilla,Manuel Vazquez,Encontrado muerto,1997-06-13,muerto
-3027881,Turdus philomelos,4,0,1,113,NA,NA,8,11,1989,17,18,NA,NA,NA,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1989-11-08,control
-3027895,Turdus viscivorus,4,2,0,NA,NA,NA,11,5,1989,11,12,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-05-11,control
-3064443,Turdus philomelos,2,0,NA,NA,NA,NA,19,1,1994,NA,NA,NA,NA,NA,Torrecuadros,Hinojos,Huelva,J Ayala,Cazado con escopeta,1994-01-19,muerto
-2372782,Parus major,4,2,NA,NA,NA,NA,12,1,1992,NA,NA,NA,NA,NA,Cantera del Duende,El Rubio,Sevilla,Manuel Vazquez,Muerto en red,1992-01-12,control
-2550948,Parus major,3,0,NA,NA,NA,NA,7,9,1994,NA,NA,NA,NA,NA,Manecorro,Almonte,Huelva,JL Arroyo,,1994-09-07,control
-230550,Parus cristatus,4,2,2,55,NA,NA,17,5,1989,19,20,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-05-17,control
-309246,Parus cristatus,3,0,1,NA,NA,NA,12,8,1989,9,10,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-08-12,control
-401026,Parus cristatus,4,0,1,NA,NA,NA,27,7,1990,8,9,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-07-27,control
-230527,Parus caeruleus,4,2,0,59.5,NA,NA,20,5,1989,18,19,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-05-20,control
-230535,Parus caeruleus,3,0,1,63,9.5,NA,5,12,1988,10,11,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1988-12-05,control
-230544,Parus caeruleus,5,0,0,NA,NA,NA,27,7,1989,7,8,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-07-27,control
-230554,Parus caeruleus,5,1,1,NA,NA,NA,27,7,1989,9,10,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-07-27,control
-230557,Parus caeruleus,5,0,2,NA,NA,NA,20,4,1989,10,11,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-04-20,control
-268305,Parus caeruleus,4,2,1,NA,NA,NA,27,7,1989,11,12,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-07-27,control
-268331,Parus caeruleus,6,2,4,NA,NA,NA,20,4,1990,18,19,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-04-20,control
-268340,Parus caeruleus,6,0,0,NA,NA,NA,29,8,1990,8,9,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-08-29,control
-268342,Parus caeruleus,4,1,1,NA,NA,NA,27,7,1989,9,10,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-07-27,control
-268351,Parus caeruleus,6,2,0,NA,NA,NA,27,7,1990,10,11,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-07-27,control
-268366,Parus caeruleus,4,1,1,NA,NA,NA,27,7,1989,9,10,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-07-27,control
-268380,Parus caeruleus,5,0,1,NA,NA,NA,2,7,1990,13,14,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-07-02,control
-271380,Parus caeruleus,4,1,1,NA,NA,NA,27,7,1989,10,11,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-07-27,control
-271384,Parus caeruleus,4,2,3,NA,NA,NA,20,4,1989,NA,NA,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-04-20,control
-272335,Parus caeruleus,5,1,1,60,NA,NA,22,8,1989,11,12,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-08-22,control
-309268,Parus caeruleus,5,0,0,NA,NA,NA,29,8,1990,9,10,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-08-29,control
-309757,Parus caeruleus,4,0,0,NA,NA,NA,29,8,1990,8,9,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-08-29,control
-309795,Parus caeruleus,3,0,0,NA,NA,NA,29,8,1990,8,9,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-08-29,control
-401001,Parus caeruleus,3,0,1,59,9,NA,24,7,1990,11,12,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-07-24,control
-401006,Parus caeruleus,3,0,2,61.5,9,NA,27,7,1990,10,11,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-07-27,control
-401019,Parus caeruleus,4,0,1,NA,NA,NA,27,7,1990,10,11,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-07-27,control
-401040,Parus caeruleus,3,0,1,NA,NA,NA,27,7,1990,12,13,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-07-27,control
-3090212,Miliaria calandra,3,0,NA,NA,NA,NA,25,8,1994,NA,NA,NA,NA,NA,El Rincon,Almonte,Huelva,JL Arroyo,Atropellado,1994-08-25,muerto
-2035353,Parus major,3,0,2,NA,NA,NA,24,10,1987,17,18,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1987-10-24,control
-2168088,Parus major,5,0,2,NA,NA,NA,19,3,1988,17,18,NA,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-19,control
-2168828,Parus major,4,2,0,NA,NA,NA,24,3,1989,17,18,NA,NA,NA,La Estrella,Palomares del Rio,Sevilla,Manuel Vazquez,,1989-03-24,control
-2285903,Parus major,4,2,NA,NA,NA,NA,31,3,1991,10,11,NA,NA,NA,Cantera del Duende,El Rubio,Sevilla,Manuel Vazquez,,1991-03-31,control
-2286616,Parus major,2,2,3,NA,NA,NA,23,12,1990,13,14,NA,NA,NA,Cantera del Duende,El Rubio,Sevilla,Manuel Vazquez,,1990-12-23,control
-2286648,Parus major,4,1,1,NA,17,NA,31,3,1991,11,12,NA,NA,NA,Cantera del Duende,El Rubio,Sevilla,Manuel Vazquez,,1991-03-31,control
-309250,Aegithalos caudatus,3,0,1,NA,NA,NA,29,8,1989,8,9,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-08-29,control
-309289,Aegithalos caudatus,3,0,0,NA,NA,NA,29,8,1989,9,10,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-08-29,control
-271027,Remiz pendulinus,2,1,3,NA,NA,NA,29,12,1988,18,19,NA,NA,NA,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-12-29,control
-2223806,Sitta europaea,3,0,1,NA,NA,NA,26,7,1989,13,14,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-07-26,control
-2223807,Sitta europaea,4,1,1,83.5,NA,NA,27,8,1989,12,13,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-08-27,control
-2223810,Sitta europaea,4,0,0,NA,NA,NA,26,7,1989,13,14,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-07-26,control
-2284504,Sitta europaea,3,0,0,88.5,NA,NA,3,8,1989,12,13,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-08-03,control
-2284511,Sitta europaea,3,0,1,NA,NA,NA,12,8,1989,13,14,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-08-12,control
-2284512,Sitta europaea,3,0,0,NA,NA,NA,12,8,1989,12,13,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-08-12,control
-2284726,Sitta europaea,3,0,0,NA,NA,NA,27,7,1990,10,11,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-07-27,control
-2284739,Sitta europaea,2,0,0,NA,NA,NA,27,7,1990,11,12,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-07-27,control
-230525,Certhia brachydactyla,4,0,0,NA,NA,NA,9,5,1989,9,10,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-05-09,control
-230541,Certhia brachydactyla,4,1,0,NA,NA,NA,27,7,1989,9,10,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-07-27,control
-268336,Certhia brachydactyla,4,0,1,NA,NA,NA,9,5,1990,11,12,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-05-09,control
-271386,Certhia brachydactyla,4,0,1,NA,NA,NA,29,8,1989,10,11,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-08-29,control
-271390,Certhia brachydactyla,4,1,1,NA,NA,NA,27,7,1990,11,12,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-07-27,control
-308919,Certhia brachydactyla,4,0,1,NA,NA,NA,21,4,1990,15,16,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-04-21,control
-308924,Certhia brachydactyla,4,2,1,NA,NA,NA,9,5,1990,11,12,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-05-09,control
-309291,Certhia brachydactyla,5,0,0,NA,NA,NA,27,7,1990,10,11,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-07-27,control
-2219721,Passer domesticus,4,1,NA,NA,NA,NA,2,4,1997,NA,NA,NA,NA,NA,La Escribana,Coria del Rio,Sevilla,Manuel Vazquez,Encontrado muerto,1997-04-02,muerto
-2255837,Passer domesticus,4,1,2,NA,NA,NA,24,3,1990,19,20,NA,NA,NA,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1990-03-24,control
-2169150,Passer montanus,4,0,2,NA,NA,NA,13,2,1988,18,19,NA,NA,NA,Caño Real,Palomares del Rio,Sevilla,Manuel Vazquez,,1988-02-13,control
-2169151,Passer montanus,4,0,2,NA,NA,NA,13,2,1988,18,19,NA,NA,NA,Caño Real,Palomares del Rio,Sevilla,Manuel Vazquez,,1988-02-13,control
-2223860,Petronia petronia,4,2,0,NA,NA,NA,9,5,1990,11,12,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-05-09,control
-2284567,Petronia petronia,4,0,0,NA,NA,NA,29,9,1990,8,9,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-09-29,control
-2223841,Fringilla coelebs,4,1,NA,NA,NA,NA,3,7,1990,NA,NA,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,Encontrado muerto,1990-07-03,muerto
-2220943,Fringilla coelebs,4,1,0,NA,NA,NA,27,8,1989,11,14,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-08-27,control
-2220943,Fringilla coelebs,4,1,1,86.5,NA,NA,2,7,1990,11,12,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-07-02,control
-2220946,Fringilla coelebs,4,1,0,NA,NA,NA,21,3,1989,10,11,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-03-21,control
-268289,Serinus serinus,5,1,1,NA,NA,NA,9,5,1990,13,14,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-05-09,control
-309055,Serinus serinus,5,1,0,NA,NA,NA,29,8,1990,8,9,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-08-29,control
-309060,Serinus serinus,6,1,1,NA,NA,NA,8,5,1990,19,20,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-05-08,control
-309240,Serinus serinus,6,2,1,71,NA,NA,4,7,1990,11,12,NA,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-07-04,control
-403744,Serinus serinus,4,1,1,NA,NA,NA,26,1,1991,14,15,NA,NA,NA,Cantera del Duende,El Rubio,Sevilla,Manuel Vazquez,,1991-01-26,control
-2286084,Carduelis chloris,3,1,0,NA,NA,NA,28,10,1990,12,13,NA,NA,NA,Puñana,Almensilla,Sevilla,Manuel Vazquez,,1990-10-28,control
-2168952,Carduelis chloris,3,2,NA,NA,NA,NA,27,11,1987,NA,NA,NA,NA,NA,Rio Viejo,Coria del Rio,Sevilla,Particular,Cazado,1987-11-27,muerto
-2550956,Carduelis chloris,4,1,NA,NA,NA,NA,22,9,1994,NA,NA,NA,NA,NA,Manecorro,Almonte,Huelva,JL Arroyo,,1994-09-22,control
-L174290,Carduelis cannabina,1,0,NA,NA,NA,NA,13,8,1998,NA,NA,NA,NA,NA,El Alcornocal,Los Palacios,Sevilla,Manuel Vazquez,Encontrado solo anilla,1998-08-13,control
-403736,Carduelis carduelis,2,2,1,NA,NA,NA,31,3,1991,10,11,NA,NA,NA,Cantera del Duende,El Rubio,Sevilla,Manuel Vazquez,,1991-03-31,control
-403917,Carduelis carduelis,4,1,NA,NA,NA,NA,29,7,1992,NA,NA,NA,NA,NA,Valcaliente,Constantina,Sevilla,Sergio Gonzalez,Encontrado muerto,1992-07-29,muerto
-401170,Emberiza schoeniclus,4,0,NA,NA,NA,NA,27,12,1991,NA,NA,NA,NA,NA,Cerrado Chico,Puebla del Rio,Sevilla,Manuel Sosa,,1991-12-27,control
-271100,Emberiza schoeniclus,5,1,NA,NA,NA,NA,25,1,1989,19,20,NA,NA,NA,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1989-01-25,control
-2550942,Luscinia megarhynchos,4,0,NA,NA,NA,NA,24,5,1996,NA,NA,NA,NA,NA,Cañada de Los Pajaros,Puebla del Rio,Sevilla,Manuel Vazquez,,1996-05-24,control
+Anilla,NombreEspecie,E,S,G,Ala,Peso,Dia,Mes,Año,Hora.C,Hora.F,Lugar,Municipio,Provincia,Anillador,Observaciones,FECHA,Observaciones simple
+3062713,Miliaria calandra,2,0,0,92,41,21,12,1991,NA,NA,Cantaritas,Puebla del Rio,Sevilla,Manuel Vazquez,,1991-12-21,control
+4098891,Falco naumanni,3,0,NA,NA,NA,29,6,2004,NA,NA,La Cartuja,Jerez de la Frontera,Cadiz,Otro,,2004-06-29,control
+4098892,Falco naumanni,3,0,NA,NA,NA,30,6,2004,NA,NA,La Cartuja,Jerez de la Frontera,Cadiz,Otro,,2004-06-30,control
+4098895,Falco naumanni,3,0,NA,NA,NA,4,7,2004,NA,NA,La Cartuja,Jerez de la Frontera,Cadiz,Otro,,2004-07-04,control
+5007300,Falco tinnunculus,4,2,NA,NA,NA,30,11,1991,NA,NA,Puebla del Rio,Puebla del Rio,Sevilla,Cazador,Cazada con escopeta,1991-11-30,muerto
+5080011,Falco tinnunculus,4,1,NA,255,230,20,12,2005,NA,NA,La Fao,Aznalcazar,Sevilla,JL del Valle,,2005-12-20,control
+2169202,Alcedo atthis,3,2,1,NA,NA,2,8,1987,6,7,Huerta Daniel,Puebla del Rio,Sevilla,Manuel Vazquez,,1987-08-02,control
+2219990,Alcedo atthis,3,2,2,76,38,14,12,1988,18,19,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-12-14,control
+2219994,Alcedo atthis,3,2,4,76,39.5,26,12,1988,18,19,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-12-26,control
+2220911,Alcedo atthis,3,0,NA,NA,NA,1,7,1990,7,8,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1990-07-01,control
+2220911,Alcedo atthis,3,1,1,NA,NA,15,7,1990,9,10,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1990-07-15,control
+2220911,Alcedo atthis,3,0,2,78.5,36,1,11,1990,18,19,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1990-11-01,control
+2220911,Alcedo atthis,3,1,2,NA,NA,16,12,1990,16,17,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1990-12-16,control
+229711,Riparia riparia,4,0,NA,NA,NA,15,5,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
+229729,Riparia riparia,4,2,3,NA,NA,31,3,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-03-31,control
+229743,Riparia riparia,4,0,2,NA,NA,31,3,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-03-31,control
+229738,Riparia riparia,4,0,1,NA,NA,31,3,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-03-31,control
+229788,Riparia riparia,4,1,NA,NA,NA,15,5,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
+229823,Riparia riparia,4,2,0,NA,NA,15,5,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
+229838,Riparia riparia,4,1,NA,NA,NA,15,5,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
+229843,Riparia riparia,4,0,2,NA,NA,31,3,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-03-31,control
+229848,Riparia riparia,4,1,NA,NA,NA,15,5,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
+229877,Riparia riparia,4,2,NA,NA,NA,15,5,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
+229882,Riparia riparia,4,1,1,NA,NA,15,5,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
+229902,Riparia riparia,4,2,3,NA,NA,31,3,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-03-31,control
+229902,Riparia riparia,4,2,NA,NA,NA,15,5,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
+229912,Riparia riparia,4,1,0,NA,NA,15,5,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
+229937,Riparia riparia,4,2,1,NA,NA,15,5,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
+229949,Riparia riparia,4,2,1,NA,NA,15,5,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
+229951,Riparia riparia,4,2,NA,NA,NA,15,5,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
+229952,Riparia riparia,4,2,NA,NA,NA,15,5,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
+230008,Riparia riparia,4,1,NA,NA,NA,15,5,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
+230011,Riparia riparia,4,1,NA,NA,NA,15,5,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
+230016,Riparia riparia,4,1,NA,NA,NA,15,5,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
+230018,Riparia riparia,4,2,NA,NA,NA,15,5,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
+230020,Riparia riparia,4,1,NA,NA,NA,15,5,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
+230021,Riparia riparia,4,0,NA,NA,NA,15,5,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
+230024,Riparia riparia,4,2,NA,NA,NA,15,5,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
+230039,Riparia riparia,4,1,NA,NA,NA,15,5,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
+230041,Riparia riparia,4,1,NA,NA,NA,15,5,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
+230044,Riparia riparia,4,2,NA,NA,NA,15,5,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
+230045,Riparia riparia,4,1,NA,NA,NA,15,5,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
+230047,Riparia riparia,4,2,NA,NA,NA,15,5,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
+230054,Riparia riparia,4,1,NA,NA,NA,31,3,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-03-31,control
+230056,Riparia riparia,4,0,NA,NA,NA,15,5,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
+230081,Riparia riparia,4,1,1,NA,NA,15,5,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
+230088,Riparia riparia,4,1,3,NA,NA,15,5,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
+230095,Riparia riparia,4,2,3,NA,NA,15,5,1988,5,6,La Isleta,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-15,control
+188649,Hirundo rustica,6,2,3,121,20.5,26,6,1988,11,12,Cortijo La Atalaya,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-06-26,control
+188865,Hirundo rustica,5,1,3,NA,NA,12,3,1988,17,18,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-12,control
+188889,Hirundo rustica,5,1,3,NA,NA,26,3,1988,16,17,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-26,control
+191639,Hirundo rustica,4,2,3,NA,NA,12,3,1988,17,18,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-12,control
+191642,Hirundo rustica,4,0,3,NA,NA,5,3,1988,17,18,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-05,control
+191645,Hirundo rustica,4,2,4,NA,NA,6,3,1988,17,18,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-06,control
+191646,Hirundo rustica,4,0,3,NA,NA,12,3,1988,17,18,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-12,control
+191646,Hirundo rustica,4,1,2,NA,NA,19,3,1988,15,16,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-19,control
+191657,Hirundo rustica,4,2,2,NA,NA,6,3,1988,17,18,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-06,control
+191657,Hirundo rustica,4,2,2,NA,NA,12,3,1988,17,18,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-12,control
+191659,Hirundo rustica,4,2,4,NA,NA,6,3,1988,17,18,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-06,control
+191662,Hirundo rustica,4,2,4,NA,NA,13,3,1988,17,18,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-13,control
+191662,Hirundo rustica,4,2,NA,NA,NA,16,4,1988,NA,NA,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,Muerta en nido,1988-04-16,control
+191664,Hirundo rustica,4,2,3,NA,NA,6,3,1988,17,18,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-06,control
+191664,Hirundo rustica,4,2,3,NA,NA,2,4,1988,18,19,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-04-02,control
+191648,Hirundo rustica,4,0,3,NA,NA,5,3,1988,17,18,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-05,control
+191648,Hirundo rustica,4,0,3,NA,NA,6,3,1988,17,18,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-06,control
+191648,Hirundo rustica,4,0,4,NA,NA,26,3,1988,17,18,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-26,control
+191665,Hirundo rustica,4,0,3,NA,NA,6,3,1988,17,18,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-06,control
+191665,Hirundo rustica,4,0,3,NA,NA,2,4,1988,18,19,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-04-02,control
+191666,Hirundo rustica,4,0,3,NA,NA,6,3,1988,17,18,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-06,control
+191679,Hirundo rustica,4,2,3,NA,NA,19,3,1988,15,16,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-19,control
+191682,Hirundo rustica,4,1,3,NA,NA,19,3,1988,18,19,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-19,control
+191683,Hirundo rustica,4,2,3,NA,NA,19,3,1988,18,19,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-19,control
+230680,Hirundo rustica,4,0,0,121,19.3,26,6,1988,11,12,Cortijo La Atalaya,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-06-26,control
+2168411,Anthus pratensis,2,0,NA,NA,NA,12,3,1988,NA,NA,Fuentes,Puebla del Rio,Sevilla,Manuel Vazquez,Cazada por gavilan,1988-03-12,control
+2168825,Anthus pratensis,4,0,4,NA,NA,26,3,1989,19,20,La Estrella,Palomares del Rio,Sevilla,Manuel Vazquez,,1989-03-26,control
+2223679,Motacilla alba,5,2,3,88,22.5,3,2,1989,18,19,C/ Sanchez Arjona,Sevilla,Sevilla,Manuel Vazquez,,1989-02-03,control
+7044881,Anas platyrhynchos,3,2,NA,NA,NA,25,9,1999,NA,NA,Laguna del Gobierno,La Lantejuela,Sevilla,Manuel Vazquez,Encontrado muerto,1999-09-25,muerto
+7044864,Mivuls migrans,2,0,NA,NA,NA,4,3,2000,NA,NA,Los Montes,Puebla del Rio,Sevilla,Alfonso Romero,Encontrado solo anilla,2000-03-04,control
+4003534,Falco naumanni,2,0,NA,NA,NA,16,6,1991,NA,NA,Cortijo Habichuela,Estepa,Sevilla,Manuel Vazquez,Encontrado muerto,1991-06-16,muerto
+4003539,Falco naumanni,1,0,NA,NA,NA,23,6,1991,NA,NA,Cortijo Habichuela,Estepa,Sevilla,Manuel Vazquez,Encontrado muerto,1991-06-23,muerto
+4003540,Falco naumanni,1,0,NA,NA,NA,23,6,1991,NA,NA,Cortijo Habichuela,Estepa,Sevilla,Manuel Vazquez,Encontrado muerto,1991-06-23,muerto
+4003541,Falco naumanni,1,0,NA,NA,NA,23,6,1991,NA,NA,Cortijo Habichuela,Estepa,Sevilla,Manuel Vazquez,Encontrado muerto,1991-06-23,muerto
+4003544,Falco naumanni,1,0,NA,NA,NA,23,6,1991,NA,NA,Cortijo Habichuela,Estepa,Sevilla,Manuel Vazquez,Encontrado muerto,1991-06-23,muerto
+4003551,Falco naumanni,1,0,NA,NA,NA,30,6,1991,NA,NA,Villar de las Culebras,Osuna,Sevilla,Manuel Vazquez,Encontrado muerto,1991-06-30,muerto
+5010269,Falco tinnunculus,1,0,NA,NA,NA,21,7,1991,NA,NA,Cortijo Habichuela,Estepa,Sevilla,Manuel Vazquez,Encontrado muerto,1991-07-21,muerto
+7009760,Fulica atra,1,0,NA,NA,NA,30,6,1990,NA,NA,Laguna Escalera,El Rubio,Sevilla,Manuel Vazquez,Atropellado,1990-06-30,muerto
+T027808,Cahradrius alexandrinus,4,0,NA,NA,NA,1,10,2000,NA,NA,Laguna del Gobierno,La Lantejuela,Sevilla,Manuel Vazquez,Encontrado muerto,2000-10-01,muerto
+4003661,Coracias garrulus,1,0,NA,NA,NA,13,7,1991,NA,NA,Cortijo Habichuela,Estepa,Sevilla,Manuel Vazquez,Encontrado muerto,1991-07-13,muerto
+7045436,Asio otus,1,0,NA,NA,NA,25,7,2000,NA,NA,Pino Dorado,Puebla del Rio,Sevilla,Alfonso Romero,Encontrado muerto,2000-07-25,muerto
+3090235,Upupa epops,3,0,NA,NA,NA,5,9,1994,NA,NA,Manecorro,Almonte,Huelva,JL Arroyo,,1994-09-05,control
+T007755,Caildris ferruginea,4,0,NA,NA,NA,6,5,1998,NA,NA,Marismas del Odiel,Huelva,Huelva,JL Arroyo,,1998-05-06,control
+4048368,Tringa totanus,4,0,NA,NA,NA,24,9,1998,NA,NA,Marismas del Odiel,Huelva,Huelva,JL Arroyo,,1998-09-24,control
+9015558,Ciconia ciconia,2,0,NA,NA,NA,12,6,1994,NA,NA,Dehesa de Abajo,Puebla del Rio,Sevilla,Manuel Vazquez,Encontrado solo anilla,1994-06-12,control
+9004110,Ciconia ciconia,4,0,NA,NA,NA,12,6,1994,NA,NA,Dehesa de Abajo,Puebla del Rio,Sevilla,Manuel Vazquez,Encontrado solo anilla,1994-06-12,control
+3037708,Cyanopica cyana,4,0,NA,NA,NA,3,3,1991,NA,NA,El Acebuche,Almonte,Huelva,Manuel Vazquez,,1991-03-03,control
+3037708,Cyanopica cyana,4,0,2,127,67,18,3,1991,NA,NA,El Acebuche,Almonte,Huelva,Manuel Vazquez,,1991-03-18,control
+3037708,Cyanopica cyana,4,0,1,NA,NA,7,4,1991,NA,NA,El Acebuche,Almonte,Huelva,Manuel Vazquez,,1991-04-07,control
+3037709,Cyanopica cyana,4,0,NA,NA,NA,20,2,1991,NA,NA,El Acebuche,Almonte,Huelva,Manuel Vazquez,,1991-02-20,control
+3037709,Cyanopica cyana,4,0,NA,NA,NA,16,3,1991,NA,NA,El Acebuche,Almonte,Huelva,Manuel Vazquez,,1991-03-16,control
+3037709,Cyanopica cyana,4,0,NA,NA,NA,17,3,1991,NA,NA,El Acebuche,Almonte,Huelva,Manuel Vazquez,,1991-03-17,control
+3037710,Cyanopica cyana,4,0,0,NA,75,6,4,1991,NA,NA,El Acebuche,Almonte,Huelva,Manuel Vazquez,,1991-04-06,control
+3037711,Cyanopica cyana,4,0,0,NA,NA,3,3,1991,NA,NA,El Acebuche,Almonte,Huelva,Manuel Vazquez,,1991-03-03,control
+3037114,Cyanopica cyana,4,0,NA,NA,NA,3,3,1991,NA,NA,El Acebuche,Almonte,Huelva,Manuel Vazquez,,1991-03-03,control
+3037114,Cyanopica cyana,4,0,0,NA,77.5,7,4,1991,NA,NA,El Acebuche,Almonte,Huelva,Manuel Vazquez,,1991-04-07,control
+176655,Cettia cetti,4,2,0,NA,NA,21,6,1987,NA,NA,Huerta Daniel,Puebla del Rio,Sevilla,Manuel Vazquez,,1987-06-21,control
+176664,Cettia cetti,3,0,0,NA,NA,5,7,1987,NA,NA,Huerta Daniel,Puebla del Rio,Sevilla,Manuel Vazquez,,1987-07-05,control
+191389,Cettia cetti,4,2,1,NA,NA,11,3,1988,NA,NA,Cerrado Chico,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-03-11,control
+191400,Cettia cetti,4,1,2,NA,NA,11,3,1988,NA,NA,Cerrado Chico,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-03-11,control
+230331,Cettia cetti,3,2,3,57,10.5,14,12,1988,NA,NA,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-12-14,control
+231629,Cettia cetti,3,2,4,57,11,17,11,1988,NA,NA,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-11-17,control
+231630,Cettia cetti,2,2,4,55.5,NA,29,12,1988,NA,NA,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-12-29,control
+231698,Cettia cetti,4,1,1,NA,NA,20,4,1988,NA,NA,Cerrado Chico,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-04-20,control
+231665,Cettia cetti,4,2,3,NA,NA,11,3,1988,NA,NA,Cerrado Chico,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-03-11,control
+309697,Cettia cetti,4,1,3,63,13,3,11,1990,NA,NA,Cerrado Chico,Puebla del Rio,Sevilla,Manuel Vazquez,,1990-11-03,control
+268253,Cisticola juncidis,3,0,4,47,9,12,11,1988,NA,NA,Huerta Daniel,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-11-12,control
+268255,Cisticola juncidis,3,0,4,46,7.5,12,11,1988,NA,NA,Huerta Daniel,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-11-12,control
+268287,Cisticola juncidis,3,0,4,48,8,12,11,1988,NA,NA,Huerta Daniel,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-11-12,control
+271225,Cisticola juncidis,3,0,4,50,8.5,12,11,1988,NA,NA,Huerta Daniel,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-11-12,control
+271403,Cisticola juncidis,3,0,5,52,9.5,12,11,1988,NA,NA,Huerta Daniel,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-11-12,control
+271414,Cisticola juncidis,3,0,4,50,8,12,11,1988,NA,NA,Huerta Daniel,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-11-12,control
+271428,Cisticola juncidis,3,0,3,52,805,12,11,1988,NA,NA,Huerta Daniel,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-11-12,control
+271430,Cisticola juncidis,3,0,4,48,8,12,11,1988,NA,NA,Huerta Daniel,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-11-12,control
+2223884,Lanius senator,4,2,NA,NA,NA,20,7,1989,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,Ahogado en alberca,1989-07-20,control
+191453,Acrocephalus scirpaceus,4,0,0,65.5,11,14,5,1988,7,9,Cerrado Chico,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-14,control
+309767,Acrocephalus scirpaceus,4,0,1,61,NA,15,8,1990,8,9,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1990-08-15,control
+309906,Acrocephalus scirpaceus,2,0,1,NA,NA,22,7,1990,8,9,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1990-07-22,control
+2168534,Acrocephalus arundinaceus,4,2,0,91,32.2,14,5,1988,7,8,Cerrado Chico,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-05-14,control
+2255177,Acrocephalus arundinaceus,4,1,0,95,NA,13,6,1990,9,10,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1990-06-13,control
+2255195,Acrocephalus arundinaceus,4,2,1,NA,NA,22,7,1990,9,10,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1990-07-22,control
+2255197,Acrocephalus arundinaceus,4,0,2,NA,NA,7,7,1990,19,20,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1990-07-07,control
+2258410,Acrocephalus arundinaceus,4,2,1,NA,NA,22,7,1990,9,10,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1990-07-22,control
+176742,Hippolais pallida,3,0,1,NA,NA,2,8,1987,6,7,Huerta Daniel,Puebla del Rio,Sevilla,Manuel Vazquez,,1987-08-02,control
+176744,Hippolais pallida,4,2,0,NA,NA,2,8,1987,10,11,Huerta Daniel,Puebla del Rio,Sevilla,Manuel Vazquez,,1987-08-02,control
+191481,Hippolais pallida,4,1,0,NA,NA,21,7,1988,8,9,Huerta Daniel,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-07-21,control
+2226034,Sylvia borin,2,0,3,NA,22,17,9,1990,12,13,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1990-09-17,control
+2169107,Sylvia atricapilla,6,1,3,NA,NA,1,1,1988,NA,NA,Dehesa de Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1988-01-01,control
+2169107,Sylvia atricapilla,6,1,3,NA,NA,24,1,1988,NA,NA,Dehesa de Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1988-01-24,control
+2195584,Sylvia atricapilla,5,2,0,NA,NA,30,1,1988,9,10,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-01-30,control
+2195594,Sylvia atricapilla,3,1,0,NA,NA,5,12,1987,10,11,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1987-12-05,control
+2195601,Sylvia atricapilla,5,1,1,NA,NA,30,1,1988,9,10,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-01-30,control
+2220251,Sylvia atricapilla,4,1,3,NA,NA,24,1,1988,16,17,Dehesa de Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1988-01-24,control
+271105,Sylvia atricapilla,4,2,5,NA,NA,14,3,1989,16,17,La Estrella,Palomares del Rio,Sevilla,Manuel Vazquez,,1989-03-14,control
+271120,Sylvia atricapilla,4,1,1,NA,NA,4,3,1989,12,13,La Estrella,Palomares del Rio,Sevilla,Manuel Vazquez,,1989-03-04,control
+2168425,Sylvia atricapilla,3,1,1,NA,NA,20,12,1987,12,13,Dehesa de Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1987-12-20,control
+2168425,Sylvia atricapilla,3,1,1,NA,NA,21,12,1987,17,18,Dehesa de Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1987-12-21,control
+2168425,Sylvia atricapilla,3,1,2,NA,NA,25,12,1987,17,18,Dehesa de Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1987-12-25,control
+2168436,Sylvia atricapilla,5,2,2,NA,NA,30,1,1988,18,19,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-01-30,control
+2168458,Sylvia atricapilla,5,2,2,NA,NA,14,2,1988,9,10,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-02-14,control
+2168459,Sylvia atricapilla,5,2,3,NA,NA,14,2,1988,10,11,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-02-14,control
+2168466,Sylvia atricapilla,5,2,2,NA,NA,31,1,1988,18,19,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-01-31,control
+2168484,Sylvia atricapilla,5,1,3,NA,NA,14,2,1988,18,19,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-02-14,control
+2169066,Sylvia atricapilla,2,2,1,NA,NA,20,12,1987,10,11,Dehesa de Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1987-12-20,control
+2169066,Sylvia atricapilla,4,2,2,NA,NA,21,2,1988,15,16,Dehesa de Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1988-02-21,control
+2169066,Sylvia atricapilla,4,2,3,NA,NA,6,3,1988,14,15,Dehesa de Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1988-03-06,control
+2169068,Sylvia atricapilla,2,2,2,NA,NA,1,1,1988,17,18,Dehesa de Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1988-01-01,control
+2169068,Sylvia atricapilla,4,2,4,NA,NA,31,1,1988,17,18,Dehesa de Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1988-01-31,control
+2169101,Sylvia atricapilla,3,1,2,NA,NA,1,1,1988,17,18,Dehesa de Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1988-01-01,control
+2169106,Sylvia atricapilla,5,1,4,NA,NA,24,1,1988,17,18,Dehesa de Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1988-01-24,control
+2169114,Sylvia atricapilla,4,1,3,NA,NA,21,2,1988,16,17,Dehesa de Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1988-02-21,control
+2169141,Sylvia atricapilla,6,2,3,NA,NA,13,2,1988,18,19,Caño Real,Palomares del Rio,Sevilla,Manuel Vazquez,,1988-02-13,control
+2169143,Sylvia atricapilla,5,1,4,NA,NA,13,2,1988,16,17,Caño Real,Palomares del Rio,Sevilla,Manuel Vazquez,,1988-02-13,control
+2169145,Sylvia atricapilla,5,2,3,NA,NA,13,2,1988,18,19,Caño Real,Palomares del Rio,Sevilla,Manuel Vazquez,,1988-02-13,control
+2169147,Sylvia atricapilla,5,2,3,NA,NA,13,2,1988,18,19,Caño Real,Palomares del Rio,Sevilla,Manuel Vazquez,,1988-02-13,control
+2169149,Sylvia atricapilla,5,2,2,NA,NA,13,2,1988,18,19,Caño Real,Palomares del Rio,Sevilla,Manuel Vazquez,,1988-02-13,control
+2169783,Sylvia atricapilla,5,2,0,NA,NA,30,1,1988,9,10,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-01-30,control
+2169790,Sylvia atricapilla,3,1,0,NA,NA,5,12,1987,10,11,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1987-12-05,control
+2169792,Sylvia atricapilla,6,1,2,NA,NA,30,1,1988,9,10,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-01-30,control
+2169851,Sylvia atricapilla,6,1,3,NA,NA,12,2,1988,18,19,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-02-12,control
+2169853,Sylvia atricapilla,6,2,5,NA,NA,12,2,1988,18,19,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-02-12,control
+2220885,Sylvia atricapilla,5,1,2,NA,NA,14,2,1988,18,19,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-02-14,control
+2255150,Sylvia atricapilla,4,1,3,74.5,19.5,6,11,1990,16,17,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1990-11-06,control
+2255263,Sylvia atricapilla,4,2,3,70,NA,14,1,1990,19,20,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1990-01-14,control
+2255272,Sylvia atricapilla,5,1,3,NA,NA,24,3,1990,18,19,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1990-03-24,control
+2286625,Sylvia atricapilla,4,2,0,70.5,17.5,4,1,1990,12,13,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1990-01-04,control
+2286627,Sylvia atricapilla,4,2,1,75,19.5,4,1,1990,11,12,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1990-01-04,control
+2286631,Sylvia atricapilla,4,2,0,73.5,17.5,4,1,1990,9,10,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1990-01-04,control
+2286634,Sylvia atricapilla,4,2,1,71.5,19.5,4,1,1990,10,11,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1990-01-04,control
+33854,Sylvia melanocephala,6,1,0,NA,NA,30,1,1988,9,10,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-01-30,control
+191314,Sylvia melanocephala,6,1,2,NA,NA,12,2,1988,18,19,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-02-12,control
+191364,Sylvia melanocephala,5,1,3,NA,NA,26,12,1988,12,13,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-12-26,control
+268004,Sylvia melanocephala,3,2,2,NA,NA,30,10,1988,11,12,Huerta La Libertad,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-10-30,control
+309100,Sylvia melanocephala,6,1,5,NA,NA,10,2,1990,18,19,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-02-10,control
+309317,Sylvia melanocephala,4,1,0,58,NA,29,7,1990,18,19,Cantera del Duende,El Rubio,Sevilla,Manuel Vazquez,,1990-07-29,control
+309317,Sylvia melanocephala,4,1,1,58,NA,9,9,1990,19,20,Cantera del Duende,El Rubio,Sevilla,Manuel Vazquez,,1990-09-09,control
+4003522,Pica pica,4,0,NA,NA,NA,17,11,1992,NA,NA,El Acebuche,Almonte,Huelva,Hector Garrido,,1992-11-17,control
+4003522,Pica pica,4,0,NA,NA,NA,19,10,1993,NA,NA,El Acebuche,Almonte,Huelva,Hector Garrido,,1993-10-19,control
+2223884,Lanius senator,2,0,NA,NA,NA,20,7,1989,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,Ahogado en alberca,1989-07-20,control
+191310,Phylloscopus collybita,4,0,1,56,NA,12,2,1988,18,19,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-02-12,control
+191317,Phylloscopus collybita,4,0,4,54,NA,12,2,1988,17,18,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-02-12,control
+191348,Phylloscopus collybita,4,0,3,NA,NA,19,1,1988,18,19,Vuelta Cojo,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-01-19,control
+191382,Phylloscopus collybita,4,0,2,51,NA,11,3,1988,16,17,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-11,control
+191395,Phylloscopus collybita,4,0,4,54,NA,11,3,1988,18,19,Cerrado Chico,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-03-11,control
+191410,Phylloscopus collybita,4,0,2,NA,NA,31,1,1988,17,18,Dehesa Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1988-01-31,control
+191428,Phylloscopus collybita,4,0,1,57,NA,13,2,1988,18,19,Caño Real,Palomares del Rio,Sevilla,Manuel Vazquez,,1988-02-13,control
+191430,Phylloscopus collybita,4,0,1,57,NA,13,2,1988,18,19,Caño Real,Palomares del Rio,Sevilla,Manuel Vazquez,,1988-02-13,control
+191617,Phylloscopus collybita,4,0,3,NA,NA,31,8,1988,17,18,Dehesa Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1988-08-31,control
+230369,Phylloscopus collybita,4,0,4,56,7,26,12,1988,18,19,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-12-26,control
+230369,Phylloscopus collybita,4,0,1,55,NA,4,2,1989,19,20,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1989-02-04,control
+230398,Phylloscopus collybita,3,0,2,55,6.5,26,12,1988,18,19,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-12-26,control
+231653,Phylloscopus collybita,4,0,3,55,NA,11,3,1988,16,17,Cerrado Chico,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-03-11,control
+231699,Phylloscopus collybita,2,0,2,59,6.5,26,12,1988,18,19,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-12-26,control
+268014,Phylloscopus collybita,2,0,5,NA,NA,30,10,1988,13,14,Huerta La Libertad,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-10-30,control
+268196,Phylloscopus collybita,2,0,1,NA,NA,3,2,1989,13,14,La Estrella,Palomares del Rio,Sevilla,Manuel Vazquez,,1989-02-03,control
+271043,Phylloscopus collybita,2,0,1,NA,NA,25,1,1989,19,20,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1989-01-25,control
+271093,Phylloscopus collybita,2,0,2,61,NA,29,12,1988,18,19,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-12-29,control
+272343,Phylloscopus collybita,4,0,3,54,NA,10,12,1989,19,20,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1989-12-10,control
+272369,Phylloscopus collybita,4,0,0,54.5,NA,2,1,1989,19,20,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1989-01-02,control
+272377,Phylloscopus collybita,4,0,3,53.5,NA,2,1,1989,19,20,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1989-01-02,control
+309633,Phylloscopus collybita,4,0,4,57,7.5,6,11,1990,17,18,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1990-11-06,control
+309704,Phylloscopus collybita,4,0,2,55,7,6,11,1990,17,18,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1990-11-06,control
+403294,Phylloscopus collybita,2,0,2,NA,NA,16,12,1990,19,20,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1990-12-16,control
+473006,Erithacus rubecula,5,0,NA,NA,NA,29,1,1992,NA,NA,La Algaida,Sanlucar de Barrameda,Cadiz,Particular,Cazada ,1992-01-29,muerto
+2195591,Erithacus rubecula,4,0,2,NA,NA,5,12,1987,8,9,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1987-12-05,control
+2195581,Erithacus rubecula,3,0,0,NA,NA,5,12,1987,9,10,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1987-12-05,control
+2255287,Erithacus rubecula,4,0,NA,NA,NA,15,1,1991,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,Cazada por gato,1991-01-15,control
+2550945,Luscinia megarhynchos,2,0,NA,NA,NA,1,9,1994,NA,NA,Manecorro,Almonte,Huelva,JL Arroyo,,1994-09-01,control
+2550947,Luscinia megarhynchos,2,0,NA,NA,NA,3,9,1994,NA,NA,Manecorro,Almonte,Huelva,JL Arroyo,,1994-09-03,control
+309228,Muscicapa striata,4,0,1,NA,NA,9,5,1990,13,14,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-05-09,control
+2168443,Phoenicurus ochruros,2,0,2,NA,NA,3,1,1988,17,18,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-01-03,control
+2168444,Phoenicurus ochruros,6,1,1,NA,NA,6,2,1988,17,18,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-02-06,control
+2168461,Phoenicurus ochruros,4,0,2,NA,NA,31,1,1988,18,19,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-01-31,control
+2168462,Phoenicurus ochruros,4,0,1,NA,NA,6,2,1988,17,18,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-02-06,control
+2220856,Phoenicurus ochruros,4,2,NA,NA,NA,26,12,1988,12,13,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-12-26,control
+231697,Luscinia svecica,6,1,2,71,NA,28,2,1990,19,20,Cerrado Chico,Puebla del Rio,Sevilla,Manuel Vazquez,,1990-02-28,control
+2219910,Luscinia svecica,4,2,3,72,16.5,14,12,1988,18,19,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-12-14,control
+271018,Erithacus rubecula,5,0,1,NA,NA,25,1,1989,19,20,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1989-01-25,control
+401183,Erithacus rubecula,5,0,0,NA,NA,16,11,1990,11,12,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1990-11-16,control
+403207,Erithacus rubecula,3,0,0,NA,NA,23,12,1990,13,14,Cantera del Duende,El Rubio,Sevilla,Manuel Vazquez,,1990-12-23,control
+403212,Erithacus rubecula,3,0,1,NA,NA,23,12,1990,12,13,Cantera del Duende,El Rubio,Sevilla,Manuel Vazquez,,1990-12-23,control
+403228,Erithacus rubecula,2,0,2,NA,NA,23,12,1990,18,19,Cantera del Duende,El Rubio,Sevilla,Manuel Vazquez,,1990-12-23,control
+403249,Erithacus rubecula,4,0,0,71,16.5,4,1,1991,9,10,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1991-01-04,control
+403707,Erithacus rubecula,4,0,1,NA,NA,26,1,1991,13,14,Cantera del Duende,El Rubio,Sevilla,Manuel Vazquez,,1991-01-26,control
+2035276,Erithacus rubecula,4,0,0,NA,NA,5,12,1987,8,9,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1987-12-05,control
+2168474,Erithacus rubecula,5,0,3,NA,NA,14,2,1988,17,18,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-02-14,control
+2168475,Erithacus rubecula,5,0,2,NA,NA,14,2,1988,15,16,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-02-14,control
+2169070,Erithacus rubecula,2,0,0,NA,NA,20,12,1987,12,13,Dehesa Carchena,Coria del Rio,Sevilla,Manuel Vazquez,,1987-12-20,control
+2169861,Erithacus rubecula,5,0,2,NA,NA,12,2,1987,17,18,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1987-02-12,control
+2219908,Erithacus rubecula,4,0,1,NA,NA,11,3,1988,16,17,Cerrado Chico,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-03-11,control
+2255832,Erithacus rubecula,6,0,2,NA,NA,27,12,1989,17,18,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1989-12-27,control
+2255833,Erithacus rubecula,4,0,0,NA,NA,14,12,1988,17,18,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1988-12-14,control
+2285910,Erithacus rubecula,2,0,1,NA,NA,23,12,1990,13,14,Cantera del Duende,El Rubio,Sevilla,Manuel Vazquez,,1990-12-23,control
+2168717,Luscinia megarhynchos,3,0,2,NA,NA,15,8,1988,8,9,Huerta Santa Eufemia,Coria del Rio,Sevilla,Manuel Vazquez,,1988-08-15,control
+3005570,Turdus merula,3,2,3,NA,NA,5,7,1987,7,8,Huerta Daniel,Puebla del Rio,Sevilla,Manuel Vazquez,,1987-07-05,control
+3005661,Turdus merula,5,2,0,120,NA,26,8,1990,8,9,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1990-08-26,control
+3005663,Turdus merula,5,1,2,120,NA,14,1,1990,19,20,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1990-01-14,control
+3005667,Turdus merula,6,2,1,NA,NA,30,3,1991,18,19,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1991-03-30,control
+3005682,Turdus merula,3,0,1,NA,NA,17,9,1990,13,14,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1990-09-17,control
+3005690,Turdus merula,3,1,1,NA,NA,4,10,1990,11,12,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1990-10-04,control
+3027711,Turdus merula,5,2,1,NA,NA,26,1,1991,18,19,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1991-01-26,control
+3027803,Turdus merula,5,2,2,NA,NA,7,2,1988,16,17,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-02-07,control
+3027803,Turdus merula,5,2,2,NA,NA,7,5,1988,17,18,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-05-07,control
+3027807,Turdus merula,4,1,2,NA,NA,13,2,1988,17,18,Caño Real,Palomares del Rio,Sevilla,Manuel Vazquez,,1988-02-13,control
+3027856,Turdus merula,3,0,1,NA,NA,9,4,1988,18,19,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-04-09,control
+3027868,Turdus merula,5,1,1,NA,NA,2,1,1989,19,20,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1989-01-02,control
+3027874,Turdus merula,4,1,1,NA,NA,2,1,1989,19,20,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1989-01-02,control
+3027874,Turdus merula,6,1,1,NA,NA,29,3,1991,18,19,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1991-03-29,control
+3027877,Turdus merula,6,2,3,NA,NA,28,1,1989,18,19,El Copero,Dos Hermanas ,Sevilla,Manuel Vazquez,,1989-01-28,control
+3027877,Turdus merula,6,2,1,NA,NA,25,2,1990,19,20,El Copero,Dos Hermanas ,Sevilla,Manuel Vazquez,,1990-02-25,control
+3090233,Turdus merula,2,0,NA,NA,NA,4,9,1994,NA,NA,Manecorro,Almonte,Huelva,JL Arroyo,,1994-09-04,control
+3090208,Turdus merula,4,2,NA,NA,NA,12,8,1995,NA,NA,El Rincon,Almonte,Huelva,JL Arroyo,,1995-08-12,control
+3005568,Turdus merula,3,1,NA,NA,NA,8,9,1987,NA,NA,Huerta Daniel,Puebla del Rio,Sevilla,Manuel Vazquez,Cazado,1987-09-08,muerto
+3090277,Turdus merula,4,0,NA,NA,NA,13,6,1997,NA,NA,La Escribana,Coria del Rio,Sevilla,Manuel Vazquez,Encontrado muerto,1997-06-13,muerto
+3027881,Turdus philomelos,4,0,1,113,NA,8,11,1989,17,18,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1989-11-08,control
+3027895,Turdus viscivorus,4,2,0,NA,NA,11,5,1989,11,12,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-05-11,control
+3064443,Turdus philomelos,2,0,NA,NA,NA,19,1,1994,NA,NA,Torrecuadros,Hinojos,Huelva,J Ayala,Cazado con escopeta,1994-01-19,muerto
+2372782,Parus major,4,2,NA,NA,NA,12,1,1992,NA,NA,Cantera del Duende,El Rubio,Sevilla,Manuel Vazquez,Muerto en red,1992-01-12,control
+2550948,Parus major,3,0,NA,NA,NA,7,9,1994,NA,NA,Manecorro,Almonte,Huelva,JL Arroyo,,1994-09-07,control
+230550,Parus cristatus,4,2,2,55,NA,17,5,1989,19,20,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-05-17,control
+309246,Parus cristatus,3,0,1,NA,NA,12,8,1989,9,10,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-08-12,control
+401026,Parus cristatus,4,0,1,NA,NA,27,7,1990,8,9,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-07-27,control
+230527,Parus caeruleus,4,2,0,59.5,NA,20,5,1989,18,19,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-05-20,control
+230535,Parus caeruleus,3,0,1,63,9.5,5,12,1988,10,11,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1988-12-05,control
+230544,Parus caeruleus,5,0,0,NA,NA,27,7,1989,7,8,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-07-27,control
+230554,Parus caeruleus,5,1,1,NA,NA,27,7,1989,9,10,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-07-27,control
+230557,Parus caeruleus,5,0,2,NA,NA,20,4,1989,10,11,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-04-20,control
+268305,Parus caeruleus,4,2,1,NA,NA,27,7,1989,11,12,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-07-27,control
+268331,Parus caeruleus,6,2,4,NA,NA,20,4,1990,18,19,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-04-20,control
+268340,Parus caeruleus,6,0,0,NA,NA,29,8,1990,8,9,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-08-29,control
+268342,Parus caeruleus,4,1,1,NA,NA,27,7,1989,9,10,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-07-27,control
+268351,Parus caeruleus,6,2,0,NA,NA,27,7,1990,10,11,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-07-27,control
+268366,Parus caeruleus,4,1,1,NA,NA,27,7,1989,9,10,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-07-27,control
+268380,Parus caeruleus,5,0,1,NA,NA,2,7,1990,13,14,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-07-02,control
+271380,Parus caeruleus,4,1,1,NA,NA,27,7,1989,10,11,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-07-27,control
+271384,Parus caeruleus,4,2,3,NA,NA,20,4,1989,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-04-20,control
+272335,Parus caeruleus,5,1,1,60,NA,22,8,1989,11,12,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-08-22,control
+309268,Parus caeruleus,5,0,0,NA,NA,29,8,1990,9,10,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-08-29,control
+309757,Parus caeruleus,4,0,0,NA,NA,29,8,1990,8,9,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-08-29,control
+309795,Parus caeruleus,3,0,0,NA,NA,29,8,1990,8,9,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-08-29,control
+401001,Parus caeruleus,3,0,1,59,9,24,7,1990,11,12,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-07-24,control
+401006,Parus caeruleus,3,0,2,61.5,9,27,7,1990,10,11,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-07-27,control
+401019,Parus caeruleus,4,0,1,NA,NA,27,7,1990,10,11,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-07-27,control
+401040,Parus caeruleus,3,0,1,NA,NA,27,7,1990,12,13,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-07-27,control
+3090212,Miliaria calandra,3,0,NA,NA,NA,25,8,1994,NA,NA,El Rincon,Almonte,Huelva,JL Arroyo,Atropellado,1994-08-25,muerto
+2035353,Parus major,3,0,2,NA,NA,24,10,1987,17,18,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1987-10-24,control
+2168088,Parus major,5,0,2,NA,NA,19,3,1988,17,18,Casa Neves,Aznalcazar,Sevilla,Manuel Vazquez,,1988-03-19,control
+2168828,Parus major,4,2,0,NA,NA,24,3,1989,17,18,La Estrella,Palomares del Rio,Sevilla,Manuel Vazquez,,1989-03-24,control
+2285903,Parus major,4,2,NA,NA,NA,31,3,1991,10,11,Cantera del Duende,El Rubio,Sevilla,Manuel Vazquez,,1991-03-31,control
+2286616,Parus major,2,2,3,NA,NA,23,12,1990,13,14,Cantera del Duende,El Rubio,Sevilla,Manuel Vazquez,,1990-12-23,control
+2286648,Parus major,4,1,1,NA,17,31,3,1991,11,12,Cantera del Duende,El Rubio,Sevilla,Manuel Vazquez,,1991-03-31,control
+309250,Aegithalos caudatus,3,0,1,NA,NA,29,8,1989,8,9,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-08-29,control
+309289,Aegithalos caudatus,3,0,0,NA,NA,29,8,1989,9,10,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-08-29,control
+271027,Remiz pendulinus,2,1,3,NA,NA,29,12,1988,18,19,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1988-12-29,control
+2223806,Sitta europaea,3,0,1,NA,NA,26,7,1989,13,14,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-07-26,control
+2223807,Sitta europaea,4,1,1,83.5,NA,27,8,1989,12,13,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-08-27,control
+2223810,Sitta europaea,4,0,0,NA,NA,26,7,1989,13,14,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-07-26,control
+2284504,Sitta europaea,3,0,0,88.5,NA,3,8,1989,12,13,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-08-03,control
+2284511,Sitta europaea,3,0,1,NA,NA,12,8,1989,13,14,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-08-12,control
+2284512,Sitta europaea,3,0,0,NA,NA,12,8,1989,12,13,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-08-12,control
+2284726,Sitta europaea,3,0,0,NA,NA,27,7,1990,10,11,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-07-27,control
+2284739,Sitta europaea,2,0,0,NA,NA,27,7,1990,11,12,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-07-27,control
+230525,Certhia brachydactyla,4,0,0,NA,NA,9,5,1989,9,10,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-05-09,control
+230541,Certhia brachydactyla,4,1,0,NA,NA,27,7,1989,9,10,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-07-27,control
+268336,Certhia brachydactyla,4,0,1,NA,NA,9,5,1990,11,12,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-05-09,control
+271386,Certhia brachydactyla,4,0,1,NA,NA,29,8,1989,10,11,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-08-29,control
+271390,Certhia brachydactyla,4,1,1,NA,NA,27,7,1990,11,12,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-07-27,control
+308919,Certhia brachydactyla,4,0,1,NA,NA,21,4,1990,15,16,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-04-21,control
+308924,Certhia brachydactyla,4,2,1,NA,NA,9,5,1990,11,12,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-05-09,control
+309291,Certhia brachydactyla,5,0,0,NA,NA,27,7,1990,10,11,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-07-27,control
+2219721,Passer domesticus,4,1,NA,NA,NA,2,4,1997,NA,NA,La Escribana,Coria del Rio,Sevilla,Manuel Vazquez,Encontrado muerto,1997-04-02,muerto
+2255837,Passer domesticus,4,1,2,NA,NA,24,3,1990,19,20,Huerta El Torno,Dos Hermanas ,Sevilla,Manuel Vazquez,,1990-03-24,control
+2169150,Passer montanus,4,0,2,NA,NA,13,2,1988,18,19,Caño Real,Palomares del Rio,Sevilla,Manuel Vazquez,,1988-02-13,control
+2169151,Passer montanus,4,0,2,NA,NA,13,2,1988,18,19,Caño Real,Palomares del Rio,Sevilla,Manuel Vazquez,,1988-02-13,control
+2223860,Petronia petronia,4,2,0,NA,NA,9,5,1990,11,12,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-05-09,control
+2284567,Petronia petronia,4,0,0,NA,NA,29,9,1990,8,9,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-09-29,control
+2223841,Fringilla coelebs,4,1,NA,NA,NA,3,7,1990,NA,NA,Valcaliente,Constantina,Sevilla,Manuel Vazquez,Encontrado muerto,1990-07-03,muerto
+2220943,Fringilla coelebs,4,1,0,NA,NA,27,8,1989,11,14,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-08-27,control
+2220943,Fringilla coelebs,4,1,1,86.5,NA,2,7,1990,11,12,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-07-02,control
+2220946,Fringilla coelebs,4,1,0,NA,NA,21,3,1989,10,11,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1989-03-21,control
+268289,Serinus serinus,5,1,1,NA,NA,9,5,1990,13,14,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-05-09,control
+309055,Serinus serinus,5,1,0,NA,NA,29,8,1990,8,9,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-08-29,control
+309060,Serinus serinus,6,1,1,NA,NA,8,5,1990,19,20,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-05-08,control
+309240,Serinus serinus,6,2,1,71,NA,4,7,1990,11,12,Valcaliente,Constantina,Sevilla,Manuel Vazquez,,1990-07-04,control
+403744,Serinus serinus,4,1,1,NA,NA,26,1,1991,14,15,Cantera del Duende,El Rubio,Sevilla,Manuel Vazquez,,1991-01-26,control
+2286084,Carduelis chloris,3,1,0,NA,NA,28,10,1990,12,13,Puñana,Almensilla,Sevilla,Manuel Vazquez,,1990-10-28,control
+2168952,Carduelis chloris,3,2,NA,NA,NA,27,11,1987,NA,NA,Rio Viejo,Coria del Rio,Sevilla,Particular,Cazado,1987-11-27,muerto
+2550956,Carduelis chloris,4,1,NA,NA,NA,22,9,1994,NA,NA,Manecorro,Almonte,Huelva,JL Arroyo,,1994-09-22,control
+L174290,Carduelis cannabina,1,0,NA,NA,NA,13,8,1998,NA,NA,El Alcornocal,Los Palacios,Sevilla,Manuel Vazquez,Encontrado solo anilla,1998-08-13,control
+403736,Carduelis carduelis,2,2,1,NA,NA,31,3,1991,10,11,Cantera del Duende,El Rubio,Sevilla,Manuel Vazquez,,1991-03-31,control
+403917,Carduelis carduelis,4,1,NA,NA,NA,29,7,1992,NA,NA,Valcaliente,Constantina,Sevilla,Sergio Gonzalez,Encontrado muerto,1992-07-29,muerto
+401170,Emberiza schoeniclus,4,0,NA,NA,NA,27,12,1991,NA,NA,Cerrado Chico,Puebla del Rio,Sevilla,Manuel Sosa,,1991-12-27,control
+271100,Emberiza schoeniclus,5,1,NA,NA,NA,25,1,1989,19,20,Lucio Poco Abrigo,Puebla del Rio,Sevilla,Manuel Vazquez,,1989-01-25,control
+2550942,Luscinia megarhynchos,4,0,NA,NA,NA,24,5,1996,NA,NA,Cañada de Los Pajaros,Puebla del Rio,Sevilla,Manuel Vazquez,,1996-05-24,control

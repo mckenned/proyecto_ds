@@ -1,378 +1,769 @@
-MODO,METAL,ESPECIE,DIA,MES,AÑO,LOCALIDAD,PAIS,EDAD,SEXO,ANILLADOR,Dias,Kms,Observaciones,FECHA CONTROL 1,FECHA CONTROL 2,LOCALIDAD CONTROL 2,PAIS CONTROL 2,EDAD CONTROL 2,SEXO CONTROL 2,ANILLADOR CONTROL 2,Dias anotados,Kms anotados,Observaciones control 2,Observaciones simple,Observaciones simple control 2
-A,254842,Anser anser,21,6,1978,"Bosau, Schleswig, Holstein",Alemania,7,0,Extranjero,7060,2281.980652746851,Anillamiento,1978-06-21,1997-10-19,"Palacio del Rey, Hinojos, Huelva",España,A,0,Particular,7060,2268,Encontrado muerto,anillamiento,muerto
-A,220615,Anser anser,12,6,1985,"Guelper, NE Postdam",Alemania,3,2,Extranjero,1982,2228.4628663718536,Anillamiento,1985-06-12,1990-11-15,"Isla Mayor, Sevilla",España,A,0,Particular,1982,2246,Cazado con escopeta,anillamiento,muerto
-A,9396,Anser anser,24,6,1988,"Utterslev Mose, Seeland, Mon Saltholm",Dinamarca,2,0,Extranjero,174,2461.8012669730697,Anillamiento,1988-06-24,1988-12-15,"Isla Mayor, Sevilla",España,2,0,M. Vazquez,161,2495,Cazado con escopeta,anillamiento,muerto
-A,9331,Anser anser,13,6,1989,"Utterslev Mose, Kobenhavn, Sjaelland",Dinamarca,1,1,Extranjero,520,2480.2845492244564,Anillamiento,1989-06-13,1990-11-15,"Cantaritas, Puebla del Rio, Sevilla",España,5,0,Particular,520,2481,Cazado con escopeta,anillamiento,muerto
-A,3900545,Anser anser,11,6,1993,"Utterslev Mose, Sjaelland",Dinamarca,1,1,Extranjero,3079,2461.8012669730697,Anillamiento,1993-06-11,2001-11-15,"Isla Mayor, Sevilla",España,A,0,EBD,3079,2496,Cazado con escopeta,anillamiento,muerto
-A,3900909,Anser anser,31,8,1991,"Riso, Roskilde, Sjaelland",Dinamarca,1,0,Extranjero,441,2461.120929525553,Anillamiento,1991-08-31,1992-11-14,"Puebla del Rio, Sevilla",España,5,0,Particular,441,2458,Cazado con escopeta,anillamiento,muerto
-A,3901325,Anser anser,5,5,1996,"Utterslev Mose, Sjaelland",Dinamarca,5,2,Extranjero,2020,2461.8012669730697,Anillamiento,1996-05-05,2001-11-15,"Isla Mayor, Sevilla",España,A,0,M. Vazquez,2020,2496,Cazado con escopeta,anillamiento,muerto
-A,9004767,Anser anser,22,9,1991,"Cañada de los Pajaros, Puebla del Rio, Sevilla",España,4,2,CDP,424,1945.7969546729712,Anillamiento,1991-09-22,1992-11-19,"Kampereiland, Kampem, Overijssel",Dinamarca,6,0,Extranjero,424,1941,Cazado con escopeta,anillamiento,muerto
-A,9025037,Anser anser,13,7,2003,"Cañada de los Pajaros, Puebla del Rio, Sevilla",España,4,2,CDP,386,1824.0598800811374,Anillamiento,2003-07-13,2004-08-02,"Hickling Broad, Norfolk",Gran Bretaña,6,2,BTO,562,1838,Anilla leida telescopio,anillamiento,muerto
-A,BA19341,Anser anser,3,7,1994,"Slibraken, Vega, Nordland",Noruega,4,2,Extranjero,4128,3368.34405437471,Anillamiento,1994-07-03,2005-10-21,"Cañada de los Pajaros, Puebla del Rio, Sevilla",España,A,2,M. Vazquez,4128,3375,Encontrado exhausta y liberado en buen estado,anillamiento,control
-A,241629,Anser anser,17,7,1997,"Vallsjoen, Vega, Nordland",Noruega,1,1,Extranjero,1244,3573.2123813718476,Anillamiento,1997-07-17,2000-12-12,"Sanlucar de Barrameda, Cadiz",España,9,0,M. Vazquez,1244,3423,Cazado con escopeta,anillamiento,muerto
-A,9226992,Anser anser,29,6,1986,"Sverigen, M Skame, Malmohus",Suecia,6,1,Extranjero,565,2491.5105938409815,Anillamiento,1986-06-29,1988-01-15,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,566,2498,Cazado con escopeta,anillamiento,muerto
-A,9233013,Anser anser,4,6,1989,"Borringesjon, Malmohus",Suecia,4,2,Extranjero,3896,2495.1003525944084,Anillamiento,1989-06-04,2000-02-03,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,3896,2494,Cazado con escopeta fecha carta,anillamiento,muerto
-A,WA06240,Anser anser,2,6,1994,"Rez ST Milickie, Kompl. Stawno., Wroclaw",Polonia,4,1,Extranjero,213,2385.261298558501,Anillamiento,1994-06-02,1995-01-01,"Puebla del Rio, Sevilla",España,6,0,M. Vazquez,213,2487,Cazado con escopeta,anillamiento,muerto
-A,208519,Anser anser,9,5,1974,"Guelper, See Neubranderburg",Alemania,2,0,Extranjero,4968,2231.638216283328,Anillamiento,1974-05-09,1987-12-15,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,2606,2231,Cazado con escopeta fecha carta,anillamiento,muerto
-A,208740,Anser anser,3,9,1975,"Trent, Rostock",Alemania,3,2,Extranjero,5217,2330.1635283264436,Anillamiento,1975-09-03,1989-12-15,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,5212,2439,Cazado con escopeta fecha carta,anillamiento,muerto
-A,212403,Anser anser,9,5,1977,"Guelper, SE Postdam",Alemania,1,0,Extranjero,4603,2246.8115675526183,Anillamiento,1977-05-09,1989-12-15,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,4596,2362,Cazado con escopeta fecha carta,anillamiento,muerto
-A,215737,Anser anser,27,6,1981,"Guelper, Rathenow Postdam",Alemania,3,2,Extranjero,2362,2227.528742433586,Anillamiento,1981-06-27,1987-12-15,"Cantaritas, Puebla del Rio, Sevilla",España,A,0,M. Vazquez,2358,2237,Cazado con escopeta,anillamiento,muerto
-A,220744,Anser anser,28,8,1985,"Guelper, Rathenow Postdam",Alemania,6,2,Extranjero,1175,2227.528742433586,Anillamiento,1985-08-28,1988-11-15,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,1176,2231,Cazado con escopeta,anillamiento,muerto
-A,254997,Anser anser,21,6,1978,"Bosau, Schleswig, Holstein",Alemania,1,0,Extranjero,3795,2257.7131617252,Anillamiento,1978-06-21,1988-11-10,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,3789,2259,Cazado con escopeta,anillamiento,muerto
-A,292494,Anser anser,11,6,1960,"Utterslev Mose, Cophenage Seeland, Mon Saltholm",Dinamarca,1,0,Extranjero,10779,2480.2845492244564,Anillamiento,1960-06-11,1989-12-15,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,10769,2510,Cazado con escopeta fecha carta,anillamiento,muerto
-A,1801,Anser anser,23,6,1964,"Utterslev Mose, Cophenage Seeland, Mon Saltholm",Dinamarca,1,2,Extranjero,9306,2480.2845492244564,Anillamiento,1964-06-23,1989-12-15,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,9297,2510,Cazado con escopeta fecha carta,anillamiento,muerto
-A,2412,Anser anser,18,6,1971,"Kags Mose, Cophenage Seeland, Mon Saltholm",Dinamarca,1,1,Extranjero,6755,2484.1255544539977,Anillamiento,1971-06-18,1989-12-15,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,6747,2508,Cazado con escopeta fecha carta,anillamiento,muerto
-A,2485,Anser anser,19,6,1972,"Utterslev Mose, Maribo, Falster Lolland",Dinamarca,2,2,Extranjero,6388,2359.7040407514364,Anillamiento,1972-06-19,1989-12-15,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,6381,2403,Cazado con escopeta fecha carta,anillamiento,muerto
-A,4392,Anser anser,14,6,1978,"Utterslev Mose, Maribo, Falster Lolland",Dinamarca,2,2,Extranjero,4202,2359.7040407514364,Anillamiento,1978-06-14,1989-12-15,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,4196,2389,Cazado con escopeta fecha carta,anillamiento,muerto
-A,4411,Anser anser,14,6,1978,"Utterslev Mose,  Seeland",Dinamarca,3,1,Extranjero,1280,2479.5914332743446,Anillamiento,1978-06-14,1981-12-15,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,NA,NA,Cazado con escopeta fecha carta,anillamiento,muerto
-A,7083,Anser anser,17,6,1981,"Utterslev Mose, Cophenage Seeland, Mon Saltholm",Dinamarca,1,1,Extranjero,3103,2480.2845492244564,Anillamiento,1981-06-17,1989-12-15,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,2510,3098,Cazado con escopeta fecha carta,anillamiento,muerto
-A,7360,Anser anser,22,6,1984,"Utterslev Mose,  Seeland, Mon Saltholm",Dinamarca,6,2,Extranjero,2004,2479.5914332743446,Anillamiento,1984-06-22,1989-12-17,"Cantaritas, Puebla del Rio, Sevilla",España,A,0,M. Vazquez,2000,2484,Cazado con escopeta,anillamiento,muerto
-A,7395,Anser anser,18,6,1985,"Utterslev Mose,  Seeland, Mon Saltholm",Dinamarca,1,1,Extranjero,941,2499.7776970325117,Anillamiento,1985-06-18,1988-01-15,"Almonte, Huelva",España,9,0,M. Vazquez,942,2499,Cazado con escopeta,anillamiento,muerto
-A,7409,Anser anser,18,6,1985,"Utterslev Mose,  Seeland, Mon Saltholm",Dinamarca,1,2,Extranjero,576,2514.3113710376138,Anillamiento,1985-06-18,1987-01-15,"Marisma de Hinojos, Hinojos, Huelva",España,7,0,M. Vazquez,577,2490,Cazado con escopeta,anillamiento,muerto
-A,7431,Anser anser,18,6,1985,"Utterslev Mose,  Seeland, Mon Saltholm",Dinamarca,6,1,Extranjero,941,2499.7776970325117,Anillamiento,1985-06-18,1988-01-15,"Almonte, Huelva",España,A,0,M. Vazquez,942,2499,Cazado con escopeta,anillamiento,muerto
-A,7490,Anser anser,19,6,1985,"Utterslev Mose,  Seeland, Mon Saltholm",Dinamarca,3,1,Extranjero,1607,2479.5914332743446,Anillamiento,1985-06-19,1989-11-12,"Cantaritas, Puebla del Rio, Sevilla",España,A,0,M. Vazquez,1603,2484,Cazado con escopeta,anillamiento,muerto
-A,7614,Anser anser,16,6,1983,"Utterslev Mose, Cophenage Seeland, Mon Saltholm",Dinamarca,1,1,Extranjero,2374,2480.2845492244564,Anillamiento,1983-06-16,1989-12-15,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,2369,2510,Cazado con escopeta fecha carta,anillamiento,muerto
-A,9396,Anser anser,24,6,1988,"Utterslev Mose,  Seeland, Mon Saltholm",Dinamarca,2,0,Extranjero,174,2461.8012669730697,Anillamiento,1988-06-24,1988-12-15,"Isla Mayor, Sevilla",España,2,0,M. Vazquez,161,2495,Cazado con escopeta,anillamiento,muerto
-A,9608,Anser anser,13,6,1989,"Utterslev Mose,  Seeland, Mon Saltholm",Dinamarca,1,1,Extranjero,185,2479.4622178793106,Anillamiento,1989-06-13,1989-12-15,"Los Morenos, Puebla del Rio, Sevilla",España,3,1,M. Vazquez,182,2479,Cazado con escopeta,anillamiento,muerto
-A,BA01439,Anser anser,14,6,1981,"Rez Slonsk , Gorzow Wielkopolski",Polonia,2,0,Extranjero,3099,2385.022327066676,Anillamiento,1981-06-14,1989-12-08,"Cantaritas, Puebla del Rio, Sevilla",España,A,0,M. Vazquez,3094,2352,Cazado con escopeta,anillamiento,muerto
-A,BA01699,Anser anser,20,6,1982,"Rez Slonsk , Gorzow Wielkopolski",Polonia,1,0,Extranjero,2735,2385.022327066676,Anillamiento,1982-06-20,1989-12-15,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,2730,2365,Cazado con escopeta fecha carta,anillamiento,muerto
-A,BA01014,Anser anser,15,6,1979,"Rez Slonsk , Gorzow Wielkopolski",Polonia,5,1,Extranjero,236,2391.9053995057443,Anillamiento,1979-06-15,1980-02-06,"Aznalcazar, Sevilla",España,7,0,M. Vazquez,NA,2365,Cazado con escopeta,anillamiento,muerto
-A,9226992,Anser anser,29,6,1986,"Sverigen, M Skame, Malmohus",Suecia,6,1,Extranjero,565,2491.5105938409815,Anillamiento,1986-06-29,1988-01-15,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,566,2498,Cazado con escopeta,anillamiento,muerto
-A,9232310,Anser anser,12,6,1988,"Borringesjon, Malmohus",Suecia,3,1,Extranjero,156,2495.1003525944084,Anillamiento,1988-06-12,1988-11-15,"Cantaritas, Puebla del Rio, Sevilla",España,3,0,M. Vazquez,153,2501,Cazado con escopeta,anillamiento,muerto
-A,9232322,Anser anser,12,6,1988,"Borringesjon, Malmohus",Suecia,3,2,Extranjero,156,2495.1003525944084,Anillamiento,1988-06-12,1988-11-15,"Cantaritas, Puebla del Rio, Sevilla",España,3,0,M. Vazquez,153,2501,Cazado con escopeta,anillamiento,muerto
-A,9233072,Anser anser,18,6,1989,"Sverigen, M Skame, Malmohus",Suecia,3,0,Extranjero,182,2552.2455690906095,Anillamiento,1989-06-18,1989-12-17,"Sanlucar de Barrameda, Cadiz",España,3,0,M. Vazquez,NA,NA,Cazado con escopeta,anillamiento,muerto
-A,9803229,Anser anser,19,6,1970,"Sverigen, Gotland Rone, Ytterholme",Suecia,3,0,Extranjero,3863,2860.848779038353,Anillamiento,1970-06-19,1981-01-15,"Aznalcazar, Sevilla",España,A,0,M. Vazquez,NA,NA,Cazado con escopeta,anillamiento,muerto
-A,9804702,Anser anser,17,7,1983,"Sverigen, D´Soder, Mohlland",Suecia,2,0,Extranjero,1278,3120.2582884330927,Anillamiento,1983-07-17,1987-01-15,"Marisma de Hinojos, Hinojos, Huelva",España,A,0,M. Vazquez,NA,NA,Cazado con escopeta,anillamiento,muerto
-A,XEA,Anser anser,4,6,1989,"Borringesjon, Malmohus",Suecia,1,0,Extranjero,194,2555.7914708025064,Anillamiento,1989-06-04,1989-12-15,"Sanlucar de Barrameda, Cadiz",España,3,0,M. Vazquez,NA,NA,Cazado con escopeta,anillamiento,muerto
-A,CA38659,Ardea cinerea,6,5,1978,"Lac de Grand Lieu, Loire Atlantique",España,3,0,MMP et L Marion,1002,1165.7672772534288,Anillamiento,1978-05-06,1981-02-01,"Lucio del cangrejo, Aznalcazar, Sevilla",Francia,A,0,M. Vazquez,NA,NA,Cazado con escopeta,anillamiento,muerto
-A,B26502,Ardea cinerea,14,5,1988,"Branna, Jjndrichov Hradec, Ceske Budejovice",Checoslovaquia,1,0,M. Vazquez,124,2358.8227941733667,Anillamiento,1988-05-14,1988-09-15,"Lebrija, Sevilla",España,3,0,Extranjero,121,2157,Colision con tendido electrico,anillamiento,muerto
-A,231722,Ardea cinerea,22,5,1988,"Koerkwitz, Ribnitz, Damgarten Rostock",Alemania,1,0,M. Vazquez,131,2361.26852027872,Anillamiento,1988-05-22,1988-09-30,"Caño del Cherri, Aznalcar, Sevilla",España,3,0,Extranjero,NA,NA,Anillamiento,anillamiento,anillamiento
-A,M10463,Bubulcus ibis,25,5,1993,"Castro Marin, Algarve",Portugal,1,0,Extranjero,97,123.4696742388806,Anillamiento,1993-05-25,1993-08-30,"Coria del Rio, Sevilla",España,3,0,M. Vazquez,95,122,Cazado con escopeta,anillamiento,muerto
-A,2220036,Charadrius hiaticula,26,9,1988,"Lucio Poco abrigo, Puebla del Rio, Sevilla",España,3,0,M. Vazquez,1765,1552.8865590376233,Anillamiento,1988-09-26,1993-07-27,"Hable D´ Ault, Somme",Francia,A,0,Extranjero,1765,1554,Encontrado muerto,anillamiento,muerto
-A,M5758,Ciconia ciconia,2,6,2004,"Muizen, Antwerpen, Amberes",Belgica,1,0,Extranjero,804,1836.34464707703,Anillamiento,2004-06-02,2006-08-15,"Puerto Real, cadiz",España,7,0,M. Vazquez,804,1820,Colision con tendido electrico,anillamiento,muerto
-A,9015741,Ciconia ciconia,20,9,1994,"Cañada de los Pajaros, Puebla del Rio, Sevilla",España,3,0,M. Vazquez,3530,1702.8390694092054,Anillamiento,1994-09-20,2004-05-20,"Wahlwies,Sudbaden, Friburgo",Alemania,A,0,Vogelwarte Radolfzell,3530,1714,Anilla leida telescopio,anillamiento,muerto
-A,P9486,Ciconia ciconia,8,6,2004,"La Gripperie-Saint-Symphorien, Charente Maritime",Francia,1,0,Extranjero,586,1129.1461425463376,Anillamiento,2004-06-08,2006-01-15,"Chiclana de la Frontera, Cadiz",España,7,0,M. Vazquez,586,1136,Colision con tendido electrico,anillamiento,muerto
-A,7300,Ciconia ciconia,16,6,2005,"Ommen, Varsen, Overijssel",Holanda,1,0,Extranjero,213,2041.748669135021,Anillamiento,2005-06-16,2006-01-15,"Chiclana de la Frontera, Cadiz",España,3,0,M. Vazquez,213,2047,Colision con tendido electrico,anillamiento,muerto
-A,B694,Ciconia nigra,16,6,1997,"Ettelbruck, Luxemburgo",Belgica,1,0,Extranjero,96,1668.7288541984626,Anillamiento,1997-06-16,1997-09-20,"Marchena, Sevilla",España,3,0,M. Vazquez,101,1666,Colision con tendido electrico,anillamiento,muerto
-A,4030553,Larus ridibundus,21,9,1990,"Puebla del Rio, Sevilla",España,4,0,M. Vazquez,1327,1260.3471377439187,Anillamiento,1990-09-21,1994-05-10,"Craintilleux, Sury le Comtal, Loire",Francia,6,0,Extranjero,1327,1252,Anilla leida telescopio,anillamiento,muerto
-A,A01280,Miniopterus schreibersii,5,12,1987,"Loule, Algarve",Portugal,2,1,Extranjero,2368,185.28237944898373,Anillamiento,1987-12-05,1994-05-30,"Brazo del Este, Los Palacios, Sevilla",España,2,0,M. Vazquez,2366,220,Anilla en egagropila,anillamiento,muerto
-A,WA02567,Phalacrocorax carbo,7,12,1989,"Rez Slonsk , Gorzow Wielkopolski",Polonia,2,0,Extranjero,1834,2385.022327066676,Anillamiento,1989-12-07,1994-12-15,"Puebla del Rio, Sevilla",España,2,0,M. Vazquez,1648,2365,Cazado con escopeta,anillamiento,muerto
-A,AZHP,Phoenicopterus ruber,9,8,1989,"Etang du Fangasier, Camargue",Francia,1,0,Extranjero,57,1134.943916627487,Anillamiento,1989-08-09,1989-10-05,"Lucio Poco abrigo, Puebla del Rio, Sevilla",España,3,0,M. Vazquez,NA,NA,Solo huesos y PVC,anillamiento,muerto
-A,AHT,Phoenicopterus ruber,20,7,1977,"Etang du Fangasier, Camargue",Francia,1,0,Tour de Valat,4531,1134.943916627487,Anillamiento,1977-07-20,1989-12-15,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,NA,NA,Cazado con escopeta fecha carta,anillamiento,muerto
-A,G20922,Platalea leucorodia,19,4,2000,"Bahia de Cadiz, Cadiz",España,1,0,EBD,269,2360.631720004267,Anillamiento,2000-04-19,2001-01-13,Kaedi,Mauritania,3,0,Particular,269,2366,Capturada en red de pesca y liberada,anillamiento,control
-A,8028567,Platalea leucorodia,24,5,1974,"Naar Dermeer, Noor Holland",Holanda,1,0,Extranjero,638,1885.3024282871447,Anillamiento,1974-05-24,1976-02-21,"Puebla del Rio, Sevilla",España,7,0,Particular,417,NA,Muerta por botulismo,anillamiento,muerto
-A,F11033,Sula basana,10,6,1989,"Les Etacs, Aderney, Islasa del canal",Gran Bretaña,1,0,Extranjero,77,1444.5389024292278,Anillamiento,1989-06-10,1989-08-26,"La Redondela, Lepe, Huelva",España,3,0,M. Vazquez,77,1439,Encontrado en la playa y liberado,anillamiento,control
-A,BJ80830,Anas platyrhynchos,25,7,1987,"Hollebley, Suffolr",Gran Bretaña,6,1,Extranjero,820,1744.1838053642616,Anillamiento,1987-07-25,1989-10-22,"Puebla del Rio, Sevilla",España,10,1,M. Vazquez,817,1786,Cazado con escopeta,anillamiento,muerto
-A,6004206,Anas strepera,14,7,1985,"Lucio Redondo PND, Aznalcazar, Sevilla",España,1,2,P. Rodriguez,460,1397.1339104026415,Anillamiento,1985-07-14,1986-10-17,"Baie Des Veys, Manche",Francia,5,0,Extranjero,458,1429,Cazado con escopeta,anillamiento,muerto
-A,E642,Anas strepera,24,6,1980,"Kolmenasva, Matsalu State Nature Reserva",Estonia,4,2,Extranjero,197,3268.5313998608576,Anillamiento,1980-06-24,1981-01-07,"Sanlucar de Barrameda, Cadiz",España,6,2,Particular,NA,NA,Encontrado muerto,anillamiento,muerto
-A,6022917,Anas strepera,21,2,1991,"Cañada de los Pajaros, Puebla del Rio, Sevilla",España,3,2,P. Rodriguez,7,1090.819809322479,Anillamiento,1991-02-21,1991-02-28,"Vic La Gardiole, Herault",Francia,3,2,Extranjero,7,1084,Cazado con escopeta,anillamiento,muerto
-A,FT82578,Anas crecca,17,10,1985,"Marquenterre, Somme",Francia,3,0,Extranjero,302,1569.3935595835371,Anillamiento,1985-10-17,1986-08-15,"Lucio del Cangrejo, Aznalcazar, Sevilla",España,5,0,P. Rodriguez,303,1581,Encontrado muerto,anillamiento,muerto
-A,7006944,Anas acuta,2,12,1987,"La Fao, Aznalczar, Sevilla",España,4,1,P. Rodriguez,1860,1484.7526897358066,Anillamiento,1987-12-02,1993-01-04,"Salenelles , Seine-Maritime",Francia,A,0,Extranjero,NA,NA,Cazado con escopeta,anillamiento,muerto
-A,7006946,Anas acuta,2,12,1987,"Aznalcazar, Sevilla",España,3,1,P. Rodriguez,413,1113.8633082879576,Anillamiento,1987-12-02,1989-01-18,"Etang de L´Or, Herault",Francia,7,0,Extranjero,416,1136,Cazado con escopeta,anillamiento,muerto
-A,5006669,Anas crecca,28,10,1986,"RB Doñana, Almonte, Huelva",España,3,1,P. Rodriguez,553,3487.0854527842034,Anillamiento,1986-10-28,1988-05-03,"BTW Ektrask and Stenbbchen, Vasterbotten",Suecia,7,0,Extranjero,NA,NA,Muerta por colision con vehiculo,anillamiento,muerto
-A,4048785,Anas clypeata,22,6,1970,"Groot Schermer, Noor-Holland",Holanda,1,0,Extranjero,11319,1879.04504802759,Anillamiento,1970-06-22,2001-06-18,"Antequera, Malaga",España,A,0,M. Vazquez,11319,1879,Cazado con escopeta fecha carta,anillamiento,muerto
-A,6015852,Anas clypeata,15,10,1986,"RB Doñana, Almonte, Huelva",España,3,1,LEO BIAGGI,370,3354.9955633536765,Anillamiento,1986-10-15,1987-10-20,"Bykhov, Mogilev",Rusia,5,0,Extranjero,370,3347,Cazado con escopeta,anillamiento,muerto
-A,6017905,Anas clypeata,7,10,1987,"Aznalcazar, Sevilla",España,3,2,LEO BIAGGI,728,1163.9317149526983,Anillamiento,1987-10-07,1989-10-04,"Donges, Loire Atlantique",Francia,7,0,Extranjero,727,1164,Cazado con escopeta,anillamiento,muerto
-A,5007759,Maramronetta angustirostris,2,10,1990,"Cañada de los Pajaros, Puebla del Rio, Sevilla",España,4,2,LEO BIAGGI,705,1351.4088153053199,Anillamiento,1990-10-02,1992-09-06,Chalamont Ain,Francia,8,0,Extranjero,705,1343,Cazado con escopeta,anillamiento,muerto
-A,7009002,Aythya ferina,11,7,1985,"Lucio del Buen Tiro PND, Aznalcazar, Sevilla",España,1,0,LEO BIAGGI,294,4114.192699393112,Anillamiento,1985-07-11,1986-05-01,"Vologda O Kubenskoye, Vologda",Rusia,5,0,Extranjero,295,3627,Muerto trampa para otros animales,anillamiento,muerto
-A,7009045,Aythya ferina,14,7,1985,"Lucio del Rinconcillo PND, Almonte, Huelva",España,1,0,LEO BIAGGI,439,2496.637486727553,Anillamiento,1985-07-14,1986-09-26,"Lonnerup, Fjord, Jylland",Dinamarca,5,0,Extranjero,437,2482,Muerto trampa para otros animales,anillamiento,muerto
-A,7009058,Aythya ferina,26,7,1985,"Las Nuevas PND, Aznalcazar, Sevilla",España,1,1,LEO BIAGGI,1527,1270.9599426464133,Anillamiento,1985-07-26,1989-09-30,"Arthun, Loire",Francia,A,0,Extranjero,1524,1271,Encontrado muerto,anillamiento,muerto
-A,7009062,Aythya ferina,26,7,1985,"PN Doñana, Almonte, Huelva",España,3,1,LEO BIAGGI,1171,560.3372930825036,Anillamiento,1985-07-26,1988-10-09,"El Kelaa, Dessaraghna",Marruecos,A,0,Extranjero,1168,535,Cazado con escopeta,anillamiento,muerto
-A,CA23796,Tadorna tadorna,2,7,1980,"Aigues Mortes, Gard",Francia,1,2,Extranjero,166,1162.9653531796937,Anillamiento,1980-07-02,1980-12-15,"Salinas de Bonanza,Sanlucar de Barrameda, Cadiz",España,3,0,Cazador,NA,NA,Cazado con escopeta,anillamiento,muerto
-A,CA24140,Tadorna tadorna,12,7,1980,"Salin de Giraud, Bouches du Rhone",Francia,1,0,Extranjero,232,1188.7422519563897,Anillamiento,1980-07-12,1981-03-01,"Salinas de Bonanza,Sanlucar de Barrameda, Cadiz",España,5,2,Cazador,NA,NA,Cazado con escopeta,anillamiento,muerto
-A,3141108,Accipiter nisus,9,10,1981,"Schiermonnikoog, Schiermonnikoog",Holanda,3,2,Extranjero,6946,2072.6693146193984,Anillamiento,1981-10-09,2000-10-15,"Marismas del Odiel, Huelva",España,A,0,Zamalla,6946,2067,Encontrada solo anilla,anillamiento,muerto
-A,EA022390,Milvus milvus,7,6,1990,"Aspaach, Gotha Erfurt",Alemania,1,0,Extranjero,582,1962.4040487473478,Anillamiento,1990-06-07,1992-01-10,"La lantejuela, Sevilla",España,7,0,Zamalla,583,1968,Encontrado muerto,anillamiento,muerto
-A,K38153,Milvus milvus,6,6,1998,"Thommen, Luik, Lieja",Belgica,1,0,Extranjero,619,1713.4752214003918,Anillamiento,1998-06-06,2000-02-15,"Mochales, Osuna, Sevilla",España,7,0,Zamalla,619,1695,Encontrado muerto,anillamiento,muerto
-A,EA077777,Circus aeroginosus,29,6,1997,"Cumlosen, Oberhavel, Brademburgo",Alemania,1,0,Extranjero,139,2130.3265412508404,Anillamiento,1997-06-29,1997-11-15,"Posadas, Cordoba",España,3,0,Zamalla,139,2127,Encontrado muerto,anillamiento,muerto
-A,DA124455,Circus aeroginosus,18,7,1999,"Lachaussee, Meuse",Francia,1,1,Extranjero,171,1659.6531819191941,Anillamiento,1999-07-18,2000-01-05,"El Cuervo, Lebrija, Sevilla",España,5,0,Zamalla,171,1651,Colision con tendido electrico,anillamiento,muerto
-A,8090079,Circus aeroginosus,28,6,1999,"Stjarnholm, Soderfjarden, Sodermanland",Suecia,1,2,Extranjero,203,2893.940226332135,Anillamiento,1999-06-28,2000-01-17,"La Coronela, Marchena, Sevilla",España,5,0,Zamalla,203,2920,Encontrado muerto,anillamiento,muerto
-A,5007103,Falco tinnunculus,5,11,1989,"La Tiesa, Villamanrique, Sevilla",España,4,2,M. Vazquez,669,1951.7486645993579,Anillamiento,1989-11-05,1991-09-05,"Heessen, Arnsberg",Alemania,8,2,Extranjero,670,1955,Ahogoda en deposito de agua,anillamiento,muerto
-A,5010413,Falco tinnunculus,27,5,1993,"Osuna, Sevilla",España,1,0,Zamalla,263,664.9792042338537,Anillamiento,1993-05-27,1994-02-14,C. A. Safi,Marruecos,5,0,Extranjero,263,669,Encontrado muerto,anillamiento,muerto
-A,3525390,Falco tinnunculus,29,5,1996,"Vierhuizen, Groningen",Holanda,1,0,Extranjero,641,1988.7686590007668,Anillamiento,1996-05-29,1998-03-01,"La lantejuela, Sevilla",España,7,0,Zamalla,641,1988,Encontrado muerto,anillamiento,muerto
-A,S147492,Falco tinnunculus,16,6,1994,"Lapua, Vaasa Vasa",Finlandia,1,0,Extranjero,213,3405.793130807833,Anillamiento,1994-06-16,1995-01-15,"Gerena, Sevilla",España,5,0,M. Vazquez,213,3441,Encontrado muerto,anillamiento,muerto
-A,S219957,Coturnix coturnix,10,7,1997,"Rio Marcellengo, Sommariva Bos, Cuneo",Italia,3,1,Extranjero,37,738.4006286181004,Anillamiento,1997-07-10,1997-08-16,"Ayerbe, Huesca",España,3,1,M. Vazquez,37,739,Cazado con escopeta,anillamiento,muerto
-A,S264664,Coturnix coturnix,23,8,1999,"Baroli, Baldissero D´Alba, Cuneo",Italia,3,1,Extranjero,470,1465.154355530629,Anillamiento,1999-08-23,2000-12-05,"Hinojos, Huelva",España,5,1,M. Vazquez,470,1462,Cazado con escopeta,anillamiento,muerto
-A,7006954,Fulica atra,9,8,1987,"Cañada de los Pajaros, Puebla del Rio, Sevilla",España,6,0,LEO BIAGGI,509,261.7390584627979,Anillamiento,1987-08-09,1988-12-30,"Moulay, Bouselham",Marruecos,2,0,Particular,506,254,Mantenida en cautividad,anillamiento,control
-A,7044444,Fulica atra,22,10,2004,"Cañada de los Pajaros, Puebla del Rio, Sevilla",España,4,0,M. Vazquez,443,1130.249875391279,Anillamiento,2004-10-22,2006-01-08,"Saintes Maries de la Mer, Bouches du Rhone",Francia,2,0,Particular,443,1139,Cazado con escopeta,anillamiento,muerto
-A,T0096060,Haemantopus ostralegus,25,8,1995,"Scanno di Gorino, Goro, Ferrara",Italia,6,0,Extranjero,1932,1860.9050444391175,Anillamiento,1995-08-25,2000-12-08,"Marismas del Odiel, Huelva",España,6,0,M. Vazquez,NA,NA,control ,anillamiento,control
-A,IS000038,Vanellus vanellus,25,5,1997,"E Taldom, Moskow",Rusia,2,1,Extranjero,573,3809.8796062243573,Anillamiento,1997-05-25,1998-12-19,"Alcolea del Rio, Sevilla",España,2,0,M. Vazquez,573,3821,Cazado con escopeta,anillamiento,muerto
-A,OA81352,Charadrius hiaticula,20,7,2000,"Langenwerder, Neubrandenburg",Alemania,2,0,Extranjero,275,2344.833596367625,Anillamiento,2000-07-20,2001-04-21,"Lucio Poco abrigo, Puebla del Rio, Sevilla",España,4,2,M. Vazquez,270,2296,control ,anillamiento,control
-A,T012081,Charadrius hiaticula,24,4,1998,"Lucio Poco abrigo, Puebla del Rio, Sevilla",España,4,1,M. Vazquez,752,1963.3351738018473,Anillamiento,1998-04-24,2000-05-15,"Seal Sands, Teesmoth, Cleveland",Gran Bretaña,4,0,Extranjero,752,1963,control ,anillamiento,control
-A,BV74861,Charadrius hiaticula,3,5,1993,"Battlehill, Annan Dumfries, Galloway Region",Gran Bretaña,4,1,Extranjero,1802,1981.2079797001957,Anillamiento,1993-05-03,1998-04-09,"Lucio Poco abrigo, Puebla del Rio, Sevilla",España,4,0,M. Vazquez,1802,1978,control ,anillamiento,control
-A,3355448,Charadrius hiaticula,17,8,1987,"Sverige, Holand",Suecia,4,0,Extranjero,406,3086.0489264171324,Anillamiento,1987-08-17,1988-09-26,"Lucio Poco abrigo, Puebla del Rio, Sevilla",España,6,0,M. Vazquez,NA,NA,control ,anillamiento,control
-A,RBJ,Charadrius alexandrinus,15,8,1994,"St Peter Ording, Northwest of Hamburg",Alemania,2,2,Extranjero,737,2208.0331463648417,Anillamiento,1994-08-15,1996-08-21,"Los Palacios, Sevilla",España,4,0,M. Vazquez,NA,NA,control ,anillamiento,control
-A,6329130,Pluvialis apricaria,7,8,1994,"Krummhorn, Weser Ems , Excep Islas",Alemania,4,0,Extranjero,1987,2014.377659689803,Anillamiento,1994-08-07,2000-01-15,"Alcolea del Rio, Sevilla",España,A,0,M. Vazquez,1987,2060,Cazado con escopeta,anillamiento,muerto
-A,1188551,Pluvialis apricaria,21,11,1981,"Sexbierun, Friesland, Holland",Holanda,3,0,Extranjero,407,1967.8128088520045,Anillamiento,1981-11-21,1983-01-02,"Isla Mayor, Sevilla",España,7,0,M. Vazquez,NA,2016,Cazado con escopeta,anillamiento,muerto
-A,M13577,Gallinago gallinago,6,10,1992,"Bazolles, Nievre",Francia,3,0,Extranjero,781,1336.7867923605693,Anillamiento,1992-10-06,1994-11-26,"Isla Mayor, Sevilla",España,7,0,M. Vazquez,781,1352,Cazado con escopeta,anillamiento,muerto
-A,E148856,Numenius phaeopus,24,4,1988,"Merksplas, Antwerpen, Amberes",Belgica,4,0,Extranjero,6220,1831.371034472454,Anillamiento,1988-04-24,2005-05-05,"Trebujena, Cadiz",España,A,0,M. Vazquez,6220,1833,Cazado con escopeta fecha carta,anillamiento,muerto
-A,3269650,Limosa limosa,11,6,1978,"Homnerts, Friesland",Holanda,1,0,Extranjero,1253,1973.1827979912525,Anillamiento,1978-06-11,1981-11-15,"Isla Mayor, Sevilla",España,9,0,LEO BIAGGI,1235,1999,Cazado con escopeta,anillamiento,muerto
-A,3340188,Limosa limosa,15,5,1982,"Langezwaag, Friesland",Holanda,1,0,Extranjero,2771,1964.033578294116,Anillamiento,1982-05-15,1989-12-15,"Isla Mayor, Sevilla",España,A,0,LEO BIAGGI,2765,2007,Cazado con escopeta fecha carta,anillamiento,muerto
-A,4075446,Limosa limosa,18,8,2001,"Salinas de Santa Teresa,Sanlucar de Barrameda, Cadiz",España,4,0,M. Vazquez,628,1961.0048640226505,Anillamiento,2001-08-18,2003-05-08,"Heiloo, Noord Holland",Holanda,4,2,Extranjero,628,1961,Capturada por un animal silvestre,anillamiento,muerto
-A,3X23809,Actitis hypoleucos,30,7,1986,"Fisriffoux, Namen",Belgica,2,0,Extranjero,13,1881.9401166360522,Anillamiento,1986-07-30,1986-08-12,Chechaouen,Marruecos,2,0,LEO BIAGGI,NA,NA,Cazado con escopeta,anillamiento,muerto
-A,4364796,Tringa ochropus,8,7,2006,"Vadboden,Hornborgasjön, Västra Götaland",Suecia,2,0,Extranjero,54,2700.612942211138,Anillamiento,2006-07-08,2006-08-31,"Laguna del Gobierno, Lantejuela,Sevilla",España,2,0,Zamalla,54,2691,control ,anillamiento,control
-A,1183521,Tringa totanus,1,6,1981,"Arkemeen, Gelderland",Holanda,1,0,Extranjero,3119,1890.2374011879722,Anillamiento,1981-06-01,1989-12-15,"Puebla del Rio, Sevilla",España,A,0,Zamalla,3114,1916,Cazado con escopeta fecha carta,anillamiento,muerto
-A,GE7646,Tringa totanus,17,4,1977,"Ile de Malprat, Biganos, Gironde",Francia,3,0,Extranjero,1414,985.0373522149108,Anillamiento,1977-04-17,1981-03-01,"Salinas de Santa Teresa,Sanlucar de Barrameda, Cadiz",España,A,0,LEO BIAGGI,NA,NA,Cazado con escopeta,anillamiento,muerto
-A,4048242,Tringa totanus,14,9,1995,"Marismas del Odiel, Huelva",España,4,1,M. Vazquez,1333,1972.7846755694154,Anillamiento,1995-09-14,1999-05-09,"Westerland, Nomerpolder, Noord Holland",Holanda,4,0,Extranjero,1333,2276,control ,anillamiento,control
-A,4068814,Tringa totanus,7,10,2002,"Salina del Pilar,Puerto Real, Cadiz",España,4,0,Zamalla,1351,2015.4897772333582,Anillamiento,2002-10-07,2006-06-19,"Den Helder, Noord Holland",Holanda,A,0,Extranjero,1351,2015,control ,anillamiento,control
-A,GA05607,Tringa totanus,22,8,1983,"Ujscie Redy, Gdansk",Polonia,3,0,Extranjero,5860,2741.62031980782,Anillamiento,1983-08-22,1999-09-07,"Salina del Pilar,Puerto Real, Cadiz",España,A,0,Zamalla,5860,2768,control ,anillamiento,control
-A,6283332,Tringa erhytropus,26,8,1972,"Rieselfelder, DFFM Munster",Alemania,3,0,Extranjero,3429,1961.0112371003277,Anillamiento,1972-08-26,1982-01-15,"Puebla del Rio, Sevilla",España,A,0,LEO BIAGGI,3429,1999,Cazado con escopeta,anillamiento,muerto
-A,4098815,Philomachus pugnax,3,8,2002,"Brazo del Este, Puebla del Rio, Sevilla",España,4,1,M. Vazquez,993,1974.2301750259946,Anillamiento,2002-08-03,2005-04-22,"Cornwerd, Friesland",Holanda,4,1,Extranjero,966,1988,control ,anillamiento,control
-A,GN04923,Calidris canutus,30,7,1992,"Rewa, Kosakowo, Gdansk",Polonia,4,2,Extranjero,2104,2733.9499801606644,Anillamiento,1992-07-30,1998-05-04,"Salinas de Bonanza,Sanlucar de Barrameda, Cadiz",España,4,0,Zamalla,2104,2740,control ,anillamiento,control
-A,KT13737,Calidris alpina,27,7,1988,"Sappi, Turku Pori, Abo Bjorneborg",Finlandia,6,1,Extranjero,116,3259.416133614654,Anillamiento,1988-07-27,1988-11-20,"Lucio del Italiano, Puebla del Rio, Sevilla",España,4,0,LEO BIAGGI,113,3295,Cazado con escopeta,anillamiento,muerto
-A,T007228,Calidris alpina,24,9,1995,"Marismas del Odiel, Huelva",España,3,0,M. Vazquez,338,2422.642360705797,Anillamiento,1995-09-24,1996-08-27,"Tipperme, Jylland",Dinamarca,5,0,Extranjero,338,2360,control ,anillamiento,control
-A,T013291,Calidris alpina,19,8,1998,"Salina del Pilar,Puerto Real, Cadiz",España,3,0,Zamalla,1809,1886.3460827752776,Anillamiento,1998-08-19,2003-08-02,"Admiral´S Farm, Norfolk",Gran Bretaña,A,0,Extranjero,1809,1877,control ,anillamiento,control
-A,T027624,Calidris alpina,15,9,2001,"Salinas de Santa Teresa,Sanlucar de Barrameda, Cadiz",España,4,0,Zamalla,563,1108.520050504673,Anillamiento,2001-09-15,2003-04-01,"Res Nat de Moeze, Charente Maritime",Francia,4,0,Extranjero,563,1110,control ,anillamiento,control
-A,NR44714,Calidris alpina,14,7,1993,"Seal Sands, Teesmoth, Cleveland",Gran Bretaña,4,0,Extranjero,2014,2045.873110467166,Anillamiento,1993-07-14,1999-01-18,"Salina del Pilar,Puerto Real, Cadiz",España,4,0,Zamalla,2014,2045,control ,anillamiento,control
-A,NR47760,Calidris alpina,13,5,1998,"Biggar Bank, Walney Islands, Cumbria",Gran Bretaña,6,0,Extranjero,366,1964.447028283448,Anillamiento,1998-05-13,1999-05-14,"Salina del Pilar,Puerto Real, Cadiz",España,4,0,Zamalla,366,1963,control ,anillamiento,control
-A,NR60648,Calidris alpina,10,5,1994,"North Gare Sands, Teesmooth, Cleveland",Gran Bretaña,6,0,Extranjero,1946,2105.084304766159,Anillamiento,1994-05-10,1999-09-07,"Salina del Pilar,Puerto Real, Cadiz",España,4,0,Zamalla,1946,2047,control ,anillamiento,control
-A,NR78854,Calidris alpina,24,8,1996,"Seal Sands, Teesmoth, Cleveland",Gran Bretaña,3,0,Extranjero,1114,2045.873110467166,Anillamiento,1996-08-24,1999-09-12,"Salina del Pilar,Puerto Real, Cadiz",España,9,0,Zamalla,1114,2045,control ,anillamiento,control
-A,NS54701,Calidris alpina,11,5,1996,"Waterfoot, Dumfries, Galloway Region",Gran Bretaña,6,2,Extranjero,713,1987.479442631701,Anillamiento,1996-05-11,1998-04-24,"Lucio Poco abrigo, Puebla del Rio, Sevilla",España,4,0,M. Vazquez,713,1978,control ,anillamiento,control
-A,C8628956,Calidris alpina,6,10,1997,"Jomfruland, Kragero, Telenark",Noruega,3,0,Extranjero,495,2732.317427767079,Anillamiento,1997-10-06,1999-02-13,"Salina del Pilar,Puerto Real, Cadiz",España,7,0,Zamalla,495,2734,control ,anillamiento,control
-A,JN56998,Calidris alpina,30,8,1993,"Ujscie Wisly K Swibna, Gdansk",Polonia,3,0,Extranjero,2047,2762.5077029454133,Anillamiento,1993-08-30,1999-04-08,"Salina del Pilar,Puerto Real, Cadiz",España,A,0,Zamalla,2047,2757,control ,anillamiento,control
-A,T007727,Calidris ferruginea,17,8,1996,"Marismas del Odiel, Huelva",España,4,0,M. Vazquez,1436,2743.4632078556224,Anillamiento,1996-08-17,2000-07-23,"Ottenby, Oland",Suecia,4,0,Extranjero,1436,2728,control ,anillamiento,control
-A,81482239,Calidris ferruginea,15,5,1993,"Central Sivash II, Crimea",Ucrania,6,0,Extranjero,2182,3513.156226659861,Anillamiento,1993-05-15,1999-05-06,"Salina del Pilar,Puerto Real, Cadiz",España,4,0,Zamalla,2182,3493,control ,anillamiento,control
-A,2286797,Calidris minuta,7,8,1991,"Veta la Palma, Puebla del Rio, Sevilla",España,4,1,M. Vazquez,721,3259.416133614654,Anillamiento,1991-08-07,1993-07-28,"Sappi Luvia, Turku Pori, Abo Bjorneborg",Finlandia,6,1,Extranjero,721,3309,control ,anillamiento,control
-A,E81599,Recurvirostra avosetta,11,6,1980,"Apetlon, Nez Neusiedl, Burgenland",Austria,1,0,Extranjero,3321,2199.618256143212,Anillamiento,1980-06-11,1989-07-15,"Lucio de las Gavetas, Puebla del Rio",España,A,0,LEO BIAGGI,NA,NA,Encontrado muerto,anillamiento,muerto
-A,3415965,Recurvirostra avosetta,22,7,1996,"Wormer-En Jisperveld, Noord Holland",Holanda,3,0,Extranjero,411,1903.2912507771791,Anillamiento,1996-07-22,1997-09-06,"Dehesa de Abajo, Puebla del Rio, Sevilla",España,5,0,M. Vazquez,411,1893,Encontrado muerto,anillamiento,muerto
-A,4071886,Himantopus himantopus,25,6,1998,"Los Palacios, Sevilla",España,1,0,M. Vazquez,2207,771.5011967905998,Anillamiento,1998-06-25,2004-07-10,"Ksar Chellala, Argelia otras Provincias",Argelia,A,0,Extranjero,2207,769,Encontrado muerto,anillamiento,muerto
-A,EC89687,Burhinus oedicnemus,3,8,1994,Norfolk,Gran Bretaña,1,0,Extranjero,165,1773.873591994127,Anillamiento,1994-08-03,1995-01-15,"La Roda, Sevilla",España,5,0,M. Vazquez,165,1744,Cazado con escopeta,anillamiento,muerto
-A,5202873,Larus fuscus,25,6,1987,"ECT Terrein, Maasulakte, Zuid Holland",Holanda,1,0,Extranjero,509,1813.8438946560739,Anillamiento,1987-06-25,1988-11-15,"Puebla del Rio, Sevilla",España,5,0,LEO BIAGGI,505,1815,Cazado con escopeta,anillamiento,muerto
-A,4076860,Larus fuscus,25,7,1989,"Mikladi, Jylland, Jutland",Dinamarca,1,0,Extranjero,143,2383.170354038364,Anillamiento,1989-07-25,1989-12-15,"Puebla del Rio, Sevilla",España,3,0,LEO BIAGGI,157,2818,Cazado con escopeta,anillamiento,muerto
-A,GG44185,Larus fuscus,8,7,1990,"Ordfordness, Suffolk",Gran Bretaña,1,0,Extranjero,428,1735.3347866618622,Anillamiento,1990-07-08,1991-09-09,"Isla Mayor, Sevilla",España,5,0,LEO BIAGGI,426,1770,Encontrado muerto,anillamiento,muerto
-A,4167111,Larus fuscus,18,6,1991,"Rauna, Farsund, Vest Agder",Noruega,1,0,Extranjero,1838,2523.445532934764,Anillamiento,1991-06-18,1996-06-29,"Marismas del Odiel, Huelva",España,A,0,M. Vazquez,1960,2523,control ,anillamiento,control
-A,4224148,Larus fuscus,12,7,2002,"Rauna, Farsund, Vest Agder",Noruega,1,0,Extranjero,436,2459.698396307347,Anillamiento,2002-07-12,2003-09-21,"Laguna del Gobierno, Lantejuela,Sevilla",España,5,0,M. Vazquez,436,2457,control ,anillamiento,control
-A,6017280,Larus fuscus,30,8,1990,"Cañada de los Pajaros, Puebla del Rio, Sevilla",España,4,0,LEO BIAGGI,729,2062.788838279222,Anillamiento,1990-08-30,1992-08-28,"Merrynton, Near Larkhall, Strathclyde Region",Gran Bretaña,8,0,Extranjero,729,2060,Colision con tendido electrico,anillamiento,muerto
-A,MA11008,Larus canus,5,7,1985,"Skurvene, Hisoy, Aust Agder",Noruega,1,0,Extranjero,579,2573.4481346316206,Anillamiento,1985-07-05,1987-02-04,"Corta de la Cartuja, Sevilla",España,7,0,LEO BIAGGI,NA,NA,Encontrado herida y no liberada,anillamiento,control
-A,4T65312,Larus ridibundus,10,6,1989,"Genk, Limburg",Belgica,1,0,Extranjero,453,1782.3125553933583,Anillamiento,1989-06-10,1990-09-06,"Cañada de los Pajaros, Puebla del Rio, Sevilla",España,5,0,LEO BIAGGI,451,1775,Encontrado muerto,anillamiento,muerto
-A,FS11577,Larus ridibundus,1,6,1988,"Clepe, Loire",Francia,1,0,Extranjero,830,1278.0779306652428,Anillamiento,1988-06-01,1990-09-09,"Cañada de los Pajaros, Puebla del Rio, Sevilla",España,7,0,LEO BIAGGI,828,1272,Encontrado muerto,anillamiento,muerto
-A,3438899,Larus ridibundus,8,6,1988,"Hellegatsplein, Noord Brabant",Holanda,1,0,Extranjero,1153,1816.835664982187,Anillamiento,1988-06-08,1991-08-05,"Aznalcazar, Sevilla",España,9,0,LEO BIAGGI,1152,1806,Encontrado muerto,anillamiento,muerto
-A,311365,Larus ridibundus,2,6,1988,"Gagzdai, Klaipeda",Lituania,1,0,Extranjero,458,2903.1693354952863,Anillamiento,1988-06-02,1989-09-03,"Puebla del Rio, Sevilla",España,5,0,LEO BIAGGI,456,2901,Encontrado muerto,anillamiento,muerto
-A,375328,Larus ridibundus,1,6,1991,"Zatysiai, Jonava",Lituania,1,0,Extranjero,192,3016.3930060002294,Anillamiento,1991-06-01,1991-12-10,"Puebla del Rio, Sevilla",España,3,0,LEO BIAGGI,189,3008,Encontrado muerto,anillamiento,muerto
-A,4003721,Larus ridibundus,7,9,1989,"Cañada de los Pajaros, Puebla del Rio, Sevilla",España,4,0,LEO BIAGGI,1662,1845.4386891785036,Anillamiento,1989-09-07,1994-03-27,"Koln Longerich, Koln",Alemania,A,0,Extranjero,1662,1837,Encontrado muerto,anillamiento,muerto
-A,4030527,Larus ridibundus,3,9,1990,"Cañada de los Pajaros, Puebla del Rio, Sevilla",España,3,0,LEO BIAGGI,615,1741.4101207792346,Anillamiento,1990-09-03,1992-05-10,"Moerbeke Waas, Flandes Oriental",Belgica,7,0,Extranjero,NA,NA,Encontrado muerto,anillamiento,muerto
-A,ST52707,Larus ridibundus,30,6,1988,"Lieksa, Phojois Karjalan, Mikkili San Miguel",Finlandia,4,0,Extranjero,200,3723.7386381105666,Anillamiento,1988-06-30,1989-01-16,"El Rubio, Sevilla",España,4,0,LEO BIAGGI,200,3707,Cazado con escopeta,anillamiento,muerto
-A,1373245,Sterna sandvicensis,29,5,1998,"Griend, Griend",Holanda,1,0,Extranjero,1204,2042.281481828851,Anillamiento,1998-05-29,2001-09-14,"Salinas de Santa Teresa,Sanlucar de Barrameda, Cadiz",España,4,0,M. Vazquez,1204,2040,control ,anillamiento,control
-A,5063406,Streptopelia decaocto,4,10,2003,"Cañada de los Pajaros, Puebla del Rio, Sevilla",España,3,0,M. Vazquez,355,161.89147981212574,Anillamiento,2003-10-04,2004-09-23,"Ria de Alvor, Faro, Algarve",Portugal,5,0,Extranjero,355,216,control ,anillamiento,control
-A,H78185,Tyto alba,23,6,1996,"Biwer, Luxemburgo",Luxemburgo,1,0,Extranjero,161,1796.725797334947,Anillamiento,1996-06-23,1996-12-01,"Vejer de la Frontera, Cadiz",España,3,0,M. Vazquez,161,1797,Atropellado,anillamiento,muerto
-A,SA34145,Apus apus,22,6,1973,"Knresborogh, North Yorkshire",Gran Bretaña,4,0,Extranjero,4133,1816.5684128809955,Anillamiento,1973-06-22,1984-10-15,"Cazalla de la Sierra, Sevilla",España,A,0,LEO BIAGGI,3414,1819,Cazado con escopeta,anillamiento,muerto
-A,3194350,Upupa epops,24,3,2005,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,0,Zamalla,762,798.5261791686318,Anillamiento,2005-03-24,2007-04-25,"Monsegur, Landes",Francia,4,0,Extranjero,762,799,Atropellado,anillamiento,muerto
-A,220413,Anser anser,11,8,1983,Gulper See,Alemania,3,1,Extranjero,7981,2269.790047460233,Anillamiento,1983-08-11,2005-06-17,"Moguer, Huelva",España,A,0,M. Vazquez,7981,2273,Encontrada solo anilla,anillamiento,muerto
-A,9030456,Ciconia ciconia,17,6,2004,"Dehesa de Abajo, Puebla del Rio, Sevilla",España,1,0,M. Vazquez,2209,2301.673501193361,Anillamiento,2004-06-17,2010-07-05,Ayoun El Atrouss,Mauritania,A,0,CRBPO,2209,2297,Encontrado muerto,anillamiento,muerto
-A,A5114,Ciconia ciconia,13,6,2006,"Manhein, Nordbaden, Karlsruhe",Alemania,1,0,M. Vazquez,68,1863.422670096952,Anillamiento,2006-06-13,2006-08-20,"Puerto Real, Cadiz",España,3,0,Extranjero,68,1860,Colision con tendido electrico,anillamiento,muerto
-A,DD62652,Sterna sandvicensis,1,7,2006,"Ogilby Island, Down",Gran Bretaña,1,0,M. Vazquez,255,2022.6845182106447,Anillamiento,2006-07-01,2007-03-13,"Veta la Palma, Puebla del Rio, Sevilla",España,4,0,Extranjero,255,1938,Encontrado muerto,anillamiento,muerto
-A,2E1108,Phalacrocorax carbo,14,6,1999,"Yderste Holm, Stavns Fjord, Samso",Dinamarca,1,0,Extranjero,885,2506.2008573700714,Anillamiento,1999-06-14,2001-11-15,"San Fernando,Cadiz",España,5,0,M. Vazquez,885,2499,Cazado con escopeta,anillamiento,muerto
-A,GG25935,Larus fuscus,21,5,1989,"Swomer Island, Dyfed, Wales",Gran Bretaña,1,0,Extranjero,101,1661.1055453108968,Anillamiento,1989-05-21,1989-08-30,"Veta la Palma, Puebla del Rio, Sevilla",España,3,0,LEO BIAGGI,NA,NA,Encontrado enfermo y  liberado,anillamiento,control
-A,FS16993,Larus ridibundus,2,6,1990,"Craintilleux, Loire",Francia,1,0,Extranjero,105,1260.3471377439187,Anillamiento,1990-06-02,1990-09-15,"Puebla del Rio, Sevilla",España,3,0,LEO BIAGGI,103,1258,Encontrado enfermo y  liberado,anillamiento,control
-A,379265,Sterna caspia,17,6,1986,Tombamaa,Estonia,1,0,Extranjero,1893,3110.650703426993,Anillamiento,1986-06-17,1991-08-23,"Isla Mayor, Sevilla",España,6,0,LEO BIAGGI,1891,3144,Encontrado enfermo y  liberado,anillamiento,control
-A,SA867098,Alauda arvensis,18,10,1994,"Tremblay sur Mauldre, Yvelines, Paris",Francia,4,2,Extranjero,131,1413.2538346648062,Anillamiento,1994-10-18,1995-02-26,"Isla Mayor, Sevilla",España,2,0,LEO BIAGGI,131,1448,Cazado con escopeta,anillamiento,muerto
-A,232903,Riparia riparia,15,5,1988,"La Isleta, Puebla del Rio, Sevilla",España,4,0,M. Vazquez,1041,2552.555722283279,Anillamiento,1988-05-15,1991-03-22,"PN Djoudj, Fleuve",Senegal,4,0,Extranjero,1042,2528,control ,anillamiento,control
-A,832254,Riparia riparia,14,8,1997,"El Pantano, Los Palacios, Sevilla",España,2,0,M. Vazquez,279,289.07509374220047,Anillamiento,1997-08-14,1998-05-20,"Marateca, Setubal, Estremadura",Portugal,4,0,Extranjero,279,298,control ,anillamiento,control
-A,AF1338,Riparia riparia,4,9,1999,"Laguna Cerro de las Cigüeñas, Los Palacios, Sevilla",España,3,0,M. Vazquez,289,2255.2033845808905,Anillamiento,1999-09-04,2000-06-19,"Mid Lairgs, Daviot, Highland Region",Gran Bretaña,4,2,Extranjero,289,2252,control ,anillamiento,control
-A,A161871,Riparia riparia,25,6,1998,"Paul da Madriz, Coimbra, Beira Litoral",Portugal,3,0,Extranjero,423,402.4273704826957,Anillamiento,1998-06-25,1999-08-22,"Laguna Cerro de las Cigüeñas, Los Palacios, Sevilla",España,4,0,M. Vazquez,423,402,control ,anillamiento,control
-A,A166280,Riparia riparia,5,7,1999,"Paul da Madriz, Coimbra, Beira Litoral",Portugal,3,0,Extranjero,48,402.4273704826957,Anillamiento,1999-07-05,1999-08-22,"Laguna Cerro de las Cigüeñas, Los Palacios, Sevilla",España,3,0,M. Vazquez,48,404,Muerto en red japonesa ahogado,anillamiento,muerto
-A,229553,Hirundo rustica,19,4,1988,"Puebla del Rio, Sevilla",España,1,0,LEO BIAGGI,1114,504.9641483498507,Anillamiento,1988-04-19,1991-05-08,Missour,Marruecos,2,0,Extranjero,1114,504,Encontrado muerto,anillamiento,muerto
-A,309387,Hirundo rustica,4,5,1991,"Cortijo Saballo, Marinaleda, Sevilla",España,1,0,M. Vazquez,325,572.764147085891,Anillamiento,1991-05-04,1992-03-24,Beni Mellal,Marruecos,5,0,Particular,325,575,control ,anillamiento,control
-A,AC5521,Hirundo rustica,21,8,1999,"Laguna Cerro de las Cigüeñas, Los Palacios, Sevilla",España,3,0,M. Vazquez,156,3737.595281280175,Anillamiento,1999-08-21,2000-01-24,"Ebbajen, Boje",Nigeria,5,0,Particular,156,3747,control ,anillamiento,control
-A,AF1523,Hirundo rustica,4,9,1999,"Laguna Cerro de las Cigüeñas, Los Palacios, Sevilla",España,3,0,M. Vazquez,228,791.4311178580842,Anillamiento,1999-09-04,2000-04-19,PN de Souss Massa,Marruecos,2,0,CRBPO,228,869,Colision con un avion,anillamiento,muerto
-A,N207694,Hirundo rustica,6,10,2005,"Caño Navarro, Coria del Rio, Sevilla",España,3,0,M. Vazquez,219,1854.7174698909582,Anillamiento,2005-10-06,2006-05-13,"Norton, South Yorks",Gran Bretaña,5,0,BTO,219,1855,control ,anillamiento,control
-A,1184479,Anthus pratensis,1,10,1982,"Overijse, Brabant",Belgica,4,0,Extranjero,1891,1717.84431612974,Anillamiento,1982-10-01,1987-12-05,"Coria del Rio, Sevilla",España,4,0,M. Vazquez,1889,1706,Cazada,anillamiento,muerto
-A,1235157,Anthus pratensis,9,10,1980,"Lokeren, Cost VL",Belgica,2,0,Extranjero,24,1728.7016345446407,Anillamiento,1980-10-09,1980-11-02,"Coria del Rio, Sevilla",España,2,0,M. Vazquez,NA,NA,Cazada red de suelo,anillamiento,muerto
-A,2265107,Anthus pratensis,23,9,1986,"Awirs, Luik, Lieja",Belgica,3,0,Extranjero,280,1739.5472723947626,Anillamiento,1986-09-23,1987-06-30,"Puebla del Rio, Sevilla",España,2,0,M. Vazquez,260,1758,Solo anilla,anillamiento,muerto
-A,2279724,Anthus pratensis,13,10,1986,"Bellers, Henegouwen",Belgica,4,0,Extranjero,769,1679.0549406741084,Anillamiento,1986-10-13,1988-11-20,"Puebla del Rio, Sevilla",España,2,0,M. Vazquez,767,1668,Cazada,anillamiento,muerto
-A,2083874,Anthus pratensis,2,10,1988,"Neerpelt, Limburg",Belgica,4,0,Extranjero,41,1760.0606606938543,Anillamiento,1988-10-02,1988-11-12,"Carmona, Sevilla",España,2,0,M. Vazquez,40,1760,Cazada con percha,anillamiento,muerto
-A,2722123,Anthus pratensis,11,10,1987,"Merksplas, Antwerpen, Amberes",Belgica,4,0,Extranjero,398,1750.2986745911246,Anillamiento,1987-10-11,1988-11-12,"Carmona, Sevilla",España,2,0,M. Vazquez,396,1753,Cazada con percha,anillamiento,muerto
-A,3482480,Anthus pratensis,30,9,1989,"Sourbrodt, Luik, Lieja",Belgica,3,0,Extranjero,1858,1756.7149274149556,Anillamiento,1989-09-30,1994-11-01,"Coria del Rio, Sevilla",España,2,0,M. Vazquez,1858,1756,Cazada,anillamiento,muerto
-A,8305694,Anthus pratensis,27,9,2002,"Hamme St Anna, Oost Vlaanderen, Flandes",Belgica,3,0,Extranjero,780,1777.6070445222908,Anillamiento,2002-09-27,2004-11-15,"Trebujena, Cadiz",España,2,0,M. Vazquez,780,1780,Cazada,anillamiento,muerto
-A,XC743076,Anthus pratensis,29,7,1988,"Kandalakshskiy Zap-K, Bolshoy, Murmansk",Rusia,3,0,Extranjero,128,4252.505871234241,Anillamiento,1988-07-29,1988-12-04,"Los Palacios, Sevilla",España,2,0,M. Vazquez,128,4255,Cazada,anillamiento,muerto
-A,XD973232,Anthus pratensis,4,7,1991,"Kandalakshskiy, Barentsevo, Mor Murmansk",Rusia,1,0,Extranjero,530,4239.269780195123,Anillamiento,1991-07-04,1992-12-15,"Dos Hermanas, Sevilla",España,5,0,M. Vazquez,530,4244,Cazada,anillamiento,muerto
-A,XD973239,Anthus pratensis,6,7,1991,"Kandalakshskiy, Barentsevo, Mor Murmansk",Rusia,1,0,Extranjero,528,4239.269780195123,Anillamiento,1991-07-06,1992-12-15,"Dos Hermanas, Sevilla",España,5,0,M. Vazquez,528,4246,Cazada,anillamiento,muerto
-A,E225608,Anthus pratensis,15,9,1987,"Sporn Point, Humberside",Gran Bretaña,3,0,Extranjero,406,2020.526665296509,Anillamiento,1987-09-15,1988-10-25,"Coria del Rio, Sevilla",España,2,0,M. Vazquez,405,1872,Cazada,anillamiento,muerto
-A,H559564,Anthus pratensis,13,9,1992,"Spurn Head, Humberside",Gran Bretaña,3,0,Extranjero,65,1857.585755022576,Anillamiento,1992-09-13,1992-11-17,"Colegio El Rocio, Torreblanca, Sevilla",España,2,0,M. Vazquez,65,1856,Encontrado muerto,anillamiento,muerto
-A,E117353,Anthus pratensis,5,9,1989,"Finset, Hemsedal, Buskerund",Noruega,4,0,Extranjero,785,2813.919764854854,Anillamiento,1989-09-05,1991-10-30,"Huevar, Sevilla",España,2,0,M. Vazquez,815,2815,Cazada,anillamiento,muerto
-A,E193569,Anthus pratensis,14,8,1989,"Fraena, More Og Romsdal",Noruega,3,0,Extranjero,1905,2992.5894031116704,Anillamiento,1989-08-14,1994-11-01,"Coria del Rio, Sevilla",España,2,0,M. Vazquez,1905,2988,Cazada,anillamiento,muerto
-A,A997542,Anthus pratensis,22,9,1988,"Kennmerduinen, Harlen, Noord Holland",Holanda,4,0,Extranjero,44,1841.1295179049887,Anillamiento,1988-09-22,1988-11-05,"Carmona, Sevilla",España,2,0,M. Vazquez,43,1842,Cazada con percha,anillamiento,muerto
-A,3924820,Motacilla flava,10,3,1993,"PN Djoudj, Fleuve",Senegal,4,2,Extranjero,962,2553.062079392403,Anillamiento,1993-03-10,1995-10-28,"Puebla del Rio, Sevilla",España,2,0,M. Vazquez,962,2525,Encontrado muerto,anillamiento,muerto
-A,9004398,Ciconia ciconia,29,5,1992,"Cañada de los Pajaros, Puebla del Rio, Sevilla",España,1,0,M. Vazquez,2471,2289.23450027858,Anillamiento,1992-05-29,1999-03-05,Tombouctou,Mali,A,0,Extranjero,NA,NA,Encontrado muerto,anillamiento,muerto
-A,23V12140,Motacilla alba,7,4,1983,"St Amande, Antwerpen",Belgica,4,1,Extranjero,1306,1755.0861149948616,Anillamiento,1983-04-07,1986-11-03,"Coria del Rio, Sevilla",España,2,0,M. Vazquez,NA,NA,Cazada,anillamiento,muerto
-A,33V12675,Motacilla alba,18,9,1990,"Zele Heikant, Flandes Occidental",Belgica,3,0,Extranjero,463,1694.0106145787263,Anillamiento,1990-09-18,1991-12-25,"Puñana, Almensilla, Sevilla",España,5,0,M. Vazquez,464,1650,Cazada,anillamiento,muerto
-A,4262822,Motacilla alba,30,9,1992,"Boortmeerbeek, Brabant",Belgica,3,0,Extranjero,76,1733.2264202613137,Anillamiento,1992-09-30,1992-12-15,"Dos Hermanas, Sevilla",España,3,0,M. Vazquez,76,1734,Atropellado,anillamiento,muerto
-A,80710173,Motacilla alba,13,6,1987,"Plau Appelburg, Schwerin",Alemania,1,0,Extranjero,185,2259.4360613762324,Anillamiento,1987-06-13,1987-12-15,"Coria del Rio, Sevilla",España,3,0,M. Vazquez,182,2286,Cazada,anillamiento,muerto
-A,3196662,Sturnus vulgaris,24,11,2001,"La Fao, Aznalcazar, Sevilla",España,3,2,M. Vazquez,330,1160.2483822886256,Anillamiento,2001-11-24,2002-10-20,"Mas Thibert, Bouches du Rhone",Francia,2,0,Extranjero,330,1203,Cazado con escopeta,anillamiento,muerto
-A,1E87964,Prunella modularis,15,9,2001,"Jabekk, Mandal, Vest Agder",Noruega,3,0,M. Vazquez,57,2494.9274678250267,Anillamiento,2001-09-15,2001-11-11,"El Alamillo, Sevilla",España,3,0,Extranjero,57,2495,control ,anillamiento,control
-A,N216363,Acrocephalus schoenobaenus,9,4,2006,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,0,M. Vega,14,1674.5327563930573,Anillamiento,2006-04-09,2006-04-23,"Sewage Treatment Works, Bedfordshire",Gran Bretaña,4,0,BTO,14,1662,control ,anillamiento,control
-C,N216363,Acrocephalus schoenobaenus,23,4,2006,"Sewage Treatment Works, Bedfordshire",Gran Bretaña,4,0,BTO,406,0,control ,2006-04-23,2007-06-03,"Sewage Treatment Works, Bedfordshire",Gran Bretaña,4,0,BTO,420,1662,control ,control,control
-A,4513029,Acrocephalus schoenobaenus,8,5,2002,"Vred, Nord",Francia,4,1,Extranjero,679,1635.7007740189952,Anillamiento,2002-05-08,2004-03-17,"Veta la Palma, Puebla del Rio, Sevilla",España,4,0,M. Vazquez,679,1653,control ,anillamiento,control
-A,AC0331,Acrocephalus schoenobaenus,29,5,2005,"Jersey Bird Observatory, ST Ouen, Jersey Islas del Canal",Gran Bretaña,4,0,Extranjero,446,1363.0046774605821,Anillamiento,2005-05-29,2006-08-18,"Caño Navarro, Coria del Rio, Sevilla",España,4,0,M. Vazquez,446,1367,control ,anillamiento,control
-A,A175939,Acrocephalus schoenobaenus,10,9,2004,"Barrinha de Mira, Coimbra",Portugal,3,0,Extranjero,247,464.17885359417215,Anillamiento,2004-09-10,2005-05-15,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,0,M. Vega,247,461,control ,anillamiento,control
-A,VD76554,Acrocephalus palustris,21,7,2004,"Roblingen, Mansfelder, Halle",Alemania,3,0,Extranjero,36,2120.892810696706,Anillamiento,2004-07-21,2004-08-26,"Caño Navarro, Coria del Rio, Sevilla",España,3,0,M. Vazquez,36,2100,control ,anillamiento,control
-A,ZB55555,Acrocephalus scirpaceus,25,5,2002,"Bohmke U Werder Wolgast, Rostock",Alemania,4,0,Extranjero,1086,2283.7233990795467,Anillamiento,2002-05-25,2005-05-15,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,0,M. Vega,1086,2359,control ,anillamiento,control
-A,3229814,Acrocephalus scirpaceus,27,5,1990,"Wetteren, Oost Vlaanderen, Flandes Or",Belgica,4,0,Extranjero,862,1778.2611673909107,Anillamiento,1990-05-27,1992-10-05,"Sanlucar de Barrameda, Cadiz",España,4,0,M. Vazquez,862,1777,Cazada,anillamiento,muerto
-A,4115167,Acrocephalus scirpaceus,1,9,1991,"Genk, Limburg",Belgica,3,0,Extranjero,1342,1774.3127076591659,Anillamiento,1991-09-01,1995-05-05,"La Escribana, Coria del Rio, Sevilla",España,4,0,M. Vazquez,1342,1769,control ,anillamiento,control
-A,4449241,Acrocephalus scirpaceus,18,8,1992,"Nismes, Namen, Namur",Belgica,3,0,Extranjero,749,1617.356632857516,Anillamiento,1992-08-18,1994-09-06,"Villaverde del Rio, Sevilla",España,4,0,M. Vazquez,749,1617,Encontrado muerto,anillamiento,muerto
-A,9441291,Acrocephalus scirpaceus,11,8,2005,"Wetteren, Oost Vlaanderen, Flandes Or",Belgica,3,0,Extranjero,379,1715.1347140206424,Anillamiento,2005-08-11,2006-08-25,"Caño Navarro, Coria del Rio, Sevilla",España,4,0,M. Vazquez,379,1714,control ,anillamiento,control
-A,9445337,Acrocephalus scirpaceus,30,8,2005,"Essen, Antwerpen, Amberes",Belgica,3,0,Extranjero,363,1780.6747865608897,Anillamiento,2005-08-30,2006-08-28,"Caño Navarro, Coria del Rio, Sevilla",España,4,0,M. Vazquez,363,1784,control ,anillamiento,control
-A,9417466,Acrocephalus scirpaceus,1,8,2005,"Teralfene, Vlaams Brabant",Belgica,4,0,Extranjero,389,1712.6554975676888,Anillamiento,2005-08-01,2006-08-25,"Caño Navarro, Coria del Rio, Sevilla",España,4,0,M. Vazquez,389,1711,control ,anillamiento,control
-A,9459246,Acrocephalus scirpaceus,16,8,2005,"Zulte, Oost Vlaanderen, Flandes",Belgica,3,0,Extranjero,363,1691.7429894954341,Anillamiento,2005-08-16,2006-08-14,"Caño Navarro, Coria del Rio, Sevilla",España,4,0,M. Vazquez,363,1690,control ,anillamiento,control
-A,9645641,Acrocephalus scirpaceus,7,8,2006,"Oorderen, Antwerpen, Amberes",Belgica,4,0,Extranjero,52,1722.072038761861,Anillamiento,2006-08-07,2006-09-28,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,0,M. Vazquez,52,1722,control ,anillamiento,control
-A,9836110,Acrocephalus scirpaceus,17,8,2006,"Sint Amands, Antwerpen, Amberes",Belgica,3,0,Extranjero,646,1694.6933503432015,Anillamiento,2006-08-17,2008-05-24,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,0,M. Vega,646,1694,control ,anillamiento,control
-A,TA6632,Acrocephalus scirpaceus,2,8,2001,"Lazne Bohdanec, Pardubice",Republica Checa,3,0,Extranjero,1375,2185.0975169365393,Anillamiento,2001-08-02,2005-05-08,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,0,M. Vazquez,1375,2181,control ,anillamiento,control
-A,N360289,Acrocephalus scirpaceus,30,4,2005,"Nakri, Ceske Budejovice",Republica Checa,3,0,Extranjero,351,2045.7043114549074,Anillamiento,2005-04-30,2006-04-16,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,0,M. Vega,351,2042,control ,anillamiento,control
-A,176745,Acrocephalus scirpaceus,5,7,1987,"Huerta Daniel, Puebla del Rio, Sevilla",España,4,0,M. Vazquez,2079,2519.631765787434,Anillamiento,1987-07-05,1993-03-14,"PN Du Djoudj, Fleuve",Senegal,4,0,Extranjero,2079,2525,control ,anillamiento,control
-A,AE63003,Acrocephalus scirpaceus,14,8,1999,"Vrhinika, Ljubljansko Barje, Slovenia",Eslovenia,4,0,Extranjero,1730,1890.6125183947083,Anillamiento,1999-08-14,2004-05-09,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,0,M. Vega,1730,1875,control ,anillamiento,control
-A,3981584,Acrocephalus scirpaceus,14,3,1993,"PN Du Djoudj, Fleuve",Senegal,4,0,Extranjero,112,2586.503215598832,Anillamiento,1993-03-14,1993-07-04,"Ecija, Sevilla",España,4,0,LEO BIAGGI,81,2593,control ,anillamiento,control
-A,4681485,Acrocephalus scirpaceus,30,7,2004,"Arraincourt, Moselle",Francia,4,0,Extranjero,377,1648.8963010601365,Anillamiento,2004-07-30,2005-08-11,"Caño Navarro, Coria del Rio, Sevilla",España,4,0,M. Vazquez,377,1647,control ,anillamiento,control
-A,4975168,Acrocephalus scirpaceus,9,9,2004,"Marais de Wissant, Tardinghen, Pas de Calais",Francia,3,0,Extranjero,255,1595.9971035776057,Anillamiento,2004-09-09,2005-05-22,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,0,M. Vega,255,1596,control ,anillamiento,control
-A,R215620,Acrocephalus scirpaceus,8,6,2005,"Canterbury, Kent",Gran Bretaña,4,1,Extranjero,454,1653.7683277638243,Anillamiento,2005-06-08,2006-09-05,"Caño Navarro, Coria del Rio, Sevilla",España,4,0,M. Vazquez,454,1659,control ,anillamiento,control
-A,R303080,Acrocephalus scirpaceus,6,8,2002,"Westwick, Bishop Monkton, Northyorkshire",Gran Bretaña,4,1,Extranjero,1466,1900.2497054662776,Anillamiento,2002-08-06,2006-08-11,"Caño Navarro, Coria del Rio, Sevilla",España,4,0,M. Vazquez,1466,1904,control ,anillamiento,control
-A,AD29919,Acrocephalus scirpaceus,31,7,2001,"Agelo, Overijssel",Holanda,1,0,Extranjero,85,1943.1409333461702,Anillamiento,2001-07-31,2001-10-24,"El Alamillo, Sevilla",España,3,0,M. Vazquez,85,1943,control ,anillamiento,control
-A,AF57499,Acrocephalus scirpaceus,19,8,2002,"Elburg, Gelderland",Holanda,3,0,M. Vega,356,1885.5334976727904,Anillamiento,2002-08-19,2003-08-10,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,0,Extranjero,356,1885,control ,anillamiento,control
-A,AG13008,Acrocephalus scirpaceus,28,7,2004,"Castricum, Noord Holland",Holanda,3,0,Extranjero,392,1890.8191818668247,Anillamiento,2004-07-28,2005-08-24,"Caño Navarro, Coria del Rio, Sevilla",España,4,0,M. Vazquez,392,1888,control ,anillamiento,control
-A,AE40211,Acrocephalus scirpaceus,10,8,1999,"Vrhinika, Ljubljansko Barje, Slovenia",Eslovenia,3,0,Extranjero,1475,1890.6125183947083,Anillamiento,1999-08-10,2003-08-24,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,0,M. Vega,1475,1875,control ,anillamiento,control
-A,2524255,Acrocephalus arundinaceus,29,8,1993,"Rio Blanco, Ecija, Sevilla",España,3,2,E. Gomez,1334,1740.0332634841943,Anillamiento,1993-08-29,1997-04-24,Ghadira,Malta,4,0,Extranjero,1334,1734,control ,anillamiento,control
-A,TA84159,Sylvia borin,30,8,2003,"Sudislavice, Praha",Republica Checa,4,0,Extranjero,242,2151.9529721281283,Anillamiento,2003-08-30,2004-04-28,"El Alamillo, Sevilla",España,4,0,M. Vazquez,242,2156,control ,anillamiento,control
-A,B902778,Sylvia borin,20,8,1994,"Lelystad, Houtrib Sluizen, Ijsselmeerpolders",Holanda,3,0,Extranjero,969,1911.3200148093151,Anillamiento,1994-08-20,1997-04-15,"Dos Hermanas, Sevilla",España,2,0,M. Vazquez,969,1912,control ,anillamiento,control
-A,F127254,Sylvia atricapilla,2,10,1988,"Roerdomp, Noord Brabant",Holanda,4,2,Extranjero,45,1810.839653410328,Anillamiento,1988-10-02,1988-11-16,"Coria del Rio, Sevilla",España,2,0,M. Vazquez,46,1800,Cazado con percha,anillamiento,muerto
-A,29V98698,Sylvia atricapilla,30,9,1988,"Clabecq, Brabant",Belgica,4,1,Extranjero,60,1685.743244994565,Anillamiento,1988-09-30,1988-11-29,"Sevilla, Sevilla",España,2,0,M. Vazquez,59,1682,Muerta por un gato,anillamiento,muerto
-A,7V4057,Sylvia atricapilla,17,7,1970,"Brasschaat, Antwerpen, Amberes",Belgica,4,1,Extranjero,10774,1737.6659462292355,Anillamiento,1970-07-17,2000-01-15,"Marchena, Sevilla",España,A,0,Zamalla,10774,1733,Encontrada solo anilla con detector de metales,anillamiento,muerto
-A,3427860,Sylvia atricapilla,30,7,1990,"Pirincen, Limburg",Belgica,3,0,Extranjero,104,1720.5207645308305,Anillamiento,1990-07-30,1990-11-11,"Cantera del Duende, El Rubio, Sevilla",España,3,0,M. Vazquez,104,1702,control ,anillamiento,control
-A,4483981,Sylvia atricapilla,2,9,1992,"Boitsfort, Brabant",Belgica,3,2,Extranjero,116,1687.9322036054293,Anillamiento,1992-09-02,1992-12-27,"Arroyo Gascon, Marchena, Sevilla",España,3,2,M. Vazquez,116,1685,control ,anillamiento,control
-A,4667722,Sylvia atricapilla,22,10,1992,"Zwin, West Vlaanderen, Flandes Occidental",Belgica,3,1,Extranjero,38,1705.796624478881,Anillamiento,1992-10-22,1992-11-29,"Arroyo Gascon, Marchena, Sevilla",España,3,1,M. Vazquez,38,1705,control ,anillamiento,control
-A,5875357,Sylvia atricapilla,16,9,1996,"Meetkeerke, West Vlaanderen, Flandes Occidental",Belgica,3,1,Extranjero,888,1687.2370507993944,Anillamiento,1996-09-16,1999-02-21,"Arroyo Gascon, Marchena, Sevilla",España,4,1,M. Vazquez,843,1821,control ,anillamiento,control
-A,5954776,Sylvia atricapilla,10,10,1996,"Rijkevorsel, Antwerpen, Amberes",Belgica,3,1,Extranjero,813,1823.694408222689,Anillamiento,1996-10-10,1999-01-01,"El Cuervo, Lebrija, Sevilla",España,4,0,M. Vazquez,843,1821,Cazada,anillamiento,muerto
-A,6115344,Sylvia atricapilla,15,9,1996,"Grembergen, Oost Vlaanderen, Flandes Oriental",Belgica,3,1,Extranjero,838,1771.8505576411092,Anillamiento,1996-09-15,1999-01-01,"El Cuervo, Lebrija, Sevilla",España,4,0,M. Vazquez,838,1768,Cazada,anillamiento,muerto
-A,6253862,Sylvia atricapilla,20,9,1997,"Pontaury, Namen, Namur",Belgica,2,2,Extranjero,468,1725.729227304731,Anillamiento,1997-09-20,1999-01-01,"El Cuervo, Lebrija, Sevilla",España,4,0,M. Vazquez,468,1722,Cazada,anillamiento,muerto
-A,6506119,Sylvia atricapilla,25,9,1997,"Messelbroek, Brabant",Belgica,3,1,Extranjero,52,1707.0171694237104,Anillamiento,1997-09-25,1997-11-16,"Cantera del Duende, El Rubio, Sevilla",España,3,1,M. Vazquez,52,1707,control ,anillamiento,control
-A,6924546,Sylvia atricapilla,9,9,1999,"Hertsberge, West Vlaanderen, Flandes Occidental",Belgica,3,2,Extranjero,53,1688.2449398620968,Anillamiento,1999-09-09,1999-11-01,"El Alamillo, Sevilla",España,3,2,M. Vazquez,53,1688,control ,anillamiento,control
-A,7013900,Sylvia atricapilla,4,9,1999,"ST Laurenis, Oost Vlaanderen, Flandes",Belgica,3,2,Extranjero,122,1794.1958083759077,Anillamiento,1999-09-04,2000-01-04,"Laguna de Medina, Jerez de la Frontera, Cadiz",España,5,2,Zamalla,122,1789,control ,anillamiento,control
-A,7124164,Sylvia atricapilla,20,9,2000,"Cerexhe, Heuseux, Luik Lieja",Belgica,3,1,Extranjero,53,1740.448138977514,Anillamiento,2000-09-20,2000-11-12,"El Alamillo, Sevilla",España,3,1,M. Vazquez,53,1739,control ,anillamiento,control
-A,8650459,Sylvia atricapilla,9,9,2003,"Grembergen, Oost Vlaanderen, Flandes Oriental",Belgica,3,2,Extranjero,466,1701.4774881280175,Anillamiento,2003-09-09,2004-12-18,"Arroyo Gascon, Marchena, Sevilla",España,4,2,M. Vazquez,466,1688,control ,anillamiento,control
-A,L044195,Sylvia atricapilla,4,10,1996,"Torrecuadros, Hinojos, Huelva",España,3,1,M. Vazquez,211,1875.5833083614402,Anillamiento,1996-10-04,1997-05-03,"Aschaffenburg, Unterfranken",Alemania,2,0,Extranjero,211,1876,Encontrado muerto,anillamiento,muerto
-A,L450270,Sylvia atricapilla,9,11,2000,"El Alamillo, Sevilla",España,3,2,M. Vazquez,1247,1722.1238485929666,Anillamiento,2000-11-09,2004-04-09,"Awirs, Luik, Lieja",Belgica,4,2,Extranjero,1274,1722,control ,anillamiento,control
-A,2286630,Sylvia atricapilla,16,11,1990,"Casa Neves, Aznalcazar, Sevilla",España,2,2,M. Vazquez,159,1459.721429078082,Anillamiento,1990-11-16,1991-04-24,"Chevrense, Sena, Paris",Francia,2,0,Extranjero,163,1433,Encontrado muerto,anillamiento,muerto
-A,2550519,Sylvia atricapilla,3,12,1996,"Valle de Hecho, Huesca",España,2,2,Zamalla,482,236.88194227237142,Anillamiento,1996-12-03,1998-03-30,"Salleboeuf, Gironde",Francia,2,0,Extranjero,482,235,Encontrado muerto,anillamiento,muerto
-A,2A050667,Sylvia atricapilla,28,3,2004,"El Alamillo, Sevilla",España,4,1,M. Vazquez,22,1812.0859616715404,Anillamiento,2004-03-28,2004-04-19,"Weybourne, Norfolk",Gran Bretaña,4,1,BTO,22,1813,control ,anillamiento,control
-A,2A082663,Sylvia atricapilla,3,2,2005,"El Hampa, Coria del Rio, Sevilla",España,5,1,M. Vazquez,62,2020.5266652965086,Anillamiento,2005-02-03,2005-04-06,"Welton, Humberside",Gran Bretaña,2,0,BTO,62,1876,Colision contra cristales,anillamiento,muerto
-A,3862150,Sylvia atricapilla,6,9,1992,"Reserve la Maziere, Villeton, Lot et Garonne",Francia,3,2,Extranjero,879,883.4149050646919,Anillamiento,1992-09-06,1995-02-02,"Rio Blanco, Ecija, Sevilla",España,2,0,LEO BIAGGI,879,893,Encontrado muerto,anillamiento,muerto
-A,4045343,Sylvia atricapilla,12,7,2001,"Oncy Sur Ecole, Essonne",Francia,3,0,Extranjero,982,1398.6590992574345,Anillamiento,2001-07-12,2004-03-20,"El Alamillo, Sevilla",España,4,0,M. Vazquez,982,1398,control ,anillamiento,control
-A,BC59550,Sylvia atricapilla,25,9,2005,"Villeton, Lot et Garonne",Francia,3,1,Extranjero,406,950.3334225249266,Anillamiento,2005-09-25,2006-11-05,"Coria del Rio, Sevilla",España,4,1,M. Vazquez,406,947,control ,anillamiento,control
-A,F220001,Sylvia atricapilla,18,6,1989,"West Stafford, Dorset",Gran Bretaña,3,2,Extranjero,1400,1471.2214599132053,Anillamiento,1989-06-18,1993-04-18,"Lora del Rio, Sevilla",España,4,2,M. Vazquez,1400,1471,control ,anillamiento,control
-A,J263585,Sylvia atricapilla,2,9,1993,"Wales Farm, Plumptom Sussex, West & East",Gran Bretaña,4,2,Extranjero,48,1543.0674994557896,Anillamiento,1993-09-02,1993-10-20,"Isla Redonda, Ecija, Sevilla",España,2,0,M. Vazquez,48,1800,Cazada,anillamiento,muerto
-A,N822451,Sylvia atricapilla,4,10,1998,"Walton in Gordano, Avon",Gran Bretaña,3,1,Extranjero,168,1602.6438402255167,Anillamiento,1998-10-04,1999-03-21,"Utrera, Sevilla",España,4,0,M. Vazquez,168,1604,control ,anillamiento,control
-A,K896341,Sylvia atricapilla,5,9,1999,"Watlington Hilol, Oxford",Gran Bretaña,4,2,Extranjero,880,1646.867760584733,Anillamiento,1999-09-05,2002-02-01,"Torrecuadros, Hinojos, Huelva",España,4,2,M. Vazquez,880,1663,control ,anillamiento,control
-A,T722115,Sylvia atricapilla,3,10,2006,"Cissbury Ring, Worthing, Sussex West & East",Gran Bretaña,3,1,Extranjero,47,1570.7555639442608,Anillamiento,2006-10-03,2006-11-19,"Palomares del Rio, Sevilla",España,2,0,M. Vazquez,47,1573,Cazada,anillamiento,muerto
-A,AB67417,Sylvia atricapilla,5,9,2000,"Leerdam, Zuid Holland",Holanda,3,1,Extranjero,49,1818.8221236579616,Anillamiento,2000-09-05,2000-10-24,"El Alamillo, Sevilla",España,3,1,M. Vazquez,49,1829,control ,anillamiento,control
-A,V036830,Sylvia atricapilla,1,10,2000,"Haarlem, Vinkenbaan Van Lennep, Noord Holland",Holanda,3,0,Extranjero,32,1861.5001484490215,Anillamiento,2000-10-01,2000-11-02,"El Alamillo, Sevilla",España,3,0,M. Vazquez,32,1859,control ,anillamiento,control
-A,V090497,Sylvia atricapilla,29,9,2002,"Leuth, Gederland",Holanda,3,1,Extranjero,114,1833.844103236532,Anillamiento,2002-09-29,2003-01-21,"Laguna del Gobierno, Lantejuela,Sevilla",España,5,1,Zamalla,114,1832,control ,anillamiento,control
-A,L174172,Sylvia communis,18,9,1998,"Calera de Leon, Badajoz",España,3,0,Zamalla,1151,339.7621355319898,Anillamiento,1998-09-18,2001-11-12,Chefchaouen,Marruecos,2,0,Particular,1151,339,Encontrado muerto,anillamiento,muerto
-A,L343411,Sylvia communis,6,9,2000,"Valdelarco, Huelva",España,4,0,Zamalla,265,699.1860729719422,Anillamiento,2000-09-06,2001-05-29,"Alnif, Er Rachidia",Marruecos,2,0,Particular,265,696,Cazada,anillamiento,muerto
-A,2750996,Cercotrichas galactotes,20,8,1997,"El Alcornocal, Los Palacios, Sevilla",España,3,0,M. Vazquez,1343,555.7573162444421,Anillamiento,1997-08-20,2001-04-24,Imilchil,Marruecos,2,0,Particular,1343,560,Encontrado muerto,anillamiento,muerto
-A,223175,Phylloscopus trochilus,3,9,1997,"El Alcornocal, Los Palacios, Sevilla",España,4,1,M. Vazquez,617,2412.9115143818817,Anillamiento,1997-09-03,1999-05-13,"Karrebakstorp, Naestved, Sjaelland",Dinamarca,2,0,Particular,617,2415,Capturada por un gato,anillamiento,muerto
-A,F30166,Phylloscopus trochilus,5,5,2001,"Drienovec, Kosice, Eslovaquia",Republica Checa,4,1,Extranjero,118,2482.020590329552,Anillamiento,2001-05-05,2001-08-31,"Calera de Leon, Badajoz",España,4,0,M. Vazquez,118,2478,control cambio anilla AC4162,anillamiento,control
-A,1H08422,Phylloscopus trochilus,8,8,2000,"Blixoya, Valer, Ostfold",Noruega,5,0,Extranjero,27,2740.644749313765,Anillamiento,2000-08-08,2000-09-04,"Las Teatinas, Palomares del Rio, Sevilla",España,4,0,M. Vazquez,27,2734,control ,anillamiento,control
-A,498669,Phylloscopus collybita,3,8,1984,"Blagdoon, Rervoir, Congresbury Avon",Gran Bretaña,2,0,Extranjero,534,1522.6039191706395,Anillamiento,1984-08-03,1986-01-19,"Torreblanca, Sevilla",España,2,0,M. Vazquez,NA,NA,Cazada,anillamiento,muerto
-A,2059584,Sylvia atricapilla,5,3,1987,"Gerena, Sevilla",España,5,1,LEO BIAGGI,256,765.3610993205364,Anillamiento,1987-03-05,1987-11-16,"Bassussary, Pirineos Orientales",Francia,2,0,Extranjero,251,768,Encontrado muerto,anillamiento,muerto
-A,2219946,Sylvia atricapilla,10,3,1988,"Gerena, Sevilla",España,4,1,LEO BIAGGI,385,1572.0168534630377,Anillamiento,1988-03-10,1989-03-30,Horsham,Gran Bretaña,2,0,Extranjero,385,1576,Colision con cristales,anillamiento,muerto
-A,2220889,Sylvia atricapilla,12,2,1988,"Casa Neves, Aznalcazar, Sevilla",España,5,1,Extranjero,848,1153.3607655286492,Anillamiento,1988-02-12,1990-06-09,"St Leger, Les Vignes, Loire Atlantico",Francia,2,0,M. Vazquez,874,1154,Atropellado,anillamiento,muerto
-A,2220849,Phoenicurus ochruros,26,12,1988,"Casa Neves, Aznalcazar, Sevilla",España,3,1,M. Vazquez,1410,1870.0295743550994,Anillamiento,1988-12-26,1992-11-05,"Finsterwald, Oberbayern",Alemania,2,0,Extranjero,1410,1857,Cazada,anillamiento,muerto
-A,2J9861,Phylloscopus collybita,22,9,1987,"Herne, Brabant",Belgica,3,0,Extranjero,109,1696.4788411671448,Anillamiento,1987-09-22,1988-01-09,"Puñanilla, Puebla del Rio, Sevilla",España,5,0,M. Vazquez,NA,NA,control ,anillamiento,control
-A,JN7017,Phylloscopus collybita,21,6,1993,"Sommiere, Namen, Namur",Belgica,4,0,Extranjero,573,1679.3705721229803,Anillamiento,1993-06-21,1995-01-15,"Dos Hermanas, Sevilla",España,2,0,M. Vazquez,573,1684,Encontrado muerto,anillamiento,muerto
-A,SC1485,Phylloscopus collybita,9,9,2001,"Grembergen, Oost Vlaanderen, Flandes",Belgica,3,0,Extranjero,49,1713.0405226333787,Anillamiento,2001-09-09,2001-10-28,"El Alamillo, Sevilla",España,3,0,M. Vazquez,49,1713,control ,anillamiento,control
-A,SE0286,Phylloscopus collybita,20,8,2001,"Malmedy, Luik, Lieja",Belgica,3,0,Extranjero,88,1748.3236039195494,Anillamiento,2001-08-20,2001-11-16,"Palomares del Rio, Sevilla",España,3,0,M. Vazquez,88,1735,control ,anillamiento,control
-A,SM1650,Phylloscopus collybita,2,10,2002,"Beverce, Luik, Lieja",Belgica,2,0,Extranjero,529,1707.499357590089,Anillamiento,2002-10-02,2004-03-14,"Laguna del Gobierno, Lantejuela,Sevilla",España,2,0,M. Vazquez,529,1708,control ,anillamiento,control
-A,UK1309,Phylloscopus collybita,20,9,1996,"Rijkevorsel, Antwerpen, Amberes",Belgica,2,0,Extranjero,63,1782.6747313719618,Anillamiento,1996-09-20,1996-11-22,"Puebla del Rio, Sevilla",España,2,0,M. Vazquez,63,1782,control ,anillamiento,control
-A,UN7289,Phylloscopus collybita,4,7,1998,"Korbeek Lo, Brabant",Belgica,3,0,Extranjero,129,1732.549781085723,Anillamiento,1998-07-04,1998-11-10,"Palomares del Rio, Sevilla",España,3,0,M. Vazquez,129,1730,control ,anillamiento,control
-A,943428,Phylloscopus collybita,7,3,1999,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,0,M. Vazquez,397,1606.5623636859011,Anillamiento,1999-03-07,2000-04-07,"Hauconcourt, Moselle",Francia,4,0,CRBPO,397,1605,control ,anillamiento,control
-A,AA8561,Phylloscopus collybita,8,11,1998,"La Estrella, Palomares del Rio, Sevilla",España,2,0,M. Vazquez,529,2339.9524898075897,Anillamiento,1998-11-08,2000-04-20,"Bostrup, Spodsbjerg, Fyn",Dinamarca,2,0,Particular,529,2347,Atropellado,anillamiento,muerto
-A,AK1767,Phylloscopus collybita,21,11,2000,"Alcala de Guadaira, Sevilla",España,2,0,M. Vazquez,700,1702.2967392074997,Anillamiento,2000-11-21,2002-10-22,"Wetteren, Oost Vlaanderen, Flandes ",Belgica,2,0,BRUXELLES,700,1705,control ,anillamiento,control
-A,AK2969,Phylloscopus collybita,22,2,2002,"San Pablo, Sevilla",España,4,0,M. Vazquez,92,1718.3576813193936,Anillamiento,2002-02-22,2002-05-25,"Huntingdon, Cambridge, Huntingdom",Gran Bretaña,4,0,BTO,92,1719,control ,anillamiento,control
-A,BU3441,Phylloscopus collybita,9,11,2003,"Laguna del Gobierno, Lantejuela,Sevilla",España,3,0,Zamalla,335,1721.6642048649442,Anillamiento,2003-11-09,2004-10-09,"Saeftinghe, Sieperdaschor, Zeeland",Holanda,4,0,ARNHEM,335,1724,control ,anillamiento,control
-A,CJ1501,Phylloscopus collybita,29,3,2004,"El Alamillo, Sevilla",España,4,0,M. Vazquez,6,2036.9546954064017,Anillamiento,2004-03-29,2004-04-04,"Eemshaven, Groningen",Holanda,4,0,Particular,6,2037,control ,anillamiento,control
-A,CR0723,Phylloscopus collybita,31,10,2004,"Laguna del Gobierno, Lantejuela,Sevilla",España,2,0,M. Vazquez,191,373.76529066035397,Anillamiento,2004-10-31,2005-05-10,Aïn Jemaa,Marruecos,2,0,Particular,191,374,control ,anillamiento,control
-A,PH9546,Phylloscopus collybita,10,8,1995,"Saint Mars La Briere, Sarthe",Francia,4,2,Extranjero,156,1305.331475827689,Anillamiento,1995-08-10,1996-01-13,"La Marmoleja, Puebla del Rio, Sevilla",España,4,0,M. Vazquez,156,1304,control ,anillamiento,control
-A,7D7681,Phylloscopus collybita,20,8,1998,"Barton Turf, Stalhan, Norfolk",Gran Bretaña,3,0,Extranjero,86,1800.3039249704211,Anillamiento,1998-08-20,1998-11-14,"El Alamillo, Sevilla",España,3,0,M. Vazquez,86,1802,control ,anillamiento,control
-A,OU1334,Phylloscopus collybita,29,9,2000,"Sandwich Bay Estate, Kent",Gran Bretaña,2,0,Extranjero,422,1630.735055215447,Anillamiento,2000-09-29,2001-11-25,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,0,M. Vazquez,422,1576,control ,anillamiento,control
-A,AEL462,Phylloscopus collybita,24,9,2003,"Sandwich Bay Estate, Kent",Gran Bretaña,3,0,Extranjero,410,1630.735055215447,Anillamiento,2003-09-24,2004-11-07,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,0,M. Vazquez,410,1631,control ,anillamiento,control
-A,L447793,Phoenicurus ochruros,25,11,2001,"Palomares del Rio, Sevilla",España,2,0,M. Vazquez,607,1606.5840506438067,Anillamiento,2001-11-25,2003-07-25,"Blainville Sur L´Eau, Meurthe et Moselle",Francia,2,0,CRBPO,607,1605,Encontrada la pata con la anilla,anillamiento,muerto
-A,9K84426,Luscinia svecica,29,7,1996,"Rieselfelder, DFFM Munster",Alemania,2,1,Extranjero,1191,1961.0112371003277,Anillamiento,1996-07-29,1999-11-02,"La Marmoleja, Puebla del Rio, Sevilla",España,6,1,M. Vazquez,1191,1960,control ,anillamiento,control
-A,5149298,Luscinia svecica,20,7,1994,"Melsele, Oost Vlaanderen, Flandes Oriental",Belgica,3,0,Extranjero,542,1752.909191540646,Anillamiento,1994-07-20,1996-01-13,"La Marmoleja, Puebla del Rio, Sevilla",España,7,2,M. Vazquez,542,1751,control ,anillamiento,control
-C,5149298,Luscinia svecica,13,1,1996,"La Marmoleja, Puebla del Rio, Sevilla",España,7,2,M. Vazquez,413,0,control ,1996-01-13,1997-03-01,"La Marmoleja, Puebla del Rio, Sevilla",España,9,2,M. Vazquez,954,1751,control ,control,control
-A,5935059,Luscinia svecica,21,7,1996,"Averbode, Brabant",Belgica,3,0,Extranjero,484,1761.4392458631137,Anillamiento,1996-07-21,1997-11-17,"La Marmoleja, Puebla del Rio, Sevilla",España,4,0,M. Vazquez,484,1761,control ,anillamiento,control
-A,6442053,Luscinia svecica,3,9,1997,"Assenede, Oost Vlaanderen, Flandes Oriental",Belgica,3,1,Extranjero,145,1734.1720371891354,Anillamiento,1997-09-03,1998-01-26,"La Marmoleja, Puebla del Rio, Sevilla",España,5,1,M. Vazquez,145,1734,control ,anillamiento,control
-A,8525141,Luscinia svecica,17,8,2003,"Veurne, West Vlaanderen, Flandes",Belgica,3,1,Extranjero,58,1784.9829633031695,Anillamiento,2003-08-17,2003-10-14,"Vejer de la Frontera, Cadiz",España,3,1,M. Vazquez,58,1781,control ,anillamiento,control
-A,L110210,Luscinia svecica,7,12,1999,"Brazo del Este, Puebla del Rio, Sevilla",España,4,2,Zamalla,261,1458.7177373664297,Anillamiento,1999-12-07,2000-08-24,"Saint Vigor D´Ymonville, Seine Maritime",Francia,4,2,Extranjero,261,1454,control ,anillamiento,control
-A,L240620,Luscinia svecica,3,1,1999,"Laguna del Gobierno, Lantejuela,Sevilla",España,5,1,Zamalla,856,1909.5109616340912,Anillamiento,1999-01-03,2001-05-08,"Mokkeban, Laaxum, Friesland",Holanda,4,1,Extranjero,856,1909,control ,anillamiento,control
-A,3284439,Luscinia svecica,22,8,1996,"Chenac, Saint Seurin D´Uzet, Charente Maritime",Francia,2,1,Extranjero,522,1014.7241317679653,Anillamiento,1996-08-22,1998-01-26,"La Marmoleja, Puebla del Rio, Sevilla",España,4,1,M. Vazquez,522,1012,control ,anillamiento,control
-C,3284439,Luscinia svecica,26,1,1998,"La Marmoleja, Puebla del Rio, Sevilla",España,4,1,M. Vazquez,617,0,control ,1998-01-26,1999-10-05,"La Marmoleja, Puebla del Rio, Sevilla",España,4,1,M. Vazquez,1139,1012,control ,control,control
-A,5019843,Luscinia svecica,1,9,2004,"Citerne Nord, Floirac, Charente Maritime",Francia,4,1,Extranjero,394,1011.3853255398965,Anillamiento,2004-09-01,2005-09-30,"Caño Navarro, Coria del Rio, Sevilla",España,4,1,M. Vazquez,394,1011,control ,anillamiento,control
-A,F901728,Luscinia svecica,3,7,1997,"Ballum, Hollum, Ameland",Holanda,4,1,Extranjero,221,2011.5069050090287,Anillamiento,1997-07-03,1998-02-09,"La Marmoleja, Puebla del Rio, Sevilla",España,4,1,M. Vazquez,221,2012,control ,anillamiento,control
-A,A979315,Erithacus rubecula,20,9,1998,"Voslapper Groden, Weser Ems, Excep Islas",Alemania,4,0,Extranjero,126,2010.7365411672201,Anillamiento,1998-09-20,1999-01-24,"Refugio de las Serpientes, Estepa, Sevilla",España,4,0,M. Vazquez,126,2070,control ,anillamiento,control
-A,6789630,Erithacus rubecula,24,9,1998,"Oud Turnhout, Antwerpen, Amberes",Belgica,2,0,Extranjero,64,1770.7042017793303,Anillamiento,1998-09-24,1998-11-27,"El Alamillo, Sevilla",España,2,0,M. Vazquez,64,1771,control ,anillamiento,control
-A,K624535,Erithacus rubecula,28,9,1994,"Castione Della Presolana, Bergamo",Italia,4,0,Extranjero,409,1673.8014624161608,Anillamiento,1994-09-28,1995-11-11,"El Cuervo, Lebrija, Sevilla",España,2,0,Zamalla,409,1676,Cazada,anillamiento,muerto
-A,3064312,Turdus merula,3,12,1996,"Valle de Hecho, Huesca",España,2,2,Extranjero,752,792.1757021128676,Anillamiento,1996-12-03,1998-12-25,"Lure, Roye, Haute Saone",Francia,2,0,Zamalla,752,820,Encontrado muerto,anillamiento,muerto
-A,3090328,Turdus merula,12,12,1997,"El Alamillo, Sevilla",España,3,2,Extranjero,122,875.179371920099,Anillamiento,1997-12-12,1998-04-13,"Rimont, Ariege",Francia,2,0,Zamalla,122,1574,Capturada por buho o rapaz,anillamiento,muerto
-A,P464837,Turdus iliacus,10,10,1989,"Lagskar, Lemland Ahvenanmaa, Aland",Finlandia,4,0,Extranjero,431,2998.671128332484,Anillamiento,1989-10-10,1990-12-15,"Badajoz, Badajoz",España,4,0,M. Vazquez,430,2995,Cazado con escopeta,anillamiento,muerto
-A,3X20438,Turdus iliacus,11,10,1976,"Zulte, Oost Vlaanderen, Flandes Oriental",Belgica,2,0,Extranjero,410,1614.9131780732862,Anillamiento,1976-10-11,1977-11-25,"Constantina, Sevilla",España,2,0,M. Vazquez,410,1612,Cazado con escopeta,anillamiento,muerto
-A,3X24067,Turdus iliacus,21,11,1976,"Zulte, Oost Vlaanderen, Flandes Oriental",Belgica,2,0,Extranjero,405,1614.9131780732862,Anillamiento,1976-11-21,1977-12-31,"Constantina, Sevilla",España,2,0,M. Vazquez,405,1612,Cazado con escopeta,anillamiento,muerto
-A,13Z8467,Turdus iliacus,1,11,1983,"Retie, Antwerpen, Amberes",Belgica,2,0,Extranjero,2236,1762.4011369888929,Anillamiento,1983-11-01,1989-12-15,"El Viso del Alcor, Sevilla",España,2,0,M. Vazquez,2236,1759,Cazado con escopeta,anillamiento,muerto
-A,P285721,Turdus iliacus,13,6,1972,"Karkkila, Uusimaa, Nyland",Finlandia,2,1,Extranjero,573,3269.4845087093763,Anillamiento,1972-06-13,1974-01-07,"Finca Campanilla, Constantina, Sevilla",España,2,0,M. Vazquez,573,3264,Cazado con escopeta,anillamiento,muerto
-A,P429282,Turdus iliacus,29,6,1987,"Yjapa, Hame, Tavastehus",Finlandia,1,0,Extranjero,4530,3311.017855372751,Anillamiento,1987-06-29,1999-11-23,"Constantina, Sevilla",España,2,0,M. Vazquez,4530,3242,Cazado con escopeta fecha carta,anillamiento,muerto
-A,NA063066,Turdus philomelos,2,7,1997,"Falkensee, Postdam",Alemania,5,2,Extranjero,577,2221.9678181823997,Anillamiento,1997-07-02,1999-01-30,"Marchena, Sevilla",España,2,0,M. Vazquez,577,2219,Cazado con escopeta,anillamiento,muerto
-A,NA092953,Turdus philomelos,9,8,2003,"Reifenstein, Sachsen & Thuringen",Alemania,3,0,Extranjero,120,1944.729511838778,Anillamiento,2003-08-09,2003-12-07,"Herrera del Duque, Badajoz",España,3,0,M. Vazquez,120,1796,Cazado con escopeta,anillamiento,muerto
-A,16Z39840,Turdus philomelos,2,10,1996,"Awirs, Luik, Lieja",Belgica,3,0,Extranjero,835,1649.04275367987,Anillamiento,1996-10-02,1999-01-15,"Guadalcanal, Sevilla",España,2,0,M. Vazquez,835,1646,Cazado con escopeta,anillamiento,muerto
-A,19Z16266,Turdus philomelos,1,10,2002,"Brecht, Antwerpen, Amberes",Belgica,3,0,Extranjero,129,1783.0001827297638,Anillamiento,2002-10-01,2003-02-07,"Olvera de la Sierra, Cadiz",España,2,0,M. Vazquez,129,1782,Cazado con escopeta,anillamiento,muerto
-A,8911871,Turdus philomelos,23,9,1992,"Christianso, Ertholmene, Bornholm",Dinamarca,3,0,Extranjero,2617,2461.3525694693167,Anillamiento,1992-09-23,1999-11-23,"Constantina, Sevilla",España,2,0,M. Vazquez,2617,2483,Cazado con escopeta fecha carta,anillamiento,muerto
-A,8A08324,Turdus philomelos,17,10,2005,"Hanstholm, Jylland",Dinamarca,3,0,Extranjero,59,2468.7263363590973,Anillamiento,2005-10-17,2005-12-15,"Dehesa de Abajo, Puebla del Rio, Sevilla",España,3,0,M. Vazquez,59,2476,Cazado con escopeta,anillamiento,muerto
-A,3090351,Turdus philomelos,1,1,1998,"El Alamillo, Sevilla",España,5,0,M. Vazquez,896,2442.9819731867187,Anillamiento,1998-01-01,2000-06-15,"Svanholm Estate, Skibby, Sjaelland",Dinamarca,4,0,Particular,896,2443,Atropellado,anillamiento,muerto
-A,GC44024,Turdus philomelos,20,10,1973,"Arzon, Morbihan",Francia,3,0,Extranjero,1350,1095.8176624184919,Anillamiento,1973-10-20,1977-07-01,"Constantina, Sevilla",España,2,0,M. Vazquez,1350,1098,Cazado con escopeta fecha carta,anillamiento,muerto
-A,P533198,Turdus philomelos,21,9,2003,"Jurmo, Hame, Tavastehus",Finlandia,3,0,Extranjero,77,3130.33170370628,Anillamiento,2003-09-21,2003-12-07,"Malpartida de Plasencia, Caceres",España,2,0,M. Vazquez,77,2926,Cazado con escopeta,anillamiento,muerto
-A,T049835,Turdus philomelos,4,6,1990,Girionys,Lituania,1,0,Extranjero,559,2971.256389760464,Anillamiento,1990-06-04,1991-12-15,"El Viso del Alcor, Sevilla",España,3,0,M. Vazquez,559,2970,Cazado con escopeta,anillamiento,muerto
-A,KV01761,Turdus philomelos,4,10,1999,"Ventes Ragas, Silute",Lituania,3,0,Extranjero,441,2899.957931659927,Anillamiento,1999-10-04,2000-12-18,"Hinojos, Huelva",España,2,0,M. Vazquez,441,2883,Cazado con escopeta,anillamiento,muerto
-A,4425202,Turdus philomelos,1,10,1998,"Faro de Falsterbo, Malmohus",Suecia,3,0,Extranjero,50,2446.8724547470383,Anillamiento,1998-10-01,1998-11-20,"Gerena, Sevilla",España,3,0,M. Vazquez,50,2442,Cazado con escopeta,anillamiento,muerto
-A,191338,Remiz pendulinus,3,12,1987,"Vuelta El Cojo, Puebla del Rio, Sevilla",España,3,2,M. Vazquez,639,2231.594393410954,Anillamiento,1987-12-03,1989-09-02,"Semlim, Rathenow, Postdam",Alemania,4,2,Extranjero,639,2389,control,anillamiento,control
-A,VT56739,Fringilla coelebs,9,9,2005,"Ventes Ragas, Silute",Lituania,3,2,Zamalla,184,2819.3344828921313,Anillamiento,2005-09-09,2006-03-12,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,2,Extranjero,184,2815,control,anillamiento,control
-A,E626836,Fringilla montifringilla,5,10,1986,"Lanenen, Berna",Suiza,3,2,Extranjero,411,1541.3964723075412,Anillamiento,1986-10-05,1987-11-20,"Rio Viejo, Coria del Rio, Sevilla",España,4,2,M. Vazquez,410,1498,Cazada con red de tiro no se libera,anillamiento,muerto
-A,25V53778,Carduelis chloris,2,5,1986,"Herve, Lieja",Belgica,2,1,Extranjero,258,1764.8610967511781,Anillamiento,1986-05-02,1987-01-15,"Los Palacios, Sevilla",España,1,0,M. Vazquez,258,1765,Cazada con red de tiro no se libera,anillamiento,muerto
-A,32V18367,Carduelis chloris,23,4,1990,"Awirs, Luik, Lieja",Belgica,5,1,Extranjero,194,1723.8044312352254,Anillamiento,1990-04-23,1990-11-03,"El Campanario, Aznalcollar, Sevilla",España,2,0,M. Vazquez,NA,NA,Cazada con red de tiro no se libera,anillamiento,muerto
-A,2348507,Carduelis cannabina,10,10,1986,"Merksplas, Antwerpen, Amberes",Belgica,6,1,Extranjero,33,1728.120068998406,Anillamiento,1986-10-10,1986-11-12,"Lora del Rio, Sevilla",España,2,0,M. Vazquez,32,1730,Cazada,anillamiento,muerto
-A,2347511,Carduelis cannabina,4,10,1986,"Merksplas, Antwerpen, Amberes",Belgica,6,2,Extranjero,52,1786.8497160383174,Anillamiento,1986-10-04,1986-11-25,"Cortijo Atalaya, Puebla del Rio, Sevilla",España,2,0,M. Vazquez,51,1789,Cazada,anillamiento,muerto
-A,7981170,Carduelis cannabina,23,9,2002,"Kasterlee, Antwerpen, Amberes",Belgica,2,2,Extranjero,83,1764.9249712812466,Anillamiento,2002-09-23,2002-12-15,"Alcala de Guadaira, Sevilla",España,2,0,M. Vazquez,83,1768,Cazada,anillamiento,muerto
-A,2969854,Carduelis spinus,30,10,1996,"Hoeilaart, Brabant",Belgica,3,1,Extranjero,486,1723.2735431441106,Anillamiento,1996-10-30,1998-02-28,"Pilas, Sevilla",España,4,1,M. Vazquez,486,1722,control,anillamiento,control
-A,927168,Carduelis spinus,17,1,1998,"Pilas, Sevilla",España,4,1,M. Vazquez,480,3336.9078574116224,Anillamiento,1998-01-17,1999-05-12,"Vakkila, Huittinene Turku-Pori, Abo-Bjorneborg",Finlandia,2,0,Extranjero,480,3331,Encontrado muerto,anillamiento,muerto
-A,927281,Carduelis spinus,24,1,1998,"Pilas, Sevilla",España,4,1,M. Vazquez,1528,2153.007525207325,Anillamiento,1998-01-24,2002-04-01,"Plauen, Sachsen Anhalt",Alemania,2,0,Extranjero,1528,2067,Encontrado muerto,anillamiento,muerto
-A,927327,Carduelis spinus,24,1,1998,"Pilas, Sevilla",España,4,1,M. Vazquez,415,2020.7496111201117,Anillamiento,1998-01-24,1999-03-15,"Hamilton, Strathclyde Region",Gran Bretaña,4,1,Extranjero,415,2059,control,anillamiento,control
-A,927766,Carduelis spinus,28,2,1998,"Pilas, Sevilla",España,6,1,M. Vazquez,237,2031.5055279129097,Anillamiento,1998-02-28,1998-10-23,"Stomorska, Isaland Solta, Hrvatsku",Croacia,2,0,Extranjero,237,2027,Capturada para enjaular,anillamiento,control
-A,LF7183,Carduelis spinus,19,9,1996,"Neringos Stac., Kursiv Nerija",Lituania,3,1,Extranjero,483,2910.4056407869975,Anillamiento,1996-09-19,1998-01-15,"Moguer, Huelva",España,2,0,M. Vazquez,483,2912,Cazada,anillamiento,muerto
-A,H735093,Carduelis spinus,27,9,1997,"Rinnleiret, Nord Trondelag",Noruega,3,1,Extranjero,119,3175.6282366584564,Anillamiento,1997-09-27,1998-01-24,"Pilas, Sevilla",España,5,1,M. Vazquez,119,3173,control,anillamiento,control
-A,XC917514,Carduelis spinus,31,8,1995,"Gumbaritsy, Leningrado",Rusia,3,1,Extranjero,877,3609.8986400109657,Anillamiento,1995-08-31,1998-01-24,"Pilas, Sevilla",España,4,1,M. Vazquez,877,3802,control,anillamiento,control
-A,BJ74350,Carduelis spinus,5,5,1997,"Mockebo, Oskarshamn, Kalmar",Suecia,5,2,Extranjero,264,2783.0176472150383,Anillamiento,1997-05-05,1998-01-24,"Pilas, Sevilla",España,4,2,M. Vazquez,264,2780,control,anillamiento,control
-A,A816592,Carduelis spinus,13,10,1996,"Col de Jaman, Vaud",Suiza,3,1,Extranjero,503,1495.2129055614741,Anillamiento,1996-10-13,1998-02-28,"Pilas, Sevilla",España,4,1,M. Vazquez,503,1491,control,anillamiento,control
-A,B031074,Carduelis spinus,29,9,2001,"Col de Jaman, Vaud",Suiza,3,2,Extranjero,74,1464.3776625405264,Anillamiento,2001-09-29,2001-12-12,"Aracena, Huelva",España,3,2,M. Vazquez,74,1461,control,anillamiento,control
-A,CT1366,Emberiza schoeniclus,29,9,1990,"Kauerlacher, Weiher Bei Karm, Mittelfranken",Alemania,4,1,Radolfzell,78,1923.0603013585394,Anillamiento,1990-09-29,1990-12-16,"Lucio Poco abrigo, Puebla del Rio, Sevilla",España,4,1,M. Vazquez,77,1932,control,anillamiento,control
-A,L796763,Emberiza schoeniclus,2,11,2003,"Laguna del Gobierno, Lantejuela,Sevilla",España,3,0,M. Vazquez,1081,1451.7659270262423,Anillamiento,2003-11-02,2006-10-18,"Payerne, Vaud",Suiza,4,0,Sempach,1081,1449,control,anillamiento,control
-A,SA782570,Emberiza schoeniclus,24,1,1988,"Etang de Lanet, Pirineos Orientales",Francia,2,1,Extranjero,298,943.1536446495317,Anillamiento,1988-01-24,1988-11-17,"Lucio Poco abrigo, Puebla del Rio, Sevilla",España,2,1,M. Vazquez,NA,NA,control,anillamiento,control
-A,2979652,Emberiza schoeniclus,5,11,1987,"La Capeliere, Arles, Bouches de Rhone",Francia,3,1,Extranjero,822,1143.0852417102155,Anillamiento,1987-11-05,1990-02-04,"Lucio Poco abrigo, Puebla del Rio, Sevilla",España,4,1,M. Vazquez,822,1140,control,anillamiento,control
-A,3323221,Emberiza schoeniclus,11,10,1989,"ST Savinien, Charente Maritime",Francia,3,1,Extranjero,402,1055.8124375482764,Anillamiento,1989-10-11,1990-11-17,"Lucio Poco abrigo, Puebla del Rio, Sevilla",España,4,1,M. Vazquez,401,1057,control,anillamiento,control
-A,2966907,Sylvia atricapilla,9,2,2003,"Laguna del Gobierno, Lantejuela,Sevilla",España,3,1,M. Vazquez,156,1879.3965001396843,Anillamiento,2003-02-09,2003-07-15,"Lelystad, Ijsselmeerpolders",Holanda,2,1,Extranjero,156,1879,control,anillamiento,control
-A,G87899,Phylloscopus collybita,8,9,2007,"Landgoed de Hoort, Limburg",Holanda,3,2,Extranjero,43,1760.9268708706836,Anillamiento,2007-09-08,2007-10-21,"Laguna del Gobierno, Lantejuela,Sevilla",España,2,0,M. Vazquez,43,1763,control,anillamiento,control
-A,BD07826,Sylvia atricapilla,20,9,2007,"Villeton, Lot et Garonne",Francia,3,1,Extranjero,44,905.9595375619023,Anillamiento,2007-09-20,2007-11-03,"Laguna del Gobierno, Lantejuela,Sevilla",España,3,1,M. Vazquez,44,913,control,anillamiento,control
-A,AK02714,Acrocephalus scirpaceus,18,6,2005,"Overijssel, Overijssel ",Holanda,1,0,Extranjero,433,1947.9330583630929,Anillamiento,2005-06-18,2006-08-25,"Caño Navarro, Coria del Rio, Sevilla",España,4,0,M. Vazquez,433,1941,control,anillamiento,control
-A,3196490,Sturnus vulgaris,22,11,2001,"La Fao, Aznalcazar, Sevilla",España,4,2,M. Vazquez,425,1684.93953461727,Anillamiento,2001-11-22,2003-01-21,"Cast o Sangallo, Roma",Italia,2,0,Extranjero,425,1692,Cazada con escopeta,anillamiento,muerto
-A,2A168831,Sylvia atricapilla,10,11,2007,"Los Toruños, El Puerto de Santa Maria, Cadiz",España,3,2,M. Vazquez,520,1766.7799466210145,Anillamiento,2007-11-10,2009-04-13,"Ubersyren, Gran Ducado de Luxemburgo",Luxemburgo,4,2,Extranjero,520,1762,control,anillamiento,control
-A,P574855,Motacilla alba yarrellii,21,8,2002,"Rodbaston, Stafford, Staffordshire",Gran Bretaña,3,0,Extranjero,115,1756.3409809882519,Anillamiento,2002-08-21,2002-12-14,"Huelva, Huelva",España,3,0,Zamalla,115,1755,control,anillamiento,control
-A,7994732,Motacilla alba ,10,10,2001,"Sourbrodt, Luik, Lieja",Belgica,3,1,Extranjero,478,1739.90889749108,Anillamiento,2001-10-10,2003-01-31,"San Pablo, Sevilla",España,4,1,M. Vazquez,478,1742,control anilla roja,anillamiento,control
-A,8323554,Motacilla alba ,9,10,2002,"Spixhe, Theux, Luik Lieja",Belgica,3,0,Extranjero,114,1731.0091816519473,Anillamiento,2002-10-09,2003-01-31,"San Pablo, Sevilla",España,5,0,M. Vazquez,114,1733,control anilla naranja,anillamiento,control
-A,AD70225,Motacilla alba ,25,3,2002,"Castricum, Noord Holland",Holanda,5,1,Extranjero,325,1874.5187333686465,Anillamiento,2002-03-25,2003-02-13,"San Pablo, Sevilla",España,4,1,M. Vazquez,325,1874,control anilla naranja,anillamiento,control
-A,VC96434,Motacilla alba ,5,10,2000,"Kreischa, Weiberitzkreis, Dresden",Alemania,2,1,Extranjero,143,2174.559907978867,Anillamiento,2000-10-05,2001-02-25,"Dos Hermanas, Sevilla",España,2,0,M. Vazquez,143,2176,Cazada con escopeta,anillamiento,muerto
-A,L628086,Motacilla alba ,22,11,2002,"San Pablo, Sevilla",España,3,0,M. Vazquez,518,1248.6120737973351,Anillamiento,2002-11-22,2004-04-23,"Saint Aignan, Loire et Cher",Francia,2,0,Extranjero,518,1250,Encontrado muerto,anillamiento,muerto
-A,L765176,Motacilla alba ,13,12,2002,"San Pablo, Sevilla",España,3,0,M. Vazquez,78,1973.5423525805675,Anillamiento,2002-12-13,2003-03-01,"Kampen, Drenthe",Holanda,2,0,Extranjero,78,1922,Colision contra cristales,anillamiento,muerto
-A,L765437,Motacilla alba ,20,12,2002,"San Pablo, Sevilla",España,3,0,M. Vazquez,199,2057.215351376957,Anillamiento,2002-12-20,2003-07-07,"Westerstede Mansie, Weser Ems Excep Islas",Alemania,2,0,Extranjero,199,2057,Encontrado muerto,anillamiento,muerto
-A,L768702,Motacilla alba ,13,2,2003,"San Pablo, Sevilla",España,5,0,M. Vazquez,106,1936.9521122740755,Anillamiento,2003-02-13,2003-05-30,"Burghausen, Oberbayern",Alemania,2,0,Extranjero,106,1936,Encontrado muerto anilla roja,anillamiento,muerto
-A,L751801,Motacilla alba ,31,1,2003,"San Pablo, Sevilla",España,5,0,M. Vazquez,196,2170.2628791699567,Anillamiento,2003-01-31,2003-08-15,"Düssnitz, Sachsen Anhalt",Alemania,5,1,Extranjero,196,2171,Colision contra un coche anilla naranja,anillamiento,muerto
-A,L751891,Motacilla alba ,31,1,2003,"San Pablo, Sevilla",España,5,0,M. Vazquez,864,2045.5728246821293,Anillamiento,2003-01-31,2005-06-13,"Seesen Harz, Braunschweig Inc Hildsh",Alemania,2,0,Extranjero,864,2045,Encontrado muerto anilla naranja,anillamiento,muerto
-A,L797360,Motacilla alba ,21,11,2003,"San Pablo, Sevilla",España,3,0,M. Vazquez,504,2350.566162388353,Anillamiento,2003-11-21,2005-04-08,"Bovense Strand, Fyn",Dinamarca,4,1,Extranjero,504,2362,control anilla roja leido telescopio,anillamiento,muerto
-C,L797360,Motacilla alba ,8,4,2005,"Bovense Strand, Fyn",Dinamarca,4,1,Extranjero,374,0,control anilla roja leido telescopio,2005-04-08,2006-04-17,"Bovense Strand, Fyn",Dinamarca,4,1,Extranjero,878,2362,control anilla roja leido telescopio,muerto,muerto
-C,L797360,Motacilla alba ,17,4,2006,"Bovense Strand, Fyn",Dinamarca,4,1,Extranjero,89,0,control anilla roja leido telescopio,2006-04-17,2006-07-15,"Bovense Strand, Fyn",Dinamarca,4,1,Extranjero,967,2363,Capturada por un gato,muerto,muerto
-A,L797597,Motacilla alba ,4,12,2003,"San Pablo, Sevilla",España,3,0,M. Vazquez,989,1790.0552656008535,Anillamiento,2003-12-04,2006-08-19,"Rheinbach Womersdorf, Köln",Alemania,2,0,Extranjero,989,1792,Encontrado muerto anilla roja,anillamiento,muerto
-A,L939258,Motacilla alba ,29,12,2003,"San Pablo, Sevilla",España,3,0,M. Vazquez,274,1768.6274765931007,Anillamiento,2003-12-29,2004-09-28,"Offstein, Rheinhessen Pfalz",Alemania,4,1,Extranjero,274,1768,control,anillamiento,control
-C,L939258,Motacilla alba ,28,9,2004,"Offstein, Rheinhessen Pfalz",Alemania,4,1,Extranjero,195,420.6833202642609,control,2004-09-28,2005-04-11,"Kreischa, Dresden",Alemania,4,1,Extranjero,469,2165,control,control,control
-A,L939525,Motacilla alba ,12,1,2004,"San Pablo, Sevilla",España,5,2,M. Vazquez,203,1898.3498314251126,Anillamiento,2004-01-12,2004-08-02,"Münchhausen Sintshausen, Giessen",Alemania,2,0,Extranjero,203,1898,Encontrado muerto,anillamiento,muerto
+MODO,METAL,ESPECIE,DIA,MES,AÑO,LOCALIDAD,PAIS,EDAD,SEXO,ANILLADOR,Dias,Kms,Observaciones,FECHA CONTROL 1,Observaciones simple
+A,254842,Anser anser,21,6,1978,"Bosau, Schleswig, Holstein",Alemania,7,0,Extranjero,NA,NA,Anillamiento,1978-06-21,anillamiento
+C,254842,Anser anser,19,10,1997,"Palacio del Rey, Hinojos, Huelva",España,A,0,Particular,7060,2268,Encontrado muerto,1997-10-19,muerto
+A,220615,Anser anser,12,6,1985,"Guelper, NE Postdam",Alemania,3,2,Extranjero,NA,NA,Anillamiento,1985-06-12,anillamiento
+C,220615,Anser anser,15,11,1990,"Isla Mayor, Sevilla",España,A,0,Particular,1982,2246,Cazado con escopeta,1990-11-15,muerto
+A,9396,Anser anser,24,6,1988,"Utterslev Mose, Seeland, Mon Saltholm",Dinamarca,2,0,Extranjero,NA,NA,Anillamiento,1988-06-24,anillamiento
+C,9396,Anser anser,15,12,1988,"Isla Mayor, Sevilla",España,2,0,M. Vazquez,161,2495,Cazado con escopeta,1988-12-15,muerto
+A,9331,Anser anser,13,6,1989,"Utterslev Mose, Kobenhavn, Sjaelland",Dinamarca,1,1,Extranjero,NA,NA,Anillamiento,1989-06-13,anillamiento
+C,9331,Anser anser,15,11,1990,"Cantaritas, Puebla del Rio, Sevilla",España,5,0,Particular,520,2481,Cazado con escopeta,1990-11-15,muerto
+A,3900545,Anser anser,11,6,1993,"Utterslev Mose, Sjaelland",Dinamarca,1,1,Extranjero,NA,NA,Anillamiento,1993-06-11,anillamiento
+C,3900545,Anser anser,15,11,2001,"Isla Mayor, Sevilla",España,A,0,EBD,3079,2496,Cazado con escopeta,2001-11-15,muerto
+A,3900909,Anser anser,31,8,1991,"Riso, Roskilde, Sjaelland",Dinamarca,1,0,Extranjero,NA,NA,Anillamiento,1991-08-31,anillamiento
+C,3900909,Anser anser,14,11,1992,"Puebla del Rio, Sevilla",España,5,0,Particular,441,2458,Cazado con escopeta,1992-11-14,muerto
+A,3901325,Anser anser,5,5,1996,"Utterslev Mose, Sjaelland",Dinamarca,5,2,Extranjero,NA,NA,Anillamiento,1996-05-05,anillamiento
+C,3901325,Anser anser,15,11,2001,"Isla Mayor, Sevilla",España,A,0,M. Vazquez,2020,2496,Cazado con escopeta,2001-11-15,muerto
+A,9001709,Anser anser,24,1,2001,"Cañada de los Pajaros, Puebla del Rio, Sevilla",España,5,2,CDP,NA,NA,Anillamiento,2001-01-24,anillamiento
+C,9001709,Anser anser,5,9,1991,"Soholt, Maribo, Falster Lolland",Dinamarca,5,0,Extranjero,221,2358,Cazado con escopeta,1991-09-05,muerto
+A,9004767,Anser anser,22,9,1991,"Cañada de los Pajaros, Puebla del Rio, Sevilla",España,4,2,CDP,NA,NA,Anillamiento,1991-09-22,anillamiento
+C,9004767,Anser anser,19,11,1992,"Kampereiland, Kampem, Overijssel",Dinamarca,6,0,Extranjero,424,1941,Cazado con escopeta,1992-11-19,muerto
+A,9025037,Anser anser,13,7,2003,"Cañada de los Pajaros, Puebla del Rio, Sevilla",España,4,2,CDP,NA,NA,Anillamiento,2003-07-13,anillamiento
+C,9025037,Anser anser,2,8,2004,"Hickling Broad, Norfolk",Gran Bretaña,6,2,BTO,562,1838,Anilla leida telescopio,2004-08-02,muerto
+A,BA19341,Anser anser,3,7,1994,"Slibraken, Vega, Nordland",Noruega,4,2,Extranjero,NA,NA,Anillamiento,1994-07-03,anillamiento
+C,BA19341,Anser anser,21,10,2005,"Cañada de los Pajaros, Puebla del Rio, Sevilla",España,A,2,M. Vazquez,4128,3375,Encontrado exhausta y liberado en buen estado,2005-10-21,control
+A,241629,Anser anser,17,7,1997,"Vallsjoen, Vega, Nordland",Noruega,1,1,Extranjero,NA,NA,Anillamiento,1997-07-17,anillamiento
+C,241629,Anser anser,12,12,2000,"Sanlucar de Barrameda, Cadiz",España,9,0,M. Vazquez,1244,3423,Cazado con escopeta,2000-12-12,muerto
+A,9226992,Anser anser,29,6,1986,"Sverigen, M Skame, Malmohus",Suecia,6,1,Extranjero,NA,NA,Anillamiento,1986-06-29,anillamiento
+C,9226992,Anser anser,15,1,1988,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,566,2498,Cazado con escopeta,1988-01-15,muerto
+A,9233013,Anser anser,4,6,1989,"Borringesjon, Malmohus",Suecia,4,2,Extranjero,NA,NA,Anillamiento,1989-06-04,anillamiento
+C,9233013,Anser anser,3,2,2000,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,3896,2494,Cazado con escopeta fecha carta,2000-02-03,muerto
+A,WA06240,Anser anser,2,6,1994,"Rez ST Milickie, Kompl. Stawno., Wroclaw",Polonia,4,1,Extranjero,NA,NA,Anillamiento,1994-06-02,anillamiento
+C,WA06240,Anser anser,1,1,1995,"Puebla del Rio, Sevilla",España,6,0,M. Vazquez,213,2487,Cazado con escopeta,1995-01-01,muerto
+A,208519,Anser anser,9,5,1974,"Guelper, See Neubranderburg",Alemania,2,0,Extranjero,NA,NA,Anillamiento,1974-05-09,anillamiento
+C,208519,Anser anser,15,12,1987,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,2606,2231,Cazado con escopeta fecha carta,1987-12-15,muerto
+A,208740,Anser anser,3,9,1975,"Trent, Rostock",Alemania,3,2,Extranjero,NA,NA,Anillamiento,1975-09-03,anillamiento
+C,208740,Anser anser,15,12,1989,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,5212,2439,Cazado con escopeta fecha carta,1989-12-15,muerto
+A,212403,Anser anser,9,5,1977,"Guelper, SE Postdam",Alemania,1,0,Extranjero,NA,NA,Anillamiento,1977-05-09,anillamiento
+C,212403,Anser anser,15,12,1989,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,4596,2362,Cazado con escopeta fecha carta,1989-12-15,muerto
+A,215737,Anser anser,27,6,1981,"Guelper, Rathenow Postdam",Alemania,3,2,Extranjero,NA,NA,Anillamiento,1981-06-27,anillamiento
+C,215737,Anser anser,15,12,1987,"Cantaritas, Puebla del Rio, Sevilla",España,A,0,M. Vazquez,2358,2237,Cazado con escopeta,1987-12-15,muerto
+A,220744,Anser anser,28,8,1985,"Guelper, Rathenow Postdam",Alemania,6,2,Extranjero,NA,NA,Anillamiento,1985-08-28,anillamiento
+C,220744,Anser anser,15,11,1988,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,1176,2231,Cazado con escopeta,1988-11-15,muerto
+A,254997,Anser anser,21,6,1978,"Bosau, Schleswig, Holstein",Alemania,1,0,Extranjero,NA,NA,Anillamiento,1978-06-21,anillamiento
+C,254997,Anser anser,10,11,1988,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,3789,2259,Cazado con escopeta,1988-11-10,muerto
+A,292494,Anser anser,11,6,1960,"Utterslev Mose, Cophenage Seeland, Mon Saltholm",Dinamarca,1,0,Extranjero,NA,NA,Anillamiento,1960-06-11,anillamiento
+C,292494,Anser anser,15,12,1989,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,10769,2510,Cazado con escopeta fecha carta,1989-12-15,muerto
+A,1801,Anser anser,23,6,1964,"Utterslev Mose, Cophenage Seeland, Mon Saltholm",Dinamarca,1,2,Extranjero,NA,NA,Anillamiento,1964-06-23,anillamiento
+C,1801,Anser anser,15,12,1989,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,9297,2510,Cazado con escopeta fecha carta,1989-12-15,muerto
+A,2412,Anser anser,18,6,1971,"Kags Mose, Cophenage Seeland, Mon Saltholm",Dinamarca,1,1,Extranjero,NA,NA,Anillamiento,1971-06-18,anillamiento
+C,2412,Anser anser,15,12,1989,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,6747,2508,Cazado con escopeta fecha carta,1989-12-15,muerto
+A,2485,Anser anser,19,6,1972,"Utterslev Mose, Maribo, Falster Lolland",Dinamarca,2,2,Extranjero,NA,NA,Anillamiento,1972-06-19,anillamiento
+C,2485,Anser anser,15,12,1989,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,6381,2403,Cazado con escopeta fecha carta,1989-12-15,muerto
+A,4392,Anser anser,14,6,1978,"Utterslev Mose, Maribo, Falster Lolland",Dinamarca,2,2,Extranjero,NA,NA,Anillamiento,1978-06-14,anillamiento
+C,4392,Anser anser,15,12,1989,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,4196,2389,Cazado con escopeta fecha carta,1989-12-15,muerto
+A,4411,Anser anser,14,6,1978,"Utterslev Mose,  Seeland",Dinamarca,3,1,Extranjero,NA,NA,Anillamiento,1978-06-14,anillamiento
+C,4411,Anser anser,15,12,1981,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,NA,NA,Cazado con escopeta fecha carta,1981-12-15,muerto
+A,7083,Anser anser,17,6,1981,"Utterslev Mose, Cophenage Seeland, Mon Saltholm",Dinamarca,1,1,Extranjero,NA,NA,Anillamiento,1981-06-17,anillamiento
+C,7083,Anser anser,15,12,1989,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,2510,3098,Cazado con escopeta fecha carta,1989-12-15,muerto
+A,7360,Anser anser,22,6,1984,"Utterslev Mose,  Seeland, Mon Saltholm",Dinamarca,6,2,Extranjero,NA,NA,Anillamiento,1984-06-22,anillamiento
+C,7360,Anser anser,17,12,1989,"Cantaritas, Puebla del Rio, Sevilla",España,A,0,M. Vazquez,2000,2484,Cazado con escopeta,1989-12-17,muerto
+A,7395,Anser anser,18,6,1985,"Utterslev Mose,  Seeland, Mon Saltholm",Dinamarca,1,1,Extranjero,NA,NA,Anillamiento,1985-06-18,anillamiento
+C,7395,Anser anser,15,1,1988,"Almonte, Huelva",España,9,0,M. Vazquez,942,2499,Cazado con escopeta,1988-01-15,muerto
+A,7409,Anser anser,18,6,1985,"Utterslev Mose,  Seeland, Mon Saltholm",Dinamarca,1,2,Extranjero,NA,NA,Anillamiento,1985-06-18,anillamiento
+C,7409,Anser anser,15,1,1987,"Marisma de Hinojos, Hinojos, Huelva",España,7,0,M. Vazquez,577,2490,Cazado con escopeta,1987-01-15,muerto
+A,7431,Anser anser,18,6,1985,"Utterslev Mose,  Seeland, Mon Saltholm",Dinamarca,6,1,Extranjero,NA,NA,Anillamiento,1985-06-18,anillamiento
+C,7431,Anser anser,15,1,1988,"Almonte, Huelva",España,A,0,M. Vazquez,942,2499,Cazado con escopeta,1988-01-15,muerto
+A,7490,Anser anser,19,6,1985,"Utterslev Mose,  Seeland, Mon Saltholm",Dinamarca,3,1,Extranjero,NA,NA,Anillamiento,1985-06-19,anillamiento
+C,7490,Anser anser,12,11,1989,"Cantaritas, Puebla del Rio, Sevilla",España,A,0,M. Vazquez,1603,2484,Cazado con escopeta,1989-11-12,muerto
+A,7614,Anser anser,16,6,1983,"Utterslev Mose, Cophenage Seeland, Mon Saltholm",Dinamarca,1,1,Extranjero,NA,NA,Anillamiento,1983-06-16,anillamiento
+C,7614,Anser anser,15,12,1989,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,2369,2510,Cazado con escopeta fecha carta,1989-12-15,muerto
+A,9396,Anser anser,24,6,1988,"Utterslev Mose,  Seeland, Mon Saltholm",Dinamarca,2,0,Extranjero,NA,NA,Anillamiento,1988-06-24,anillamiento
+C,9396,Anser anser,15,12,1988,"Isla Mayor, Sevilla",España,2,0,M. Vazquez,200,2510,Cazado con escopeta,1988-12-15,muerto
+A,9608,Anser anser,13,6,1989,"Utterslev Mose,  Seeland, Mon Saltholm",Dinamarca,1,1,Extranjero,NA,NA,Anillamiento,1989-06-13,anillamiento
+C,9608,Anser anser,15,12,1989,"Los Morenos, Puebla del Rio, Sevilla",España,3,1,M. Vazquez,182,2479,Cazado con escopeta,1989-12-15,muerto
+A,BA01439,Anser anser,14,6,1981,"Rez Slonsk , Gorzow Wielkopolski",Polonia,2,0,Extranjero,NA,NA,Anillamiento,1981-06-14,anillamiento
+C,BA01439,Anser anser,8,12,1989,"Cantaritas, Puebla del Rio, Sevilla",España,A,0,M. Vazquez,3094,2352,Cazado con escopeta,1989-12-08,muerto
+A,BA01699,Anser anser,20,6,1982,"Rez Slonsk , Gorzow Wielkopolski",Polonia,1,0,Extranjero,NA,NA,Anillamiento,1982-06-20,anillamiento
+C,BA01699,Anser anser,15,12,1989,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,2730,2365,Cazado con escopeta fecha carta,1989-12-15,muerto
+A,BA01014,Anser anser,15,6,1979,"Rez Slonsk , Gorzow Wielkopolski",Polonia,5,1,Extranjero,NA,NA,Anillamiento,1979-06-15,anillamiento
+C,BA01014,Anser anser,6,2,1980,"Aznalcazar, Sevilla",España,7,0,M. Vazquez,NA,2365,Cazado con escopeta,1980-02-06,muerto
+A,9226992,Anser anser,29,6,1986,"Sverigen, M Skame, Malmohus",Suecia,6,1,Extranjero,NA,NA,Anillamiento,1986-06-29,anillamiento
+C,9226992,Anser anser,15,1,1988,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,566,2498,Cazado con escopeta,1988-01-15,muerto
+A,9232310,Anser anser,12,6,1988,"Borringesjon, Malmohus",Suecia,3,1,Extranjero,NA,NA,Anillamiento,1988-06-12,anillamiento
+C,9232310,Anser anser,15,11,1988,"Cantaritas, Puebla del Rio, Sevilla",España,3,0,M. Vazquez,153,2501,Cazado con escopeta,1988-11-15,muerto
+A,9232322,Anser anser,12,6,1988,"Borringesjon, Malmohus",Suecia,3,2,Extranjero,NA,NA,Anillamiento,1988-06-12,anillamiento
+C,9232322,Anser anser,15,11,1988,"Cantaritas, Puebla del Rio, Sevilla",España,3,0,M. Vazquez,153,2501,Cazado con escopeta,1988-11-15,muerto
+A,9233072,Anser anser,18,6,1989,"Sverigen, M Skame, Malmohus",Suecia,3,0,Extranjero,NA,NA,Anillamiento,1989-06-18,anillamiento
+C,9233072,Anser anser,17,12,1989,"Sanlucar de Barrameda, Cadiz",España,3,0,M. Vazquez,NA,NA,Cazado con escopeta,1989-12-17,muerto
+A,9803229,Anser anser,19,6,1970,"Sverigen, Gotland Rone, Ytterholme",Suecia,3,0,Extranjero,NA,NA,Anillamiento,1970-06-19,anillamiento
+C,9803229,Anser anser,15,1,1981,"Aznalcazar, Sevilla",España,A,0,M. Vazquez,NA,NA,Cazado con escopeta,1981-01-15,muerto
+A,9804702,Anser anser,17,7,1983,"Sverigen, D´Soder, Mohlland",Suecia,2,0,Extranjero,NA,NA,Anillamiento,1983-07-17,anillamiento
+C,9804702,Anser anser,15,1,1987,"Marisma de Hinojos, Hinojos, Huelva",España,A,0,M. Vazquez,NA,NA,Cazado con escopeta,1987-01-15,muerto
+A,XEA,Anser anser,4,6,1989,"Borringesjon, Malmohus",Suecia,1,0,Extranjero,NA,NA,Anillamiento,1989-06-04,anillamiento
+C,XEA,Anser anser,15,12,1989,"Sanlucar de Barrameda, Cadiz",España,3,0,M. Vazquez,NA,NA,Cazado con escopeta,1989-12-15,muerto
+A,CA38659,Ardea cinerea,6,5,1978,"Lac de Grand Lieu, Loire Atlantique",España,3,0,MMP et L Marion,NA,NA,Anillamiento,1978-05-06,anillamiento
+C,CA38659,Ardea cinerea,1,2,1981,"Lucio del cangrejo, Aznalcazar, Sevilla",Francia,A,0,M. Vazquez,NA,NA,Cazado con escopeta,1981-02-01,muerto
+A,B26502,Ardea cinerea,14,5,1988,"Branna, Jjndrichov Hradec, Ceske Budejovice",Checoslovaquia,1,0,M. Vazquez,NA,NA,Anillamiento,1988-05-14,anillamiento
+C,B26502,Ardea cinerea,15,9,1988,"Lebrija, Sevilla",España,3,0,Extranjero,121,2157,Colision con tendido electrico,1988-09-15,muerto
+A,231722,Ardea cinerea,22,5,1988,"Koerkwitz, Ribnitz, Damgarten Rostock",Alemania,1,0,M. Vazquez,NA,NA,Anillamiento,1988-05-22,anillamiento
+C,231722,Ardea cinerea,30,9,1988,"Caño del Cherri, Aznalcar, Sevilla",España,3,0,Extranjero,NA,NA,Anillamiento,1988-09-30,anillamiento
+A,M10463,Bubulcus ibis,25,5,1993,"Castro Marin, Algarve",Portugal,1,0,Extranjero,NA,NA,Anillamiento,1993-05-25,anillamiento
+C,M10463,Bubulcus ibis,30,8,1993,"Coria del Rio, Sevilla",España,3,0,M. Vazquez,95,122,Cazado con escopeta,1993-08-30,muerto
+A,2220036,Charadrius hiaticula,26,9,1988,"Lucio Poco abrigo, Puebla del Rio, Sevilla",España,3,0,M. Vazquez,NA,NA,Anillamiento,1988-09-26,anillamiento
+C,2220036,Charadrius hiaticula,27,7,1993,"Hable D´ Ault, Somme",Francia,A,0,Extranjero,1765,1554,Encontrado muerto,1993-07-27,muerto
+A,M5758,Ciconia ciconia,2,6,2004,"Muizen, Antwerpen, Amberes",Belgica,1,0,Extranjero,NA,NA,Anillamiento,2004-06-02,anillamiento
+C,M5758,Ciconia ciconia,15,8,2006,"Puerto Real, cadiz",España,7,0,M. Vazquez,804,1820,Colision con tendido electrico,2006-08-15,muerto
+A,9015741,Ciconia ciconia,20,9,1994,"Cañada de los Pajaros, Puebla del Rio, Sevilla",España,3,0,M. Vazquez,NA,NA,Anillamiento,1994-09-20,anillamiento
+C,9015741,Ciconia ciconia,20,5,2004,"Wahlwies,Sudbaden, Friburgo",Alemania,A,0,Vogelwarte Radolfzell,3530,1714,Anilla leida telescopio,2004-05-20,muerto
+A,P9486,Ciconia ciconia,8,6,2004,"La Gripperie-Saint-Symphorien, Charente Maritime",Francia,1,0,Extranjero,NA,NA,Anillamiento,2004-06-08,anillamiento
+C,P9486,Ciconia ciconia,15,1,2006,"Chiclana de la Frontera, Cadiz",España,7,0,M. Vazquez,586,1136,Colision con tendido electrico,2006-01-15,muerto
+A,7300,Ciconia ciconia,16,6,2005,"Ommen, Varsen, Overijssel",Holanda,1,0,Extranjero,NA,NA,Anillamiento,2005-06-16,anillamiento
+C,7300,Ciconia ciconia,15,1,2006,"Chiclana de la Frontera, Cadiz",España,3,0,M. Vazquez,213,2047,Colision con tendido electrico,2006-01-15,muerto
+A,B694,Ciconia nigra,16,6,1997,"Ettelbruck, Luxemburgo",Belgica,1,0,Extranjero,NA,NA,Anillamiento,1997-06-16,anillamiento
+C,B694,Ciconia nigra,20,9,1997,"Marchena, Sevilla",España,3,0,M. Vazquez,101,1666,Colision con tendido electrico,1997-09-20,muerto
+A,4030553,Larus ridibundus,21,9,1990,"Puebla del Rio, Sevilla",España,4,0,M. Vazquez,NA,NA,Anillamiento,1990-09-21,anillamiento
+C,4030553,Larus ridibundus,10,5,1994,"Craintilleux, Sury le Comtal, Loire",Francia,6,0,Extranjero,1327,1252,Anilla leida telescopio,1994-05-10,muerto
+A,A01280,Miniopterus schreibersii,5,12,1987,"Loule, Algarve",Portugal,2,1,Extranjero,NA,NA,Anillamiento,1987-12-05,anillamiento
+C,A01280,Miniopterus schreibersii,30,5,1994,"Brazo del Este, Los Palacios, Sevilla",España,2,0,M. Vazquez,2366,220,Anilla en egagropila,1994-05-30,muerto
+A,WA02567,Phalacrocorax carbo,7,12,1989,"Rez Slonsk , Gorzow Wielkopolski",Polonia,2,0,Extranjero,NA,NA,Anillamiento,1989-12-07,anillamiento
+C,WA02567,Phalacrocorax carbo,15,12,1994,"Puebla del Rio, Sevilla",España,2,0,M. Vazquez,1648,2365,Cazado con escopeta,1994-12-15,muerto
+A,AZHP,Phoenicopterus ruber,9,8,1989,"Etang du Fangasier, Camargue",Francia,1,0,Extranjero,NA,NA,Anillamiento,1989-08-09,anillamiento
+C,AZHP,Phoenicopterus ruber,5,10,1989,"Lucio Poco abrigo, Puebla del Rio, Sevilla",España,3,0,M. Vazquez,NA,NA,Solo huesos y PVC,1989-10-05,muerto
+A,AHT,Phoenicopterus ruber,20,7,1977,"Etang du Fangasier, Camargue",Francia,1,0,Tour de Valat,NA,NA,Anillamiento,1977-07-20,anillamiento
+C,AHT,Phoenicopterus ruber,15,12,1989,"Puebla del Rio, Sevilla",España,A,0,M. Vazquez,NA,NA,Cazado con escopeta fecha carta,1989-12-15,muerto
+A,G20922,Platalea leucorodia,19,4,2000,"Bahia de Cadiz, Cadiz",España,1,0,EBD,NA,NA,Anillamiento,2000-04-19,anillamiento
+C,G20922,Platalea leucorodia,13,1,2001,Kaedi,Mauritania,3,0,Particular,269,2366,Capturada en red de pesca y liberada,2001-01-13,control
+A,8028567,Platalea leucorodia,24,5,1974,"Naar Dermeer, Noor Holland",Holanda,1,0,Extranjero,NA,NA,Anillamiento,1974-05-24,anillamiento
+C,8028567,Platalea leucorodia,21,2,1976,"Puebla del Rio, Sevilla",España,7,0,Particular,417,NA,Muerta por botulismo,1976-02-21,muerto
+A,F11033,Sula basana,10,6,1989,"Les Etacs, Aderney, Islasa del canal",Gran Bretaña,1,0,Extranjero,NA,NA,Anillamiento,1989-06-10,anillamiento
+C,F11033,Sula basana,26,8,1989,"La Redondela, Lepe, Huelva",España,3,0,M. Vazquez,77,1439,Encontrado en la playa y liberado,1989-08-26,control
+A,BJ80830,Anas platyrhynchos,25,7,1987,"Hollebley, Suffolr",Gran Bretaña,6,1,Extranjero,NA,NA,Anillamiento,1987-07-25,anillamiento
+C,BJ80830,Anas platyrhynchos,22,10,1989,"Puebla del Rio, Sevilla",España,10,1,M. Vazquez,817,1786,Cazado con escopeta,1989-10-22,muerto
+A,6004206,Anas strepera,14,7,1985,"Lucio Redondo PND, Aznalcazar, Sevilla",España,1,2,P. Rodriguez,NA,NA,Anillamiento,1985-07-14,anillamiento
+C,6004206,Anas strepera,17,10,1986,"Baie Des Veys, Manche",Francia,5,0,Extranjero,458,1429,Cazado con escopeta,1986-10-17,muerto
+A,E642,Anas strepera,24,6,1980,"Kolmenasva, Matsalu State Nature Reserva",Estonia,4,2,Extranjero,NA,NA,Anillamiento,1980-06-24,anillamiento
+C,E642,Anas strepera,7,1,1981,"Sanlucar de Barrameda, Cadiz",España,6,2,Particular,NA,NA,Encontrado muerto,1981-01-07,muerto
+A,6022917,Anas strepera,21,2,1991,"Cañada de los Pajaros, Puebla del Rio, Sevilla",España,3,2,P. Rodriguez,NA,NA,Anillamiento,1991-02-21,anillamiento
+C,6022917,Anas strepera,28,2,1991,"Vic La Gardiole, Herault",Francia,3,2,Extranjero,7,1084,Cazado con escopeta,1991-02-28,muerto
+A,FT82578,Anas crecca,17,10,1985,"Marquenterre, Somme",Francia,3,0,Extranjero,NA,NA,Anillamiento,1985-10-17,anillamiento
+C,FT82578,Anas crecca,15,8,1986,"Lucio del Cangrejo, Aznalcazar, Sevilla",España,5,0,P. Rodriguez,303,1581,Encontrado muerto,1986-08-15,muerto
+A,7006944,Anas acuta,2,12,1987,"La Fao, Aznalczar, Sevilla",España,4,1,P. Rodriguez,NA,NA,Anillamiento,1987-12-02,anillamiento
+C,7006944,Anas acuta,4,1,1993,"Salenelles , Seine-Maritime",Francia,A,0,Extranjero,NA,NA,Cazado con escopeta,1993-01-04,muerto
+A,7006946,Anas acuta,2,12,1987,"Aznalcazar, Sevilla",España,3,1,P. Rodriguez,NA,NA,Anillamiento,1987-12-02,anillamiento
+C,7006946,Anas acuta,18,1,1989,"Etang de L´Or, Herault",Francia,7,0,Extranjero,416,1136,Cazado con escopeta,1989-01-18,muerto
+A,5006669,Anas crecca,28,10,1986,"RB Doñana, Almonte, Huelva",España,3,1,P. Rodriguez,NA,NA,Anillamiento,1986-10-28,anillamiento
+C,5006669,Anas crecca,3,5,1988,"BTW Ektrask and Stenbbchen, Vasterbotten",Suecia,7,0,Extranjero,NA,NA,Muerta por colision con vehiculo,1988-05-03,muerto
+A,4048785,Anas clypeata,22,6,1970,"Groot Schermer, Noor-Holland",Holanda,1,0,Extranjero,NA,NA,Anillamiento,1970-06-22,anillamiento
+C,4048785,Anas clypeata,18,6,2001,"Antequera, Malaga",España,A,0,M. Vazquez,11319,1879,Cazado con escopeta fecha carta,2001-06-18,muerto
+A,6015852,Anas clypeata,15,10,1986,"RB Doñana, Almonte, Huelva",España,3,1,LEO BIAGGI,NA,NA,Anillamiento,1986-10-15,anillamiento
+C,6015852,Anas clypeata,20,10,1987,"Bykhov, Mogilev",Rusia,5,0,Extranjero,370,3347,Cazado con escopeta,1987-10-20,muerto
+A,6015863,Anas clypeata,10,15,1986,"RB Doñana, Almonte, Huelva",España,2,0,LEO BIAGGI,NA,NA,Anillamiento,NA,anillamiento
+C,6015863,Anas clypeata,25,9,1987,"Oostvaa Dersdijk, Ijsselmeer Polders",Holanda,2,0,Extranjero,NA,NA,Encontrado muerto,1987-09-25,muerto
+A,6017905,Anas clypeata,7,10,1987,"Aznalcazar, Sevilla",España,3,2,LEO BIAGGI,NA,NA,Anillamiento,1987-10-07,anillamiento
+C,6017905,Anas clypeata,4,10,1989,"Donges, Loire Atlantique",Francia,7,0,Extranjero,727,1164,Cazado con escopeta,1989-10-04,muerto
+A,5007759,Maramronetta angustirostris,2,10,1990,"Cañada de los Pajaros, Puebla del Rio, Sevilla",España,4,2,LEO BIAGGI,NA,NA,Anillamiento,1990-10-02,anillamiento
+C,5007759,Maramronetta angustirostris,6,9,1992,Chalamont Ain,Francia,8,0,Extranjero,705,1343,Cazado con escopeta,1992-09-06,muerto
+A,7009002,Aythya ferina,11,7,1985,"Lucio del Buen Tiro PND, Aznalcazar, Sevilla",España,1,0,LEO BIAGGI,NA,NA,Anillamiento,1985-07-11,anillamiento
+C,7009002,Aythya ferina,1,5,1986,"Vologda O Kubenskoye, Vologda",Rusia,5,0,Extranjero,295,3627,Muerto trampa para otros animales,1986-05-01,muerto
+A,7009045,Aythya ferina,14,7,1985,"Lucio del Rinconcillo PND, Almonte, Huelva",España,1,0,LEO BIAGGI,NA,NA,Anillamiento,1985-07-14,anillamiento
+C,7009045,Aythya ferina,26,9,1986,"Lonnerup, Fjord, Jylland",Dinamarca,5,0,Extranjero,437,2482,Muerto trampa para otros animales,1986-09-26,muerto
+A,7009058,Aythya ferina,26,7,1985,"Las Nuevas PND, Aznalcazar, Sevilla",España,1,1,LEO BIAGGI,NA,NA,Anillamiento,1985-07-26,anillamiento
+C,7009058,Aythya ferina,30,9,1989,"Arthun, Loire",Francia,A,0,Extranjero,1524,1271,Encontrado muerto,1989-09-30,muerto
+A,7009062,Aythya ferina,26,7,1985,"PN Doñana, Almonte, Huelva",España,3,1,LEO BIAGGI,NA,NA,Anillamiento,1985-07-26,anillamiento
+C,7009062,Aythya ferina,9,10,1988,"El Kelaa, Dessaraghna",Marruecos,A,0,Extranjero,1168,535,Cazado con escopeta,1988-10-09,muerto
+A,CA23796,Tadorna tadorna,2,7,1980,"Aigues Mortes, Gard",Francia,1,2,Extranjero,NA,NA,Anillamiento,1980-07-02,anillamiento
+C,CA23796,Tadorna tadorna,15,12,1980,"Salinas de Bonanza,Sanlucar de Barrameda, Cadiz",España,3,0,Cazador,NA,NA,Cazado con escopeta,1980-12-15,muerto
+A,CA24140,Tadorna tadorna,12,7,1980,"Salin de Giraud, Bouches du Rhone",Francia,1,0,Extranjero,NA,NA,Anillamiento,1980-07-12,anillamiento
+C,CA24140,Tadorna tadorna,1,3,1981,"Salinas de Bonanza,Sanlucar de Barrameda, Cadiz",España,5,2,Cazador,NA,NA,Cazado con escopeta,1981-03-01,muerto
+A,3141108,Accipiter nisus,9,10,1981,"Schiermonnikoog, Schiermonnikoog",Holanda,3,2,Extranjero,NA,NA,Anillamiento,1981-10-09,anillamiento
+C,3141108,Accipiter nisus,15,10,2000,"Marismas del Odiel, Huelva",España,A,0,Zamalla,6946,2067,Encontrada solo anilla,2000-10-15,muerto
+A,EA022390,Milvus milvus,7,6,1990,"Aspaach, Gotha Erfurt",Alemania,1,0,Extranjero,NA,NA,Anillamiento,1990-06-07,anillamiento
+C,EA022390,Milvus milvus,10,1,1992,"La lantejuela, Sevilla",España,7,0,Zamalla,583,1968,Encontrado muerto,1992-01-10,muerto
+A,K38153,Milvus milvus,6,6,1998,"Thommen, Luik, Lieja",Belgica,1,0,Extranjero,NA,NA,Anillamiento,1998-06-06,anillamiento
+C,K38153,Milvus milvus,15,2,2000,"Mochales, Osuna, Sevilla",España,7,0,Zamalla,619,1695,Encontrado muerto,2000-02-15,muerto
+A,EA077777,Circus aeroginosus,29,6,1997,"Cumlosen, Oberhavel, Brademburgo",Alemania,1,0,Extranjero,NA,NA,Anillamiento,1997-06-29,anillamiento
+C,EA077777,Circus aeroginosus,15,11,1997,"Posadas, Cordoba",España,3,0,Zamalla,139,2127,Encontrado muerto,1997-11-15,muerto
+A,402100,Circus aeroginosus,22,6,1986,"Hillerod, Sjaelland",Dinamarca,1,0,Extranjero,NA,NA,Anillamiento,1986-06-22,anillamiento
+C,402101,Circus aeroginosus,15,12,1992,"La lantejuela, Sevilla",España,A,0,Zamalla,2368,2445,Encontrado muerto,1992-12-15,muerto
+A,DA124455,Circus aeroginosus,18,7,1999,"Lachaussee, Meuse",Francia,1,1,Extranjero,NA,NA,Anillamiento,1999-07-18,anillamiento
+C,DA124455,Circus aeroginosus,5,1,2000,"El Cuervo, Lebrija, Sevilla",España,5,0,Zamalla,171,1651,Colision con tendido electrico,2000-01-05,muerto
+A,8090079,Circus aeroginosus,28,6,1999,"Stjarnholm, Soderfjarden, Sodermanland",Suecia,1,2,Extranjero,NA,NA,Anillamiento,1999-06-28,anillamiento
+C,8090079,Circus aeroginosus,17,1,2000,"La Coronela, Marchena, Sevilla",España,5,0,Zamalla,203,2920,Encontrado muerto,2000-01-17,muerto
+A,5007103,Falco tinnunculus,5,11,1989,"La Tiesa, Villamanrique, Sevilla",España,4,2,M. Vazquez,NA,NA,Anillamiento,1989-11-05,anillamiento
+C,5007103,Falco tinnunculus,5,9,1991,"Heessen, Arnsberg",Alemania,8,2,Extranjero,670,1955,Ahogoda en deposito de agua,1991-09-05,muerto
+A,5010413,Falco tinnunculus,27,5,1993,"Osuna, Sevilla",España,1,0,Zamalla,NA,NA,Anillamiento,1993-05-27,anillamiento
+C,5010413,Falco tinnunculus,14,2,1994,C. A. Safi,Marruecos,5,0,Extranjero,263,669,Encontrado muerto,1994-02-14,muerto
+A,3525390,Falco tinnunculus,29,5,1996,"Vierhuizen, Groningen",Holanda,1,0,Extranjero,NA,NA,Anillamiento,1996-05-29,anillamiento
+C,3525390,Falco tinnunculus,1,3,1998,"La lantejuela, Sevilla",España,7,0,Zamalla,641,1988,Encontrado muerto,1998-03-01,muerto
+A,S147492,Falco tinnunculus,16,6,1994,"Lapua, Vaasa Vasa",Finlandia,1,0,Extranjero,NA,NA,Anillamiento,1994-06-16,anillamiento
+C,S147492,Falco tinnunculus,15,1,1995,"Gerena, Sevilla",España,5,0,M. Vazquez,213,3441,Encontrado muerto,1995-01-15,muerto
+A,S219957,Coturnix coturnix,10,7,1997,"Rio Marcellengo, Sommariva Bos, Cuneo",Italia,3,1,Extranjero,NA,NA,Anillamiento,1997-07-10,anillamiento
+C,S219957,Coturnix coturnix,16,8,1997,"Ayerbe, Huesca",España,3,1,M. Vazquez,37,739,Cazado con escopeta,1997-08-16,muerto
+A,S264664,Coturnix coturnix,23,8,1999,"Baroli, Baldissero D´Alba, Cuneo",Italia,3,1,Extranjero,NA,NA,Anillamiento,1999-08-23,anillamiento
+C,S264664,Coturnix coturnix,5,12,2000,"Hinojos, Huelva",España,5,1,M. Vazquez,470,1462,Cazado con escopeta,2000-12-05,muerto
+A,7006954,Fulica atra,9,8,1987,"Cañada de los Pajaros, Puebla del Rio, Sevilla",España,6,0,LEO BIAGGI,NA,NA,Anillamiento,1987-08-09,anillamiento
+C,7006954,Fulica atra,30,12,1988,"Moulay, Bouselham",Marruecos,2,0,Particular,506,254,Mantenida en cautividad,1988-12-30,control
+A,7044444,Fulica atra,22,10,2004,"Cañada de los Pajaros, Puebla del Rio, Sevilla",España,4,0,M. Vazquez,NA,NA,Anillamiento,2004-10-22,anillamiento
+C,7044444,Fulica atra,8,1,2006,"Saintes Maries de la Mer, Bouches du Rhone",Francia,2,0,Particular,443,1139,Cazado con escopeta,2006-01-08,muerto
+A,T0096060,Haemantopus ostralegus,25,8,1995,"Scanno di Gorino, Goro, Ferrara",Italia,6,0,Extranjero,NA,NA,Anillamiento,1995-08-25,anillamiento
+C,T0096060,Haemantopus ostralegus,8,12,2000,"Marismas del Odiel, Huelva",España,6,0,M. Vazquez,NA,NA,control ,2000-12-08,control
+A,IS000038,Vanellus vanellus,25,5,1997,"E Taldom, Moskow",Rusia,2,1,Extranjero,NA,NA,Anillamiento,1997-05-25,anillamiento
+C,IS000038,Vanellus vanellus,19,12,1998,"Alcolea del Rio, Sevilla",España,2,0,M. Vazquez,573,3821,Cazado con escopeta,1998-12-19,muerto
+A,OA81352,Charadrius hiaticula,20,7,2000,"Langenwerder, Neubrandenburg",Alemania,2,0,Extranjero,NA,NA,Anillamiento,2000-07-20,anillamiento
+C,OA81352,Charadrius hiaticula,21,4,2001,"Lucio Poco abrigo, Puebla del Rio, Sevilla",España,4,2,M. Vazquez,270,2296,control ,2001-04-21,control
+A,T012081,Charadrius hiaticula,24,4,1998,"Lucio Poco abrigo, Puebla del Rio, Sevilla",España,4,1,M. Vazquez,NA,NA,Anillamiento,1998-04-24,anillamiento
+C,T012081,Charadrius hiaticula,15,5,2000,"Seal Sands, Teesmoth, Cleveland",Gran Bretaña,4,0,Extranjero,752,1963,control ,2000-05-15,control
+A,BV74861,Charadrius hiaticula,3,5,1993,"Battlehill, Annan Dumfries, Galloway Region",Gran Bretaña,4,1,Extranjero,NA,NA,Anillamiento,1993-05-03,anillamiento
+C,BV74861,Charadrius hiaticula,9,4,1998,"Lucio Poco abrigo, Puebla del Rio, Sevilla",España,4,0,M. Vazquez,1802,1978,control ,1998-04-09,control
+A,3355448,Charadrius hiaticula,17,8,1987,"Sverige, Holand",Suecia,4,0,Extranjero,NA,NA,Anillamiento,1987-08-17,anillamiento
+C,3355448,Charadrius hiaticula,26,9,1988,"Lucio Poco abrigo, Puebla del Rio, Sevilla",España,6,0,M. Vazquez,NA,NA,control ,1988-09-26,control
+A,RBJ,Charadrius alexandrinus,15,8,1994,"St Peter Ording, Northwest of Hamburg",Alemania,2,2,Extranjero,NA,NA,Anillamiento,1994-08-15,anillamiento
+C,RBJ,Charadrius alexandrinus,21,8,1996,"Los Palacios, Sevilla",España,4,0,M. Vazquez,NA,NA,control ,1996-08-21,control
+A,6329130,Pluvialis apricaria,7,8,1994,"Krummhorn, Weser Ems , Excep Islas",Alemania,4,0,Extranjero,NA,NA,Anillamiento,1994-08-07,anillamiento
+C,6329130,Pluvialis apricaria,15,1,2000,"Alcolea del Rio, Sevilla",España,A,0,M. Vazquez,1987,2060,Cazado con escopeta,2000-01-15,muerto
+A,1188551,Pluvialis apricaria,21,11,1981,"Sexbierun, Friesland, Holland",Holanda,3,0,Extranjero,NA,NA,Anillamiento,1981-11-21,anillamiento
+C,1188551,Pluvialis apricaria,2,1,1983,"Isla Mayor, Sevilla",España,7,0,M. Vazquez,NA,2016,Cazado con escopeta,1983-01-02,muerto
+A,1318634,Pluvialis apricaria,11,11,1994,"Marrum Marrumer Mieden, Friesland",Holanda,4,0,Extranjero,NA,NA,Anillamiento,1994-11-11,anillamiento
+C,1318635,Pluvialis apricaria,22,8,2003,"Pilas, Sevilla",España,A,0,M. Vazquez,3206,2010,Cazado con escopeta fecha carta,2003-08-22,muerto
+A,M13577,Gallinago gallinago,6,10,1992,"Bazolles, Nievre",Francia,3,0,Extranjero,NA,NA,Anillamiento,1992-10-06,anillamiento
+C,M13577,Gallinago gallinago,26,11,1994,"Isla Mayor, Sevilla",España,7,0,M. Vazquez,781,1352,Cazado con escopeta,1994-11-26,muerto
+A,E148856,Numenius phaeopus,24,4,1988,"Merksplas, Antwerpen, Amberes",Belgica,4,0,Extranjero,NA,NA,Anillamiento,1988-04-24,anillamiento
+C,E148856,Numenius phaeopus,5,5,2005,"Trebujena, Cadiz",España,A,0,M. Vazquez,6220,1833,Cazado con escopeta fecha carta,2005-05-05,muerto
+A,3269650,Limosa limosa,11,6,1978,"Homnerts, Friesland",Holanda,1,0,Extranjero,NA,NA,Anillamiento,1978-06-11,anillamiento
+C,3269650,Limosa limosa,15,11,1981,"Isla Mayor, Sevilla",España,9,0,LEO BIAGGI,1235,1999,Cazado con escopeta,1981-11-15,muerto
+A,3340188,Limosa limosa,15,5,1982,"Langezwaag, Friesland",Holanda,1,0,Extranjero,NA,NA,Anillamiento,1982-05-15,anillamiento
+C,3340188,Limosa limosa,15,12,1989,"Isla Mayor, Sevilla",España,A,0,LEO BIAGGI,2765,2007,Cazado con escopeta fecha carta,1989-12-15,muerto
+A,4075446,Limosa limosa,18,8,2001,"Salinas de Santa Teresa,Sanlucar de Barrameda, Cadiz",España,4,0,M. Vazquez,NA,NA,Anillamiento,2001-08-18,anillamiento
+C,4075446,Limosa limosa,8,5,2003,"Heiloo, Noord Holland",Holanda,4,2,Extranjero,628,1961,Capturada por un animal silvestre,2003-05-08,muerto
+A,3X23809,Actitis hypoleucos,30,7,1986,"Fisriffoux, Namen",Belgica,2,0,Extranjero,NA,NA,Anillamiento,1986-07-30,anillamiento
+C,3X23809,Actitis hypoleucos,12,8,1986,Chechaouen,Marruecos,2,0,LEO BIAGGI,NA,NA,Cazado con escopeta,1986-08-12,muerto
+A,4364796,Tringa ochropus,8,7,2006,"Vadboden,Hornborgasjön, Västra Götaland",Suecia,2,0,Extranjero,NA,NA,Anillamiento,2006-07-08,anillamiento
+C,4364796,Tringa ochropus,31,8,2006,"Laguna del Gobierno, Lantejuela,Sevilla",España,2,0,Zamalla,54,2691,control ,2006-08-31,control
+A,1183521,Tringa totanus,1,6,1981,"Arkemeen, Gelderland",Holanda,1,0,Extranjero,NA,NA,Anillamiento,1981-06-01,anillamiento
+C,1183521,Tringa totanus,15,12,1989,"Puebla del Rio, Sevilla",España,A,0,Zamalla,3114,1916,Cazado con escopeta fecha carta,1989-12-15,muerto
+A,GE7646,Tringa totanus,17,4,1977,"Ile de Malprat, Biganos, Gironde",Francia,3,0,Extranjero,NA,NA,Anillamiento,1977-04-17,anillamiento
+C,GE7646,Tringa totanus,1,3,1981,"Salinas de Santa Teresa,Sanlucar de Barrameda, Cadiz",España,A,0,LEO BIAGGI,NA,NA,Cazado con escopeta,1981-03-01,muerto
+A,4048242,Tringa totanus,14,9,1995,"Marismas del Odiel, Huelva",España,4,1,M. Vazquez,NA,NA,Anillamiento,1995-09-14,anillamiento
+C,4048242,Tringa totanus,9,5,1999,"Westerland, Nomerpolder, Noord Holland",Holanda,4,0,Extranjero,1333,2276,control ,1999-05-09,control
+A,4068814,Tringa totanus,7,10,2002,"Salina del Pilar,Puerto Real, Cadiz",España,4,0,Zamalla,NA,NA,Anillamiento,2002-10-07,anillamiento
+C,4068814,Tringa totanus,19,6,2006,"Den Helder, Noord Holland",Holanda,A,0,Extranjero,1351,2015,control ,2006-06-19,control
+A,GA05607,Tringa totanus,22,8,1983,"Ujscie Redy, Gdansk",Polonia,3,0,Extranjero,NA,NA,Anillamiento,1983-08-22,anillamiento
+C,GA05607,Tringa totanus,7,9,1999,"Salina del Pilar,Puerto Real, Cadiz",España,A,0,Zamalla,5860,2768,control ,1999-09-07,control
+A,6283332,Tringa erhytropus,26,8,1972,"Rieselfelder, DFFM Munster",Alemania,3,0,Extranjero,NA,NA,Anillamiento,1972-08-26,anillamiento
+C,6283332,Tringa erhytropus,15,1,1982,"Puebla del Rio, Sevilla",España,A,0,LEO BIAGGI,3429,1999,Cazado con escopeta,1982-01-15,muerto
+A,4098815,Philomachus pugnax,3,8,2002,"Brazo del Este, Puebla del Rio, Sevilla",España,4,1,M. Vazquez,NA,NA,Anillamiento,2002-08-03,anillamiento
+C,4098815,Philomachus pugnax,22,4,2005,"Cornwerd, Friesland",Holanda,4,1,Extranjero,966,1988,control ,2005-04-22,control
+A,GN04923,Calidris canutus,30,7,1992,"Rewa, Kosakowo, Gdansk",Polonia,4,2,Extranjero,NA,NA,Anillamiento,1992-07-30,anillamiento
+C,GN04923,Calidris canutus,4,5,1998,"Salinas de Bonanza,Sanlucar de Barrameda, Cadiz",España,4,0,Zamalla,2104,2740,control ,1998-05-04,control
+A,KT13737,Calidris alpina,27,7,1988,"Sappi, Turku Pori, Abo Bjorneborg",Finlandia,6,1,Extranjero,NA,NA,Anillamiento,1988-07-27,anillamiento
+C,KT13737,Calidris alpina,20,11,1988,"Lucio del Italiano, Puebla del Rio, Sevilla",España,4,0,LEO BIAGGI,113,3295,Cazado con escopeta,1988-11-20,muerto
+A,T007228,Calidris alpina,24,9,1995,"Marismas del Odiel, Huelva",España,3,0,M. Vazquez,NA,NA,Anillamiento,1995-09-24,anillamiento
+C,T007228,Calidris alpina,27,8,1996,"Tipperme, Jylland",Dinamarca,5,0,Extranjero,338,2360,control ,1996-08-27,control
+A,T013291,Calidris alpina,19,8,1998,"Salina del Pilar,Puerto Real, Cadiz",España,3,0,Zamalla,NA,NA,Anillamiento,1998-08-19,anillamiento
+C,T013291,Calidris alpina,2,8,2003,"Admiral´S Farm, Norfolk",Gran Bretaña,A,0,Extranjero,1809,1877,control ,2003-08-02,control
+A,T027624,Calidris alpina,15,9,2001,"Salinas de Santa Teresa,Sanlucar de Barrameda, Cadiz",España,4,0,Zamalla,NA,NA,Anillamiento,2001-09-15,anillamiento
+C,T027624,Calidris alpina,1,4,2003,"Res Nat de Moeze, Charente Maritime",Francia,4,0,Extranjero,563,1110,control ,2003-04-01,control
+A,NR44714,Calidris alpina,14,7,1993,"Seal Sands, Teesmoth, Cleveland",Gran Bretaña,4,0,Extranjero,NA,NA,Anillamiento,1993-07-14,anillamiento
+C,NR44714,Calidris alpina,18,1,1999,"Salina del Pilar,Puerto Real, Cadiz",España,4,0,Zamalla,2014,2045,control ,1999-01-18,control
+A,NR47760,Calidris alpina,13,5,1998,"Biggar Bank, Walney Islands, Cumbria",Gran Bretaña,6,0,Extranjero,NA,NA,Anillamiento,1998-05-13,anillamiento
+C,NR47760,Calidris alpina,14,5,1999,"Salina del Pilar,Puerto Real, Cadiz",España,4,0,Zamalla,366,1963,control ,1999-05-14,control
+A,NR60648,Calidris alpina,10,5,1994,"North Gare Sands, Teesmooth, Cleveland",Gran Bretaña,6,0,Extranjero,NA,NA,Anillamiento,1994-05-10,anillamiento
+C,NR60648,Calidris alpina,7,9,1999,"Salina del Pilar,Puerto Real, Cadiz",España,4,0,Zamalla,1946,2047,control ,1999-09-07,control
+A,NR78854,Calidris alpina,24,8,1996,"Seal Sands, Teesmoth, Cleveland",Gran Bretaña,3,0,Extranjero,NA,NA,Anillamiento,1996-08-24,anillamiento
+C,NR78854,Calidris alpina,12,9,1999,"Salina del Pilar,Puerto Real, Cadiz",España,9,0,Zamalla,1114,2045,control ,1999-09-12,control
+A,NS54701,Calidris alpina,11,5,1996,"Waterfoot, Dumfries, Galloway Region",Gran Bretaña,6,2,Extranjero,NA,NA,Anillamiento,1996-05-11,anillamiento
+C,NS54701,Calidris alpina,24,4,1998,"Lucio Poco abrigo, Puebla del Rio, Sevilla",España,4,0,M. Vazquez,713,1978,control ,1998-04-24,control
+A,C8628956,Calidris alpina,6,10,1997,"Jomfruland, Kragero, Telenark",Noruega,3,0,Extranjero,NA,NA,Anillamiento,1997-10-06,anillamiento
+C,C8628956,Calidris alpina,13,2,1999,"Salina del Pilar,Puerto Real, Cadiz",España,7,0,Zamalla,495,2734,control ,1999-02-13,control
+A,JN56998,Calidris alpina,30,8,1993,"Ujscie Wisly K Swibna, Gdansk",Polonia,3,0,Extranjero,NA,NA,Anillamiento,1993-08-30,anillamiento
+C,JN56998,Calidris alpina,8,4,1999,"Salina del Pilar,Puerto Real, Cadiz",España,A,0,Zamalla,2047,2757,control ,1999-04-08,control
+A,T007727,Calidris ferruginea,17,8,1996,"Marismas del Odiel, Huelva",España,4,0,M. Vazquez,NA,NA,Anillamiento,1996-08-17,anillamiento
+C,T007727,Calidris ferruginea,23,7,2000,"Ottenby, Oland",Suecia,4,0,Extranjero,1436,2728,control ,2000-07-23,control
+A,81482239,Calidris ferruginea,15,5,1993,"Central Sivash II, Crimea",Ucrania,6,0,Extranjero,NA,NA,Anillamiento,1993-05-15,anillamiento
+C,81482239,Calidris ferruginea,6,5,1999,"Salina del Pilar,Puerto Real, Cadiz",España,4,0,Zamalla,2182,3493,control ,1999-05-06,control
+A,2286797,Calidris minuta,7,8,1991,"Veta la Palma, Puebla del Rio, Sevilla",España,4,1,M. Vazquez,NA,NA,Anillamiento,1991-08-07,anillamiento
+C,2286797,Calidris minuta,28,7,1993,"Sappi Luvia, Turku Pori, Abo Bjorneborg",Finlandia,6,1,Extranjero,721,3309,control ,1993-07-28,control
+A,E81599,Recurvirostra avosetta,11,6,1980,"Apetlon, Nez Neusiedl, Burgenland",Austria,1,0,Extranjero,NA,NA,Anillamiento,1980-06-11,anillamiento
+C,E81599,Recurvirostra avosetta,15,7,1989,"Lucio de las Gavetas, Puebla del Rio",España,A,0,LEO BIAGGI,NA,NA,Encontrado muerto,1989-07-15,muerto
+A,3415965,Recurvirostra avosetta,22,7,1996,"Wormer-En Jisperveld, Noord Holland",Holanda,3,0,Extranjero,NA,NA,Anillamiento,1996-07-22,anillamiento
+C,3415965,Recurvirostra avosetta,6,9,1997,"Dehesa de Abajo, Puebla del Rio, Sevilla",España,5,0,M. Vazquez,411,1893,Encontrado muerto,1997-09-06,muerto
+A,4071886,Himantopus himantopus,25,6,1998,"Los Palacios, Sevilla",España,1,0,M. Vazquez,NA,NA,Anillamiento,1998-06-25,anillamiento
+C,4071886,Himantopus himantopus,10,7,2004,"Ksar Chellala, Argelia otras Provincias",Argelia,A,0,Extranjero,2207,769,Encontrado muerto,2004-07-10,muerto
+A,EC89687,Burhinus oedicnemus,3,8,1994,Norfolk,Gran Bretaña,1,0,Extranjero,NA,NA,Anillamiento,1994-08-03,anillamiento
+C,EC89687,Burhinus oedicnemus,15,1,1995,"La Roda, Sevilla",España,5,0,M. Vazquez,165,1744,Cazado con escopeta,1995-01-15,muerto
+A,5202873,Larus fuscus,25,6,1987,"ECT Terrein, Maasulakte, Zuid Holland",Holanda,1,0,Extranjero,NA,NA,Anillamiento,1987-06-25,anillamiento
+C,5202873,Larus fuscus,15,11,1988,"Puebla del Rio, Sevilla",España,5,0,LEO BIAGGI,505,1815,Cazado con escopeta,1988-11-15,muerto
+A,4076860,Larus fuscus,25,7,1989,"Mikladi, Jylland, Jutland",Dinamarca,1,0,Extranjero,NA,NA,Anillamiento,1989-07-25,anillamiento
+C,4076860,Larus fuscus,15,12,1989,"Puebla del Rio, Sevilla",España,3,0,LEO BIAGGI,157,2818,Cazado con escopeta,1989-12-15,muerto
+A,GG44185,Larus fuscus,8,7,1990,"Ordfordness, Suffolk",Gran Bretaña,1,0,Extranjero,NA,NA,Anillamiento,1990-07-08,anillamiento
+C,GG44185,Larus fuscus,9,9,1991,"Isla Mayor, Sevilla",España,5,0,LEO BIAGGI,426,1770,Encontrado muerto,1991-09-09,muerto
+A,4167111,Larus fuscus,18,6,1991,"Rauna, Farsund, Vest Agder",Noruega,1,0,Extranjero,NA,NA,Anillamiento,1991-06-18,anillamiento
+C,4167111,Larus fuscus,29,6,1996,"Marismas del Odiel, Huelva",España,A,0,M. Vazquez,1960,2523,control ,1996-06-29,control
+A,4224148,Larus fuscus,12,7,2002,"Rauna, Farsund, Vest Agder",Noruega,1,0,Extranjero,NA,NA,Anillamiento,2002-07-12,anillamiento
+C,4224148,Larus fuscus,21,9,2003,"Laguna del Gobierno, Lantejuela,Sevilla",España,5,0,M. Vazquez,436,2457,control ,2003-09-21,control
+A,6017280,Larus fuscus,30,8,1990,"Cañada de los Pajaros, Puebla del Rio, Sevilla",España,4,0,LEO BIAGGI,NA,NA,Anillamiento,1990-08-30,anillamiento
+C,6017280,Larus fuscus,28,8,1992,"Merrynton, Near Larkhall, Strathclyde Region",Gran Bretaña,8,0,Extranjero,729,2060,Colision con tendido electrico,1992-08-28,muerto
+A,MA11008,Larus canus,5,7,1985,"Skurvene, Hisoy, Aust Agder",Noruega,1,0,Extranjero,NA,NA,Anillamiento,1985-07-05,anillamiento
+C,MA11008,Larus canus,4,2,1987,"Corta de la Cartuja, Sevilla",España,7,0,LEO BIAGGI,NA,NA,Encontrado herida y no liberada,1987-02-04,control
+A,4T65312,Larus ridibundus,10,6,1989,"Genk, Limburg",Belgica,1,0,Extranjero,NA,NA,Anillamiento,1989-06-10,anillamiento
+C,4T65312,Larus ridibundus,6,9,1990,"Cañada de los Pajaros, Puebla del Rio, Sevilla",España,5,0,LEO BIAGGI,451,1775,Encontrado muerto,1990-09-06,muerto
+A,FS11577,Larus ridibundus,1,6,1988,"Clepe, Loire",Francia,1,0,Extranjero,NA,NA,Anillamiento,1988-06-01,anillamiento
+C,FS11577,Larus ridibundus,9,9,1990,"Cañada de los Pajaros, Puebla del Rio, Sevilla",España,7,0,LEO BIAGGI,828,1272,Encontrado muerto,1990-09-09,muerto
+A,3438899,Larus ridibundus,8,6,1988,"Hellegatsplein, Noord Brabant",Holanda,1,0,Extranjero,NA,NA,Anillamiento,1988-06-08,anillamiento
+C,3438899,Larus ridibundus,5,8,1991,"Aznalcazar, Sevilla",España,9,0,LEO BIAGGI,1152,1806,Encontrado muerto,1991-08-05,muerto
+A,311365,Larus ridibundus,2,6,1988,"Gagzdai, Klaipeda",Lituania,1,0,Extranjero,NA,NA,Anillamiento,1988-06-02,anillamiento
+C,311365,Larus ridibundus,3,9,1989,"Puebla del Rio, Sevilla",España,5,0,LEO BIAGGI,456,2901,Encontrado muerto,1989-09-03,muerto
+A,375328,Larus ridibundus,1,6,1991,"Zatysiai, Jonava",Lituania,1,0,Extranjero,NA,NA,Anillamiento,1991-06-01,anillamiento
+C,375328,Larus ridibundus,10,12,1991,"Puebla del Rio, Sevilla",España,3,0,LEO BIAGGI,189,3008,Encontrado muerto,1991-12-10,muerto
+A,4003721,Larus ridibundus,7,9,1989,"Cañada de los Pajaros, Puebla del Rio, Sevilla",España,4,0,LEO BIAGGI,NA,NA,Anillamiento,1989-09-07,anillamiento
+C,4003721,Larus ridibundus,27,3,1994,"Koln Longerich, Koln",Alemania,A,0,Extranjero,1662,1837,Encontrado muerto,1994-03-27,muerto
+A,4030527,Larus ridibundus,3,9,1990,"Cañada de los Pajaros, Puebla del Rio, Sevilla",España,3,0,LEO BIAGGI,NA,NA,Anillamiento,1990-09-03,anillamiento
+C,4030527,Larus ridibundus,10,5,1992,"Moerbeke Waas, Flandes Oriental",Belgica,7,0,Extranjero,NA,NA,Encontrado muerto,1992-05-10,muerto
+A,ST52707,Larus ridibundus,30,6,1988,"Lieksa, Phojois Karjalan, Mikkili San Miguel",Finlandia,4,0,Extranjero,NA,NA,Anillamiento,1988-06-30,anillamiento
+C,ST52707,Larus ridibundus,16,1,1989,"El Rubio, Sevilla",España,4,0,LEO BIAGGI,200,3707,Cazado con escopeta,1989-01-16,muerto
+A,1373245,Sterna sandvicensis,29,5,1998,"Griend, Griend",Holanda,1,0,Extranjero,NA,NA,Anillamiento,1998-05-29,anillamiento
+C,1373245,Sterna sandvicensis,14,9,2001,"Salinas de Santa Teresa,Sanlucar de Barrameda, Cadiz",España,4,0,M. Vazquez,1204,2040,control ,2001-09-14,control
+A,5063406,Streptopelia decaocto,4,10,2003,"Cañada de los Pajaros, Puebla del Rio, Sevilla",España,3,0,M. Vazquez,NA,NA,Anillamiento,2003-10-04,anillamiento
+C,5063406,Streptopelia decaocto,23,9,2004,"Ria de Alvor, Faro, Algarve",Portugal,5,0,Extranjero,355,216,control ,2004-09-23,control
+A,H78185,Tyto alba,23,6,1996,"Biwer, Luxemburgo",Luxemburgo,1,0,Extranjero,NA,NA,Anillamiento,1996-06-23,anillamiento
+C,H78185,Tyto alba,1,12,1996,"Vejer de la Frontera, Cadiz",España,3,0,M. Vazquez,161,1797,Atropellado,1996-12-01,muerto
+A,SA34145,Apus apus,22,6,1973,"Knresborogh, North Yorkshire",Gran Bretaña,4,0,Extranjero,NA,NA,Anillamiento,1973-06-22,anillamiento
+C,SA34145,Apus apus,15,10,1984,"Cazalla de la Sierra, Sevilla",España,A,0,LEO BIAGGI,3414,1819,Cazado con escopeta,1984-10-15,muerto
+A,3194350,Upupa epops,24,3,2005,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,0,Zamalla,NA,NA,Anillamiento,2005-03-24,anillamiento
+C,3194350,Upupa epops,25,4,2007,"Monsegur, Landes",Francia,4,0,Extranjero,762,799,Atropellado,2007-04-25,muerto
+A,220413,Anser anser,11,8,1983,Gulper See,Alemania,3,1,Extranjero,NA,NA,Anillamiento,1983-08-11,anillamiento
+C,220413,Anser anser,17,6,2005,"Moguer, Huelva",España,A,0,M. Vazquez,7981,2273,Encontrada solo anilla,2005-06-17,muerto
+A,9030456,Ciconia ciconia,17,6,2004,"Dehesa de Abajo, Puebla del Rio, Sevilla",España,1,0,M. Vazquez,NA,NA,Anillamiento,2004-06-17,anillamiento
+C,9030456,Ciconia ciconia,5,7,2010,Ayoun El Atrouss,Mauritania,A,0,CRBPO,2209,2297,Encontrado muerto,2010-07-05,muerto
+A,A5114,Ciconia ciconia,13,6,2006,"Manhein, Nordbaden, Karlsruhe",Alemania,1,0,M. Vazquez,NA,NA,Anillamiento,2006-06-13,anillamiento
+C,A5114,Ciconia ciconia,20,8,2006,"Puerto Real, Cadiz",España,3,0,Extranjero,68,1860,Colision con tendido electrico,2006-08-20,muerto
+A,DD62652,Sterna sandvicensis,1,7,2006,"Ogilby Island, Down",Gran Bretaña,1,0,M. Vazquez,NA,NA,Anillamiento,2006-07-01,anillamiento
+C,DD62652,Sterna sandvicensis,13,3,2007,"Veta la Palma, Puebla del Rio, Sevilla",España,4,0,Extranjero,255,1938,Encontrado muerto,2007-03-13,muerto
+A,2E1108,Phalacrocorax carbo,14,6,1999,"Yderste Holm, Stavns Fjord, Samso",Dinamarca,1,0,Extranjero,NA,NA,Anillamiento,1999-06-14,anillamiento
+C,2E1108,Phalacrocorax carbo,15,11,2001,"San Fernando,Cadiz",España,5,0,M. Vazquez,885,2499,Cazado con escopeta,2001-11-15,muerto
+A,GG25935,Larus fuscus,21,5,1989,"Swomer Island, Dyfed, Wales",Gran Bretaña,1,0,Extranjero,NA,NA,Anillamiento,1989-05-21,anillamiento
+C,GG25935,Larus fuscus,30,8,1989,"Veta la Palma, Puebla del Rio, Sevilla",España,3,0,LEO BIAGGI,NA,NA,Encontrado enfermo y  liberado,1989-08-30,control
+A,FS16993,Larus ridibundus,2,6,1990,"Craintilleux, Loire",Francia,1,0,Extranjero,NA,NA,Anillamiento,1990-06-02,anillamiento
+C,FS16993,Larus ridibundus,15,9,1990,"Puebla del Rio, Sevilla",España,3,0,LEO BIAGGI,103,1258,Encontrado enfermo y  liberado,1990-09-15,control
+A,379265,Sterna caspia,17,6,1986,Tombamaa,Estonia,1,0,Extranjero,NA,NA,Anillamiento,1986-06-17,anillamiento
+C,379265,Sterna caspia,23,8,1991,"Isla Mayor, Sevilla",España,6,0,LEO BIAGGI,1891,3144,Encontrado enfermo y  liberado,1991-08-23,control
+A,SA867098,Alauda arvensis,18,10,1994,"Tremblay sur Mauldre, Yvelines, Paris",Francia,4,2,Extranjero,NA,NA,Anillamiento,1994-10-18,anillamiento
+C,SA867098,Alauda arvensis,26,2,1995,"Isla Mayor, Sevilla",España,2,0,LEO BIAGGI,131,1448,Cazado con escopeta,1995-02-26,muerto
+A,232903,Riparia riparia,15,5,1988,"La Isleta, Puebla del Rio, Sevilla",España,4,0,M. Vazquez,NA,NA,Anillamiento,1988-05-15,anillamiento
+C,232903,Riparia riparia,22,3,1991,"PN Djoudj, Fleuve",Senegal,4,0,Extranjero,1042,2528,control ,1991-03-22,control
+A,832254,Riparia riparia,14,8,1997,"El Pantano, Los Palacios, Sevilla",España,2,0,M. Vazquez,NA,NA,Anillamiento,1997-08-14,anillamiento
+C,832254,Riparia riparia,20,5,1998,"Marateca, Setubal, Estremadura",Portugal,4,0,Extranjero,279,298,control ,1998-05-20,control
+A,AF1338,Riparia riparia,4,9,1999,"Laguna Cerro de las Cigüeñas, Los Palacios, Sevilla",España,3,0,M. Vazquez,NA,NA,Anillamiento,1999-09-04,anillamiento
+C,AF1338,Riparia riparia,19,6,2000,"Mid Lairgs, Daviot, Highland Region",Gran Bretaña,4,2,Extranjero,289,2252,control ,2000-06-19,control
+A,A161871,Riparia riparia,25,6,1998,"Paul da Madriz, Coimbra, Beira Litoral",Portugal,3,0,Extranjero,NA,NA,Anillamiento,1998-06-25,anillamiento
+C,A161871,Riparia riparia,22,8,1999,"Laguna Cerro de las Cigüeñas, Los Palacios, Sevilla",España,4,0,M. Vazquez,423,402,control ,1999-08-22,control
+A,A166280,Riparia riparia,5,7,1999,"Paul da Madriz, Coimbra, Beira Litoral",Portugal,3,0,Extranjero,NA,NA,Anillamiento,1999-07-05,anillamiento
+C,A166280,Riparia riparia,22,8,1999,"Laguna Cerro de las Cigüeñas, Los Palacios, Sevilla",España,3,0,M. Vazquez,48,404,Muerto en red japonesa ahogado,1999-08-22,muerto
+A,229553,Hirundo rustica,19,4,1988,"Puebla del Rio, Sevilla",España,1,0,LEO BIAGGI,NA,NA,Anillamiento,1988-04-19,anillamiento
+C,229553,Hirundo rustica,8,5,1991,Missour,Marruecos,2,0,Extranjero,1114,504,Encontrado muerto,1991-05-08,muerto
+A,309387,Hirundo rustica,4,5,1991,"Cortijo Saballo, Marinaleda, Sevilla",España,1,0,M. Vazquez,NA,NA,Anillamiento,1991-05-04,anillamiento
+C,309387,Hirundo rustica,24,3,1992,Beni Mellal,Marruecos,5,0,Particular,325,575,control ,1992-03-24,control
+A,AC5521,Hirundo rustica,21,8,1999,"Laguna Cerro de las Cigüeñas, Los Palacios, Sevilla",España,3,0,M. Vazquez,NA,NA,Anillamiento,1999-08-21,anillamiento
+C,AC5521,Hirundo rustica,24,1,2000,"Ebbajen, Boje",Nigeria,5,0,Particular,156,3747,control ,2000-01-24,control
+A,AF1523,Hirundo rustica,4,9,1999,"Laguna Cerro de las Cigüeñas, Los Palacios, Sevilla",España,3,0,M. Vazquez,NA,NA,Anillamiento,1999-09-04,anillamiento
+C,AF1523,Hirundo rustica,19,4,2000,PN de Souss Massa,Marruecos,2,0,CRBPO,228,869,Colision con un avion,2000-04-19,muerto
+A,N207694,Hirundo rustica,6,10,2005,"Caño Navarro, Coria del Rio, Sevilla",España,3,0,M. Vazquez,NA,NA,Anillamiento,2005-10-06,anillamiento
+C,N207694,Hirundo rustica,13,5,2006,"Norton, South Yorks",Gran Bretaña,5,0,BTO,219,1855,control ,2006-05-13,control
+A,1184479,Anthus pratensis,1,10,1982,"Overijse, Brabant",Belgica,4,0,Extranjero,NA,NA,Anillamiento,1982-10-01,anillamiento
+C,1184479,Anthus pratensis,5,12,1987,"Coria del Rio, Sevilla",España,4,0,M. Vazquez,1889,1706,Cazada,1987-12-05,muerto
+A,1235157,Anthus pratensis,9,10,1980,"Lokeren, Cost VL",Belgica,2,0,Extranjero,NA,NA,Anillamiento,1980-10-09,anillamiento
+C,1235157,Anthus pratensis,2,11,1980,"Coria del Rio, Sevilla",España,2,0,M. Vazquez,NA,NA,Cazada red de suelo,1980-11-02,muerto
+A,2265107,Anthus pratensis,23,9,1986,"Awirs, Luik, Lieja",Belgica,3,0,Extranjero,NA,NA,Anillamiento,1986-09-23,anillamiento
+C,2265107,Anthus pratensis,30,6,1987,"Puebla del Rio, Sevilla",España,2,0,M. Vazquez,260,1758,Solo anilla,1987-06-30,muerto
+A,2279724,Anthus pratensis,13,10,1986,"Bellers, Henegouwen",Belgica,4,0,Extranjero,NA,NA,Anillamiento,1986-10-13,anillamiento
+C,2279724,Anthus pratensis,20,11,1988,"Puebla del Rio, Sevilla",España,2,0,M. Vazquez,767,1668,Cazada,1988-11-20,muerto
+A,2083874,Anthus pratensis,2,10,1988,"Neerpelt, Limburg",Belgica,4,0,Extranjero,NA,NA,Anillamiento,1988-10-02,anillamiento
+C,2083874,Anthus pratensis,12,11,1988,"Carmona, Sevilla",España,2,0,M. Vazquez,40,1760,Cazada con percha,1988-11-12,muerto
+A,2722123,Anthus pratensis,11,10,1987,"Merksplas, Antwerpen, Amberes",Belgica,4,0,Extranjero,NA,NA,Anillamiento,1987-10-11,anillamiento
+C,2722123,Anthus pratensis,12,11,1988,"Carmona, Sevilla",España,2,0,M. Vazquez,396,1753,Cazada con percha,1988-11-12,muerto
+A,3482480,Anthus pratensis,30,9,1989,"Sourbrodt, Luik, Lieja",Belgica,3,0,Extranjero,NA,NA,Anillamiento,1989-09-30,anillamiento
+C,3482480,Anthus pratensis,1,11,1994,"Coria del Rio, Sevilla",España,2,0,M. Vazquez,1858,1756,Cazada,1994-11-01,muerto
+A,3580464,Anthus pratensis,11,10,1990,"Anzegem, Flandes Occidental",Belgica,4,0,Extranjero,NA,NA,Anillamiento,1990-10-11,anillamiento
+C,3580464,Anthus pratensis,25,15,1991,"Puñana, Almensilla, Sevilla",España,2,0,M. Vazquez,441,1600,Cazada,NA,muerto
+A,8305694,Anthus pratensis,27,9,2002,"Hamme St Anna, Oost Vlaanderen, Flandes",Belgica,3,0,Extranjero,NA,NA,Anillamiento,2002-09-27,anillamiento
+C,8305694,Anthus pratensis,15,11,2004,"Trebujena, Cadiz",España,2,0,M. Vazquez,780,1780,Cazada,2004-11-15,muerto
+A,XC743076,Anthus pratensis,29,7,1988,"Kandalakshskiy Zap-K, Bolshoy, Murmansk",Rusia,3,0,Extranjero,NA,NA,Anillamiento,1988-07-29,anillamiento
+C,XC743076,Anthus pratensis,4,12,1988,"Los Palacios, Sevilla",España,2,0,M. Vazquez,128,4255,Cazada,1988-12-04,muerto
+A,XD973232,Anthus pratensis,4,7,1991,"Kandalakshskiy, Barentsevo, Mor Murmansk",Rusia,1,0,Extranjero,NA,NA,Anillamiento,1991-07-04,anillamiento
+C,XD973232,Anthus pratensis,15,12,1992,"Dos Hermanas, Sevilla",España,5,0,M. Vazquez,530,4244,Cazada,1992-12-15,muerto
+A,XD973239,Anthus pratensis,6,7,1991,"Kandalakshskiy, Barentsevo, Mor Murmansk",Rusia,1,0,Extranjero,NA,NA,Anillamiento,1991-07-06,anillamiento
+C,XD973239,Anthus pratensis,15,12,1992,"Dos Hermanas, Sevilla",España,5,0,M. Vazquez,528,4246,Cazada,1992-12-15,muerto
+A,E225608,Anthus pratensis,15,9,1987,"Sporn Point, Humberside",Gran Bretaña,3,0,Extranjero,NA,NA,Anillamiento,1987-09-15,anillamiento
+C,E225608,Anthus pratensis,25,10,1988,"Coria del Rio, Sevilla",España,2,0,M. Vazquez,405,1872,Cazada,1988-10-25,muerto
+A,H559564,Anthus pratensis,13,9,1992,"Spurn Head, Humberside",Gran Bretaña,3,0,Extranjero,NA,NA,Anillamiento,1992-09-13,anillamiento
+C,H559564,Anthus pratensis,17,11,1992,"Colegio El Rocio, Torreblanca, Sevilla",España,2,0,M. Vazquez,65,1856,Encontrado muerto,1992-11-17,muerto
+A,E117353,Anthus pratensis,5,9,1989,"Finset, Hemsedal, Buskerund",Noruega,4,0,Extranjero,NA,NA,Anillamiento,1989-09-05,anillamiento
+C,E117353,Anthus pratensis,30,10,1991,"Huevar, Sevilla",España,2,0,M. Vazquez,815,2815,Cazada,1991-10-30,muerto
+A,E193569,Anthus pratensis,14,8,1989,"Fraena, More Og Romsdal",Noruega,3,0,Extranjero,NA,NA,Anillamiento,1989-08-14,anillamiento
+C,E193569,Anthus pratensis,1,11,1994,"Coria del Rio, Sevilla",España,2,0,M. Vazquez,1905,2988,Cazada,1994-11-01,muerto
+A,A997542,Anthus pratensis,22,9,1988,"Kennmerduinen, Harlen, Noord Holland",Holanda,4,0,Extranjero,NA,NA,Anillamiento,1988-09-22,anillamiento
+C,A997542,Anthus pratensis,5,11,1988,"Carmona, Sevilla",España,2,0,M. Vazquez,43,1842,Cazada con percha,1988-11-05,muerto
+A,3039383,Motacilla cinerea,8,9,1988,Clabecq,Belgica,2,0,Extranjero,NA,NA,Anillamiento,1988-09-08,anillamiento
+C,3039384,Motacilla cinerea,11,12,1988,"Torreblanca, Sevilla",España,2,0,M. Vazquez,NA,1683,Otros,1988-12-11,muerto
+A,3924820,Motacilla flava,10,3,1993,"PN Djoudj, Fleuve",Senegal,4,2,Extranjero,NA,NA,Anillamiento,1993-03-10,anillamiento
+C,3924820,Motacilla flava,28,10,1995,"Puebla del Rio, Sevilla",España,2,0,M. Vazquez,962,2525,Encontrado muerto,1995-10-28,muerto
+A,9004398,Ciconia ciconia,29,5,1992,"Cañada de los Pajaros, Puebla del Rio, Sevilla",España,1,0,M. Vazquez,NA,NA,Anillamiento,1992-05-29,anillamiento
+C,9004398,Ciconia ciconia,5,3,1999,Tombouctou,Mali,A,0,Extranjero,NA,NA,Encontrado muerto,1999-03-05,muerto
+A,23V12140,Motacilla alba,7,4,1983,"St Amande, Antwerpen",Belgica,4,1,Extranjero,NA,NA,Anillamiento,1983-04-07,anillamiento
+C,23V12140,Motacilla alba,3,11,1986,"Coria del Rio, Sevilla",España,2,0,M. Vazquez,NA,NA,Cazada,1986-11-03,muerto
+A,33V12675,Motacilla alba,18,9,1990,"Zele Heikant, Flandes Occidental",Belgica,3,0,Extranjero,NA,NA,Anillamiento,1990-09-18,anillamiento
+C,33V12675,Motacilla alba,25,12,1991,"Puñana, Almensilla, Sevilla",España,5,0,M. Vazquez,464,1650,Cazada,1991-12-25,muerto
+A,4262822,Motacilla alba,30,9,1992,"Boortmeerbeek, Brabant",Belgica,3,0,Extranjero,NA,NA,Anillamiento,1992-09-30,anillamiento
+C,4262822,Motacilla alba,15,12,1992,"Dos Hermanas, Sevilla",España,3,0,M. Vazquez,76,1734,Atropellado,1992-12-15,muerto
+A,80710173,Motacilla alba,13,6,1987,"Plau Appelburg, Schwerin",Alemania,1,0,Extranjero,NA,NA,Anillamiento,1987-06-13,anillamiento
+C,80710173,Motacilla alba,15,12,1987,"Coria del Rio, Sevilla",España,3,0,M. Vazquez,182,2286,Cazada,1987-12-15,muerto
+A,3196662,Sturnus vulgaris,24,11,2001,"La Fao, Aznalcazar, Sevilla",España,3,2,M. Vazquez,NA,NA,Anillamiento,2001-11-24,anillamiento
+C,3196662,Sturnus vulgaris,20,10,2002,"Mas Thibert, Bouches du Rhone",Francia,2,0,Extranjero,330,1203,Cazado con escopeta,2002-10-20,muerto
+A,1E87964,Prunella modularis,15,9,2001,"Jabekk, Mandal, Vest Agder",Noruega,3,0,M. Vazquez,NA,NA,Anillamiento,2001-09-15,anillamiento
+C,1E87964,Prunella modularis,11,11,2001,"El Alamillo, Sevilla",España,3,0,Extranjero,57,2495,control ,2001-11-11,control
+A,N216363,Acrocephalus schoenobaenus,9,4,2006,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,0,M. Vega,NA,NA,Anillamiento,2006-04-09,anillamiento
+C,N216363,Acrocephalus schoenobaenus,23,4,2006,"Sewage Treatment Works, Bedfordshire",Gran Bretaña,4,0,BTO,14,1662,control ,2006-04-23,control
+C,N216363,Acrocephalus schoenobaenus,3,6,2007,"Sewage Treatment Works, Bedfordshire",Gran Bretaña,4,0,BTO,420,1662,control ,2007-06-03,control
+A,4513029,Acrocephalus schoenobaenus,8,5,2002,"Vred, Nord",Francia,4,1,Extranjero,NA,NA,Anillamiento,2002-05-08,anillamiento
+C,4513029,Acrocephalus schoenobaenus,17,3,2004,"Veta la Palma, Puebla del Rio, Sevilla",España,4,0,M. Vazquez,679,1653,control ,2004-03-17,control
+A,AC0331,Acrocephalus schoenobaenus,29,5,2005,"Jersey Bird Observatory, ST Ouen, Jersey Islas del Canal",Gran Bretaña,4,0,Extranjero,NA,NA,Anillamiento,2005-05-29,anillamiento
+C,AC0331,Acrocephalus schoenobaenus,18,8,2006,"Caño Navarro, Coria del Rio, Sevilla",España,4,0,M. Vazquez,446,1367,control ,2006-08-18,control
+A,A175939,Acrocephalus schoenobaenus,10,9,2004,"Barrinha de Mira, Coimbra",Portugal,3,0,Extranjero,NA,NA,Anillamiento,2004-09-10,anillamiento
+C,A175939,Acrocephalus schoenobaenus,15,5,2005,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,0,M. Vega,247,461,control ,2005-05-15,control
+A,VP21064,Acrocephalus palustris,19,8,2003,"Ventes Ragas, Silute",Lituania,3,0,Extranjero,NA,NA,Anillamiento,2003-08-19,anillamiento
+C,VP21065,Acrocephalus palustris,30,5,2004,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,0,M. Vega,285,2815,control ,2004-05-30,control
+A,VD76554,Acrocephalus palustris,21,7,2004,"Roblingen, Mansfelder, Halle",Alemania,3,0,Extranjero,NA,NA,Anillamiento,2004-07-21,anillamiento
+C,VD76554,Acrocephalus palustris,26,8,2004,"Caño Navarro, Coria del Rio, Sevilla",España,3,0,M. Vazquez,36,2100,control ,2004-08-26,control
+A,ZB55555,Acrocephalus scirpaceus,25,5,2002,"Bohmke U Werder Wolgast, Rostock",Alemania,4,0,Extranjero,NA,NA,Anillamiento,2002-05-25,anillamiento
+C,ZB55555,Acrocephalus scirpaceus,15,5,2005,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,0,M. Vega,1086,2359,control ,2005-05-15,control
+A,3229814,Acrocephalus scirpaceus,27,5,1990,"Wetteren, Oost Vlaanderen, Flandes Or",Belgica,4,0,Extranjero,NA,NA,Anillamiento,1990-05-27,anillamiento
+C,3229814,Acrocephalus scirpaceus,5,10,1992,"Sanlucar de Barrameda, Cadiz",España,4,0,M. Vazquez,862,1777,Cazada,1992-10-05,muerto
+A,4115167,Acrocephalus scirpaceus,1,9,1991,"Genk, Limburg",Belgica,3,0,Extranjero,NA,NA,Anillamiento,1991-09-01,anillamiento
+C,4115167,Acrocephalus scirpaceus,5,5,1995,"La Escribana, Coria del Rio, Sevilla",España,4,0,M. Vazquez,1342,1769,control ,1995-05-05,control
+A,4449241,Acrocephalus scirpaceus,18,8,1992,"Nismes, Namen, Namur",Belgica,3,0,Extranjero,NA,NA,Anillamiento,1992-08-18,anillamiento
+C,4449241,Acrocephalus scirpaceus,6,9,1994,"Villaverde del Rio, Sevilla",España,4,0,M. Vazquez,749,1617,Encontrado muerto,1994-09-06,muerto
+A,9441291,Acrocephalus scirpaceus,11,8,2005,"Wetteren, Oost Vlaanderen, Flandes Or",Belgica,3,0,Extranjero,NA,NA,Anillamiento,2005-08-11,anillamiento
+C,9441291,Acrocephalus scirpaceus,25,8,2006,"Caño Navarro, Coria del Rio, Sevilla",España,4,0,M. Vazquez,379,1714,control ,2006-08-25,control
+A,9445337,Acrocephalus scirpaceus,30,8,2005,"Essen, Antwerpen, Amberes",Belgica,3,0,Extranjero,NA,NA,Anillamiento,2005-08-30,anillamiento
+C,9445337,Acrocephalus scirpaceus,28,8,2006,"Caño Navarro, Coria del Rio, Sevilla",España,4,0,M. Vazquez,363,1784,control ,2006-08-28,control
+A,9417466,Acrocephalus scirpaceus,1,8,2005,"Teralfene, Vlaams Brabant",Belgica,4,0,Extranjero,NA,NA,Anillamiento,2005-08-01,anillamiento
+C,9417466,Acrocephalus scirpaceus,25,8,2006,"Caño Navarro, Coria del Rio, Sevilla",España,4,0,M. Vazquez,389,1711,control ,2006-08-25,control
+A,9459246,Acrocephalus scirpaceus,16,8,2005,"Zulte, Oost Vlaanderen, Flandes",Belgica,3,0,Extranjero,NA,NA,Anillamiento,2005-08-16,anillamiento
+C,9459246,Acrocephalus scirpaceus,14,8,2006,"Caño Navarro, Coria del Rio, Sevilla",España,4,0,M. Vazquez,363,1690,control ,2006-08-14,control
+A,9645641,Acrocephalus scirpaceus,7,8,2006,"Oorderen, Antwerpen, Amberes",Belgica,4,0,Extranjero,NA,NA,Anillamiento,2006-08-07,anillamiento
+C,9645641,Acrocephalus scirpaceus,28,9,2006,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,0,M. Vazquez,52,1722,control ,2006-09-28,control
+A,9836110,Acrocephalus scirpaceus,17,8,2006,"Sint Amands, Antwerpen, Amberes",Belgica,3,0,Extranjero,NA,NA,Anillamiento,2006-08-17,anillamiento
+C,9836110,Acrocephalus scirpaceus,24,5,2008,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,0,M. Vega,646,1694,control ,2008-05-24,control
+A,TA6632,Acrocephalus scirpaceus,2,8,2001,"Lazne Bohdanec, Pardubice",Republica Checa,3,0,Extranjero,NA,NA,Anillamiento,2001-08-02,anillamiento
+C,TA6632,Acrocephalus scirpaceus,8,5,2005,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,0,M. Vazquez,1375,2181,control ,2005-05-08,control
+A,N360289,Acrocephalus scirpaceus,30,4,2005,"Nakri, Ceske Budejovice",Republica Checa,3,0,Extranjero,NA,NA,Anillamiento,2005-04-30,anillamiento
+C,N360289,Acrocephalus scirpaceus,16,4,2006,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,0,M. Vega,351,2042,control ,2006-04-16,control
+A,176745,Acrocephalus scirpaceus,5,7,1987,"Huerta Daniel, Puebla del Rio, Sevilla",España,4,0,M. Vazquez,NA,NA,Anillamiento,1987-07-05,anillamiento
+C,176745,Acrocephalus scirpaceus,14,3,1993,"PN Du Djoudj, Fleuve",Senegal,4,0,Extranjero,2079,2525,control ,1993-03-14,control
+A,N215996,Acrocephalus scirpaceus,15,5,2005,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,0,M. Vega,NA,NA,Anillamiento,2005-05-15,anillamiento
+C,N215997,Acrocephalus scirpaceus,22,8,2005,"Heuseux, Luik, Lieja",Belgica,4,0,Extranjero,99,1714,control ,2005-08-22,control
+A,AE63003,Acrocephalus scirpaceus,14,8,1999,"Vrhinika, Ljubljansko Barje, Slovenia",Eslovenia,4,0,Extranjero,NA,NA,Anillamiento,1999-08-14,anillamiento
+C,AE63003,Acrocephalus scirpaceus,9,5,2004,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,0,M. Vega,1730,1875,control ,2004-05-09,control
+A,3981584,Acrocephalus scirpaceus,14,3,1993,"PN Du Djoudj, Fleuve",Senegal,4,0,Extranjero,NA,NA,Anillamiento,1993-03-14,anillamiento
+C,3981584,Acrocephalus scirpaceus,4,7,1993,"Ecija, Sevilla",España,4,0,LEO BIAGGI,81,2593,control ,1993-07-04,control
+A,4681485,Acrocephalus scirpaceus,30,7,2004,"Arraincourt, Moselle",Francia,4,0,Extranjero,NA,NA,Anillamiento,2004-07-30,anillamiento
+C,4681485,Acrocephalus scirpaceus,11,8,2005,"Caño Navarro, Coria del Rio, Sevilla",España,4,0,M. Vazquez,377,1647,control ,2005-08-11,control
+A,4975168,Acrocephalus scirpaceus,9,9,2004,"Marais de Wissant, Tardinghen, Pas de Calais",Francia,3,0,Extranjero,NA,NA,Anillamiento,2004-09-09,anillamiento
+C,4975168,Acrocephalus scirpaceus,22,5,2005,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,0,M. Vega,255,1596,control ,2005-05-22,control
+A,R215620,Acrocephalus scirpaceus,8,6,2005,"Canterbury, Kent",Gran Bretaña,4,1,Extranjero,NA,NA,Anillamiento,2005-06-08,anillamiento
+C,R215620,Acrocephalus scirpaceus,5,9,2006,"Caño Navarro, Coria del Rio, Sevilla",España,4,0,M. Vazquez,454,1659,control ,2006-09-05,control
+A,R303080,Acrocephalus scirpaceus,6,8,2002,"Westwick, Bishop Monkton, Northyorkshire",Gran Bretaña,4,1,Extranjero,NA,NA,Anillamiento,2002-08-06,anillamiento
+C,R303080,Acrocephalus scirpaceus,11,8,2006,"Caño Navarro, Coria del Rio, Sevilla",España,4,0,M. Vazquez,1466,1904,control ,2006-08-11,control
+A,AD29919,Acrocephalus scirpaceus,31,7,2001,"Agelo, Overijssel",Holanda,1,0,Extranjero,NA,NA,Anillamiento,2001-07-31,anillamiento
+C,AD29919,Acrocephalus scirpaceus,24,10,2001,"El Alamillo, Sevilla",España,3,0,M. Vazquez,85,1943,control ,2001-10-24,control
+A,AF57499,Acrocephalus scirpaceus,19,8,2002,"Elburg, Gelderland",Holanda,3,0,M. Vega,NA,NA,Anillamiento,2002-08-19,anillamiento
+C,AF57499,Acrocephalus scirpaceus,10,8,2003,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,0,Extranjero,356,1885,control ,2003-08-10,control
+A,AG13008,Acrocephalus scirpaceus,28,7,2004,"Castricum, Noord Holland",Holanda,3,0,Extranjero,NA,NA,Anillamiento,2004-07-28,anillamiento
+C,AG13008,Acrocephalus scirpaceus,24,8,2005,"Caño Navarro, Coria del Rio, Sevilla",España,4,0,M. Vazquez,392,1888,control ,2005-08-24,control
+A,AE40211,Acrocephalus scirpaceus,10,8,1999,"Vrhinika, Ljubljansko Barje, Slovenia",Eslovenia,3,0,Extranjero,NA,NA,Anillamiento,1999-08-10,anillamiento
+C,AE40211,Acrocephalus scirpaceus,24,8,2003,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,0,M. Vega,1475,1875,control ,2003-08-24,control
+A,2524255,Acrocephalus arundinaceus,29,8,1993,"Rio Blanco, Ecija, Sevilla",España,3,2,E. Gomez,NA,NA,Anillamiento,1993-08-29,anillamiento
+C,2524255,Acrocephalus arundinaceus,24,4,1997,Ghadira,Malta,4,0,Extranjero,1334,1734,control ,1997-04-24,control
+A,TA84159,Sylvia borin,30,8,2003,"Sudislavice, Praha",Republica Checa,4,0,Extranjero,NA,NA,Anillamiento,2003-08-30,anillamiento
+C,TA84159,Sylvia borin,28,4,2004,"El Alamillo, Sevilla",España,4,0,M. Vazquez,242,2156,control ,2004-04-28,control
+A,B902778,Sylvia borin,20,8,1994,"Lelystad, Houtrib Sluizen, Ijsselmeerpolders",Holanda,3,0,Extranjero,NA,NA,Anillamiento,1994-08-20,anillamiento
+C,B902778,Sylvia borin,15,4,1997,"Dos Hermanas, Sevilla",España,2,0,M. Vazquez,969,1912,control ,1997-04-15,control
+A,F127254,Sylvia atricapilla,2,10,1988,"Roerdomp, Noord Brabant",Holanda,4,2,Extranjero,NA,NA,Anillamiento,1988-10-02,anillamiento
+C,F127254,Sylvia atricapilla,16,11,1988,"Coria del Rio, Sevilla",España,2,0,M. Vazquez,46,1800,Cazado con percha,1988-11-16,muerto
+A,29V98698,Sylvia atricapilla,30,9,1988,"Clabecq, Brabant",Belgica,4,1,Extranjero,NA,NA,Anillamiento,1988-09-30,anillamiento
+C,29V98698,Sylvia atricapilla,29,11,1988,"Sevilla, Sevilla",España,2,0,M. Vazquez,59,1682,Muerta por un gato,1988-11-29,muerto
+A,3764737,Sylvia atricapilla,11,9,1990,"Grembergen, Oost Vlaanderen, Flandes Oriental",Belgica,3,1,Extranjero,NA,NA,Anillamiento,1990-09-11,anillamiento
+C,3764738,Sylvia atricapilla,23,10,1993,"Castellar de la Frontera, Cadiz",España,2,0,M. Vazquez,1138,1803,Cazada,1993-10-23,muerto
+A,7V4057,Sylvia atricapilla,17,7,1970,"Brasschaat, Antwerpen, Amberes",Belgica,4,1,Extranjero,NA,NA,Anillamiento,1970-07-17,anillamiento
+C,7V4057,Sylvia atricapilla,15,1,2000,"Marchena, Sevilla",España,A,0,Zamalla,10774,1733,Encontrada solo anilla con detector de metales,2000-01-15,muerto
+A,3427860,Sylvia atricapilla,30,7,1990,"Pirincen, Limburg",Belgica,3,0,Extranjero,NA,NA,Anillamiento,1990-07-30,anillamiento
+C,3427860,Sylvia atricapilla,11,11,1990,"Cantera del Duende, El Rubio, Sevilla",España,3,0,M. Vazquez,104,1702,control ,1990-11-11,control
+A,4483981,Sylvia atricapilla,2,9,1992,"Boitsfort, Brabant",Belgica,3,2,Extranjero,NA,NA,Anillamiento,1992-09-02,anillamiento
+C,4483981,Sylvia atricapilla,27,12,1992,"Arroyo Gascon, Marchena, Sevilla",España,3,2,M. Vazquez,116,1685,control ,1992-12-27,control
+A,4667722,Sylvia atricapilla,22,10,1992,"Zwin, West Vlaanderen, Flandes Occidental",Belgica,3,1,Extranjero,NA,NA,Anillamiento,1992-10-22,anillamiento
+C,4667722,Sylvia atricapilla,29,11,1992,"Arroyo Gascon, Marchena, Sevilla",España,3,1,M. Vazquez,38,1705,control ,1992-11-29,control
+A,5875357,Sylvia atricapilla,16,9,1996,"Meetkeerke, West Vlaanderen, Flandes Occidental",Belgica,3,1,Extranjero,NA,NA,Anillamiento,1996-09-16,anillamiento
+C,5875357,Sylvia atricapilla,21,2,1999,"Arroyo Gascon, Marchena, Sevilla",España,4,1,M. Vazquez,843,1821,control ,1999-02-21,control
+A,5954776,Sylvia atricapilla,10,10,1996,"Rijkevorsel, Antwerpen, Amberes",Belgica,3,1,Extranjero,NA,NA,Anillamiento,1996-10-10,anillamiento
+C,5954776,Sylvia atricapilla,1,1,1999,"El Cuervo, Lebrija, Sevilla",España,4,0,M. Vazquez,843,1821,Cazada,1999-01-01,muerto
+A,6115344,Sylvia atricapilla,15,9,1996,"Grembergen, Oost Vlaanderen, Flandes Oriental",Belgica,3,1,Extranjero,NA,NA,Anillamiento,1996-09-15,anillamiento
+C,6115344,Sylvia atricapilla,1,1,1999,"El Cuervo, Lebrija, Sevilla",España,4,0,M. Vazquez,838,1768,Cazada,1999-01-01,muerto
+A,6253862,Sylvia atricapilla,20,9,1997,"Pontaury, Namen, Namur",Belgica,2,2,Extranjero,NA,NA,Anillamiento,1997-09-20,anillamiento
+C,6253862,Sylvia atricapilla,1,1,1999,"El Cuervo, Lebrija, Sevilla",España,4,0,M. Vazquez,468,1722,Cazada,1999-01-01,muerto
+A,6506119,Sylvia atricapilla,25,9,1997,"Messelbroek, Brabant",Belgica,3,1,Extranjero,NA,NA,Anillamiento,1997-09-25,anillamiento
+C,6506119,Sylvia atricapilla,16,11,1997,"Cantera del Duende, El Rubio, Sevilla",España,3,1,M. Vazquez,52,1707,control ,1997-11-16,control
+A,6924546,Sylvia atricapilla,9,9,1999,"Hertsberge, West Vlaanderen, Flandes Occidental",Belgica,3,2,Extranjero,NA,NA,Anillamiento,1999-09-09,anillamiento
+C,6924546,Sylvia atricapilla,1,11,1999,"El Alamillo, Sevilla",España,3,2,M. Vazquez,53,1688,control ,1999-11-01,control
+A,7013900,Sylvia atricapilla,4,9,1999,"ST Laurenis, Oost Vlaanderen, Flandes",Belgica,3,2,Extranjero,NA,NA,Anillamiento,1999-09-04,anillamiento
+C,7013900,Sylvia atricapilla,4,1,2000,"Laguna de Medina, Jerez de la Frontera, Cadiz",España,5,2,Zamalla,122,1789,control ,2000-01-04,control
+A,7124164,Sylvia atricapilla,20,9,2000,"Cerexhe, Heuseux, Luik Lieja",Belgica,3,1,Extranjero,NA,NA,Anillamiento,2000-09-20,anillamiento
+C,7124164,Sylvia atricapilla,12,11,2000,"El Alamillo, Sevilla",España,3,1,M. Vazquez,53,1739,control ,2000-11-12,control
+A,8650459,Sylvia atricapilla,9,9,2003,"Grembergen, Oost Vlaanderen, Flandes Oriental",Belgica,3,2,Extranjero,NA,NA,Anillamiento,2003-09-09,anillamiento
+C,8650459,Sylvia atricapilla,18,12,2004,"Arroyo Gascon, Marchena, Sevilla",España,4,2,M. Vazquez,466,1688,control ,2004-12-18,control
+A,L044195,Sylvia atricapilla,4,10,1996,"Torrecuadros, Hinojos, Huelva",España,3,1,M. Vazquez,NA,NA,Anillamiento,1996-10-04,anillamiento
+C,L044195,Sylvia atricapilla,3,5,1997,"Aschaffenburg, Unterfranken",Alemania,2,0,Extranjero,211,1876,Encontrado muerto,1997-05-03,muerto
+A,L450270,Sylvia atricapilla,9,11,2000,"El Alamillo, Sevilla",España,3,2,M. Vazquez,NA,NA,Anillamiento,2000-11-09,anillamiento
+C,L450270,Sylvia atricapilla,9,4,2004,"Awirs, Luik, Lieja",Belgica,4,2,Extranjero,1274,1722,control ,2004-04-09,control
+A,2286630,Sylvia atricapilla,16,11,1990,"Casa Neves, Aznalcazar, Sevilla",España,2,2,M. Vazquez,NA,NA,Anillamiento,1990-11-16,anillamiento
+C,2286630,Sylvia atricapilla,24,4,1991,"Chevrense, Sena, Paris",Francia,2,0,Extranjero,163,1433,Encontrado muerto,1991-04-24,muerto
+A,2550519,Sylvia atricapilla,3,12,1996,"Valle de Hecho, Huesca",España,2,2,Zamalla,NA,NA,Anillamiento,1996-12-03,anillamiento
+C,2550519,Sylvia atricapilla,30,3,1998,"Salleboeuf, Gironde",Francia,2,0,Extranjero,482,235,Encontrado muerto,1998-03-30,muerto
+A,2A050667,Sylvia atricapilla,28,3,2004,"El Alamillo, Sevilla",España,4,1,M. Vazquez,NA,NA,Anillamiento,2004-03-28,anillamiento
+C,2A050667,Sylvia atricapilla,19,4,2004,"Weybourne, Norfolk",Gran Bretaña,4,1,BTO,22,1813,control ,2004-04-19,control
+A,2A082663,Sylvia atricapilla,3,2,2005,"El Hampa, Coria del Rio, Sevilla",España,5,1,M. Vazquez,NA,NA,Anillamiento,2005-02-03,anillamiento
+C,2A082663,Sylvia atricapilla,6,4,2005,"Welton, Humberside",Gran Bretaña,2,0,BTO,62,1876,Colision contra cristales,2005-04-06,muerto
+A,3862150,Sylvia atricapilla,6,9,1992,"Reserve la Maziere, Villeton, Lot et Garonne",Francia,3,2,Extranjero,NA,NA,Anillamiento,1992-09-06,anillamiento
+C,3862150,Sylvia atricapilla,2,2,1995,"Rio Blanco, Ecija, Sevilla",España,2,0,LEO BIAGGI,879,893,Encontrado muerto,1995-02-02,muerto
+A,4045343,Sylvia atricapilla,12,7,2001,"Oncy Sur Ecole, Essonne",Francia,3,0,Extranjero,NA,NA,Anillamiento,2001-07-12,anillamiento
+C,4045343,Sylvia atricapilla,20,3,2004,"El Alamillo, Sevilla",España,4,0,M. Vazquez,982,1398,control ,2004-03-20,control
+A,BC59550,Sylvia atricapilla,25,9,2005,"Villeton, Lot et Garonne",Francia,3,1,Extranjero,NA,NA,Anillamiento,2005-09-25,anillamiento
+C,BC59550,Sylvia atricapilla,5,11,2006,"Coria del Rio, Sevilla",España,4,1,M. Vazquez,406,947,control ,2006-11-05,control
+A,F220001,Sylvia atricapilla,18,6,1989,"West Stafford, Dorset",Gran Bretaña,3,2,Extranjero,NA,NA,Anillamiento,1989-06-18,anillamiento
+C,F220001,Sylvia atricapilla,18,4,1993,"Lora del Rio, Sevilla",España,4,2,M. Vazquez,1400,1471,control ,1993-04-18,control
+A,J263585,Sylvia atricapilla,2,9,1993,"Wales Farm, Plumptom Sussex, West & East",Gran Bretaña,4,2,Extranjero,NA,NA,Anillamiento,1993-09-02,anillamiento
+C,J263585,Sylvia atricapilla,20,10,1993,"Isla Redonda, Ecija, Sevilla",España,2,0,M. Vazquez,48,1800,Cazada,1993-10-20,muerto
+A,N822451,Sylvia atricapilla,4,10,1998,"Walton in Gordano, Avon",Gran Bretaña,3,1,Extranjero,NA,NA,Anillamiento,1998-10-04,anillamiento
+C,N822451,Sylvia atricapilla,21,3,1999,"Utrera, Sevilla",España,4,0,M. Vazquez,168,1604,control ,1999-03-21,control
+A,K896341,Sylvia atricapilla,5,9,1999,"Watlington Hilol, Oxford",Gran Bretaña,4,2,Extranjero,NA,NA,Anillamiento,1999-09-05,anillamiento
+C,K896341,Sylvia atricapilla,1,2,2002,"Torrecuadros, Hinojos, Huelva",España,4,2,M. Vazquez,880,1663,control ,2002-02-01,control
+A,T722115,Sylvia atricapilla,3,10,2006,"Cissbury Ring, Worthing, Sussex West & East",Gran Bretaña,3,1,Extranjero,NA,NA,Anillamiento,2006-10-03,anillamiento
+C,T722115,Sylvia atricapilla,19,11,2006,"Palomares del Rio, Sevilla",España,2,0,M. Vazquez,47,1573,Cazada,2006-11-19,muerto
+A,AB67417,Sylvia atricapilla,5,9,2000,"Leerdam, Zuid Holland",Holanda,3,1,Extranjero,NA,NA,Anillamiento,2000-09-05,anillamiento
+C,AB67417,Sylvia atricapilla,24,10,2000,"El Alamillo, Sevilla",España,3,1,M. Vazquez,49,1829,control ,2000-10-24,control
+A,V036830,Sylvia atricapilla,1,10,2000,"Haarlem, Vinkenbaan Van Lennep, Noord Holland",Holanda,3,0,Extranjero,NA,NA,Anillamiento,2000-10-01,anillamiento
+C,V036830,Sylvia atricapilla,2,11,2000,"El Alamillo, Sevilla",España,3,0,M. Vazquez,32,1859,control ,2000-11-02,control
+A,V090497,Sylvia atricapilla,29,9,2002,"Leuth, Gederland",Holanda,3,1,Extranjero,NA,NA,Anillamiento,2002-09-29,anillamiento
+C,V090497,Sylvia atricapilla,21,1,2003,"Laguna del Gobierno, Lantejuela,Sevilla",España,5,1,Zamalla,114,1832,control ,2003-01-21,control
+A,L174172,Sylvia communis,18,9,1998,"Calera de Leon, Badajoz",España,3,0,Zamalla,NA,NA,Anillamiento,1998-09-18,anillamiento
+C,L174172,Sylvia communis,12,11,2001,Chefchaouen,Marruecos,2,0,Particular,1151,339,Encontrado muerto,2001-11-12,muerto
+A,L343411,Sylvia communis,6,9,2000,"Valdelarco, Huelva",España,4,0,Zamalla,NA,NA,Anillamiento,2000-09-06,anillamiento
+C,L343411,Sylvia communis,29,5,2001,"Alnif, Er Rachidia",Marruecos,2,0,Particular,265,696,Cazada,2001-05-29,muerto
+A,2750996,Cercotrichas galactotes,20,8,1997,"El Alcornocal, Los Palacios, Sevilla",España,3,0,M. Vazquez,NA,NA,Anillamiento,1997-08-20,anillamiento
+C,2750996,Cercotrichas galactotes,24,4,2001,Imilchil,Marruecos,2,0,Particular,1343,560,Encontrado muerto,2001-04-24,muerto
+A,223175,Phylloscopus trochilus,3,9,1997,"El Alcornocal, Los Palacios, Sevilla",España,4,1,M. Vazquez,NA,NA,Anillamiento,1997-09-03,anillamiento
+C,223175,Phylloscopus trochilus,13,5,1999,"Karrebakstorp, Naestved, Sjaelland",Dinamarca,2,0,Particular,617,2415,Capturada por un gato,1999-05-13,muerto
+A,F30166,Phylloscopus trochilus,5,5,2001,"Drienovec, Kosice, Eslovaquia",Republica Checa,4,1,Extranjero,NA,NA,Anillamiento,2001-05-05,anillamiento
+C,F30166,Phylloscopus trochilus,31,8,2001,"Calera de Leon, Badajoz",España,4,0,M. Vazquez,118,2478,control cambio anilla AC4162,2001-08-31,control
+A,1H08422,Phylloscopus trochilus,8,8,2000,"Blixoya, Valer, Ostfold",Noruega,5,0,Extranjero,NA,NA,Anillamiento,2000-08-08,anillamiento
+C,1H08422,Phylloscopus trochilus,4,9,2000,"Las Teatinas, Palomares del Rio, Sevilla",España,4,0,M. Vazquez,27,2734,control ,2000-09-04,control
+A,498669,Phylloscopus collybita,3,8,1984,"Blagdoon, Rervoir, Congresbury Avon",Gran Bretaña,2,0,Extranjero,NA,NA,Anillamiento,1984-08-03,anillamiento
+C,498669,Phylloscopus collybita,19,1,1986,"Torreblanca, Sevilla",España,2,0,M. Vazquez,NA,NA,Cazada,1986-01-19,muerto
+A,2059584,Sylvia atricapilla,5,3,1987,"Gerena, Sevilla",España,5,1,LEO BIAGGI,NA,NA,Anillamiento,1987-03-05,anillamiento
+C,2059584,Sylvia atricapilla,16,11,1987,"Bassussary, Pirineos Orientales",Francia,2,0,Extranjero,251,768,Encontrado muerto,1987-11-16,muerto
+A,2219946,Sylvia atricapilla,10,3,1988,"Gerena, Sevilla",España,4,1,LEO BIAGGI,NA,NA,Anillamiento,1988-03-10,anillamiento
+C,2219946,Sylvia atricapilla,30,3,1989,Horsham,Gran Bretaña,2,0,Extranjero,385,1576,Colision con cristales,1989-03-30,muerto
+A,2220889,Sylvia atricapilla,12,2,1988,"Casa Neves, Aznalcazar, Sevilla",España,5,1,Extranjero,NA,NA,Anillamiento,1988-02-12,anillamiento
+C,2220889,Sylvia atricapilla,9,6,1990,"St Leger, Les Vignes, Loire Atlantico",Francia,2,0,M. Vazquez,874,1154,Atropellado,1990-06-09,muerto
+A,2220849,Phoenicurus ochruros,26,12,1988,"Casa Neves, Aznalcazar, Sevilla",España,3,1,M. Vazquez,NA,NA,Anillamiento,1988-12-26,anillamiento
+C,2220849,Phoenicurus ochruros,5,11,1992,"Finsterwald, Oberbayern",Alemania,2,0,Extranjero,1410,1857,Cazada,1992-11-05,muerto
+A,2J9861,Phylloscopus collybita,22,9,1987,"Herne, Brabant",Belgica,3,0,Extranjero,NA,NA,Anillamiento,1987-09-22,anillamiento
+C,2J9861,Phylloscopus collybita,9,1,1988,"Puñanilla, Puebla del Rio, Sevilla",España,5,0,M. Vazquez,NA,NA,control ,1988-01-09,control
+A,JN7017,Phylloscopus collybita,21,6,1993,"Sommiere, Namen, Namur",Belgica,4,0,Extranjero,NA,NA,Anillamiento,1993-06-21,anillamiento
+C,JN7017,Phylloscopus collybita,15,1,1995,"Dos Hermanas, Sevilla",España,2,0,M. Vazquez,573,1684,Encontrado muerto,1995-01-15,muerto
+A,SC1485,Phylloscopus collybita,9,9,2001,"Grembergen, Oost Vlaanderen, Flandes",Belgica,3,0,Extranjero,NA,NA,Anillamiento,2001-09-09,anillamiento
+C,SC1485,Phylloscopus collybita,28,10,2001,"El Alamillo, Sevilla",España,3,0,M. Vazquez,49,1713,control ,2001-10-28,control
+A,SE0286,Phylloscopus collybita,20,8,2001,"Malmedy, Luik, Lieja",Belgica,3,0,Extranjero,NA,NA,Anillamiento,2001-08-20,anillamiento
+C,SE0286,Phylloscopus collybita,16,11,2001,"Palomares del Rio, Sevilla",España,3,0,M. Vazquez,88,1735,control ,2001-11-16,control
+A,SM1650,Phylloscopus collybita,2,10,2002,"Beverce, Luik, Lieja",Belgica,2,0,Extranjero,NA,NA,Anillamiento,2002-10-02,anillamiento
+C,SM1650,Phylloscopus collybita,14,3,2004,"Laguna del Gobierno, Lantejuela,Sevilla",España,2,0,M. Vazquez,529,1708,control ,2004-03-14,control
+A,UK1309,Phylloscopus collybita,20,9,1996,"Rijkevorsel, Antwerpen, Amberes",Belgica,2,0,Extranjero,NA,NA,Anillamiento,1996-09-20,anillamiento
+C,UK1309,Phylloscopus collybita,22,11,1996,"Puebla del Rio, Sevilla",España,2,0,M. Vazquez,63,1782,control ,1996-11-22,control
+A,UN7289,Phylloscopus collybita,4,7,1998,"Korbeek Lo, Brabant",Belgica,3,0,Extranjero,NA,NA,Anillamiento,1998-07-04,anillamiento
+C,UN7289,Phylloscopus collybita,10,11,1998,"Palomares del Rio, Sevilla",España,3,0,M. Vazquez,129,1730,control ,1998-11-10,control
+A,612775,Phylloscopus collybita,8,11,1995,"El Alamillo, Sevilla",España,2,0,M. Vazquez,NA,NA,Anillamiento,1995-11-08,anillamiento
+C,612776,Phylloscopus collybita,16,6,1996,"Ridderkerk, Dolfjnpark, Zuid",Holanda,2,0,Extranjero,221,1809,Atropellado,1996-06-16,muerto
+A,943428,Phylloscopus collybita,7,3,1999,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,0,M. Vazquez,NA,NA,Anillamiento,1999-03-07,anillamiento
+C,943428,Phylloscopus collybita,7,4,2000,"Hauconcourt, Moselle",Francia,4,0,CRBPO,397,1605,control ,2000-04-07,control
+A,AA8561,Phylloscopus collybita,8,11,1998,"La Estrella, Palomares del Rio, Sevilla",España,2,0,M. Vazquez,NA,NA,Anillamiento,1998-11-08,anillamiento
+C,AA8561,Phylloscopus collybita,20,4,2000,"Bostrup, Spodsbjerg, Fyn",Dinamarca,2,0,Particular,529,2347,Atropellado,2000-04-20,muerto
+A,AK1767,Phylloscopus collybita,21,11,2000,"Alcala de Guadaira, Sevilla",España,2,0,M. Vazquez,NA,NA,Anillamiento,2000-11-21,anillamiento
+C,AK1767,Phylloscopus collybita,22,10,2002,"Wetteren, Oost Vlaanderen, Flandes ",Belgica,2,0,BRUXELLES,700,1705,control ,2002-10-22,control
+A,AK2969,Phylloscopus collybita,22,2,2002,"San Pablo, Sevilla",España,4,0,M. Vazquez,NA,NA,Anillamiento,2002-02-22,anillamiento
+C,AK2969,Phylloscopus collybita,25,5,2002,"Huntingdon, Cambridge, Huntingdom",Gran Bretaña,4,0,BTO,92,1719,control ,2002-05-25,control
+A,BU3441,Phylloscopus collybita,9,11,2003,"Laguna del Gobierno, Lantejuela,Sevilla",España,3,0,Zamalla,NA,NA,Anillamiento,2003-11-09,anillamiento
+C,BU3441,Phylloscopus collybita,9,10,2004,"Saeftinghe, Sieperdaschor, Zeeland",Holanda,4,0,ARNHEM,335,1724,control ,2004-10-09,control
+A,CJ1501,Phylloscopus collybita,29,3,2004,"El Alamillo, Sevilla",España,4,0,M. Vazquez,NA,NA,Anillamiento,2004-03-29,anillamiento
+C,CJ1501,Phylloscopus collybita,4,4,2004,"Eemshaven, Groningen",Holanda,4,0,Particular,6,2037,control ,2004-04-04,control
+A,CR0723,Phylloscopus collybita,31,10,2004,"Laguna del Gobierno, Lantejuela,Sevilla",España,2,0,M. Vazquez,NA,NA,Anillamiento,2004-10-31,anillamiento
+C,CR0723,Phylloscopus collybita,10,5,2005,Aïn Jemaa,Marruecos,2,0,Particular,191,374,control ,2005-05-10,control
+A,PH9546,Phylloscopus collybita,10,8,1995,"Saint Mars La Briere, Sarthe",Francia,4,2,Extranjero,NA,NA,Anillamiento,1995-08-10,anillamiento
+C,PH9546,Phylloscopus collybita,13,1,1996,"La Marmoleja, Puebla del Rio, Sevilla",España,4,0,M. Vazquez,156,1304,control ,1996-01-13,control
+A,7D7681,Phylloscopus collybita,20,8,1998,"Barton Turf, Stalhan, Norfolk",Gran Bretaña,3,0,Extranjero,NA,NA,Anillamiento,1998-08-20,anillamiento
+C,7D7681,Phylloscopus collybita,14,11,1998,"El Alamillo, Sevilla",España,3,0,M. Vazquez,86,1802,control ,1998-11-14,control
+A,OU1334,Phylloscopus collybita,29,9,2000,"Sandwich Bay Estate, Kent",Gran Bretaña,2,0,Extranjero,NA,NA,Anillamiento,2000-09-29,anillamiento
+C,OU1334,Phylloscopus collybita,25,11,2001,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,0,M. Vazquez,422,1576,control ,2001-11-25,control
+A,AEL462,Phylloscopus collybita,24,9,2003,"Sandwich Bay Estate, Kent",Gran Bretaña,3,0,Extranjero,NA,NA,Anillamiento,2003-09-24,anillamiento
+C,AEL462,Phylloscopus collybita,7,11,2004,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,0,M. Vazquez,410,1631,control ,2004-11-07,control
+A,L447793,Phoenicurus ochruros,25,11,2001,"Palomares del Rio, Sevilla",España,2,0,M. Vazquez,NA,NA,Anillamiento,2001-11-25,anillamiento
+C,L447793,Phoenicurus ochruros,25,7,2003,"Blainville Sur L´Eau, Meurthe et Moselle",Francia,2,0,CRBPO,607,1605,Encontrada la pata con la anilla,2003-07-25,muerto
+A,9K84426,Luscinia svecica,29,7,1996,"Rieselfelder, DFFM Munster",Alemania,2,1,Extranjero,NA,NA,Anillamiento,1996-07-29,anillamiento
+C,9K84426,Luscinia svecica,2,11,1999,"La Marmoleja, Puebla del Rio, Sevilla",España,6,1,M. Vazquez,1191,1960,control ,1999-11-02,control
+A,5149298,Luscinia svecica,20,7,1994,"Melsele, Oost Vlaanderen, Flandes Oriental",Belgica,3,0,Extranjero,NA,NA,Anillamiento,1994-07-20,anillamiento
+C,5149298,Luscinia svecica,13,1,1996,"La Marmoleja, Puebla del Rio, Sevilla",España,7,2,M. Vazquez,542,1751,control ,1996-01-13,control
+C,5149298,Luscinia svecica,1,3,1997,"La Marmoleja, Puebla del Rio, Sevilla",España,9,2,M. Vazquez,954,1751,control ,1997-03-01,control
+A,5935059,Luscinia svecica,21,7,1996,"Averbode, Brabant",Belgica,3,0,Extranjero,NA,NA,Anillamiento,1996-07-21,anillamiento
+C,5935059,Luscinia svecica,17,11,1997,"La Marmoleja, Puebla del Rio, Sevilla",España,4,0,M. Vazquez,484,1761,control ,1997-11-17,control
+A,6442053,Luscinia svecica,3,9,1997,"Assenede, Oost Vlaanderen, Flandes Oriental",Belgica,3,1,Extranjero,NA,NA,Anillamiento,1997-09-03,anillamiento
+C,6442053,Luscinia svecica,26,1,1998,"La Marmoleja, Puebla del Rio, Sevilla",España,5,1,M. Vazquez,145,1734,control ,1998-01-26,control
+A,8525141,Luscinia svecica,17,8,2003,"Veurne, West Vlaanderen, Flandes",Belgica,3,1,Extranjero,NA,NA,Anillamiento,2003-08-17,anillamiento
+C,8525141,Luscinia svecica,14,10,2003,"Vejer de la Frontera, Cadiz",España,3,1,M. Vazquez,58,1781,control ,2003-10-14,control
+A,L110210,Luscinia svecica,7,12,1999,"Brazo del Este, Puebla del Rio, Sevilla",España,4,2,Zamalla,NA,NA,Anillamiento,1999-12-07,anillamiento
+C,L110210,Luscinia svecica,24,8,2000,"Saint Vigor D´Ymonville, Seine Maritime",Francia,4,2,Extranjero,261,1454,control ,2000-08-24,control
+A,L240620,Luscinia svecica,3,1,1999,"Laguna del Gobierno, Lantejuela,Sevilla",España,5,1,Zamalla,NA,NA,Anillamiento,1999-01-03,anillamiento
+C,L240620,Luscinia svecica,8,5,2001,"Mokkeban, Laaxum, Friesland",Holanda,4,1,Extranjero,856,1909,control ,2001-05-08,control
+A,3284439,Luscinia svecica,22,8,1996,"Chenac, Saint Seurin D´Uzet, Charente Maritime",Francia,2,1,Extranjero,NA,NA,Anillamiento,1996-08-22,anillamiento
+C,3284439,Luscinia svecica,26,1,1998,"La Marmoleja, Puebla del Rio, Sevilla",España,4,1,M. Vazquez,522,1012,control ,1998-01-26,control
+C,3284439,Luscinia svecica,5,10,1999,"La Marmoleja, Puebla del Rio, Sevilla",España,4,1,M. Vazquez,1139,1012,control ,1999-10-05,control
+A,5019843,Luscinia svecica,1,9,2004,"Citerne Nord, Floirac, Charente Maritime",Francia,4,1,Extranjero,NA,NA,Anillamiento,2004-09-01,anillamiento
+C,5019843,Luscinia svecica,30,9,2005,"Caño Navarro, Coria del Rio, Sevilla",España,4,1,M. Vazquez,394,1011,control ,2005-09-30,control
+A,F901728,Luscinia svecica,3,7,1997,"Ballum, Hollum, Ameland",Holanda,4,1,Extranjero,NA,NA,Anillamiento,1997-07-03,anillamiento
+C,F901728,Luscinia svecica,9,2,1998,"La Marmoleja, Puebla del Rio, Sevilla",España,4,1,M. Vazquez,221,2012,control ,1998-02-09,control
+A,A979315,Erithacus rubecula,20,9,1998,"Voslapper Groden, Weser Ems, Excep Islas",Alemania,4,0,Extranjero,NA,NA,Anillamiento,1998-09-20,anillamiento
+C,A979315,Erithacus rubecula,24,1,1999,"Refugio de las Serpientes, Estepa, Sevilla",España,4,0,M. Vazquez,126,2070,control ,1999-01-24,control
+A,6789630,Erithacus rubecula,24,9,1998,"Oud Turnhout, Antwerpen, Amberes",Belgica,2,0,Extranjero,NA,NA,Anillamiento,1998-09-24,anillamiento
+C,6789630,Erithacus rubecula,27,11,1998,"El Alamillo, Sevilla",España,2,0,M. Vazquez,64,1771,control ,1998-11-27,control
+A,K624535,Erithacus rubecula,28,9,1994,"Castione Della Presolana, Bergamo",Italia,4,0,Extranjero,NA,NA,Anillamiento,1994-09-28,anillamiento
+C,K624535,Erithacus rubecula,11,11,1995,"El Cuervo, Lebrija, Sevilla",España,2,0,Zamalla,409,1676,Cazada,1995-11-11,muerto
+A,3064312,Turdus merula,3,12,1996,"Valle de Hecho, Huesca",España,2,2,Extranjero,NA,NA,Anillamiento,1996-12-03,anillamiento
+C,3064312,Turdus merula,25,12,1998,"Lure, Roye, Haute Saone",Francia,2,0,Zamalla,752,820,Encontrado muerto,1998-12-25,muerto
+A,3090328,Turdus merula,12,12,1997,"El Alamillo, Sevilla",España,3,2,Extranjero,NA,NA,Anillamiento,1997-12-12,anillamiento
+C,3090328,Turdus merula,13,4,1998,"Rimont, Ariege",Francia,2,0,Zamalla,122,1574,Capturada por buho o rapaz,1998-04-13,muerto
+A,P464837,Turdus iliacus,10,10,1989,"Lagskar, Lemland Ahvenanmaa, Aland",Finlandia,4,0,Extranjero,NA,NA,Anillamiento,1989-10-10,anillamiento
+C,P464837,Turdus iliacus,15,12,1990,"Badajoz, Badajoz",España,4,0,M. Vazquez,430,2995,Cazado con escopeta,1990-12-15,muerto
+A,3X20438,Turdus iliacus,11,10,1976,"Zulte, Oost Vlaanderen, Flandes Oriental",Belgica,2,0,Extranjero,NA,NA,Anillamiento,1976-10-11,anillamiento
+C,3X20438,Turdus iliacus,25,11,1977,"Constantina, Sevilla",España,2,0,M. Vazquez,410,1612,Cazado con escopeta,1977-11-25,muerto
+A,3X24067,Turdus iliacus,21,11,1976,"Zulte, Oost Vlaanderen, Flandes Oriental",Belgica,2,0,Extranjero,NA,NA,Anillamiento,1976-11-21,anillamiento
+C,3X24067,Turdus iliacus,31,12,1977,"Constantina, Sevilla",España,2,0,M. Vazquez,405,1612,Cazado con escopeta,1977-12-31,muerto
+A,13Z8467,Turdus iliacus,1,11,1983,"Retie, Antwerpen, Amberes",Belgica,2,0,Extranjero,NA,NA,Anillamiento,1983-11-01,anillamiento
+C,13Z8467,Turdus iliacus,15,12,1989,"El Viso del Alcor, Sevilla",España,2,0,M. Vazquez,2236,1759,Cazado con escopeta,1989-12-15,muerto
+A,P285721,Turdus iliacus,13,6,1972,"Karkkila, Uusimaa, Nyland",Finlandia,2,1,Extranjero,NA,NA,Anillamiento,1972-06-13,anillamiento
+C,P285721,Turdus iliacus,7,1,1974,"Finca Campanilla, Constantina, Sevilla",España,2,0,M. Vazquez,573,3264,Cazado con escopeta,1974-01-07,muerto
+A,P429282,Turdus iliacus,29,6,1987,"Yjapa, Hame, Tavastehus",Finlandia,1,0,Extranjero,NA,NA,Anillamiento,1987-06-29,anillamiento
+C,P429282,Turdus iliacus,23,11,1999,"Constantina, Sevilla",España,2,0,M. Vazquez,4530,3242,Cazado con escopeta fecha carta,1999-11-23,muerto
+A,NA063066,Turdus philomelos,2,7,1997,"Falkensee, Postdam",Alemania,5,2,Extranjero,NA,NA,Anillamiento,1997-07-02,anillamiento
+C,NA063066,Turdus philomelos,30,1,1999,"Marchena, Sevilla",España,2,0,M. Vazquez,577,2219,Cazado con escopeta,1999-01-30,muerto
+A,NA092953,Turdus philomelos,9,8,2003,"Reifenstein, Sachsen & Thuringen",Alemania,3,0,Extranjero,NA,NA,Anillamiento,2003-08-09,anillamiento
+C,NA092953,Turdus philomelos,7,12,2003,"Herrera del Duque, Badajoz",España,3,0,M. Vazquez,120,1796,Cazado con escopeta,2003-12-07,muerto
+A,16Z39840,Turdus philomelos,2,10,1996,"Awirs, Luik, Lieja",Belgica,3,0,Extranjero,NA,NA,Anillamiento,1996-10-02,anillamiento
+C,16Z39840,Turdus philomelos,15,1,1999,"Guadalcanal, Sevilla",España,2,0,M. Vazquez,835,1646,Cazado con escopeta,1999-01-15,muerto
+A,19Z16266,Turdus philomelos,1,10,2002,"Brecht, Antwerpen, Amberes",Belgica,3,0,Extranjero,NA,NA,Anillamiento,2002-10-01,anillamiento
+C,19Z16266,Turdus philomelos,7,2,2003,"Olvera de la Sierra, Cadiz",España,2,0,M. Vazquez,129,1782,Cazado con escopeta,2003-02-07,muerto
+A,8911871,Turdus philomelos,23,9,1992,"Christianso, Ertholmene, Bornholm",Dinamarca,3,0,Extranjero,NA,NA,Anillamiento,1992-09-23,anillamiento
+C,8911871,Turdus philomelos,23,11,1999,"Constantina, Sevilla",España,2,0,M. Vazquez,2617,2483,Cazado con escopeta fecha carta,1999-11-23,muerto
+A,8A08324,Turdus philomelos,17,10,2005,"Hanstholm, Jylland",Dinamarca,3,0,Extranjero,NA,NA,Anillamiento,2005-10-17,anillamiento
+C,8A08324,Turdus philomelos,15,12,2005,"Dehesa de Abajo, Puebla del Rio, Sevilla",España,3,0,M. Vazquez,59,2476,Cazado con escopeta,2005-12-15,muerto
+A,3090351,Turdus philomelos,1,1,1998,"El Alamillo, Sevilla",España,5,0,M. Vazquez,NA,NA,Anillamiento,1998-01-01,anillamiento
+C,3090351,Turdus philomelos,15,6,2000,"Svanholm Estate, Skibby, Sjaelland",Dinamarca,4,0,Particular,896,2443,Atropellado,2000-06-15,muerto
+A,GC44024,Turdus philomelos,20,10,1973,"Arzon, Morbihan",Francia,3,0,Extranjero,NA,NA,Anillamiento,1973-10-20,anillamiento
+C,GC44024,Turdus philomelos,1,7,1977,"Constantina, Sevilla",España,2,0,M. Vazquez,1350,1098,Cazado con escopeta fecha carta,1977-07-01,muerto
+A,P533198,Turdus philomelos,21,9,2003,"Jurmo, Hame, Tavastehus",Finlandia,3,0,Extranjero,NA,NA,Anillamiento,2003-09-21,anillamiento
+C,P533198,Turdus philomelos,7,12,2003,"Malpartida de Plasencia, Caceres",España,2,0,M. Vazquez,77,2926,Cazado con escopeta,2003-12-07,muerto
+A,T049835,Turdus philomelos,4,6,1990,Girionys,Lituania,1,0,Extranjero,NA,NA,Anillamiento,1990-06-04,anillamiento
+C,T049835,Turdus philomelos,15,12,1991,"El Viso del Alcor, Sevilla",España,3,0,M. Vazquez,559,2970,Cazado con escopeta,1991-12-15,muerto
+A,KV01761,Turdus philomelos,4,10,1999,"Ventes Ragas, Silute",Lituania,3,0,Extranjero,NA,NA,Anillamiento,1999-10-04,anillamiento
+C,KV01761,Turdus philomelos,18,12,2000,"Hinojos, Huelva",España,2,0,M. Vazquez,441,2883,Cazado con escopeta,2000-12-18,muerto
+A,4425202,Turdus philomelos,1,10,1998,"Faro de Falsterbo, Malmohus",Suecia,3,0,Extranjero,NA,NA,Anillamiento,1998-10-01,anillamiento
+C,4425202,Turdus philomelos,20,11,1998,"Gerena, Sevilla",España,3,0,M. Vazquez,50,2442,Cazado con escopeta,1998-11-20,muerto
+A,191338,Remiz pendulinus,3,12,1987,"Vuelta El Cojo, Puebla del Rio, Sevilla",España,3,2,M. Vazquez,NA,NA,Anillamiento,1987-12-03,anillamiento
+C,191338,Remiz pendulinus,2,9,1989,"Semlim, Rathenow, Postdam",Alemania,4,2,Extranjero,639,2389,control,1989-09-02,control
+A,VT56739,Fringilla coelebs,9,9,2005,"Ventes Ragas, Silute",Lituania,3,2,Zamalla,NA,NA,Anillamiento,2005-09-09,anillamiento
+C,VT56739,Fringilla coelebs,12,3,2006,"Laguna del Gobierno, Lantejuela,Sevilla",España,4,2,Extranjero,184,2815,control,2006-03-12,control
+A,E626836,Fringilla montifringilla,5,10,1986,"Lanenen, Berna",Suiza,3,2,Extranjero,NA,NA,Anillamiento,1986-10-05,anillamiento
+C,E626836,Fringilla montifringilla,20,11,1987,"Rio Viejo, Coria del Rio, Sevilla",España,4,2,M. Vazquez,410,1498,Cazada con red de tiro no se libera,1987-11-20,muerto
+A,25V53778,Carduelis chloris,2,5,1986,"Herve, Lieja",Belgica,2,1,Extranjero,NA,NA,Anillamiento,1986-05-02,anillamiento
+C,25V53778,Carduelis chloris,15,1,1987,"Los Palacios, Sevilla",España,1,0,M. Vazquez,258,1765,Cazada con red de tiro no se libera,1987-01-15,muerto
+A,32V18367,Carduelis chloris,23,4,1990,"Awirs, Luik, Lieja",Belgica,5,1,Extranjero,NA,NA,Anillamiento,1990-04-23,anillamiento
+C,32V18367,Carduelis chloris,3,11,1990,"El Campanario, Aznalcollar, Sevilla",España,2,0,M. Vazquez,NA,NA,Cazada con red de tiro no se libera,1990-11-03,muerto
+A,2348507,Carduelis cannabina,10,10,1986,"Merksplas, Antwerpen, Amberes",Belgica,6,1,Extranjero,NA,NA,Anillamiento,1986-10-10,anillamiento
+C,2348507,Carduelis cannabina,12,11,1986,"Lora del Rio, Sevilla",España,2,0,M. Vazquez,32,1730,Cazada,1986-11-12,muerto
+A,2347511,Carduelis cannabina,4,10,1986,"Merksplas, Antwerpen, Amberes",Belgica,6,2,Extranjero,NA,NA,Anillamiento,1986-10-04,anillamiento
+C,2347511,Carduelis cannabina,25,11,1986,"Cortijo Atalaya, Puebla del Rio, Sevilla",España,2,0,M. Vazquez,51,1789,Cazada,1986-11-25,muerto
+A,7981170,Carduelis cannabina,23,9,2002,"Kasterlee, Antwerpen, Amberes",Belgica,2,2,Extranjero,NA,NA,Anillamiento,2002-09-23,anillamiento
+C,7981170,Carduelis cannabina,15,12,2002,"Alcala de Guadaira, Sevilla",España,2,0,M. Vazquez,83,1768,Cazada,2002-12-15,muerto
+A,2969854,Carduelis spinus,30,10,1996,"Hoeilaart, Brabant",Belgica,3,1,Extranjero,NA,NA,Anillamiento,1996-10-30,anillamiento
+C,2969854,Carduelis spinus,28,2,1998,"Pilas, Sevilla",España,4,1,M. Vazquez,486,1722,control,1998-02-28,control
+A,927168,Carduelis spinus,17,1,1998,"Pilas, Sevilla",España,4,1,M. Vazquez,NA,NA,Anillamiento,1998-01-17,anillamiento
+C,927168,Carduelis spinus,12,5,1999,"Vakkila, Huittinene Turku-Pori, Abo-Bjorneborg",Finlandia,2,0,Extranjero,480,3331,Encontrado muerto,1999-05-12,muerto
+A,927281,Carduelis spinus,24,1,1998,"Pilas, Sevilla",España,4,1,M. Vazquez,NA,NA,Anillamiento,1998-01-24,anillamiento
+C,927281,Carduelis spinus,1,4,2002,"Plauen, Sachsen Anhalt",Alemania,2,0,Extranjero,1528,2067,Encontrado muerto,2002-04-01,muerto
+A,927327,Carduelis spinus,24,1,1998,"Pilas, Sevilla",España,4,1,M. Vazquez,NA,NA,Anillamiento,1998-01-24,anillamiento
+C,927327,Carduelis spinus,15,3,1999,"Hamilton, Strathclyde Region",Gran Bretaña,4,1,Extranjero,415,2059,control,1999-03-15,control
+A,927766,Carduelis spinus,28,2,1998,"Pilas, Sevilla",España,6,1,M. Vazquez,NA,NA,Anillamiento,1998-02-28,anillamiento
+C,927766,Carduelis spinus,23,10,1998,"Stomorska, Isaland Solta, Hrvatsku",Croacia,2,0,Extranjero,237,2027,Capturada para enjaular,1998-10-23,control
+A,LF7183,Carduelis spinus,19,9,1996,"Neringos Stac., Kursiv Nerija",Lituania,3,1,Extranjero,NA,NA,Anillamiento,1996-09-19,anillamiento
+C,LF7183,Carduelis spinus,15,1,1998,"Moguer, Huelva",España,2,0,M. Vazquez,483,2912,Cazada,1998-01-15,muerto
+A,H735093,Carduelis spinus,27,9,1997,"Rinnleiret, Nord Trondelag",Noruega,3,1,Extranjero,NA,NA,Anillamiento,1997-09-27,anillamiento
+C,H735093,Carduelis spinus,24,1,1998,"Pilas, Sevilla",España,5,1,M. Vazquez,119,3173,control,1998-01-24,control
+A,XC917514,Carduelis spinus,31,8,1995,"Gumbaritsy, Leningrado",Rusia,3,1,Extranjero,NA,NA,Anillamiento,1995-08-31,anillamiento
+C,XC917514,Carduelis spinus,24,1,1998,"Pilas, Sevilla",España,4,1,M. Vazquez,877,3802,control,1998-01-24,control
+A,BJ74350,Carduelis spinus,5,5,1997,"Mockebo, Oskarshamn, Kalmar",Suecia,5,2,Extranjero,NA,NA,Anillamiento,1997-05-05,anillamiento
+C,BJ74350,Carduelis spinus,24,1,1998,"Pilas, Sevilla",España,4,2,M. Vazquez,264,2780,control,1998-01-24,control
+A,A816592,Carduelis spinus,13,10,1996,"Col de Jaman, Vaud",Suiza,3,1,Extranjero,NA,NA,Anillamiento,1996-10-13,anillamiento
+C,A816592,Carduelis spinus,28,2,1998,"Pilas, Sevilla",España,4,1,M. Vazquez,503,1491,control,1998-02-28,control
+A,B031074,Carduelis spinus,29,9,2001,"Col de Jaman, Vaud",Suiza,3,2,Extranjero,NA,NA,Anillamiento,2001-09-29,anillamiento
+C,B031074,Carduelis spinus,12,12,2001,"Aracena, Huelva",España,3,2,M. Vazquez,74,1461,control,2001-12-12,control
+A,CT1366,Emberiza schoeniclus,29,9,1990,"Kauerlacher, Weiher Bei Karm, Mittelfranken",Alemania,4,1,Radolfzell,NA,NA,Anillamiento,1990-09-29,anillamiento
+C,CT1366,Emberiza schoeniclus,16,12,1990,"Lucio Poco abrigo, Puebla del Rio, Sevilla",España,4,1,M. Vazquez,77,1932,control,1990-12-16,control
+A,L796763,Emberiza schoeniclus,2,11,2003,"Laguna del Gobierno, Lantejuela,Sevilla",España,3,0,M. Vazquez,NA,NA,Anillamiento,2003-11-02,anillamiento
+C,L796763,Emberiza schoeniclus,18,10,2006,"Payerne, Vaud",Suiza,4,0,Sempach,1081,1449,control,2006-10-18,control
+A,SA782570,Emberiza schoeniclus,24,1,1988,"Etang de Lanet, Pirineos Orientales",Francia,2,1,Extranjero,NA,NA,Anillamiento,1988-01-24,anillamiento
+C,SA782570,Emberiza schoeniclus,17,11,1988,"Lucio Poco abrigo, Puebla del Rio, Sevilla",España,2,1,M. Vazquez,NA,NA,control,1988-11-17,control
+A,2979652,Emberiza schoeniclus,5,11,1987,"La Capeliere, Arles, Bouches de Rhone",Francia,3,1,Extranjero,NA,NA,Anillamiento,1987-11-05,anillamiento
+C,2979652,Emberiza schoeniclus,4,2,1990,"Lucio Poco abrigo, Puebla del Rio, Sevilla",España,4,1,M. Vazquez,822,1140,control,1990-02-04,control
+A,3323221,Emberiza schoeniclus,11,10,1989,"ST Savinien, Charente Maritime",Francia,3,1,Extranjero,NA,NA,Anillamiento,1989-10-11,anillamiento
+C,3323221,Emberiza schoeniclus,17,11,1990,"Lucio Poco abrigo, Puebla del Rio, Sevilla",España,4,1,M. Vazquez,401,1057,control,1990-11-17,control
+A,2966907,Sylvia atricapilla,9,2,2003,"Laguna del Gobierno, Lantejuela,Sevilla",España,3,1,M. Vazquez,NA,NA,Anillamiento,2003-02-09,anillamiento
+C,2966907,Sylvia atricapilla,15,7,2003,"Lelystad, Ijsselmeerpolders",Holanda,2,1,Extranjero,156,1879,control,2003-07-15,control
+A,G87899,Phylloscopus collybita,8,9,2007,"Landgoed de Hoort, Limburg",Holanda,3,2,Extranjero,NA,NA,Anillamiento,2007-09-08,anillamiento
+C,G87899,Phylloscopus collybita,21,10,2007,"Laguna del Gobierno, Lantejuela,Sevilla",España,2,0,M. Vazquez,43,1763,control,2007-10-21,control
+A,BD07826,Sylvia atricapilla,20,9,2007,"Villeton, Lot et Garonne",Francia,3,1,Extranjero,NA,NA,Anillamiento,2007-09-20,anillamiento
+C,BD07826,Sylvia atricapilla,3,11,2007,"Laguna del Gobierno, Lantejuela,Sevilla",España,3,1,M. Vazquez,44,913,control,2007-11-03,control
+A,AK02714,Acrocephalus scirpaceus,18,6,2005,"Overijssel, Overijssel ",Holanda,1,0,Extranjero,NA,NA,Anillamiento,2005-06-18,anillamiento
+C,AK02714,Acrocephalus scirpaceus,25,8,2006,"Caño Navarro, Coria del Rio, Sevilla",España,4,0,M. Vazquez,433,1941,control,2006-08-25,control
+A,3196490,Sturnus vulgaris,22,11,2001,"La Fao, Aznalcazar, Sevilla",España,4,2,M. Vazquez,NA,NA,Anillamiento,2001-11-22,anillamiento
+C,3196490,Sturnus vulgaris,21,1,2003,"Cast o Sangallo, Roma",Italia,2,0,Extranjero,425,1692,Cazada con escopeta,2003-01-21,muerto
+A,2A168831,Sylvia atricapilla,10,11,2007,"Los Toruños, El Puerto de Santa Maria, Cadiz",España,3,2,M. Vazquez,NA,NA,Anillamiento,2007-11-10,anillamiento
+C,2A168831,Sylvia atricapilla,13,4,2009,"Ubersyren, Gran Ducado de Luxemburgo",Luxemburgo,4,2,Extranjero,520,1762,control,2009-04-13,control
+A,P574855,Motacilla alba yarrellii,21,8,2002,"Rodbaston, Stafford, Staffordshire",Gran Bretaña,3,0,Extranjero,NA,NA,Anillamiento,2002-08-21,anillamiento
+C,P574855,Motacilla alba yarrellii,14,12,2002,"Huelva, Huelva",España,3,0,Zamalla,115,1755,control,2002-12-14,control
+A,7994732,Motacilla alba ,10,10,2001,"Sourbrodt, Luik, Lieja",Belgica,3,1,Extranjero,NA,NA,Anillamiento,2001-10-10,anillamiento
+C,7994732,Motacilla alba ,31,1,2003,"San Pablo, Sevilla",España,4,1,M. Vazquez,478,1742,control anilla roja,2003-01-31,control
+A,8323554,Motacilla alba ,9,10,2002,"Spixhe, Theux, Luik Lieja",Belgica,3,0,Extranjero,NA,NA,Anillamiento,2002-10-09,anillamiento
+C,8323554,Motacilla alba ,31,1,2003,"San Pablo, Sevilla",España,5,0,M. Vazquez,114,1733,control anilla naranja,2003-01-31,control
+A,AD70225,Motacilla alba ,25,3,2002,"Castricum, Noord Holland",Holanda,5,1,Extranjero,NA,NA,Anillamiento,2002-03-25,anillamiento
+C,AD70225,Motacilla alba ,13,2,2003,"San Pablo, Sevilla",España,4,1,M. Vazquez,325,1874,control anilla naranja,2003-02-13,control
+A,VC96434,Motacilla alba ,5,10,2000,"Kreischa, Weiberitzkreis, Dresden",Alemania,2,1,Extranjero,NA,NA,Anillamiento,2000-10-05,anillamiento
+C,VC96434,Motacilla alba ,25,2,2001,"Dos Hermanas, Sevilla",España,2,0,M. Vazquez,143,2176,Cazada con escopeta,2001-02-25,muerto
+A,L628086,Motacilla alba ,22,11,2002,"San Pablo, Sevilla",España,3,0,M. Vazquez,NA,NA,Anillamiento,2002-11-22,anillamiento
+C,L628086,Motacilla alba ,23,4,2004,"Saint Aignan, Loire et Cher",Francia,2,0,Extranjero,518,1250,Encontrado muerto,2004-04-23,muerto
+A,L765176,Motacilla alba ,13,12,2002,"San Pablo, Sevilla",España,3,0,M. Vazquez,NA,NA,Anillamiento,2002-12-13,anillamiento
+C,L765176,Motacilla alba ,1,3,2003,"Kampen, Drenthe",Holanda,2,0,Extranjero,78,1922,Colision contra cristales,2003-03-01,muerto
+A,L765437,Motacilla alba ,20,12,2002,"San Pablo, Sevilla",España,3,0,M. Vazquez,NA,NA,Anillamiento,2002-12-20,anillamiento
+C,L765437,Motacilla alba ,7,7,2003,"Westerstede Mansie, Weser Ems Excep Islas",Alemania,2,0,Extranjero,199,2057,Encontrado muerto,2003-07-07,muerto
+A,L768702,Motacilla alba ,13,2,2003,"San Pablo, Sevilla",España,5,0,M. Vazquez,NA,NA,Anillamiento,2003-02-13,anillamiento
+C,L768702,Motacilla alba ,30,5,2003,"Burghausen, Oberbayern",Alemania,2,0,Extranjero,106,1936,Encontrado muerto anilla roja,2003-05-30,muerto
+A,L751801,Motacilla alba ,31,1,2003,"San Pablo, Sevilla",España,5,0,M. Vazquez,NA,NA,Anillamiento,2003-01-31,anillamiento
+C,L751801,Motacilla alba ,15,8,2003,"Düssnitz, Sachsen Anhalt",Alemania,5,1,Extranjero,196,2171,Colision contra un coche anilla naranja,2003-08-15,muerto
+A,L751891,Motacilla alba ,31,1,2003,"San Pablo, Sevilla",España,5,0,M. Vazquez,NA,NA,Anillamiento,2003-01-31,anillamiento
+C,L751891,Motacilla alba ,13,6,2005,"Seesen Harz, Braunschweig Inc Hildsh",Alemania,2,0,Extranjero,864,2045,Encontrado muerto anilla naranja,2005-06-13,muerto
+A,L797360,Motacilla alba ,21,11,2003,"San Pablo, Sevilla",España,3,0,M. Vazquez,NA,NA,Anillamiento,2003-11-21,anillamiento
+C,L797360,Motacilla alba ,8,4,2005,"Bovense Strand, Fyn",Dinamarca,4,1,Extranjero,504,2362,control anilla roja leido telescopio,2005-04-08,muerto
+C,L797360,Motacilla alba ,17,4,2006,"Bovense Strand, Fyn",Dinamarca,4,1,Extranjero,878,2362,control anilla roja leido telescopio,2006-04-17,muerto
+C,L797360,Motacilla alba ,15,7,2006,"Bovense Strand, Fyn",Dinamarca,4,1,Extranjero,967,2363,Capturada por un gato,2006-07-15,muerto
+A,L797597,Motacilla alba ,4,12,2003,"San Pablo, Sevilla",España,3,0,M. Vazquez,NA,NA,Anillamiento,2003-12-04,anillamiento
+C,L797597,Motacilla alba ,19,8,2006,"Rheinbach Womersdorf, Köln",Alemania,2,0,Extranjero,989,1792,Encontrado muerto anilla roja,2006-08-19,muerto
+A,L939258,Motacilla alba ,29,12,2003,"San Pablo, Sevilla",España,3,0,M. Vazquez,NA,NA,Anillamiento,2003-12-29,anillamiento
+C,L939258,Motacilla alba ,28,9,2004,"Offstein, Rheinhessen Pfalz",Alemania,4,1,Extranjero,274,1768,control,2004-09-28,control
+C,L939258,Motacilla alba ,11,4,2005,"Kreischa, Dresden",Alemania,4,1,Extranjero,469,2165,control,2005-04-11,control
+A,L939525,Motacilla alba ,12,1,2004,"San Pablo, Sevilla",España,5,2,M. Vazquez,NA,NA,Anillamiento,2004-01-12,anillamiento
+C,L939525,Motacilla alba ,2,8,2004,"Münchhausen Sintshausen, Giessen",Alemania,2,0,Extranjero,203,1898,Encontrado muerto,2004-08-02,muerto
