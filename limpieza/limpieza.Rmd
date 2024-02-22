@@ -1,27 +1,11 @@
-##Anillamiento de Manolo
+##Anillamiento
 
 ```{r}
-# Install and load the readxl package if not already installed
-if (!requireNamespace("readxl", quietly = TRUE)) {
-  install.packages("readxl")
-}
-library(readxl)
+file_path <- "../data/combined_anillamiento.csv"
 
-# Set the file path
-file_path <- "../data/anillamiento_de_Manolo.xlsx"
-
-# Read the "DATOS" sheet from the Excel file
-anillamiento_de_Manolo <- read_excel(file_path, sheet = "DATOS")
+anillamiento <- read.csv(file_path)
 ```
 
-
-```{r}
-# Combine DIA, MES, and AÑO columns and format as DD/MM/YYYY
-anillamiento_de_Manolo$FECHA <- as.Date(paste(anillamiento_de_Manolo$DIA, anillamiento_de_Manolo$MES, anillamiento_de_Manolo$AÑO, sep = "/"), format = "%d/%m/%Y")
-
-# Print the head of the dataframe to verify the new column
-head(anillamiento_de_Manolo,10)
-```
 
 ```{r}
 # Function to count NA values in a dataframe
@@ -30,14 +14,14 @@ count_na <- function(dataframe) {
 }
 
 # Call the function with your dataframe
-na_count <- count_na(anillamiento_de_Manolo)
+na_count <- count_na(anillamiento)
 print(na_count)
 
-na_rows <- anillamiento_de_Manolo[!complete.cases(anillamiento_de_Manolo), ]
+na_rows <- anillamiento[!complete.cases(anillamiento), ]
 
-anillamiento_de_Manolo$SEXO[is.na(anillamiento_de_Manolo$SEXO)] <- -1
+anillamiento$CodigoSexo[is.na(anillamiento$CodigoSexo)] <- -1
 
-na_count <- count_na(anillamiento_de_Manolo)
+na_count <- count_na(anillamiento)
 print(na_count)
 ```
 
@@ -50,10 +34,10 @@ if (!requireNamespace("readr", quietly = TRUE)) {
 library(readr)
 
 # Set the file path
-file_path <- "./limpio/anillamiento_de_Manolo.csv"
+file_path <- "./limpio/anillamiento.csv"
 
 # Write the dataframe to an Excel file
-write_csv(anillamiento_de_Manolo, file_path)
+write_csv(anillamiento, file_path)
 
 # Print a message indicating success
 cat("Dataframe exported successfully to", file_path, "\n")
@@ -222,7 +206,7 @@ distance_between <- function(location1, country1, location2, country2) {
   library(geosphere)
   
   register_stadiamaps("959128be-7040-455a-a96d-3a4fede1ba6a", write = FALSE)
-  register_google("AIzaSyCwSrahOYQ9ryCj4-fBVLM7lf_AkOu923c")
+  register_google("AIzaSyB5mUIt_VgX0xIQHDwwdFNtP9nUFHw5t8U")
   
   # Get coordinates for location1 and location2
   coords1 <- geocode(paste(location1, country1, sep = ", "))
