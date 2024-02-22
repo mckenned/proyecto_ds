@@ -359,7 +359,7 @@ d23 <- prep_for_combo_and_combine(d23_5, d23)
 
 rm(d13_extra, d14_extra, d10_01, d10_02, d10_03, d10_04, d10_05, d10_06, d10_07, d10_08, d10_09,
    d10_10,d10_11,d10_12, dfs_2010, d16_1, d16_2, d16_3, d16_4, d16_5, d16_6, d16_7, d16_8, d16_9,
-   d17_extra, d18_1, d18_2, d18_3, d18_4, d18_5, d18_6, d18_7, d18_8, d18_9, d18_10, d18_11,
+   d18_1, d18_2, d18_3, d18_4, d18_5, d18_6, d18_7, d18_8, d18_9, d18_10, d18_11,
    d19_1, d19_2, d19_3, d19_4, d21_1, d21_2, d21_3, d21_4, d21_5, d21_6, d21_7,
    d22_1, d22_2, d22_3, d22_4, d22_5, d22_6, d22_7,
    d23_1, d23_2, d23_3, d23_4, d23_5)
@@ -466,7 +466,7 @@ for (df_name in missingLocality) {
   print(paste("Missing locality count in", df_name, ":", missing_count))
 }
 
-write.csv(combined_df, file = './data/combined_anillamiento.csv', row.names = FALSE)
+# write.csv(combined_df, file = './data/combined_anillamiento.csv', row.names = FALSE)
 
 ###################### FILL IN MANOLOS DATA #######################
 
@@ -530,13 +530,13 @@ new_anilla <- setdiff(manolos_data$Anilla, combined_df$Anilla)
 if (length(new_anilla) > 0) {
   # Create a subset of manolos_data with only the new Anilla values
   subset_manolos_data <- manolos_data[manolos_data$Anilla %in% new_anilla]
+  subset_manolos_data$DataFrameName <- "Manolo"
   
   # Add NA values for missing columns
   missing_columns <- setdiff(colnames(combined_df), colnames(subset_manolos_data))
   for (col in missing_columns) {
     subset_manolos_data[[col]] <- NA
   }
-  subset_manolos_data[[DataFrameName]] <- "Manolo"
   subset_manolos_data <- subset(subset_manolos_data, select=colnames(combined_df))
   
   # Append subset_manolos_data to combined_df
