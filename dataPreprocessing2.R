@@ -1,6 +1,6 @@
 library("readxl")
 library(data.table)
-
+library(lubridate) 
 
 setwd("~/Programming/erasmusCourses/DS/Final Project/proyecto_ds")
 
@@ -11,14 +11,25 @@ print(which(different_values))
 d04 <- subset(d04, select = -FechaCaptura...7)
 names(d04)[names(d04) == "FechaCaptura...8"] <- "FechaCaptura"
 
-d05 <- read_excel("data/uncleaned/2005/2005_todos.xls", sheet = 1)
-# There are two columns here that have the exact same data
-different_values <- d05[["FechaCaptura...7"]] != d05[["FechaCaptura...8"]]
-print(which(different_values))
-d05 <- subset(d05, select = -FechaCaptura...7)
-names(d05)[names(d05) == "FechaCaptura...8"] <- "FechaCaptura"
+
+# There's an issue with the date encoding, this file needed to be converted to csv
+# Reading it as an excel always tried to parse an entire column the same way
+# Exporting it as a csv allowed each row to be written with its own date format
+# Then the lubridate in R can take care of parsing each row however it should be parsed
+# d05 <- read_excel("data/uncleaned/2005/2005_todos.xls", sheet = 1)
+# # There are two columns here that have the exact same data
+# different_values <- d05[["FechaCaptura...7"]] != d05[["FechaCaptura...8"]]
+# print(which(different_values))
+# d05 <- subset(d05, select = -FechaCaptura...7)
+# names(d05)[names(d05) == "FechaCaptura...8"] <- "FechaCaptura"
+
+d05 <- fread("data/uncleaned/2005/2005_todos_csv.csv")
+d05 <- d05[, -7]
+d05$FechaCaptura <- dmy(d05$FechaCaptura)
+# length(subset(d05_csv, is.na(FechaCaptura))$d05_csv)
 
 d06 <- read_excel("data/uncleaned/2006/2006_todos.xls", sheet = 1)
+d06$NombreAnillador <- "MANUEL VAZQUEZ CASTRO"
 not_shared1 <- setdiff(names(d06), names(d04))
 not_shared2 <- setdiff(names(d04), names(d06))
 # There are some columns that are not shared; these should be dropped later 
@@ -34,9 +45,15 @@ d08 <- read_excel("data/uncleaned/2008/2008_todos.xlsx", sheet = 1)
 d08$CodigoGrupo <-660019
 d08$NombreGrupo <- "MANUEL VAZQUEZ CASTRO"
 
-colTypes <- rep("text", 59)
-colTypes[8] <- "date"
-d09 <- read_excel("data/uncleaned/2009/2009_todos.xlsx", sheet = "Hoja1", col_types = colTypes)
+# There was also an issue with the dates encoding in this file. Had to change the 
+# custom format of the date in excel to all be dmy, then export it to a csv (because there 
+# were still a bunch of rows as text). Then coerce them using dmy
+# colTypes <- rep("text", 59)
+# colTypes[8] <- "date"
+# d09 <- read_excel("data/uncleaned/2009/2009_todos.xlsx", sheet = "Hoja1", col_types = colTypes)
+d09 <-fread("data/uncleaned/2009/2009_todos_csv.csv")
+d09$FechaCaptura <- dmy(d09$FechaCaptura)
+
 
 # 2010 was spread out over many files
 d10_01 <- read.csv("data/uncleaned/2010/Datos enviados/Datos a 2010/2010Zam-MV(1).csv", sep=";")
@@ -56,7 +73,11 @@ dfs_2010 <- list(d10_01, d10_02, d10_03, d10_04, d10_05, d10_06, d10_07, d10_08,
 
 # Combine dataframes into one
 d10 <- do.call(rbind, dfs_2010)
-d10$FechaCaptura <- as.Date(d10$FechaCaptura, format = "%d/%m/%Y")
+d10 <- subset(d10, CodigoGrupo != "")
+
+# Some of the dates were missing delimiters (e.g. 13/052010)
+# d10$FechaCaptura <- as.Date(d10$FechaCaptura, format = "%d/%m/%Y")
+d10$FechaCaptura <- dmy(d10$FechaCaptura)
 
 d11 <- read_excel("data/uncleaned/2011/2011_todos.xls", sheet = "DATOS", col_types = colTypes)
 
@@ -114,6 +135,8 @@ d16 <- combine_if_no_common_anillas(d16, d16_5)
 d16_6 <- read_excel("data/uncleaned/2016/Enviados/anillamientos2016EGR6.xls", col_types = colTypes)
 d16 <- combine_if_no_common_anillas(d16, d16_6)
 names(d16)[names(d16) == "Fecha"] <- "FechaCaptura"
+d16$NombreGrupo <- "EUSEBIO GOMEZ REINA"
+
 
 prep_for_combo_and_combine <- function(df16_, d16) {
   names(df16_)[names(df16_) == "Anilla METAL"] <- "Anilla"
@@ -138,18 +161,42 @@ d16 <- prep_for_combo_and_combine(d16_8, d16)
 d16_9 <- read_excel("data/uncleaned/2016/Enviados/2016Zam2.xls", col_types = "text")
 d16 <- prep_for_combo_and_combine(d16_9, d16)
 
-d16$FechaCaptura <- as.Date(d16$FechaCaptura, format = "%d/%m/%Y")
+# Doesn't work because some of the dates were stored as excel numbers.
+# d16$FechaCaptura1 <- as.Date(d16$FechaCaptura, format = "%d/%m/%Y")
 
+# Function to convert Excel serial numbers to dates
+excel_to_date <- function(x) {
+  # Check if the value is numeric (Excel serial number)
+  if(grepl("^-?\\d*\\.?\\d+$", x)) {
+    # Convert Excel serial number to date
+    as.Date(as.numeric(x) - 1, origin = "1899-12-30",)
+  } else {
+    # Return as is (text date)
+    as.Date(x, format = "%d/%m/%Y")
+  }
+}
+
+# Apply the function to the column
+converted_dates <- lapply(d16$FechaCaptura, excel_to_date)
+converted_dates <- t(data.frame(converted_dates))
+d16$FechaCaptura <- converted_dates
+d16$FechaCaptura <- as.Date(d16$FechaCaptura, format = "%Y-%m-%d")
 
 colTypes <- rep("text", 63)
 d17 <- read_excel("data/uncleaned/2017/2017_todos_fixed.xlsx", sheet = "DATOS", col_types = colTypes)
-d17$FechaCaptura <- as.Date(d17$FechaCaptura, format = "%d/%m/%Y")
+# d17$FechaCaptura <- as.Date(d17$FechaCaptura, format = "%d/%m/%Y")
 
-colTypes[8] <- "date"
-d17_extra <- read_excel("data/uncleaned/2017/2017_extra.xls", sheet = "DATOS", col_types = colTypes)
-any(d17_extra[["Anilla METAL"]] %in% d17[["Anilla METAL"]])
-d17 <- rbind(d17, d17_extra)
+# TODO: Add this extra sheet of data in
+# colTypes[8] <- "date"
+# d17_extra <- read_excel("data/uncleaned/2017/2017_extra.xls", sheet = "DATOS", col_types = colTypes)
+# any(d17_extra[["Anilla METAL"]] %in% d17[["Anilla METAL"]])
+# d17_extra$FechaCaptura <-ymd(d17_extra$FechaCaptura)
+# d17 <- rbind(d17, d17_extra)
 names(d17)[which(names(d17) == "Anilla METAL")] <- "Anilla"
+converted_dates <- lapply(d17$FechaCaptura, excel_to_date)
+converted_dates <- t(data.frame(converted_dates))
+d17$FechaCaptura <- converted_dates
+d17$FechaCaptura <- as.Date(d17$FechaCaptura, format = "%Y-%m-%d")
 
 
 colTypes <- rep("text", 63)
@@ -209,8 +256,13 @@ d19_4 <- read_excel("data/uncleaned/2019/ZamPVC-Sayago2019.xls", col_types = col
 d19_4$NombreGrupo <-"JOSE MANUEL SAYAGO ROBLES"
 d19 <- prep_for_combo_and_combine(d19_4, d19)
 
-d20 <- read_excel("data/uncleaned/2020/2020_todos.xls", sheet="DATOS", col_types = colTypes)
+d20 <- read_excel("data/uncleaned/2020/2020_todos.xls", sheet="DATOS", col_types = "text")
 names(d20)[which(names(d20) == "Anilla METAL")] <- "Anilla"
+converted_dates <- lapply(d20$FechaCaptura, excel_to_date)
+converted_dates <- t(data.frame(converted_dates))
+d20$FechaCaptura <- converted_dates
+d20$FechaCaptura <- as.Date(d20$FechaCaptura, format = "%Y-%m-%d")
+
 
 d21_1 <- read_excel("data/uncleaned/2021/Zam-EGR2021.xls", col_types = "text")
 names(d21_1)[which(names(d21_1) == "Fecha")] <- "FechaCaptura"
@@ -321,8 +373,6 @@ rm(d13_extra, d14_extra, d10_01, d10_02, d10_03, d10_04, d10_05, d10_06, d10_07,
 
 
 #################### DONE READING FILES. NOW COMBINING #########################
-
-
 # List of dataframe names
 dataframe_names <- c("d04", "d05", "d06", "d07", "d08", "d09", "d10", "d11", "d12", 
                      "d13", "d14", "d15", "d16", "d17", "d18", "d19", "d20", "d21", 
@@ -336,9 +386,9 @@ for (df_name in dataframe_names) {
 
 unique_column_names <- unique(all_column_names)
 
-print(sort(unique_column_names))
+# print(sort(unique_column_names))
 
-
+# Name columns consistently
 for (name in dataframe_names) {
   # Check if columns exist before renaming
   if ("NombreGrupo" %in% colnames(get(name))) {
@@ -375,34 +425,42 @@ combined_df <- do.call(rbind, lapply(dataframe_names, function(x) {
   for (col in missing_columns) {
     df[[col]] <- NA
   }
+  # Convert to data frame in case it is a data table
+  df <- as.data.frame(df)
   # Reorder columns
-  df <- df[, desired_columns]
+  df<- df[, desired_columns]
   return(df)
 }))
 
-missing_counts <- colSums(is.na(combined_df))
 
 ############# INSPECTING MISSING VALUES ######################
-missing_counts
-unique(subset(combined_df, is.na(CodigoAnillador))$DataFrameName)
-unique(subset(combined_df, is.na(FechaCaptura))$DataFrameName)
-unique(subset(combined_df, is.na(NombreLocalidad))$DataFrameName)
+(missing_counts <- colSums(is.na(combined_df)))
+
+# unique(subset(combined_df, is.na(CodigoAnillador))$DataFrameName)
 
 # These sheets all have a lot of dates missing, most likely just because the 
 # date is in the wrong format (dd/mm/yy and mm/dd/yyyy combo)
-length(subset(d04, is.na(FechaCaptura))$DataFrameName)
-length(subset(d05, is.na(FechaCaptura))$DataFrameName)
-length(subset(d07, is.na(FechaCaptura))$DataFrameName)
-length(subset(d09, is.na(FechaCaptura))$DataFrameName)
-length(subset(d10, is.na(FechaCaptura))$DataFrameName)
-length(subset(d16, is.na(FechaCaptura))$DataFrameName)
-length(subset(d17, is.na(FechaCaptura))$DataFrameName)
+missingDate <- unique(subset(combined_df, is.na(FechaCaptura))$DataFrameName)
 
-# This sheet is just missing data; nothing I can do about it. Maybe Manolo's data
+for (df_name in missingDate) {
+  subset_df <- get(df_name)  # Assuming your dataframes are named according to the values in DataFrameName
+  missing_count <- length(subset(subset_df, is.na(FechaCaptura))$DataFrameName)
+  print(paste("Missing date count in", df_name, ":", missing_count))
+}
+
+# missing_rows <- subset(d17, is.na(FechaCaptura))
+# head(missing_rows)
+
+# Sheet is just missing a ton of locality data; nothing I can do about it. Maybe Manolo's data
 # will be able to fill it in a bit
-length(subset(d08, is.na(NombreLocalidad))$DataFrameName)
+missingLocality <- unique(subset(combined_df, is.na(NombreLocalidad))$DataFrameName)
+for (df_name in missingLocality) {
+  subset_df <- get(df_name)  # Assuming your dataframes are named according to the values in DataFrameName
+  missing_count <- length(subset(subset_df, is.na(NombreLocalidad))$DataFrameName)
+  print(paste("Missing date count in", df_name, ":", missing_count))
+}
 
-# write.csv(combined_df, file = './data/combined_anillamiento.csv', row.names = FALSE)
+write.csv(combined_df, file = './data/combined_anillamiento.csv', row.names = FALSE)
 
 ###################### FILL IN MANOLOS DATA #######################
 
