@@ -1,0 +1,26 @@
+	renamed:    data/uncleaned/2011/todos2011Zam-MV.xls -> data/uncleaned/2011/2011_todos.xls
+	renamed:    data/uncleaned/2012/2012Zam-MVTODOS.xls -> data/uncleaned/2012/2012_todos.xls
+	renamed:    data/uncleaned/2014/Enviados/2013ZamPVC-MV4Falta.xls -> data/uncleaned/2013/2013_falta.xls
+	renamed:    data/uncleaned/2013/ENVIADOS/2013Zam-MVTODOS.xls -> data/uncleaned/2013/2013_todos.xls
+	renamed:    data/uncleaned/2014/2014Zam-MVIcona.xls -> data/uncleaned/2014/2014_falta.xls
+	renamed:    data/uncleaned/2014/2014ZamMVI.xls -> data/uncleaned/2014/2014_todos.xls
+	renamed:    data/uncleaned/2015/Enviados/2015ZamPVC-MVTodos.xls -> data/uncleaned/2015/2015_todos.xls
+	renamed:    data/uncleaned/2016/Enviados/ZamPVC-MV 1-2016.xls -> data/uncleaned/2016/Enviados/2016Zam1.xls
+	renamed:    data/uncleaned/2016/Enviados/ZamPVC-MV 2-2016.xls -> data/uncleaned/2016/Enviados/2016Zam2.xls
+	renamed:    data/uncleaned/2016/Enviados/ZamPVC-Sayago2016.xls -> data/uncleaned/2016/Enviados/2016ZamSayago.xls
+	renamed:    data/uncleaned/2016/Enviados/anillamientos. 2.016 E.G.R. 1.xls -> data/uncleaned/2016/Enviados/anillamientos2016EGR1.xls
+	renamed:    data/uncleaned/2016/Enviados/anillamientos. 2.016 E.G.R. 2.xls -> data/uncleaned/2016/Enviados/anillamientos2016EGR2.xls
+	renamed:    data/uncleaned/2016/Enviados/anillamientos. 2.016 E.G.R. 3.xls -> data/uncleaned/2016/Enviados/anillamientos2016EGR3.xls
+	renamed:    data/uncleaned/2016/Enviados/anillamientos. 2.016 E.G.R. 4.xls -> data/uncleaned/2016/Enviados/anillamientos2016EGR4.xls
+	renamed:    data/uncleaned/2016/Enviados/anillamientos. 2.016 E.G.R. 5.xls -> data/uncleaned/2016/Enviados/anillamientos2016EGR5.xls
+	renamed:    data/uncleaned/2016/Enviados/anillamientos. 2.016 E.G.R. 6.xls -> data/uncleaned/2016/Enviados/anillamientos2016EGR6.xls
+	renamed:    data/uncleaned/2017/ZamPVC-MV-2017 1.xls -> data/uncleaned/2017/2017_extra.xls
+	renamed:    data/uncleaned/2017/Zamalla-ANI2017.xls -> data/uncleaned/2017/2017_todos.xls
+	renamed:    data/uncleaned/2018/2018 JMSM.xls -> data/uncleaned/2018/2018_1.xls
+	renamed:    data/uncleaned/2018/anillamientos. 2.018 E.G.R. 31-07-2018 1.xls -> data/uncleaned/2018/2018_EGR1.xls
+	renamed:    "data/uncleaned/2018/anillamientos. 2.018 E.G.R.- 2\302\252 parte.xls" -> data/uncleaned/2018/2018_EGR2.xls
+	renamed:    "data/uncleaned/2018/anillamientos. 2.018 E.G.R.- 3\302\252 parte..xls" -> data/uncleaned/2018/2018_EGR3.xls
+	renamed:    data/uncleaned/2020/ZamPVC-Todos2020.xls -> data/uncleaned/2020/2020_todos.xls
+	renamed:    data/uncleaned/2021/ZamPVC-JMSR.xls -> data/uncleaned/2021/ZamPVC-JMSR2021.xls
+	renamed:    data/uncleaned/2022/ZamEusebio Gomez Reina2022.xls -> data/uncleaned/2022/ZamEGR2022.xls
+	renamed:    data/uncleaned/2022/ZamPVCManuel Vazquez Castro2022.xls -> data/uncleaned/2022/ZamPVC-MV2022.xls
