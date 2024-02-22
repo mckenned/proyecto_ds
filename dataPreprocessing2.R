@@ -4,12 +4,15 @@ library(lubridate)
 
 setwd("~/Programming/erasmusCourses/DS/Final Project/proyecto_ds")
 
-d04 <- read_excel("data/uncleaned/2004/2004_todos.xls", sheet = 1)
-# There are two columns here that have the exact same data; drop the extra
-different_values <- d04[["FechaCaptura...7"]] != d04[["FechaCaptura...8"]]
-print(which(different_values))
-d04 <- subset(d04, select = -FechaCaptura...7)
-names(d04)[names(d04) == "FechaCaptura...8"] <- "FechaCaptura"
+# d04 <- read_excel("data/uncleaned/2004/2004_todos.xls", sheet = 1)
+# # There are two columns here that have the exact same data; drop the extra
+# different_values <- d04[["FechaCaptura...7"]] != d04[["FechaCaptura...8"]]
+# print(which(different_values))
+# d04 <- subset(d04, select = -FechaCaptura...7)
+# names(d04)[names(d04) == "FechaCaptura...8"] <- "FechaCaptura"
+d04 <- fread("data/uncleaned/2004/2004_todos_csv.csv")
+d04 <- d04[,-8]
+d04$FechaCaptura <- as.Date(d04$FechaCaptura, format = "%d/%m/%Y")
 
 
 # There's an issue with the date encoding, this file needed to be converted to csv
@@ -26,24 +29,25 @@ names(d04)[names(d04) == "FechaCaptura...8"] <- "FechaCaptura"
 d05 <- fread("data/uncleaned/2005/2005_todos_csv.csv")
 d05 <- d05[, -7]
 d05$FechaCaptura <- dmy(d05$FechaCaptura)
-# length(subset(d05_csv, is.na(FechaCaptura))$d05_csv)
+# length(subset(d05, is.na(FechaCaptura))$d05)
 
-d06 <- read_excel("data/uncleaned/2006/2006_todos.xls", sheet = 1)
+d06 <- read_excel("data/uncleaned/2006/2006_todos.xls", sheet = 1, col_types = "text")
 d06$NombreAnillador <- "MANUEL VAZQUEZ CASTRO"
-not_shared1 <- setdiff(names(d06), names(d04))
-not_shared2 <- setdiff(names(d04), names(d06))
+d06$FechaCaptura <- as.Date(d06$FechaCaptura, format = "%d-%m-%y")
+
 # There are some columns that are not shared; these should be dropped later 
 # if they are unimportant.
-# -> Nope, it's just that Dato1 is Pata and Dato2 is Anilla color
 
 # There was an issue with the HoraCaptura encoding in this sheet
-colTypes <- rep("text", 59)
-colTypes[8] <- "date"
-d07 <- read_excel("data/uncleaned/2007/2007_todos.xlsx", sheet = 1, col_types = colTypes)
+
+d07 <- fread("data/uncleaned/2007/2007_todos_csv.csv")
+d07$FechaCaptura <- as.Date(d07$FechaCaptura, format = "%d/%m/%y")
+
 # Same; the hora is text. 
-d08 <- read_excel("data/uncleaned/2008/2008_todos.xlsx", sheet = 1)
+d08 <- read_excel("data/uncleaned/2008/2008_todos.xlsx", sheet = 1, col_types = "text")
 d08$CodigoGrupo <-660019
 d08$NombreGrupo <- "MANUEL VAZQUEZ CASTRO"
+d08$FechaCaptura <- as.Date(d08$FechaCaptura, format = "%d-%m-%y")
 
 # There was also an issue with the dates encoding in this file. Had to change the 
 # custom format of the date in excel to all be dmy, then export it to a csv (because there 
@@ -79,6 +83,8 @@ d10 <- subset(d10, CodigoGrupo != "")
 # d10$FechaCaptura <- as.Date(d10$FechaCaptura, format = "%d/%m/%Y")
 d10$FechaCaptura <- dmy(d10$FechaCaptura)
 
+colTypes <- rep("text", 59)
+colTypes[8] <- "date"
 d11 <- read_excel("data/uncleaned/2011/2011_todos.xls", sheet = "DATOS", col_types = colTypes)
 
 colTypes <- rep("text", 19)
@@ -457,7 +463,7 @@ missingLocality <- unique(subset(combined_df, is.na(NombreLocalidad))$DataFrameN
 for (df_name in missingLocality) {
   subset_df <- get(df_name)  # Assuming your dataframes are named according to the values in DataFrameName
   missing_count <- length(subset(subset_df, is.na(NombreLocalidad))$DataFrameName)
-  print(paste("Missing date count in", df_name, ":", missing_count))
+  print(paste("Missing locality count in", df_name, ":", missing_count))
 }
 
 write.csv(combined_df, file = './data/combined_anillamiento.csv', row.names = FALSE)
@@ -487,5 +493,58 @@ names(manolos_data)[which(names(manolos_data) == "LUGAR")] <- "NombreLocalidad"
 names(manolos_data)[which(names(manolos_data) == "EDAD")] <- "CodigoEdad"
 names(manolos_data)[which(names(manolos_data) == "SEXO")] <- "CodigoSexo"
 
-### TODO: I still need to combine Manolo's to the other. If there are any missing
-# the location (esp for 2008), then the location should be copied over.
+
+# Fill in missing locations data
+missingLocations <- subset(combined_df, is.na(NombreLocalidad))
+
+# Find the common Anilla values between missingLocations and manolos_data
+common_anilla <- intersect(missingLocations$Anilla, manolos_data$Anilla)
+# Find the corresponding rows in manolos_data
+matching_rows_man <- manolos_data$Anilla %in% common_anilla
+# Find the corresponding rows in combined_df
+matching_rows_comb <- combined_df$Anilla %in% common_anilla
+# Update NombreLocalidad in combined_df where Anilla matches
+combined_df$NombreLocalidad[matching_rows_comb] <- manolos_data$NombreLocalidad[matching_rows_man]
+
+
+# Iterating over each row is much slower but produces the same result
+# for (i in 1:nrow(missingLocations)) {
+#   # Get the Anilla value from manolos_data
+#   anilla_value <- missingLocations$Anilla[i]
+#   
+#   # Check if the Anilla value exists in missingLocations
+#   if (anilla_value %in% manolos_data$Anilla) {
+#     matching_row_comb <- combined_df$Anilla == anilla_value
+#     matching_row_man <- manolos_data$Anilla == anilla_value
+#     combined_df$NombreLocalidad[matching_row_comb] <- manolos_data$NombreLocalidad[matching_row_man]
+#   }
+# }
+
+# That resolved basically ALL of the missing localities :D
+# length(subset(combined_df, is.na(NombreLocalidad)))
+
+
+# Add the missing rings from Manolo's data to the combined sheet
+new_anilla <- setdiff(manolos_data$Anilla, combined_df$Anilla)
+
+if (length(new_anilla) > 0) {
+  # Create a subset of manolos_data with only the new Anilla values
+  subset_manolos_data <- manolos_data[manolos_data$Anilla %in% new_anilla]
+  
+  # Add NA values for missing columns
+  missing_columns <- setdiff(colnames(combined_df), colnames(subset_manolos_data))
+  for (col in missing_columns) {
+    subset_manolos_data[[col]] <- NA
+  }
+  subset_manolos_data[[DataFrameName]] <- "Manolo"
+  subset_manolos_data <- subset(subset_manolos_data, select=colnames(combined_df))
+  
+  # Append subset_manolos_data to combined_df
+  combined_df <- rbind(combined_df, subset_manolos_data)
+}
+
+
+(missing_counts <- colSums(is.na(combined_df)))
+
+write.csv(combined_df, file = './data/combined_anillamiento.csv', row.names = FALSE)
+
