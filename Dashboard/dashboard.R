@@ -1,46 +1,61 @@
-# Instala y carga el paquete shiny
-if(!require(shiny)) install.packages("shiny")
+# Cargar los paquetes necesarios
 library(shiny)
+library(dplyr)
+library(ggplot2)
 
-# Define la interfaz de usuario
+# Cargar los datos desde el archivo CSV
+datos <- read.csv("../data/controles_espana.csv", header = TRUE, sep = ";")
+
+# Calcular la fecha de anillamiento utilizando día, mes y año
+datos$FECHA_ANILLAMIENTO <- as.Date(paste(datos$DIA, datos$MES, datos$AÑO, sep = "-"), format = "%d-%m-%Y")
+
+# Calcular la diferencia de tiempo entre anillamiento y control en días
+datos <- datos %>%
+  group_by(METAL) %>%
+  mutate(DIFERENCIA_TIEMPO = as.numeric(difftime(max(FECHA_ANILLAMIENTO), min(FECHA_ANILLAMIENTO), units = "days"))) %>%
+  ungroup()
+
+
+datos <- datos %>% filter(MODO == "C")
+
+# Obtener el máximo valor de diferencia de tiempo
+max_diferencia_tiempo <- max(datos$DIFERENCIA_TIEMPO)
+
+# Definir la UI del dashboard
 ui <- fluidPage(
-  titlePanel("Mi Dashboard Interactivo"),
-  
+  titlePanel("Anillamiento y Control de Aves"),
   sidebarLayout(
     sidebarPanel(
-      sliderInput("bins",
-                  "Número de bins:",
-                  min = 1,
-                  max = 50,
-                  value = 30)
+      selectInput("especie", "Especie:",
+                  choices = unique(datos$ESPECIE)),
+      numericInput("tiempo_min", "Diferencia de tiempo mínimo (días):",
+                   min = 0, max = max_diferencia_tiempo, value = 0),
+      numericInput("tiempo_max", "Diferencia de tiempo máximo (días):",
+                   min = 0, max = max_diferencia_tiempo, value = max_diferencia_tiempo),
+      width = 3
     ),
-    
     mainPanel(
-      plotOutput("distPlot")
+      plotOutput("histograma")
     )
   )
 )
 
-# Define la lógica del servidor
+# Definir el servidor del dashboard
 server <- function(input, output) {
-  # Lee el archivo CSV
-  datos <- read.csv("../data/controles_espana.csv")
-  # Cambia los valores 'A' por 0 y 'C' por 1
-  datos$MODO <- ifelse(datos$MODO == 'A', 0, 
-                                     ifelse(datos$MODO == 'C', 1, NA))
-  datos$MODO <- na.omit(datos$MODO)
-  datos$MODO <- as.numeric(as.character(datos$MODO)) # Reemplaza "columna_de_interes" con el nombre de tu columna
-  
-  str(datos$MODO)
-  output$distPlot <- renderPlot({
-    x    <- datos$MODO # Reemplaza esto con el nombre de la columna de interés
-    bins <- seq(min(x), max(x), length.out = input$bins + 1)
+  output$histograma <- renderPlot({
+    datos_filtrados <- datos %>%
+      filter(ESPECIE == input$especie,
+             DIFERENCIA_TIEMPO >= input$tiempo_min & DIFERENCIA_TIEMPO <= input$tiempo_max)
     
-    hist(x, breaks = bins, col = "#75AADB", border = "white",
-         xlab = "Etiqueta del eje x", # Reemplaza esto con la etiqueta del eje x
-         main = "Título del gráfico") # Reemplaza esto con el título del gráfico
+    ggplot(datos_filtrados, aes(x = DIFERENCIA_TIEMPO)) +
+      geom_histogram(binwidth = 1, fill = "skyblue", color = "black") +
+      annotate("text", x = datos_filtrados$DIFERENCIA_TIEMPO, y = 0, label = datos_filtrados$DIFERENCIA_TIEMPO, vjust = -0.5, size = 3) +
+      labs(title = "Diferencia de tiempo entre Anillamiento y Control",
+           x = "Días de diferencia",
+           y = "Frecuencia") +
+      theme_minimal()
   })
 }
 
-# Ejecuta la aplicación
+# Ejecutar la aplicación shiny
 shinyApp(ui = ui, server = server)
