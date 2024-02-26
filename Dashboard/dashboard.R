@@ -1,38 +1,32 @@
-# Cargar los paquetes necesarios
 library(shiny)
-library(dplyr)
 library(ggplot2)
+library(dplyr)
+library(tidyr)
 
-# Cargar los datos desde el archivo CSV
-datos <- read.csv("../data/controles_espana.csv", header = TRUE, sep = ";")
+# Cargar los datos
+datos <- read.csv("../limpieza/limpio/controles_espana_familia.csv")
 
-# Calcular la fecha de anillamiento utilizando día, mes y año
-datos$FECHA_ANILLAMIENTO <- as.Date(paste(datos$DIA, datos$MES, datos$AÑO, sep = "-"), format = "%d-%m-%Y")
+# Filtrar las filas donde METAL no está vacío
+datos <- datos %>% filter(METAL != "")
 
-# Calcular la diferencia de tiempo entre anillamiento y control en días
+# Convertir la columna FECHA a tipo de dato Date
+datos$FECHA <- as.Date(datos$FECHA, format = "%m/%d/%Y")
+
+# Calcular la diferencia de tiempo entre anillamiento y control
 datos <- datos %>%
   group_by(METAL) %>%
-  mutate(DIFERENCIA_TIEMPO = as.numeric(difftime(max(FECHA_ANILLAMIENTO), min(FECHA_ANILLAMIENTO), units = "days"))) %>%
-  ungroup()
+  mutate(tiempo_diferencia = ifelse(MODO == "C", FECHA - lag(FECHA), NA))
 
-
-datos <- datos %>% filter(MODO == "C")
-
-# Obtener el máximo valor de diferencia de tiempo
-max_diferencia_tiempo <- max(datos$DIFERENCIA_TIEMPO)
-
-# Definir la UI del dashboard
+# Definir UI
 ui <- fluidPage(
   titlePanel("Anillamiento y Control de Aves"),
+  
   sidebarLayout(
     sidebarPanel(
-      selectInput("especie", "Especie:",
-                  choices = unique(datos$ESPECIE)),
-      numericInput("tiempo_min", "Diferencia de tiempo mínimo (días):",
-                   min = 0, max = max_diferencia_tiempo, value = 0),
-      numericInput("tiempo_max", "Diferencia de tiempo máximo (días):",
-                   min = 0, max = max_diferencia_tiempo, value = max_diferencia_tiempo),
-      width = 3
+      selectInput("orden", "Orden:", choices = unique(datos$ORDEN)),
+      selectInput("familia", "Familia:", choices = NULL),
+      selectInput("especie", "Especie:", choices = NULL),
+      selectInput("tiempo", "Filtrar por tiempo:", choices = c("Menos de 1 año", "1 a 2 años", "2 a 5 años", "5 o más"))
     ),
     mainPanel(
       plotOutput("histograma")
@@ -40,22 +34,55 @@ ui <- fluidPage(
   )
 )
 
-# Definir el servidor del dashboard
-server <- function(input, output) {
-  output$histograma <- renderPlot({
+# Definir server
+server <- function(input, output, session) {
+  
+  # Filtrar datos según selecciones
+  datos_filtrados <- reactive({
     datos_filtrados <- datos %>%
-      filter(ESPECIE == input$especie,
-             DIFERENCIA_TIEMPO >= input$tiempo_min & DIFERENCIA_TIEMPO <= input$tiempo_max)
+      filter(ORDEN == input$orden) %>%
+      filter(FAMILIA == input$familia) %>%
+      filter(ESPECIE == input$especie)
     
-    ggplot(datos_filtrados, aes(x = DIFERENCIA_TIEMPO)) +
-      geom_histogram(binwidth = 1, fill = "skyblue", color = "black") +
-      annotate("text", x = datos_filtrados$DIFERENCIA_TIEMPO, y = 0, label = datos_filtrados$DIFERENCIA_TIEMPO, vjust = -0.5, size = 3) +
-      labs(title = "Diferencia de tiempo entre Anillamiento y Control",
-           x = "Días de diferencia",
-           y = "Frecuencia") +
-      theme_minimal()
+    # Filtrar por tiempo
+    if (input$tiempo == "Menos de 1 año") {
+      datos_filtrados <- datos_filtrados %>%
+        filter(tiempo_diferencia < 365)
+    } else if (input$tiempo == "1 a 2 años") {
+      datos_filtrados <- datos_filtrados %>%
+        filter(tiempo_diferencia >= 365 & tiempo_diferencia < 730)
+    } else if (input$tiempo == "2 a 5 años") {
+      datos_filtrados <- datos_filtrados %>%
+        filter(tiempo_diferencia >= 730 & tiempo_diferencia < 1825)
+    } else if (input$tiempo == "5 o más") {
+      datos_filtrados <- datos_filtrados %>%
+        filter(tiempo_diferencia >= 1825)
+    }
+    
+    return(datos_filtrados)
+  })
+  
+  # Actualizar selección de familias y especies según orden seleccionado
+  observeEvent(input$orden, {
+    updateSelectInput(session, "familia", choices = unique(datos$FAMILIA[datos$ORDEN == input$orden]))
+    updateSelectInput(session, "especie", choices = NULL)
+  })
+  
+  observeEvent(input$familia, {
+    updateSelectInput(session, "especie", choices = unique(datos$ESPECIE[datos$FAMILIA == input$familia]))
+  })
+  
+  # Crear histograma
+  output$histograma <- renderPlot({
+    ggplot(datos_filtrados(), aes(x = tiempo_diferencia, y = ESPECIE, fill = METAL)) +
+      geom_bar(stat = "identity", position = "dodge") +
+      labs(title = "Diferencia de tiempo entre anillamiento y control",
+           x = "Días",
+           y = "Especie") +
+      theme_minimal() +
+      geom_vline(xintercept = 0, color = "red", linetype = "dashed")
   })
 }
 
-# Ejecutar la aplicación shiny
+# Ejecutar la aplicación
 shinyApp(ui = ui, server = server)
