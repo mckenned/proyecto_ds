@@ -18,7 +18,7 @@ anillamientos <- anillamientos[anillamientos$AñoCaptura > 1700, ]
 anillamientos <- na.omit(anillamientos)
 
 anillamientos_especie <- anillamientos[, (names(anillamientos) %in% c("NombreEspecie", "FechaCaptura", "AñoCaptura"))]
-species_name_filter <- "acrocephalus arundinaceus"
+species_name_filter <- "sylvia atricapilla"
 anillamientos_especie <- subset(anillamientos_especie, tolower(NombreEspecie) == tolower(species_name_filter))
 anillamientos_especie <- na.omit(anillamientos_especie)
 
@@ -30,4 +30,33 @@ hist(anillamientos_especie$AñoCaptura,
      ylab = "Frequency",
      main = paste(paste("Histogram of", species_name_filter), "captures per Year"),
      breaks = seq(min_year - 0.5, max_year + 0.5, by = 1))
+```
+
+```{r}
+anillamientos_especie <- anillamientos[, (names(anillamientos) %in% c("NombreEspecie", "FechaCaptura"))]
+year_filter <- 2022
+anillamientos_especie$FechaCaptura <- as.Date(anillamientos_especie$FechaCaptura)
+anillamientos_especie$AñoCaptura <- year(anillamientos_especie$FechaCaptura)
+anillamientos_especie <- subset(anillamientos_especie, AñoCaptura == year_filter)
+anillamientos_especie <- na.omit(anillamientos_especie)
+
+species_counts <- table(anillamientos_especie$NombreEspecie)
+species_counts <- species_counts[order(-species_counts)]
+species_counts <- head(species_counts, 10)
+species_counts <- species_counts[order(species_counts)]
+species_names <- names(species_counts)
+colors <- rainbow(length(species_counts))
+
+max_count <- max(species_counts)
+xlim <- c(0, ifelse(max_count > 5000, max_count, 5000))
+
+barplot(species_counts,
+      col = rev(colors),
+      xlab = "Number captured",
+      main = paste("Captured species in", year_filter),
+      horiz = TRUE,
+      names.arg = FALSE,
+      xlim = xlim)
+
+legend("bottomright", inset=c(0,0), legend = rev(species_names), fill = colors, bg = adjustcolor("white", alpha = 0.8))
 ```
