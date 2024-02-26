@@ -2,7 +2,7 @@ library("readxl")
 library(data.table)
 library(lubridate) 
 
-setwd("~/Programming/erasmusCourses/DS/Final Project/proyecto_ds")
+# setwd("~/Programming/erasmusCourses/DS/Final Project/proyecto_ds")
 
 # d04 <- read_excel("data/uncleaned/2004/2004_todos.xls", sheet = 1)
 # # There are two columns here that have the exact same data; drop the extra
@@ -554,6 +554,9 @@ combined_df <- unique_data[!dupes, ]
 
 # Fix dates before 1987
 combined_df <- subset(combined_df, as.Date(FechaCaptura) >= as.Date("1987-01-01"))
+
+combined_df$NombreLocalidad <- tolower(combined_df$NombreLocalidad)
+combined_df$MUNICIPIO <- tolower(combined_df$MUNICIPIO)
 
 write.csv(combined_df, file = './data/combined_anillamiento.csv', row.names = FALSE)
 
