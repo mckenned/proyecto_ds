@@ -12,7 +12,8 @@ setwd("~/Programming/erasmusCourses/DS/Final Project/proyecto_ds")
 # names(d04)[names(d04) == "FechaCaptura...8"] <- "FechaCaptura"
 d04 <- fread("data/uncleaned/2004/2004_todos_csv.csv")
 d04 <- d04[,-8]
-d04$FechaCaptura <- as.Date(d04$FechaCaptura, format = "%d/%m/%Y")
+d04$FechaCaptura <- dmy(d04$FechaCaptura)
+d04 <- d04[complete.cases(d04$FechaCaptura), ]
 
 
 # There's an issue with the date encoding, this file needed to be converted to csv
@@ -542,6 +543,17 @@ if (length(new_anilla) > 0) {
 
 
 (missing_counts <- colSums(is.na(combined_df)))
+
+
+################ DATA CLEANUP ######################
+# Remove duplicate rings
+
+unique_data <- unique(combined_df)
+dupes <- duplicated(unique_data, by = "Anilla")
+combined_df <- unique_data[!dupes, ]
+
+# Fix dates before 1987
+combined_df <- subset(combined_df, as.Date(FechaCaptura) >= as.Date("1987-01-01"))
 
 write.csv(combined_df, file = './data/combined_anillamiento.csv', row.names = FALSE)
 
