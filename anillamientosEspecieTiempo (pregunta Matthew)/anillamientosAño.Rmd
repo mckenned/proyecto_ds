@@ -1,0 +1,33 @@
+```{r}
+# Install and load the lubridate package if not already installed
+if (!requireNamespace("lubridate", quietly = TRUE)) {
+  install.packages("lubridate")
+}
+library(lubridate)
+```
+
+```{r}
+# Load dataset
+anillamientos <- read.csv("../limpieza/limpio/anillamiento_familia.csv")
+```
+
+```{r}
+anillamientos$FechaCaptura <- as.Date(anillamientos$FechaCaptura)
+anillamientos$AñoCaptura <- year(anillamientos$FechaCaptura)
+anillamientos <- anillamientos[anillamientos$AñoCaptura > 1700, ]
+anillamientos <- na.omit(anillamientos)
+
+anillamientos_especie <- anillamientos[, (names(anillamientos) %in% c("NombreEspecie", "FechaCaptura", "AñoCaptura"))]
+species_name_filter <- "acrocephalus arundinaceus"
+anillamientos_especie <- subset(anillamientos_especie, tolower(NombreEspecie) == tolower(species_name_filter))
+anillamientos_especie <- na.omit(anillamientos_especie)
+
+min_year <- min(anillamientos$AñoCaptura)
+max_year <- max(anillamientos$AñoCaptura)
+
+hist(anillamientos_especie$AñoCaptura,
+     xlab = "Year",
+     ylab = "Frequency",
+     main = paste(paste("Histogram of", species_name_filter), "captures per Year"),
+     breaks = seq(min_year - 0.5, max_year + 0.5, by = 1))
+```
