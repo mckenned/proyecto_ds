@@ -2,20 +2,36 @@ library(shiny)
 library(ggplot2)
 library(dplyr)
 library(tidyr)
+library(leaflet)
+library(ggmap)
+register_google("AIzaSyB5mUIt_VgX0xIQHDwwdFNtP9nUFHw5t8U")
 
-# Cargar los datos
+# Cargar los datos para el histograma
 datos <- read.csv("../limpieza/limpio/controles_espana_familia.csv")
 
-# Filtrar las filas donde METAL no está vacío
+# Cargar los datos para el mapa
+datos_mapa <- read.csv("../limpieza/limpio/controles_extranjeros_familia.csv")
+
+# Filtrar las filas donde METAL no está vacío para el histograma
 datos <- datos %>% filter(METAL != "")
 
-# Convertir la columna FECHA a tipo de dato Date
+# Filtrar las filas donde METAL no está vacío para el mapa
+datos_mapa <- datos_mapa %>% filter(METAL != "")
+
+# Convertir la columna FECHA a tipo de dato Date para el histograma
 datos$FECHA <- as.Date(datos$FECHA, format = "%m/%d/%Y")
 
-# Calcular la diferencia de tiempo entre anillamiento y control
+# Calcular la diferencia de tiempo entre anillamiento y control para el histograma
 datos <- datos %>%
   group_by(METAL) %>%
   mutate(tiempo_diferencia = ifelse(MODO == "C", FECHA - lag(FECHA), NA))
+
+# Extraer las coordenadas de las localidades para el mapa
+coordenadas <- geocode(as.character(datos_mapa$LOCALIDAD))
+
+# Agregar las coordenadas al dataframe de los datos del mapa
+datos_mapa$LATITUD <- coordenadas$lat
+datos_mapa$LONGITUD <- coordenadas$lon
 
 # Definir UI
 ui <- fluidPage(
@@ -30,13 +46,16 @@ ui <- fluidPage(
         selectInput("familia", "Familia:", choices = NULL),
         selectInput("especie", "Especie:", choices = NULL),
         selectInput("tiempo", "Filtrar por tiempo:", choices = c("Menos de 1 año", "1 a 2 años", "2 a 5 años", "5 o más"))
-      )
+      ),
+      h4("Filtro para Mapa"),
+      numericInput("año_desde", "Año Desde:", min(datos_mapa$AÑO)),
+      numericInput("año_hasta", "Año Hasta:", max(datos_mapa$AÑO))
     ),
     mainPanel(
       tabsetPanel(
         id = "tab",
         tabPanel("Histograma tiempo Anillamiento y Control", plotOutput("histograma")),
-        tabPanel("Otro Gráfico", plotOutput("otro_grafico")),
+        tabPanel("Mapa", leafletOutput("mapa")),
         tabPanel("Imagen", imageOutput("imagen"))
       )
     )
@@ -46,14 +65,14 @@ ui <- fluidPage(
 # Definir server
 server <- function(input, output, session) {
   
-  # Filtrar datos según selecciones
+  # Filtrar datos según selecciones para el histograma
   datos_filtrados <- reactive({
     datos_filtrados <- datos %>%
       filter(ORDEN == input$orden) %>%
       filter(FAMILIA == input$familia) %>%
       filter(ESPECIE == input$especie)
     
-    # Filtrar por tiempo
+    # Filtrar por tiempo para el histograma
     if (input$tiempo == "Menos de 1 año") {
       datos_filtrados <- datos_filtrados %>%
         filter(tiempo_diferencia < 365)
@@ -71,7 +90,13 @@ server <- function(input, output, session) {
     return(datos_filtrados)
   })
   
-  # Actualizar selección de familias y especies según orden seleccionado
+  # Filtrar datos según selecciones para el mapa
+  datos_filtrados_mapa <- reactive({
+    datos_mapa %>%
+      filter(AÑO >= input$año_desde & AÑO <= input$año_hasta)
+  })
+  
+  # Actualizar selección de familias y especies según orden seleccionado para el histograma
   observeEvent(input$orden, {
     updateSelectInput(session, "familia", choices = unique(datos$FAMILIA[datos$ORDEN == input$orden]))
     updateSelectInput(session, "especie", choices = NULL)
@@ -90,6 +115,13 @@ server <- function(input, output, session) {
            y = "Especie") +
       theme_minimal() +
       geom_vline(xintercept = 0, color = "red", linetype = "dashed")
+  })
+  
+  # Crear el mapa
+  output$mapa <- renderLeaflet({
+    leaflet(datos_filtrados_mapa()) %>%
+      addTiles() %>%
+      addMarkers(~LATITUD, ~LONGITUD, popup = ~LOCALIDAD)
   })
   
   # Crear otro gráfico
