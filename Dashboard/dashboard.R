@@ -23,13 +23,22 @@ ui <- fluidPage(
   
   sidebarLayout(
     sidebarPanel(
-      selectInput("orden", "Orden:", choices = unique(datos$ORDEN)),
-      selectInput("familia", "Familia:", choices = NULL),
-      selectInput("especie", "Especie:", choices = NULL),
-      selectInput("tiempo", "Filtrar por tiempo:", choices = c("Menos de 1 año", "1 a 2 años", "2 a 5 años", "5 o más"))
+      conditionalPanel(
+        condition = "input.tab != 'imagen'",
+        h4("Filtro para Histograma de tiempo entre anillamiento y control"),
+        selectInput("orden", "Orden:", choices = unique(datos$ORDEN)),
+        selectInput("familia", "Familia:", choices = NULL),
+        selectInput("especie", "Especie:", choices = NULL),
+        selectInput("tiempo", "Filtrar por tiempo:", choices = c("Menos de 1 año", "1 a 2 años", "2 a 5 años", "5 o más"))
+      )
     ),
     mainPanel(
-      plotOutput("histograma")
+      tabsetPanel(
+        id = "tab",
+        tabPanel("Histograma tiempo Anillamiento y Control", plotOutput("histograma")),
+        tabPanel("Otro Gráfico", plotOutput("otro_grafico")),
+        tabPanel("Imagen", imageOutput("imagen"))
+      )
     )
   )
 )
@@ -81,6 +90,19 @@ server <- function(input, output, session) {
            y = "Especie") +
       theme_minimal() +
       geom_vline(xintercept = 0, color = "red", linetype = "dashed")
+  })
+  
+  # Crear otro gráfico
+  output$otro_grafico <- renderPlot({
+    # Código para otro gráfico aquí
+  })
+  
+  # Mostrar imagen
+  output$imagen <- renderImage({
+    list(src = "ruta/a/la/imagen.png",
+         contentType = "image/png",
+         width = 400,
+         height = 300)
   })
 }
 
