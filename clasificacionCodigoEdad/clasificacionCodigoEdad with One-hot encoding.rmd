@@ -1,0 +1,135 @@
+```{r}
+# Install and load the lubridate package if not already installed
+if (!requireNamespace("lubridate", quietly = TRUE)) {
+  install.packages("lubridate")
+}
+library(lubridate)
+
+# Install and load the xgboost package if not already installed
+if (!requireNamespace("xgboost", quietly = TRUE)) {
+  install.packages("xgboost")
+}
+library(xgboost)
+
+# Install and load the caret package if not already installed
+if (!requireNamespace("caret", quietly = TRUE)) {
+  install.packages("caret")
+}
+library(caret)
+
+# Install and load the lightgbm package if not already installed
+if (!requireNamespace("lightgbm", quietly = TRUE)) {
+  install.packages("lightgbm")
+}
+library(lightgbm)
+
+# Install and load the data.table package if not already installed
+if (!requireNamespace("data.table", quietly = TRUE)) {
+  install.packages("data.table")
+}
+library(data.table)
+
+# Install and load the dplyr package if not already installed
+if (!requireNamespace("dplyr", quietly = TRUE)) {
+  install.packages("dplyr")
+}
+library(dplyr)
+```
+
+# Step 1: Data Preprocessing
+
+```{r}
+# Load dataset
+anillamientos <- read.csv("../limpieza/limpio/anillamiento_familia.csv")
+```
+
+```{r}
+anillamientos_especie <- anillamientos[, (names(anillamientos) %in% c("NombreEspecie", "FechaCaptura", "CodigoEdad", "MUNICIPIO"))]
+anillamientos_familia <- anillamientos[, (names(anillamientos) %in% c("Familia", "FechaCaptura", "CodigoEdad", "MUNICIPIO"))]
+anillamientos_orden <- anillamientos[, (names(anillamientos) %in% c("Orden", "FechaCaptura", "CodigoEdad", "MUNICIPIO"))]
+anillamientos_grupo <- anillamientos[, (names(anillamientos) %in% c("Grupo", "FechaCaptura", "CodigoEdad", "MUNICIPIO"))]
+```
+
+```{r}
+dataset_trabajo <- anillamientos_especie #A modificar para lo que busquemos
+names(dataset_trabajo)[1] <- "Identificador"
+dataset_trabajo$FechaCaptura <- as.Date(dataset_trabajo$FechaCaptura)
+dataset_trabajo$MesCaptura <- month(dataset_trabajo$FechaCaptura)
+dataset_trabajo <- dataset_trabajo[, (!names(dataset_trabajo) %in% c("FechaCaptura"))]
+```
+
+```{r}
+dataset_trabajo <- dataset_trabajo[dataset_trabajo$MUNICIPIO != "", ]
+dataset_trabajo$CodigoEdad <- as.numeric(dataset_trabajo$CodigoEdad)
+dataset_trabajo <- dataset_trabajo[dataset_trabajo$CodigoEdad <= 9, ]
+
+dataset_trabajo <- na.omit(dataset_trabajo)
+
+attributes_to_encode <- c("Identificador", "MUNICIPIO", "MesCaptura")
+
+# Loop through each attribute and perform one-hot encoding
+for (attribute in attributes_to_encode) {
+  encoded_attribute <- model.matrix(~ . - 1, data = dataset_trabajo[, attribute, drop = FALSE])
+  colnames(encoded_attribute) <- paste(attribute, colnames(encoded_attribute), sep = "_")
+  dataset_trabajo <- cbind(dataset_trabajo, encoded_attribute)
+}
+
+dataset_trabajo <- subset(dataset_trabajo, select = -c(Identificador, MUNICIPIO, MesCaptura))
+
+dataset_trabajo <- na.omit(dataset_trabajo)
+```
+
+```{r}
+set.seed(123)
+
+train_index <- sample(1:nrow(dataset_trabajo), 0.7 * nrow(dataset_trabajo))
+train_data <- dataset_trabajo[train_index, ]
+test_data <- dataset_trabajo[-train_index, ]
+```
+
+
+# Step 2: Model Training
+
+# Train a xgb models
+
+
+```{r}
+columns_to_use <- setdiff(colnames(train_data), "CodigoEdad")
+
+xgb_model_5 <- xgboost(data = as.matrix(train_data[, columns_to_use]),
+                     label = train_data$CodigoEdad,
+                     nrounds = 5,
+                     verbose = FALSE,
+                     objective = "multi:softmax",
+                     num_class = 10
+)
+```
+
+```{r}
+columns_to_use <- setdiff(colnames(train_data), "CodigoEdad")
+
+xgb_model_50 <- xgboost(data = as.matrix(train_data[, columns_to_use]),
+                     label = train_data$CodigoEdad,
+                     nrounds = 50,
+                     verbose = FALSE,
+                     objective = "multi:softmax",
+                     num_class = 10
+)
+```
+
+# Step 3: Model Evaluation
+
+# Predict on the testing set and evaluate
+```{r}
+predictions_xgb_5 <- predict(xgb_model_5, as.matrix(test_data[, columns_to_use]))
+conf_matrix_xgb_5 <- table(predictions_xgb_5, test_data$CodigoEdad)
+accuracy_xgb_5 <- sum(diag(conf_matrix_xgb_5)) / sum(conf_matrix_xgb_5)
+print(paste("Accuracy 5 rounds:", accuracy_xgb_5))
+```
+
+```{r}
+predictions_xgb_50 <- predict(xgb_model_50, as.matrix(test_data[, columns_to_use]))
+conf_matrix_xgb_50 <- table(predictions_xgb_50, test_data$CodigoEdad)
+accuracy_xgb_50 <- sum(diag(conf_matrix_xgb_50)) / sum(conf_matrix_xgb_50)
+print(paste("Accuracy 50 rounds:", accuracy_xgb_50))
+```
