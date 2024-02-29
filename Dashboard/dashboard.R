@@ -4,11 +4,12 @@ library(dplyr)
 library(tidyr)
 library(leaflet)
 library(ggmap)
+library(lubridate)  # Para la función mdy()
 register_google("AIzaSyB5mUIt_VgX0xIQHDwwdFNtP9nUFHw5t8U")
 
 # Cargar los datos para el histograma
-datos <- read.csv("../limpieza/limpio/controles_espana_familia.csv")
-
+datos <- read.csv("../limpieza/limpio/controles_espana_familia_hist.csv")
+anillamientos <- read.csv("../limpieza/limpio/anillamiento_familia.csv")
 # Ruta para el archivo de coordenadas
 coordenadas_file <- "controles_familia_extranjero_coordenadas.csv"
 
@@ -16,7 +17,7 @@ coordenadas_file <- "controles_familia_extranjero_coordenadas.csv"
 if (file.exists(coordenadas_file)) {
   datos_mapa <- read.csv(coordenadas_file)
 } else {
-  datos_mapa <- read.csv("../limpieza/limpio/controles_extranjeros_familia.csv")
+  datos_mapa <- read.csv("../limpieza/limpio/controles_extranjeros_familia_mapa.csv")
   coordenadas <- geocode(as.character(datos_mapa$LOCALIDAD))
   datos_mapa$LATITUD <- coordenadas$lat
   datos_mapa$LONGITUD <- coordenadas$lon
@@ -28,7 +29,7 @@ if (file.exists(coordenadas_file)) {
 datos <- datos %>% filter(METAL != "")
 
 # Convertir la columna FECHA a tipo de dato Date para el histograma
-datos$FECHA <- as.Date(datos$FECHA, format = "%m/%d/%Y")
+datos$FECHA <- mdy(datos$FECHA)
 
 # Calcular la diferencia de tiempo entre anillamiento y control para el histograma
 datos <- datos %>%
@@ -54,7 +55,8 @@ ui <- fluidPage(
       selectInput("familia_mapa", "Familia:", choices = NULL),
       selectInput("especie_mapa", "Especie:", choices = NULL),
       numericInput("año_desde", "Año Desde:", min(datos_mapa$AÑO)),
-      numericInput("año_hasta", "Año Hasta:", max(datos_mapa$AÑO))
+      numericInput("año_hasta", "Año Hasta:", max(datos_mapa$AÑO)),
+      checkboxInput("aplicar_filtros", "Aplicar filtros", value = TRUE)
     ),
     mainPanel(
       tabsetPanel(
@@ -137,11 +139,16 @@ server <- function(input, output, session) {
   
   # Crear el mapa
   output$mapa <- renderLeaflet({
-    # Calcular la diferencia de tiempo entre anillamiento y control para cada punto
-    datos_filtrados_mapa <- datos_filtrados_mapa() %>%
-      arrange(METAL, DIA, MES, AÑO) %>%
-      group_by(METAL) %>%
-      mutate(tiempo_diferencia = c(NA, diff(as.numeric(difftime(FECHA, lag(FECHA))))))
+    # Si se ha desactivado la aplicación de filtros, mostrar todos los puntos
+    if (!input$aplicar_filtros) {
+      datos_filtrados_mapa <- datos_mapa
+    } else {
+      # Calcular la diferencia de tiempo entre anillamiento y control para cada punto
+      datos_filtrados_mapa <- datos_filtrados_mapa() %>%
+        arrange(METAL, DIA, MES, AÑO) %>%
+        group_by(METAL) %>%
+        mutate(tiempo_diferencia = c(NA, diff(as.numeric(difftime(FECHA, lag(FECHA))))))
+    }
     
     # Agregar puntos al mapa
     mapa <- leaflet(datos_filtrados_mapa) %>%
