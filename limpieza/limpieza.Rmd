@@ -1,27 +1,11 @@
-##Anillamiento de Manolo
+##Anillamiento
 
 ```{r}
-# Install and load the readxl package if not already installed
-if (!requireNamespace("readxl", quietly = TRUE)) {
-  install.packages("readxl")
-}
-library(readxl)
+file_path <- "../data/combined_anillamiento.csv"
 
-# Set the file path
-file_path <- "../data/anillamiento_de_Manolo.xlsx"
-
-# Read the "DATOS" sheet from the Excel file
-anillamiento_de_Manolo <- read_excel(file_path, sheet = "DATOS")
+anillamiento <- read.csv(file_path)
 ```
 
-
-```{r}
-# Combine DIA, MES, and AÑO columns and format as DD/MM/YYYY
-anillamiento_de_Manolo$FECHA <- as.Date(paste(anillamiento_de_Manolo$DIA, anillamiento_de_Manolo$MES, anillamiento_de_Manolo$AÑO, sep = "/"), format = "%d/%m/%Y")
-
-# Print the head of the dataframe to verify the new column
-head(anillamiento_de_Manolo,10)
-```
 
 ```{r}
 # Function to count NA values in a dataframe
@@ -30,14 +14,14 @@ count_na <- function(dataframe) {
 }
 
 # Call the function with your dataframe
-na_count <- count_na(anillamiento_de_Manolo)
+na_count <- count_na(anillamiento)
 print(na_count)
 
-na_rows <- anillamiento_de_Manolo[!complete.cases(anillamiento_de_Manolo), ]
+na_rows <- anillamiento[!complete.cases(anillamiento), ]
 
-anillamiento_de_Manolo$SEXO[is.na(anillamiento_de_Manolo$SEXO)] <- -1
+anillamiento$CodigoSexo[is.na(anillamiento$CodigoSexo)] <- -1
 
-na_count <- count_na(anillamiento_de_Manolo)
+na_count <- count_na(anillamiento)
 print(na_count)
 ```
 
@@ -50,10 +34,10 @@ if (!requireNamespace("readr", quietly = TRUE)) {
 library(readr)
 
 # Set the file path
-file_path <- "./limpio/anillamiento_de_Manolo.csv"
+file_path <- "./limpio/anillamiento.csv"
 
 # Write the dataframe to an Excel file
-write_csv(anillamiento_de_Manolo, file_path)
+write_csv(anillamiento, file_path)
 
 # Print a message indicating success
 cat("Dataframe exported successfully to", file_path, "\n")
@@ -222,7 +206,7 @@ distance_between <- function(location1, country1, location2, country2) {
   library(geosphere)
   
   register_stadiamaps("959128be-7040-455a-a96d-3a4fede1ba6a", write = FALSE)
-  register_google("AIzaSyCwSrahOYQ9ryCj4-fBVLM7lf_AkOu923c")
+  register_google("AIzaSyB5mUIt_VgX0xIQHDwwdFNtP9nUFHw5t8U")
   
   # Get coordinates for location1 and location2
   coords1 <- geocode(paste(location1, country1, sep = ", "))
@@ -231,8 +215,10 @@ distance_between <- function(location1, country1, location2, country2) {
   # Calculate distance using Haversine formula
   distance_km <- distVincentyEllipsoid(coords1, coords2) / 1000
   
+  ret <- list(distance_km, coords1, coords2)
+  
   # Return the distance
-  return(distance_km)
+  return(ret)
 }
 ```
 
@@ -256,14 +242,19 @@ merge_control_rows <- function(df) {
       if ("LOCALIDAD" %in% colnames(matching_row)) {
         df[i, "LOCALIDAD CONTROL 2"] <- matching_row$LOCALIDAD
         df[i, "PAIS CONTROL 2"] <- matching_row$PAIS
-        df[i, "Kms"] <- distance_between(df[i, "LOCALIDAD"], df[i, "PAIS"], df[i, "LOCALIDAD CONTROL 2"], df[i, "PAIS CONTROL 2"])
+        distance <- distance_between(df[i, "LOCALIDAD"], df[i, "PAIS"], df[i, "LOCALIDAD CONTROL 2"], df[i, "PAIS CONTROL 2"])
       }
       else {
         df[i, "LUGAR CONTROL 2"] <- matching_row$LUGAR
         df[i, "MUNICIPIO CONTROL 2"] <- matching_row$MUNICIPIO
         df[i, "PROVINCIA CONTROL 2"] <- matching_row$PROVINCIA
-        df[i, "Kms"] <- distance_between(df[i, "MUNICIPIO"], df[i, "MUNICIPIO CONTROL 2"], "Spain", "Spain")
+        distance <- distance_between(df[i, "MUNICIPIO"], df[i, "MUNICIPIO CONTROL 2"], "Spain", "Spain")
       }
+      df[i, "Kms"] <- distance[[1]]
+      df[i, "LONGITUDE CONTROL 1"] <- distance[[2]][1, "lon"]
+      df[i, "LATITUDE CONTROL 1"] <- distance[[2]][1, "lat"]
+      df[i, "LONGITUDE CONTROL 2"] <- distance[[3]][1, "lon"]
+      df[i, "LATITUDE CONTROL 2"] <- distance[[3]][1, "lat"]
       df[i, "EDAD CONTROL 2"] <- matching_row$EDAD
       df[i, "SEXO CONTROL 2"] <- matching_row$SEXO
       df[i, "ANILLADOR CONTROL 2"] <- matching_row$ANILLADOR
@@ -284,13 +275,14 @@ merge_control_rows <- function(df) {
 }
 ```
 
+
 ```{r}
 controles_espana_merged <- merge_control_rows(controles_espana)
 controles_extranjeros_merged <- merge_control_rows(controles_extranjeros)
 
 # Print the head of the dataframe to verify the new column
-head(controles_espana,10)
-head(controles_extranjeros,10)
+head(controles_espana_merged,10)
+head(controles_extranjeros_merged,10)
 ```
 
 

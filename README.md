@@ -15,8 +15,8 @@
 
 ## David
 
-- ¿Como cambió el anillamiento a lo largo del tiempo? (cantidad total de especies anilladas, cantidad de familias anilladas, lugares donde anillan)
-- > foco en cantidad total de anillamientos
+- Podemos visualizar los datos dynámicamente con filtros en un Dashboard?
+- [¿Como cambió el anillamiento a lo largo del tiempo? (cantidad total de especies anilladas, cantidad de familias anilladas, lugares donde anillan)]
 
 ## Matthew
 
