@@ -1,0 +1,73 @@
+```{r}
+# Install and load the lubridate package if not already installed
+if (!requireNamespace("lubridate", quietly = TRUE)) {
+  install.packages("lubridate")
+}
+library(lubridate)
+```
+
+```{r}
+# Load dataset
+anillamientos <- read.csv("../limpieza/limpio/anillamiento_familia.csv")
+```
+
+```{r}
+anillamientos_especie <- anillamientos[, (names(anillamientos) %in% c("NombreEspecie", "FechaCaptura"))]
+species_name_filter <- "Passer domesticus"
+anillamientos_especie <- subset(anillamientos_especie, tolower(NombreEspecie) == tolower(species_name_filter))
+anillamientos_especie$FechaCaptura <- as.Date(anillamientos_especie$FechaCaptura)
+anillamientos_especie$MesCaptura <- month(anillamientos_especie$FechaCaptura)
+anillamientos_especie <- na.omit(anillamientos_especie)
+
+hist(anillamientos_especie$MesCaptura,
+     breaks = seq(1, 12, by = 1),  # specify breaks for each month
+     xlab = "Mes",
+     ylab = "Frecuencia",
+     main = paste(species_name_filter, "capturados por mes"))
+```
+
+```{r}
+translate_month <- function(month) {
+  months_english <- c("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
+  months_spanish <- c("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre")
+  
+  if (month %in% months_english) {
+    return(months_spanish[match(month, months_english)])
+  } else {
+    return("Invalid month")
+  }
+}
+```
+
+
+```{r}
+anillamientos_especie <- anillamientos[, (names(anillamientos) %in% c("NombreEspecie", "FechaCaptura"))]
+month_filter <- "November"
+month_number <- match(month_filter, month.name)
+anillamientos_especie$FechaCaptura <- as.Date(anillamientos_especie$FechaCaptura)
+anillamientos_especie$MesCaptura <- month(anillamientos_especie$FechaCaptura)
+anillamientos_especie <- subset(anillamientos_especie, MesCaptura == month_number)
+anillamientos_especie <- na.omit(anillamientos_especie)
+
+species_counts <- table(anillamientos_especie$NombreEspecie)
+species_counts <- species_counts[order(-species_counts)]
+species_counts <- head(species_counts, 10)
+species_counts <- species_counts[order(species_counts)]
+species_names <- names(species_counts)
+colors <- rainbow(length(species_counts))
+
+max_count <- max(species_counts)
+xlim <- c(0, ifelse(max_count > 12000, max_count, 12000))
+
+mes <- translate_month(month_filter)
+
+barplot(species_counts,
+      col = rev(colors),
+      xlab = "Cantidad de capturas",
+      main = paste("Especies capturadas en", mes),
+      horiz = TRUE,
+      names.arg = FALSE,
+      xlim = xlim)
+
+legend("bottomright", inset=c(0,0), legend = rev(species_names), fill = colors, bg = adjustcolor("white", alpha = 0.8))
+```
