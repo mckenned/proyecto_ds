@@ -470,7 +470,7 @@ for (df_name in missingLocality) {
 
 ###################### FILL IN MANOLOS DATA #######################
 
-manolos_data <- fread("limpieza/limpio/anillamiento_de_Manolo_familia.csv")
+manolos_data <- fread("data/anillamiento_de_Manolo.csv")
 
 # missing_values <- manolos_data$METAL[!manolos_data$METAL %in% combined_df$Anilla]
 # 76000 missing, but prob from 1987-2003
@@ -547,7 +547,6 @@ if (length(new_anilla) > 0) {
 
 ################ DATA CLEANUP ######################
 # Remove duplicate rings
-
 unique_data <- unique(combined_df)
 dupes <- duplicated(unique_data, by = "Anilla")
 combined_df <- unique_data[!dupes, ]
@@ -555,8 +554,58 @@ combined_df <- unique_data[!dupes, ]
 # Fix dates before 1987
 combined_df <- subset(combined_df, as.Date(FechaCaptura) >= as.Date("1987-01-01"))
 
+# 656 down to 555 unique locations
+freq_loc_before <- table(combined_df$NombreLocalidad)
+freq_loc_before <- as.data.frame(freq_loc_before)
 combined_df$NombreLocalidad <- tolower(combined_df$NombreLocalidad)
+combined_df$NombreLocalidad <- gsub("la puebla del rio", "puebla del rio", combined_df$NombreLocalidad)
+combined_df$NombreLocalidad <- gsub("la puebla del río", "puebla del rio", combined_df$NombreLocalidad)
+combined_df$NombreLocalidad <- gsub("coria del río", "coria del rio", combined_df$NombreLocalidad)
+combined_df$NombreLocalidad <- gsub("reserva biologica de donana", "reserva biologica de doñana", combined_df$NombreLocalidad)
+combined_df$NombreLocalidad <- gsub("san juan del prto", "san juan del puerto", combined_df$NombreLocalidad)
+combined_df$NombreLocalidad <- gsub("sanlucar d guadiana", "sanlucar de guadiana", combined_df$NombreLocalidad)
+combined_df$NombreLocalidad <- gsub("sanlúcar de guadiana", "sanlucar de guadiana", combined_df$NombreLocalidad)
+
+# 304 down to 216 unique municipalities
+freq_munip_before <- table(combined_df$MUNICIPIO)
+freq_munip_before <- as.data.frame(freq_munip_before)
 combined_df$MUNICIPIO <- tolower(combined_df$MUNICIPIO)
+combined_df$MUNICIPIO <- gsub("la puebla del rio", "puebla del rio", combined_df$MUNICIPIO)
+combined_df$MUNICIPIO <- gsub("la puebla del río", "puebla del rio", combined_df$MUNICIPIO)
+combined_df$MUNICIPIO <- gsub("alcalá de los gazules", "alcala de los gazules", combined_df$MUNICIPIO)
+combined_df$MUNICIPIO <- gsub("alcolea del río", "alcolea del rio", combined_df$MUNICIPIO)
+combined_df$MUNICIPIO <- gsub("coria del río", "coria del rio", combined_df$MUNICIPIO)
+combined_df$MUNICIPIO <- gsub("gibraleón", "gibraleon", combined_df$MUNICIPIO)
+combined_df$MUNICIPIO <- gsub("jerez de la frta", "jerez de la frontera", combined_df$MUNICIPIO)
+combined_df$MUNICIPIO <- gsub("la palam del condado", "la palma del condado", combined_df$MUNICIPIO)
+combined_df$MUNICIPIO <- gsub("los palacios-", "los palacios", combined_df$MUNICIPIO)
+combined_df$MUNICIPIO <- gsub("p.n. doñana", "p. nac. de doñana", combined_df$MUNICIPIO)
+combined_df$MUNICIPIO <- gsub("puerto de  santa maria", "puerto de santa maria", combined_df$MUNICIPIO)
+combined_df$MUNICIPIO <- gsub("puerto de santamaria", "puerto de santa maria", combined_df$MUNICIPIO)
+combined_df$MUNICIPIO <- gsub("puerto santa maria", "puerto de santa maria", combined_df$MUNICIPIO)
+combined_df$MUNICIPIO <- gsub("sanlucar de barrameda.", "sanlucar de barrameda", combined_df$MUNICIPIO)
+combined_df$MUNICIPIO <- gsub("santa olalla de  cala", "santa olalla de cala", combined_df$MUNICIPIO)
+combined_df$MUNICIPIO <- gsub("villamartín", "villamartin", combined_df$MUNICIPIO)
+
+# Reduced from 32 to 24 names
+freq_ani_before <- table(combined_df$NombreAnillador)
+freq_ani_before <- as.data.frame(freq_ani_before)
+combined_df$NombreAnillador <- tolower(combined_df$NombreAnillador)
+combined_df$NombreAnillador <- iconv(combined_df$NombreAnillador, to = "ASCII//TRANSLIT")
+combined_df$NombreAnillador <- gsub("'", "", combined_df$NombreAnillador)
+combined_df$NombreAnillador <- gsub("~", "", combined_df$NombreAnillador)
+
+freq_ani <- table(combined_df$NombreAnillador)
+freq_ani <- as.data.frame(freq_ani)
+
+freq_loc <- table(combined_df$NombreLocalidad)
+freq_loc <- as.data.frame(freq_loc)
+
+freq_munip <- table(combined_df$MUNICIPIO)
+freq_munip <- as.data.frame(freq_munip)
+
+freq_esp <- table(combined_df$NombreEspecie)
+freq_esp <- as.data.frame(freq_esp)
 
 write.csv(combined_df, file = './data/combined_anillamiento.csv', row.names = FALSE)
 
