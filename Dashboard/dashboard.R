@@ -24,6 +24,19 @@ if (file.exists(coordenadas_file)) {
   # Guardar los datos con las coordenadas en un archivo CSV
   write.csv(datos_mapa, coordenadas_file, row.names = FALSE)
 }
+translate_month <- function(month) {
+  months_english <- c("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
+  months_spanish <- c("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre")
+  
+  if (month %in% months_english) {
+    return(months_spanish[match(month, months_english)])
+  } else if(month %in% months_spanish){
+    return(months_english[match(month, months_spanish)])
+  }else{
+    return("Invalid month") 
+  }
+}
+
 
 # Filtrar las filas donde METAL no está vacío para el histograma
 datos <- datos %>% filter(METAL != "")
@@ -36,7 +49,7 @@ datos <- datos %>%
   group_by(METAL) %>%
   mutate(tiempo_diferencia = ifelse(MODO == "C", FECHA - lag(FECHA), NA))
 
-# Definir UI
+# Define UI
 ui <- fluidPage(
   titlePanel("Anillamiento y Control de Aves"),
   
@@ -54,20 +67,30 @@ ui <- fluidPage(
       selectInput("orden_mapa", "Orden:", choices = unique(datos_mapa$ORDEN)),
       selectInput("familia_mapa", "Familia:", choices = NULL),
       selectInput("especie_mapa", "Especie:", choices = NULL),
-      numericInput("año_desde", "Año Desde:", min(datos_mapa$AÑO)),
-      numericInput("año_hasta", "Año Hasta:", max(datos_mapa$AÑO)),
-      checkboxInput("aplicar_filtros", "Aplicar filtros", value = TRUE)
-    ),
+      checkboxInput("aplicar_filtros", "Aplicar filtros", value = TRUE),
+      h4("Filtro para Histograma de anillamientos de especie por meses"),
+      # Nuevo selector de entrada para la especie
+      selectInput("especie_anillamiento", "Especie de Anillamiento:",
+                  choices = unique(anillamientos$NombreEspecie)),
+      h4("Filtro para Histograma de anillamientos de especies por mes"),
+      # Nuevo selector de entrada para el mes
+      selectInput("mes_anillamiento", "Mes de Anillamiento:",
+                  choices = c("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
+                              "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre")),
+      ),
     mainPanel(
       tabsetPanel(
         id = "tab",
         tabPanel("Histograma tiempo Anillamiento y Control", plotOutput("histograma")),
         tabPanel("Mapa", leafletOutput("mapa")),
-        tabPanel("Imagen", imageOutput("imagen"))
+        tabPanel("Imagen", imageOutput("imagen")),
+        tabPanel("Histograma de especie por meses", plotOutput("histograma_meses")),
+        tabPanel("Histograma de especies por mes", plotOutput("histograma_especies"))
       )
     )
   )
 )
+
 
 # Definir server
 server <- function(input, output, session) {
@@ -97,13 +120,65 @@ server <- function(input, output, session) {
     return(datos_filtrados)
   })
   
+  #Procesamiento anillamientos especies/mes
+  output$histograma_meses <- renderPlot({
+    anillamientos_especie <- anillamientos[, (names(anillamientos) %in% c("NombreEspecie", "FechaCaptura"))]
+    species_name_filter <- input$especie_anillamiento
+    anillamientos_especie <- subset(anillamientos_especie, tolower(NombreEspecie) == tolower(species_name_filter))
+    anillamientos_especie$FechaCaptura <- as.Date(anillamientos_especie$FechaCaptura)
+    anillamientos_especie$MesCaptura <- month(anillamientos_especie$FechaCaptura)
+    anillamientos_especie <- na.omit(anillamientos_especie)
+    
+    hist(anillamientos_especie$MesCaptura,
+         breaks = seq(1, 12, by = 1),  # specify breaks for each month
+         xlab = "Mes",
+         ylab = "Frecuencia",
+         main = paste(species_name_filter, "capturados por mes"))
+  })
+  
+  #Procesamiento anillamientos especies/mes
+  output$histograma_especies <- renderPlot({
+    anillamientos_especie <- anillamientos[, (names(anillamientos) %in% c("NombreEspecie", "FechaCaptura"))]
+    month_filter <- input$mes_anillamiento
+    mes <- translate_month(month_filter)
+    print(input$mes_anillamiento)
+    print(mes)
+    month_number <- match(mes, month.name)
+    print(month.name)
+    print(month_number)
+    anillamientos_especie$FechaCaptura <- as.Date(anillamientos_especie$FechaCaptura)
+    anillamientos_especie$MesCaptura <- month(anillamientos_especie$FechaCaptura)
+    anillamientos_especie <- subset(anillamientos_especie, MesCaptura == month_number)
+    anillamientos_especie <- na.omit(anillamientos_especie)
+    
+    species_counts <- table(anillamientos_especie$NombreEspecie)
+    species_counts <- species_counts[order(-species_counts)]
+    species_counts <- head(species_counts, 10)
+    species_counts <- species_counts[order(species_counts)]
+    species_names <- names(species_counts)
+    colors <- rainbow(length(species_counts))
+    
+    max_count <- max(species_counts)
+    xlim <- c(0, ifelse(max_count > 12000, max_count, 12000))
+    
+    
+    
+    barplot(species_counts,
+            col = rev(colors),
+            xlab = "Cantidad de capturas",
+            main = paste("Especies capturadas en", month_filter),
+            horiz = TRUE,
+            names.arg = FALSE,
+            xlim = xlim)
+    
+    legend("bottomright", inset=c(0,0), legend = rev(species_names), fill = colors, bg = adjustcolor("white", alpha = 0.8))
+  })
   # Filtrar datos según selecciones para el mapa
   datos_filtrados_mapa <- reactive({
     datos_mapa %>%
       filter(ORDEN == input$orden_mapa) %>%
       filter(FAMILIA == input$familia_mapa) %>%
-      filter(ESPECIE == input$especie_mapa) %>%
-      filter(AÑO >= input$año_desde & AÑO <= input$año_hasta)
+      filter(ESPECIE == input$especie_mapa)
   })
   
   # Actualizar selección de familias y especies según orden seleccionado para el histograma
