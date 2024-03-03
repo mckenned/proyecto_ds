@@ -57,27 +57,71 @@ ui <- fluidPage(
     sidebarPanel(
       conditionalPanel(
         condition = "input.tab != 'imagen'",
-        h4("Filtro para Histograma de tiempo entre anillamiento y control"),
+        #############################################################################################################
+        #                                                                                                           #
+        #    FILTRO HISTOGRAMA CALCULO TIEMPO POR ESPECIE, FAMILIA ORDEN Y LOCALIDAD ENTRE ANILLAMIENTO Y CONTROL   #
+        #   (PREGUNTA DAVID)                                                                                        #
+        #############################################################################################################
+        h4("Filtro para Histograma de tiempo y locadidad entre anillamiento y control"),
         selectInput("orden_histo", "Orden:", choices = unique(datos$ORDEN)),
+        checkboxInput("aplicar_filtro_orden", "Solo filtrar por orden", value = FALSE),
         selectInput("familia_histo", "Familia:", choices = NULL),
+        checkboxInput("aplicar_filtro_familia", "Solo filtrar por familia", value = FALSE),
         selectInput("especie_histo", "Especie:", choices = NULL),
-        selectInput("tiempo", "Filtrar por tiempo:", choices = c("Menos de 1 año", "1 a 2 años", "2 a 5 años", "5 o más"))
+        selectInput("lugar_histo", "Lugar:", choices = NULL),
+        checkboxInput("aplicar_filtro_lugar", "Filtrar resultados por localidades", value = FALSE),
+        selectInput("tiempo", "Filtrar por tiempo:", choices = c("Menos de 1 año", "1 a 2 años", "2 a 5 años", "5 o más")),
+        checkboxInput("aplicar_filtro_tiempo", "Filtrar resultados por tiempo", value = FALSE),
+        #############################################################################################################
+        #                                                                                                           #
+        #    FILTRO PARA MAPA DE REPRESENTACIÓN DEL ANILLAMIENTO Y CONTROL DE AVES POR ESPECIE, FAMILIA Y ORDEN     #
+        #    (PREGUNTA GENERAL)                                                                                     #
+        #############################################################################################################
+        h4("Filtro para Mapa"),
+        selectInput("orden_mapa", "Orden:", choices = unique(datos_mapa$ORDEN)),
+        selectInput("familia_mapa", "Familia:", choices = NULL),
+        selectInput("especie_mapa", "Especie:", choices = NULL),
+        checkboxInput("aplicar_filtros", "Aplicar filtros", value = TRUE),
+        #############################################################################################################
+        #                                                                                                           #
+        #    FILTRO PARA HISTOGRAMA DE ANILLAMIENTO DE ESPECIE POR MESES (PREGUNTA MATTHEW)                         #
+        #                                                                                                           #
+        #############################################################################################################
+        h4("Filtro para Histograma de anillamientos de especie por meses"),
+        # Nuevo selector de entrada para la especie
+        selectInput("especie_anillamiento", "Especie de Anillamiento:",
+                    choices = unique(anillamientos$NombreEspecie)),
+        #############################################################################################################
+        #                                                                                                           #
+        #    FILTRO PARA HISTOGRAMA DE ANILLAMIENTO DE ESPECIES POR MES (PREGUNTA MATTHEW)                          #
+        #                                                                                                           #
+        #############################################################################################################
+        h4("Filtro para Histograma de anillamientos de especies por mes"),
+        # Nuevo selector de entrada para el mes
+        selectInput("mes_anillamiento", "Mes de Anillamiento:",
+                    choices = c("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
+                                "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre")),
+        #############################################################################################################
+        #                                                                                                           #
+        #    FILTRO PARA HISTOGRAMA DE ANILLAMIENTO DE ESPECIE POR AÑOS (PREGUNTA MATTHEW)                          #
+        #                                                                                                           #
+        #############################################################################################################
+        h4("Filtro para Histograma de anillamientos de especie por años"),
+        # Nuevo selector de entrada para la especie
+        selectInput("especie_anillamiento_año", "Especie de Anillamiento:",
+                    choices = unique(anillamientos$NombreEspecie)),
+        #############################################################################################################
+        #                                                                                                           #
+        #    FILTRO PARA HISTOGRAMA DE ANILLAMIENTO DE ESPECIES POR AÑO (PREGUNTA MATTHEW)                          #
+        #                                                                                                           #
+        #############################################################################################################
+        h4("Filtro para Histograma de anillamientos de especies por año"),
+        # Nuevo selector de entrada para el año
+        numericInput("año_anillamiento", "Número de filtro:", value = NULL, min = 1900)
+        
       ),
-      h4("Filtro para Mapa"),
-      selectInput("orden_mapa", "Orden:", choices = unique(datos_mapa$ORDEN)),
-      selectInput("familia_mapa", "Familia:", choices = NULL),
-      selectInput("especie_mapa", "Especie:", choices = NULL),
-      checkboxInput("aplicar_filtros", "Aplicar filtros", value = TRUE),
-      h4("Filtro para Histograma de anillamientos de especie por meses"),
-      # Nuevo selector de entrada para la especie
-      selectInput("especie_anillamiento", "Especie de Anillamiento:",
-                  choices = unique(anillamientos$NombreEspecie)),
-      h4("Filtro para Histograma de anillamientos de especies por mes"),
-      # Nuevo selector de entrada para el mes
-      selectInput("mes_anillamiento", "Mes de Anillamiento:",
-                  choices = c("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
-                              "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre")),
-      ),
+      
+    ),
     mainPanel(
       tabsetPanel(
         id = "tab",
@@ -85,7 +129,9 @@ ui <- fluidPage(
         tabPanel("Mapa", leafletOutput("mapa")),
         tabPanel("Imagen", imageOutput("imagen")),
         tabPanel("Histograma de especie por meses", plotOutput("histograma_meses")),
-        tabPanel("Histograma de especies por mes", plotOutput("histograma_especies"))
+        tabPanel("Histograma de especies por mes", plotOutput("histograma_especies_meses")),
+        tabPanel("Histograma de especie por años", plotOutput("histograma_años")),
+        tabPanel("Histograma de especies por año", plotOutput("histograma_especies_años"))
       )
     )
   )
@@ -97,24 +143,56 @@ server <- function(input, output, session) {
   
   # Filtrar datos según selecciones para el histograma
   datos_filtrados_histo <- reactive({
-    datos_filtrados <- datos %>%
-      filter(ORDEN == input$orden_histo) %>%
-      filter(FAMILIA == input$familia_histo) %>%
-      filter(ESPECIE == input$especie_histo)
+    if(input$aplicar_filtro_lugar == TRUE){
+      if(input$aplicar_filtro_orden == TRUE){
+        datos_filtrados <- datos %>%
+          filter(ORDEN == input$orden_histo) %>%
+          filter(PROVINCIA == input$lugar_histo)
+      }else if(input$aplicar_filtro_familia == TRUE){
+        datos_filtrados <- datos %>%
+          filter(ORDEN == input$orden_histo) %>%
+          filter(FAMILIA == input$familia_histo) %>%
+          filter(PROVINCIA == input$lugar_histo)
+      }else{
+        datos_filtrados <- datos %>%
+          filter(ORDEN == input$orden_histo) %>%
+          filter(FAMILIA == input$familia_histo) %>%
+          filter(ESPECIE == input$especie_histo) %>%
+          filter(PROVINCIA == input$lugar_histo)
+      }
+    }else{
+      if(input$aplicar_filtro_orden == TRUE){
+        datos_filtrados <- datos %>%
+          filter(ORDEN == input$orden_histo) 
+      }else if(input$aplicar_filtro_familia == TRUE){
+        datos_filtrados <- datos %>%
+          filter(ORDEN == input$orden_histo) %>%
+          filter(FAMILIA == input$familia_histo)
+      }else{
+        datos_filtrados <- datos %>%
+          filter(ORDEN == input$orden_histo) %>%
+          filter(FAMILIA == input$familia_histo) %>%
+          filter(ESPECIE == input$especie_histo) 
+      }
+    }
     
-    # Filtrar por tiempo para el histograma
-    if (input$tiempo == "Menos de 1 año") {
-      datos_filtrados <- datos_filtrados %>%
-        filter(tiempo_diferencia < 365)
-    } else if (input$tiempo == "1 a 2 años") {
-      datos_filtrados <- datos_filtrados %>%
-        filter(tiempo_diferencia >= 365 & tiempo_diferencia < 730)
-    } else if (input$tiempo == "2 a 5 años") {
-      datos_filtrados <- datos_filtrados %>%
-        filter(tiempo_diferencia >= 730 & tiempo_diferencia < 1825)
-    } else if (input$tiempo == "5 o más") {
-      datos_filtrados <- datos_filtrados %>%
-        filter(tiempo_diferencia >= 1825)
+    
+    if(input$aplicar_filtro_tiempo == TRUE){
+      # Filtrar por tiempo para el histograma
+      if (input$tiempo == "Menos de 1 año") {
+        datos_filtrados <- datos_filtrados %>%
+          filter(tiempo_diferencia < 365)
+      } else if (input$tiempo == "1 a 2 años") {
+        datos_filtrados <- datos_filtrados %>%
+          filter(tiempo_diferencia >= 365 & tiempo_diferencia < 730)
+      } else if (input$tiempo == "2 a 5 años") {
+        datos_filtrados <- datos_filtrados %>%
+          filter(tiempo_diferencia >= 730 & tiempo_diferencia < 1825)
+      } else if (input$tiempo == "5 o más") {
+        datos_filtrados <- datos_filtrados %>%
+          filter(tiempo_diferencia >= 1825)
+      }
+      
     }
     
     return(datos_filtrados)
@@ -137,7 +215,7 @@ server <- function(input, output, session) {
   })
   
   #Procesamiento anillamientos especies/mes
-  output$histograma_especies <- renderPlot({
+  output$histograma_especies_meses <- renderPlot({
     anillamientos_especie <- anillamientos[, (names(anillamientos) %in% c("NombreEspecie", "FechaCaptura"))]
     month_filter <- input$mes_anillamiento
     mes <- translate_month(month_filter)
@@ -173,6 +251,63 @@ server <- function(input, output, session) {
     
     legend("bottomright", inset=c(0,0), legend = rev(species_names), fill = colors, bg = adjustcolor("white", alpha = 0.8))
   })
+  
+  #Procesamiento anillamientos especies/mes
+  output$histograma_años <- renderPlot({
+    anillamientos$FechaCaptura <- as.Date(anillamientos$FechaCaptura)
+    anillamientos$AñoCaptura <- year(anillamientos$FechaCaptura)
+    anillamientos <- anillamientos[anillamientos$AñoCaptura > 1700, ]
+    anillamientos <- na.omit(anillamientos)
+    
+    anillamientos_especie <- anillamientos[, (names(anillamientos) %in% c("NombreEspecie", "FechaCaptura", "AñoCaptura"))]
+    species_name_filter <- input$especie_anillamiento_año
+    anillamientos_especie <- subset(anillamientos_especie, tolower(NombreEspecie) == tolower(species_name_filter))
+    anillamientos_especie <- na.omit(anillamientos_especie)
+    
+    min_year <- min(anillamientos$AñoCaptura)
+    max_year <- max(anillamientos$AñoCaptura)
+    
+    hist(anillamientos_especie$AñoCaptura,
+         xlab = "Año",
+         ylab = "Frecuencia",
+         main = paste(species_name_filter, "capturados por año"),
+         breaks = seq(min_year - 0.5, max_year + 0.5, by = 1))
+  })
+  
+  #Procesamiento anillamientos especies/mes
+  output$histograma_especies_años <- renderPlot({
+    anillamientos_especie <- anillamientos[, (names(anillamientos) %in% c("NombreEspecie", "FechaCaptura"))]
+    year_filter <- input$año_anillamiento
+    print(year_filter)
+    anillamientos_especie$FechaCaptura <- as.Date(anillamientos_especie$FechaCaptura)
+    anillamientos_especie$AñoCaptura <- year(anillamientos_especie$FechaCaptura)
+    anillamientos_especie <- subset(anillamientos_especie, AñoCaptura == year_filter)
+    print(anillamientos_especie)
+    anillamientos_especie <- na.omit(anillamientos_especie)
+    # Verificar si no se encontraron anillamientos para el año ingresado
+    if (nrow(anillamientos_especie) == 0) {
+      return(plot(1, type = "n", xlab = "", ylab = "", main = "No se encontraron anillamientos para ese año", axes = FALSE))
+    }
+    species_counts <- table(anillamientos_especie$NombreEspecie)
+    species_counts <- species_counts[order(-species_counts)]
+    species_counts <- head(species_counts, 10)
+    species_counts <- species_counts[order(species_counts)]
+    species_names <- names(species_counts)
+    colors <- rainbow(length(species_counts))
+    
+    max_count <- max(species_counts)
+    xlim <- c(0, ifelse(max_count > 5000, max_count, 5000))
+    
+    barplot(species_counts,
+            col = rev(colors),
+            xlab = "Cantidad de capturas",
+            main = paste("Especies capturadas en", year_filter),
+            horiz = TRUE,
+            names.arg = FALSE,
+            xlim = xlim)
+    
+    legend("bottomright", inset=c(0,0), legend = rev(species_names), fill = colors, bg = adjustcolor("white", alpha = 0.8))
+  })
   # Filtrar datos según selecciones para el mapa
   datos_filtrados_mapa <- reactive({
     datos_mapa %>%
@@ -181,27 +316,28 @@ server <- function(input, output, session) {
       filter(ESPECIE == input$especie_mapa)
   })
   
-  # Actualizar selección de familias y especies según orden seleccionado para el histograma
   observeEvent(input$orden_histo, {
     updateSelectInput(session, "familia_histo", choices = unique(datos$FAMILIA[datos$ORDEN == input$orden_histo]))
-    updateSelectInput(session, "especie_histo", choices = NULL)
+    # Actualizamos las especies basadas en el nuevo orden seleccionado
+    updateSelectInput(session, "especie_histo", choices = unique(datos$ESPECIE[datos$ORDEN == input$orden_histo]))
   })
   
   observeEvent(input$familia_histo, {
     updateSelectInput(session, "especie_histo", choices = unique(datos$ESPECIE[datos$FAMILIA == input$familia_histo]))
+    # Actualizamos las localidades basadas en la nueva familia seleccionada
+    updateSelectInput(session, "lugar_histo", choices = unique(datos$PROVINCIA[datos$FAMILIA == input$familia_histo]))
   })
   
-  # Actualizar selección de familias y especies según orden seleccionado para el mapa
   observeEvent(input$orden_mapa, {
     updateSelectInput(session, "familia_mapa", choices = unique(datos_mapa$FAMILIA[datos_mapa$ORDEN == input$orden_mapa]))
     updateSelectInput(session, "especie_mapa", choices = NULL)
   })
   
   observeEvent(input$familia_mapa, {
+    
     updateSelectInput(session, "especie_mapa", choices = unique(datos_mapa$ESPECIE[datos_mapa$FAMILIA == input$familia_mapa]))
   })
   
-  # Crear histograma
   output$histograma <- renderPlot({
     ggplot(datos_filtrados_histo(), aes(x = tiempo_diferencia, y = ESPECIE, fill = METAL)) +
       geom_bar(stat = "identity", position = "dodge") +
@@ -212,7 +348,6 @@ server <- function(input, output, session) {
       geom_vline(xintercept = 0, color = "red", linetype = "dashed")
   })
   
-  # Crear el mapa
   output$mapa <- renderLeaflet({
     # Si se ha desactivado la aplicación de filtros, mostrar todos los puntos
     if (!input$aplicar_filtros) {
@@ -225,7 +360,6 @@ server <- function(input, output, session) {
         mutate(tiempo_diferencia = c(NA, diff(as.numeric(difftime(FECHA, lag(FECHA))))))
     }
     
-    # Agregar puntos al mapa
     mapa <- leaflet(datos_filtrados_mapa) %>%
       addTiles() %>%
       addCircleMarkers(
@@ -235,12 +369,10 @@ server <- function(input, output, session) {
         fillOpacity = 0.8
       )
     
-    # Agregar líneas entre los puntos de anillamiento y control
     for (i in 2:nrow(datos_filtrados_mapa)) {
+      print(datos_filtrados_mapa$MODO[i] == "C" & datos_filtrados_mapa$MODO[i - 1] == "A")
       if (datos_filtrados_mapa$MODO[i] == "C" & datos_filtrados_mapa$MODO[i - 1] == "A") {
-        # Calcular el grosor de la línea proporcional a la diferencia de tiempo
-        weight <- 1 + datos_filtrados_mapa$tiempo_diferencia[i] / 365  # Ajusta según necesites
-        # Agregar la línea entre los puntos de anillamiento y control
+        weight <- 1
         mapa <- addPolylines(mapa, 
                              lng = c(datos_filtrados_mapa$LONGITUD[i - 1], datos_filtrados_mapa$LONGITUD[i]), 
                              lat = c(datos_filtrados_mapa$LATITUD[i - 1], datos_filtrados_mapa$LATITUD[i]),
@@ -248,16 +380,19 @@ server <- function(input, output, session) {
                              weight = weight)
       }
     }
+    
     mapa
   })
   
+  
   # Mostrar imagen
   output$imagen <- renderImage({
-    list(src = "ruta/a/la/imagen.png",
+    list(src = "../Danielle/images/Decomp_Acro_scir_rio_guad.png",
          contentType = "image/png",
          width = 400,
          height = 300)
-  })
+  }
+  )
 }
 
 # Ejecutar la aplicación
