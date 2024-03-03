@@ -1,0 +1,73 @@
+```{r}
+# Install and load the lubridate package if not already installed
+if (!requireNamespace("lubridate", quietly = TRUE)) {
+  install.packages("lubridate")
+}
+library(lubridate)
+```
+
+```{r}
+# Load dataset
+anillamientos <- read.csv("../limpieza/limpio/anillamiento_familia.csv")
+```
+
+```{r}
+anillamientos_anillador <- anillamientos[, (names(anillamientos) %in% c("NombreAnillador", "FechaCaptura"))]
+anilladores_name_filter <- "MANUEL VAZQUEZ CASTRO"
+anillamientos_anillador <- subset(anillamientos_anillador, tolower(NombreAnillador) == tolower(anilladores_name_filter))
+anillamientos_anillador$FechaCaptura <- as.Date(anillamientos_anillador$FechaCaptura)
+anillamientos_anillador$MesCaptura <- month(anillamientos_anillador$FechaCaptura)
+anillamientos_anillador <- na.omit(anillamientos_anillador)
+
+hist(anillamientos_anillador$MesCaptura,
+     breaks = seq(1, 12, by = 1),  # specify breaks for each month
+     xlab = "Mes",
+     ylab = "Frecuencia",
+     main = paste(anilladores_name_filter, "capturas por mes"))
+```
+
+```{r}
+translate_month <- function(month) {
+  months_english <- c("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
+  months_spanish <- c("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre")
+  
+  if (month %in% months_english) {
+    return(months_spanish[match(month, months_english)])
+  } else {
+    return("Invalid month")
+  }
+}
+```
+
+
+```{r}
+anillamientos_anillador <- anillamientos[, (names(anillamientos) %in% c("NombreAnillador", "FechaCaptura"))]
+month_filter <- "November"
+month_number <- match(month_filter, month.name)
+anillamientos_anillador$FechaCaptura <- as.Date(anillamientos_anillador$FechaCaptura)
+anillamientos_anillador$MesCaptura <- month(anillamientos_anillador$FechaCaptura)
+anillamientos_anillador <- subset(anillamientos_anillador, MesCaptura == month_number)
+anillamientos_anillador <- na.omit(anillamientos_anillador)
+
+anilladores_counts <- table(anillamientos_anillador$NombreAnillador)
+anilladores_counts <- anilladores_counts[order(-anilladores_counts)]
+anilladores_counts <- head(anilladores_counts, 10)
+anilladores_counts <- anilladores_counts[order(anilladores_counts)]
+anilladores_names <- names(anilladores_counts)
+colors <- rainbow(length(anilladores_counts))
+
+max_count <- max(anilladores_counts)
+xlim <- c(0, ifelse(max_count > 12000, max_count, 12000))
+
+mes <- translate_month(month_filter)
+
+barplot(anilladores_counts,
+      col = rev(colors),
+      xlab = "Cantidad de capturas",
+      main = paste("Capturas en", mes),
+      horiz = TRUE,
+      names.arg = FALSE,
+      xlim = xlim)
+
+legend("bottomright", inset=c(0,0), legend = rev(anilladores_names), fill = colors, bg = adjustcolor("white", alpha = 0.8))
+```
