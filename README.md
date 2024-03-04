@@ -1,8 +1,7 @@
 # Preguntas que queremos contestar
 ## Preguntas grupales
 
-- ¿Qué recorrido hace X especie de ave a lo largo del año?
-(- ¿Qué formas de control son las más frecuentes para cada especie?)
+- ¿Qué recorrido hace X especie de ave?
 - Predicción de edad en base a la localización, mes de anillamiento y especie -> ¿Qué edad tiene un ave en el mes de anillamiento (de X especie y en Y lugar)? -> General
 
 ## Dani
