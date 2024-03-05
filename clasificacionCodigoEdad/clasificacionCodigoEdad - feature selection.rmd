@@ -129,5 +129,40 @@ print(importance_matrix)
 ```
 
 ```{r}
-xgb.plot.importance(importance_matrix = head(importance_matrix,8))
+importance_matrix$WFI <- importance_matrix$Gain * importance_matrix$Frequency / importance_matrix$Cover
 ```
+
+
+```{r}
+# Define groups
+group1 <- c("MesCaptura", "FechaCaptura")
+group2 <- c("Grupo", "NombreEspecie", "Familia", "NombreComun", "Anilla", "CodigoEspecie", "Orden")
+group3 <- c("MUNICIPIO", "NombreLocalidad", "CodigoLocalidad")
+group4 <- c("CodigoSexo", "CodigoMetodo", "CodigoAnillador", "NombreAnillador", "NumRedes", "HoraCaptura", 
+            "CodigoHabitat", "CodigoReclamo", "HoraDesde", "DataFrameName", "Observaciones", "HoraHasta", "CodigoCentro")
+
+importance_matrix <- importance_matrix[order(-importance_matrix$WFI), ]
+importance_matrix = head(importance_matrix,12)
+importance_matrix <- importance_matrix[order(importance_matrix$WFI), ]
+
+# Assign colors to groups
+feature_colors <- rep("black", ncol(importance_matrix))
+feature_colors[importance_matrix$Feature %in% group1] <- "turquoise"
+feature_colors[importance_matrix$Feature %in% group2] <- "green"
+feature_colors[importance_matrix$Feature %in% group3] <- "red"
+feature_colors[importance_matrix$Feature %in% group4] <- "grey"
+
+# Plot
+par(mar = c(3, 8, 3, 3))
+barplot(importance_matrix$WFI, mar=c(3,8,3,3), names.arg = importance_matrix$Feature, las = 2, horiz=TRUE, col=feature_colors )
+
+# Legend
+legend("bottomright", inset = 0.05, legend = c("Basado en fecha", "Identificador", "Basado en localización", "Otros"),
+       fill = c("turquoise", "green", "red", "grey"))
+```
+
+### We should choose attributes that are as independent from eachother as possible, so we pick the best qualified of each independent attribute:
+### Date-based: MesCaptura
+### Species identifier: Grupo
+### Location-based: MUNICIPIO
+### Other: CodigoSexo

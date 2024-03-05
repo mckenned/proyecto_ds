@@ -44,10 +44,11 @@ anillamientos <- read.csv("../limpieza/limpio/anillamiento_familia.csv")
 ```
 
 ```{r}
-anillamientos_especie <- anillamientos[, (names(anillamientos) %in% c("NombreEspecie", "FechaCaptura", "CodigoEdad", "MUNICIPIO"))]
+anillamientos_especie <- anillamientos[, (names(anillamientos) %in% c("NombreEspecie", "FechaCaptura", "CodigoEdad", "CodigoLocalidad", "CodigoSexo"))]
 anillamientos_familia <- anillamientos[, (names(anillamientos) %in% c("Familia", "FechaCaptura", "CodigoEdad", "MUNICIPIO"))]
 anillamientos_orden <- anillamientos[, (names(anillamientos) %in% c("Orden", "FechaCaptura", "CodigoEdad", "MUNICIPIO"))]
 anillamientos_grupo <- anillamientos[, (names(anillamientos) %in% c("Grupo", "FechaCaptura", "CodigoEdad", "MUNICIPIO"))]
+anillamientos_anilla <- anillamientos[, (names(anillamientos) %in% c("Anilla", "FechaCaptura", "CodigoEdad", "CodigoLocalidad", "CodigoSexo"))]
 ```
 
 ```{r}
@@ -59,13 +60,13 @@ dataset_trabajo <- dataset_trabajo[, (!names(dataset_trabajo) %in% c("FechaCaptu
 ```
 
 ```{r}
-dataset_trabajo <- dataset_trabajo[dataset_trabajo$MUNICIPIO != "", ]
+dataset_trabajo <- dataset_trabajo[dataset_trabajo$CodigoLocalidad != "", ]
 dataset_trabajo$CodigoEdad <- as.numeric(dataset_trabajo$CodigoEdad)
 dataset_trabajo <- dataset_trabajo[dataset_trabajo$CodigoEdad <= 9, ]
 
 dataset_trabajo <- na.omit(dataset_trabajo)
 
-attributes_to_encode <- c("Identificador", "MUNICIPIO", "MesCaptura")
+attributes_to_encode <- c("Identificador", "CodigoLocalidad", "MesCaptura", "CodigoSexo")
 
 # Loop through each attribute and perform one-hot encoding
 for (attribute in attributes_to_encode) {
@@ -74,7 +75,7 @@ for (attribute in attributes_to_encode) {
   dataset_trabajo <- cbind(dataset_trabajo, encoded_attribute)
 }
 
-dataset_trabajo <- subset(dataset_trabajo, select = -c(Identificador, MUNICIPIO, MesCaptura))
+dataset_trabajo <- subset(dataset_trabajo, select = -c(Identificador, CodigoLocalidad, MesCaptura, CodigoSexo))
 
 dataset_trabajo <- na.omit(dataset_trabajo)
 ```
@@ -96,21 +97,22 @@ test_data <- dataset_trabajo[-train_index, ]
 ```{r}
 columns_to_use <- setdiff(colnames(train_data), "CodigoEdad")
 
-xgb_model_5 <- xgboost(data = as.matrix(train_data[, columns_to_use]),
+xgb_model_1 <- xgboost(data = as.matrix(train_data[, columns_to_use]),
                      label = train_data$CodigoEdad,
-                     nrounds = 5,
+                     nrounds = 1,
                      verbose = FALSE,
                      objective = "multi:softmax",
                      num_class = 10
 )
 ```
 
+
 ```{r}
 columns_to_use <- setdiff(colnames(train_data), "CodigoEdad")
 
-xgb_model_50 <- xgboost(data = as.matrix(train_data[, columns_to_use]),
+xgb_model_5 <- xgboost(data = as.matrix(train_data[, columns_to_use]),
                      label = train_data$CodigoEdad,
-                     nrounds = 50,
+                     nrounds = 5,
                      verbose = FALSE,
                      objective = "multi:softmax",
                      num_class = 10
@@ -121,15 +123,15 @@ xgb_model_50 <- xgboost(data = as.matrix(train_data[, columns_to_use]),
 
 # Predict on the testing set and evaluate
 ```{r}
+predictions_xgb_1 <- predict(xgb_model_1, as.matrix(test_data[, columns_to_use]))
+conf_matrix_xgb_1 <- table(predictions_xgb_1, test_data$CodigoEdad)
+accuracy_xgb_1 <- sum(diag(conf_matrix_xgb_1)) / sum(conf_matrix_xgb_1)
+print(paste("Accuracy 1 round:", accuracy_xgb_1))
+```
+
+```{r}
 predictions_xgb_5 <- predict(xgb_model_5, as.matrix(test_data[, columns_to_use]))
 conf_matrix_xgb_5 <- table(predictions_xgb_5, test_data$CodigoEdad)
 accuracy_xgb_5 <- sum(diag(conf_matrix_xgb_5)) / sum(conf_matrix_xgb_5)
 print(paste("Accuracy 5 rounds:", accuracy_xgb_5))
-```
-
-```{r}
-predictions_xgb_50 <- predict(xgb_model_50, as.matrix(test_data[, columns_to_use]))
-conf_matrix_xgb_50 <- table(predictions_xgb_50, test_data$CodigoEdad)
-accuracy_xgb_50 <- sum(diag(conf_matrix_xgb_50)) / sum(conf_matrix_xgb_50)
-print(paste("Accuracy 50 rounds:", accuracy_xgb_50))
 ```

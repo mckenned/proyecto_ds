@@ -45,23 +45,25 @@ anillamientos <- read.csv("../limpieza/limpio/anillamiento_familia.csv")
 
 
 ```{r}
-anillamientos_especie <- anillamientos[, (names(anillamientos) %in% c("NombreEspecie", "FechaCaptura", "CodigoEdad", "MUNICIPIO"))]
-anillamientos_familia <- anillamientos[, (names(anillamientos) %in% c("Familia", "FechaCaptura", "CodigoEdad", "MUNICIPIO"))]
-anillamientos_orden <- anillamientos[, (names(anillamientos) %in% c("Orden", "FechaCaptura", "CodigoEdad", "MUNICIPIO"))]
-anillamientos_grupo <- anillamientos[, (names(anillamientos) %in% c("Grupo", "FechaCaptura", "CodigoEdad", "MUNICIPIO"))]
+anillamientos_especie <- anillamientos[, (names(anillamientos) %in% c("NombreEspecie", "FechaCaptura", "CodigoEdad", "MUNICIPIO", "CodigoSexo"))]
+anillamientos_familia <- anillamientos[, (names(anillamientos) %in% c("Familia", "FechaCaptura", "CodigoEdad", "MUNICIPIO", "CodigoSexo"))]
+anillamientos_orden <- anillamientos[, (names(anillamientos) %in% c("Orden", "FechaCaptura", "CodigoEdad", "MUNICIPIO", "CodigoSexo"))]
+anillamientos_grupo <- anillamientos[, (names(anillamientos) %in% c("Grupo", "FechaCaptura", "CodigoEdad", "MUNICIPIO", "CodigoSexo"))]
+anillamientos_anilla <- anillamientos[, (names(anillamientos) %in% c("Anilla", "FechaCaptura", "CodigoEdad", "CodigoLocalidad", "CodigoSexo"))]
 ```
 
 ```{r}
-dataset_trabajo <- anillamientos_especie #A modificar para lo que busquemos
+dataset_trabajo <- anillamientos_anilla #A modificar para lo que busquemos
 names(dataset_trabajo)[1] <- "Identificador"
 dataset_trabajo$FechaCaptura <- as.Date(dataset_trabajo$FechaCaptura)
 dataset_trabajo$MesCaptura <- month(dataset_trabajo$FechaCaptura)
 dataset_trabajo <- dataset_trabajo[, (!names(dataset_trabajo) %in% c("FechaCaptura"))]
-dataset_trabajo <- dataset_trabajo[dataset_trabajo$MUNICIPIO != "", ]
+dataset_trabajo <- dataset_trabajo[dataset_trabajo$CodigoLocalidad != "", ]
 dataset_trabajo$CodigoEdad <- as.numeric(dataset_trabajo$CodigoEdad)
 dataset_trabajo <- dataset_trabajo[dataset_trabajo$CodigoEdad <= 9, ]
 dataset_trabajo$Identificador <- as.integer(as.factor(dataset_trabajo$Identificador))
-dataset_trabajo$MUNICIPIO <- as.integer(as.factor(dataset_trabajo$MUNICIPIO))
+dataset_trabajo$CodigoLocalidad <- as.integer(as.factor(dataset_trabajo$CodigoLocalidad))
+dataset_trabajo$CodigoSexo <- as.integer(as.factor(dataset_trabajo$CodigoSexo))
 ```
 
 ```{r}
@@ -83,9 +85,9 @@ test_data <- dataset_trabajo[-train_index, ]
 
 ```{r}
 start_time <- Sys.time()
-xgb_model_10 <- xgboost(data = as.matrix(train_data[, c("Identificador", "MUNICIPIO", "MesCaptura")]),
+xgb_model_1 <- xgboost(data = as.matrix(train_data[, c("Identificador", "CodigoLocalidad", "MesCaptura", "CodigoSexo")]),
                      label = train_data$CodigoEdad,
-                     nrounds = 10,
+                     nrounds = 1,
                      verbose = FALSE,
                      objective = "multi:softmax",
                      num_class = 10
@@ -97,7 +99,7 @@ print(elapsed_time)
 
 ```{r}
 start_time <- Sys.time()
-xgb_model_50 <- xgboost(data = as.matrix(train_data[, c("Identificador", "MUNICIPIO", "MesCaptura")]),
+xgb_model_50 <- xgboost(data = as.matrix(train_data[, c("Identificador", "CodigoLocalidad", "MesCaptura", "CodigoSexo")]),
                      label = train_data$CodigoEdad,
                      nrounds = 50,
                      verbose = FALSE,
@@ -111,7 +113,7 @@ print(elapsed_time)
 
 ```{r}
 start_time <- Sys.time()
-xgb_model_100 <- xgboost(data = as.matrix(train_data[, c("Identificador", "MUNICIPIO", "MesCaptura")]),
+xgb_model_100 <- xgboost(data = as.matrix(train_data[, c("Identificador", "CodigoLocalidad", "MesCaptura", "CodigoSexo")]),
                      label = train_data$CodigoEdad,
                      nrounds = 100,
                      verbose = FALSE,
@@ -125,7 +127,7 @@ print(elapsed_time)
 
 ```{r}
 start_time <- Sys.time()
-xgb_model_200 <- xgboost(data = as.matrix(train_data[, c("Identificador", "MUNICIPIO", "MesCaptura")]),
+xgb_model_200 <- xgboost(data = as.matrix(train_data[, c("Identificador", "CodigoLocalidad", "MesCaptura", "CodigoSexo")]),
                      label = train_data$CodigoEdad,
                      nrounds = 200,
                      verbose = FALSE,
@@ -141,15 +143,37 @@ print(elapsed_time)
 
 ```{r}
 target <- "CodigoEdad"
-categorical_features <- c("Identificador", "MUNICIPIO", "MesCaptura")
+categorical_features <- c("Identificador", "CodigoLocalidad", "MesCaptura", "CodigoSexo")
 
-train <- lgb.Dataset(data = as.matrix(train_data[, c("Identificador", "MUNICIPIO", "MesCaptura")]),
+train <- lgb.Dataset(data = as.matrix(train_data[, c("Identificador", "CodigoLocalidad", "MesCaptura", "CodigoSexo")]),
                      label = as.numeric(train_data[[target]]),
                      categorical_feature = categorical_features)
 
 params <- list(objective = "multiclass",
                num_class = 10,
                metric = "multi_logloss")
+```
+
+```{r}
+start_time <- Sys.time()
+lightgbm_model_1 <- lgb.train(params = params,
+                                data = train,
+                                nrounds = 1,
+                                verbose = 0)
+end_time <- Sys.time()
+elapsed_time <- end_time - start_time
+print(elapsed_time)
+```
+
+```{r}
+start_time <- Sys.time()
+lightgbm_model_50 <- lgb.train(params = params,
+                                data = train,
+                                nrounds = 50,
+                                verbose = 0)
+end_time <- Sys.time()
+elapsed_time <- end_time - start_time
+print(elapsed_time)
 ```
 
 ```{r}
@@ -165,31 +189,9 @@ print(elapsed_time)
 
 ```{r}
 start_time <- Sys.time()
-lightgbm_model_500 <- lgb.train(params = params,
+lightgbm_model_200 <- lgb.train(params = params,
                                 data = train,
-                                nrounds = 500,
-                                verbose = 0)
-end_time <- Sys.time()
-elapsed_time <- end_time - start_time
-print(elapsed_time)
-```
-
-```{r}
-start_time <- Sys.time()
-lightgbm_model_1000 <- lgb.train(params = params,
-                                data = train,
-                                nrounds = 1000,
-                                verbose = 0)
-end_time <- Sys.time()
-elapsed_time <- end_time - start_time
-print(elapsed_time)
-```
-
-```{r}
-start_time <- Sys.time()
-lightgbm_model_2000 <- lgb.train(params = params,
-                                data = train,
-                                nrounds = 2000,
+                                nrounds = 200,
                                 verbose = 0)
 end_time <- Sys.time()
 elapsed_time <- end_time - start_time
@@ -200,35 +202,52 @@ print(elapsed_time)
 
 # Predict on the testing set and evaluate
 ```{r}
-predictions_xgb_10 <- predict(xgb_model_10, as.matrix(test_data[, c("Identificador", "MUNICIPIO", "MesCaptura")]))
-conf_matrix_xgb_10 <- table(predictions_xgb_10, test_data$CodigoEdad)
-accuracy_xgb_10 <- sum(diag(conf_matrix_xgb_10)) / sum(conf_matrix_xgb_10)
-print(paste("Accuracy 10 rounds:", accuracy_xgb_10))
+predictions_xgb_1 <- predict(xgb_model_1, as.matrix(test_data[, c("Identificador", "CodigoLocalidad", "MesCaptura", "CodigoSexo")]))
+conf_matrix_xgb_1 <- table(predictions_xgb_1, test_data$CodigoEdad)
+accuracy_xgb_1 <- sum(diag(conf_matrix_xgb_1)) / sum(conf_matrix_xgb_1)
+print(paste("Accuracy 1 rounds:", accuracy_xgb_1))
 ```
 
 ```{r}
-predictions_xgb_50 <- predict(xgb_model_50, as.matrix(test_data[, c("Identificador", "MUNICIPIO", "MesCaptura")]))
+predictions_xgb_50 <- predict(xgb_model_50, as.matrix(test_data[, c("Identificador", "CodigoLocalidad", "MesCaptura", "CodigoSexo")]))
 conf_matrix_xgb_50 <- table(predictions_xgb_50, test_data$CodigoEdad)
 accuracy_xgb_50 <- sum(diag(conf_matrix_xgb_50)) / sum(conf_matrix_xgb_50)
 print(paste("Accuracy 50 rounds:", accuracy_xgb_50))
 ```
 
 ```{r}
-predictions_xgb_100 <- predict(xgb_model_100, as.matrix(test_data[, c("Identificador", "MUNICIPIO", "MesCaptura")]))
+predictions_xgb_100 <- predict(xgb_model_100, as.matrix(test_data[, c("Identificador", "CodigoLocalidad", "MesCaptura", "CodigoSexo")]))
 conf_matrix_xgb_100 <- table(predictions_xgb_100, test_data$CodigoEdad)
 accuracy_xgb_100 <- sum(diag(conf_matrix_xgb_100)) / sum(conf_matrix_xgb_100)
 print(paste("Accuracy 100 rounds:", accuracy_xgb_100))
 ```
 
 ```{r}
-predictions_xgb_200 <- predict(xgb_model_200, as.matrix(test_data[, c("Identificador", "MUNICIPIO", "MesCaptura")]))
+predictions_xgb_200 <- predict(xgb_model_200, as.matrix(test_data[, c("Identificador", "CodigoLocalidad", "MesCaptura", "CodigoSexo")]))
 conf_matrix_xgb_200 <- table(predictions_xgb_200, test_data$CodigoEdad)
 accuracy_xgb_200 <- sum(diag(conf_matrix_xgb_200)) / sum(conf_matrix_xgb_200)
 print(paste("Accuracy 200 rounds:", accuracy_xgb_200))
 ```
+## The accuracy obtained is lower than the obtained when done with all attributes, but the time invested is aproximately 1/4th
 
 ```{r}
-predictions_lightgbm_100 <- predict(lightgbm_model_100, as.matrix(test_data[, c("Identificador", "MUNICIPIO", "MesCaptura")]))
+predictions_lightgbm_1 <- predict(lightgbm_model_1, as.matrix(test_data[, c("Identificador", "CodigoLocalidad", "MesCaptura", "CodigoSexo")]))
+predicted_labels <- as.factor(apply(predictions_lightgbm_1, 1, which.max))
+conf_matrix_lightgbm_1 <- table(predicted_labels, test_data$CodigoEdad)
+accuracy_lightgbm_1 <- sum(diag(conf_matrix_lightgbm_1)) / sum(conf_matrix_lightgbm_1)
+print(paste("Accuracy 1 rounds:", accuracy_lightgbm_1))
+```
+
+```{r}
+predictions_lightgbm_50 <- predict(lightgbm_model_50, as.matrix(test_data[, c("Identificador", "CodigoLocalidad", "MesCaptura", "CodigoSexo")]))
+predicted_labels <- as.factor(apply(predictions_lightgbm_50, 1, which.max))
+conf_matrix_lightgbm_50 <- table(predicted_labels, test_data$CodigoEdad)
+accuracy_lightgbm_50 <- sum(diag(conf_matrix_lightgbm_50)) / sum(conf_matrix_lightgbm_50)
+print(paste("Accuracy 50 rounds:", accuracy_lightgbm_50))
+```
+
+```{r}
+predictions_lightgbm_100 <- predict(lightgbm_model_100, as.matrix(test_data[, c("Identificador", "CodigoLocalidad", "MesCaptura", "CodigoSexo")]))
 predicted_labels <- as.factor(apply(predictions_lightgbm_100, 1, which.max))
 conf_matrix_lightgbm_100 <- table(predicted_labels, test_data$CodigoEdad)
 accuracy_lightgbm_100 <- sum(diag(conf_matrix_lightgbm_100)) / sum(conf_matrix_lightgbm_100)
@@ -236,34 +255,18 @@ print(paste("Accuracy 100 rounds:", accuracy_lightgbm_100))
 ```
 
 ```{r}
-predictions_lightgbm_500 <- predict(lightgbm_model_500, as.matrix(test_data[, c("Identificador", "MUNICIPIO", "MesCaptura")]))
-predicted_labels <- as.factor(apply(predictions_lightgbm_500, 1, which.max))
-conf_matrix_lightgbm_500 <- table(predicted_labels, test_data$CodigoEdad)
-accuracy_lightgbm_500 <- sum(diag(conf_matrix_lightgbm_500)) / sum(conf_matrix_lightgbm_500)
-print(paste("Accuracy 500 rounds:", accuracy_lightgbm_500))
-```
-
-```{r}
-predictions_lightgbm_1000 <- predict(lightgbm_model_1000, as.matrix(test_data[, c("Identificador", "MUNICIPIO", "MesCaptura")]))
-predicted_labels <- as.factor(apply(predictions_lightgbm_1000, 1, which.max))
-conf_matrix_lightgbm_1000 <- table(predicted_labels, test_data$CodigoEdad)
-accuracy_lightgbm_1000 <- sum(diag(conf_matrix_lightgbm_1000)) / sum(conf_matrix_lightgbm_1000)
-print(paste("Accuracy 1000 rounds:", accuracy_lightgbm_1000))
-```
-
-```{r}
-predictions_lightgbm_2000 <- predict(lightgbm_model_2000, as.matrix(test_data[, c("Identificador", "MUNICIPIO", "MesCaptura")]))
-predicted_labels <- as.factor(apply(predictions_lightgbm_2000, 1, which.max))
-conf_matrix_lightgbm_2000 <- table(predicted_labels, test_data$CodigoEdad)
-accuracy_lightgbm_2000 <- sum(diag(conf_matrix_lightgbm_2000)) / sum(conf_matrix_lightgbm_2000)
-print(paste("Accuracy 2000 rounds:", accuracy_lightgbm_2000))
+predictions_lightgbm_200 <- predict(lightgbm_model_200, as.matrix(test_data[, c("Identificador", "CodigoLocalidad", "MesCaptura", "CodigoSexo")]))
+predicted_labels <- as.factor(apply(predictions_lightgbm_200, 1, which.max))
+conf_matrix_lightgbm_200 <- table(predicted_labels, test_data$CodigoEdad)
+accuracy_lightgbm_200 <- sum(diag(conf_matrix_lightgbm_200)) / sum(conf_matrix_lightgbm_200)
+print(paste("Accuracy 200 rounds:", accuracy_lightgbm_200))
 ```
 
 # Cross-Validation xgboost
 
 ```{r}
 # Define data and parameters
-dtrain <- xgb.DMatrix(as.matrix(train_data[, c("Identificador", "MUNICIPIO", "MesCaptura")]), label = train_data$CodigoEdad)
+dtrain <- xgb.DMatrix(as.matrix(train_data[, c("Identificador", "CodigoLocalidad", "MesCaptura", "CodigoSexo")]), label = train_data$CodigoEdad)
 params <- list(
   objective = "multi:softmax",
   num_class = 10
@@ -280,7 +283,6 @@ cv <- xgb.cv(data = dtrain,
 
 # Plot the accuracy
 plot(cv$evaluation_log$iter, 1 - cv$evaluation_log$test_merror_mean, type = "l", 
-     xlab = "Number of Rounds", ylab = "Accuracy", 
-     main = "Accuracy vs. Number of Rounds")
+     xlab = "Número de rondas", ylab = "Precisión")
 ```
 
