@@ -117,8 +117,35 @@ ui <- fluidPage(
         #############################################################################################################
         h4("Filtro para Histograma de anillamientos de especies por año"),
         # Nuevo selector de entrada para el año
-        numericInput("año_anillamiento", "Número de filtro:", value = NULL, min = 1900)
-        
+        numericInput("año_anillamiento", "Número de filtro:", value = NULL, min = 1900),
+        #############################################################################################################
+        #                                                                                                           #
+        #    FILTRO PARA HISTOGRAMA DE ANILLADOR POR MESES (PREGUNTA PABLO)                                         #
+        #                                                                                                           #
+        #############################################################################################################
+        h4("Filtro para Histograma de anillador por meses"),
+        # Nuevo selector de entrada para el anillador
+        selectInput("anillador_anillamiento_mes", "Anillador:",
+                    choices = unique(anillamientos$NombreAnillador)),
+        #############################################################################################################
+        #                                                                                                           #
+        #    FILTRO PARA HISTOGRAMA DE ANILLADORES POR MES (PREGUNTA PABLO)                                         #
+        #                                                                                                           #
+        #############################################################################################################
+        h4("Filtro para Histograma de anillador por meses"),
+        # Nuevo selector de entrada para el mes
+        selectInput("anillador_meses", "Mes de Anillamiento:",
+                    choices = c("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
+                                "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre")),
+        #############################################################################################################
+        #                                                                                                           #
+        #    FILTRO PARA HISTOGRAMA DE ANILLAMIENTO DE ESPECIE POR AÑOS (PREGUNTA PABLO)                            #
+        #                                                                                                           #
+        #############################################################################################################
+        h4("Filtro para Histograma de anillador por años"),
+        # Nuevo selector de entrada para la especie
+        selectInput("anillador_anillamiento_años", "Anillador:",
+                    choices = unique(anillamientos$NombreAnillador))
       ),
       
     ),
@@ -131,14 +158,17 @@ ui <- fluidPage(
         tabPanel("Histograma de especie por meses", plotOutput("histograma_meses")),
         tabPanel("Histograma de especies por mes", plotOutput("histograma_especies_meses")),
         tabPanel("Histograma de especie por años", plotOutput("histograma_años")),
-        tabPanel("Histograma de especies por año", plotOutput("histograma_especies_años"))
+        tabPanel("Histograma de especies por año", plotOutput("histograma_especies_años")),
+        tabPanel("Histograma de anillador por meses", plotOutput("histograma_anillador_meses")),
+        tabPanel("Histograma de anilladores por mes", plotOutput("histograma_anilladores_mes")),
+        tabPanel("Histograma de anillador por años", plotOutput("histograma_anillador_años")),
+        
       )
     )
   )
 )
 
 
-# Definir server
 server <- function(input, output, session) {
   
   # Filtrar datos según selecciones para el histograma
@@ -197,6 +227,88 @@ server <- function(input, output, session) {
     
     return(datos_filtrados)
   })
+  output$histograma_anillador_años <- renderPlot({
+    anillamientos$FechaCaptura <- as.Date(anillamientos$FechaCaptura)
+    anillamientos$AñoCaptura <- year(anillamientos$FechaCaptura)
+    anillamientos <- anillamientos[anillamientos$AñoCaptura > 1700, ]
+    anillamientos <- na.omit(anillamientos)
+    
+    anillamientos_anillador <- anillamientos[, (names(anillamientos) %in% c("NombreAnillador", "FechaCaptura", "AñoCaptura"))]
+    anilladores_name_filter <- input$anillador_anillamiento_años
+    print(anilladores_name_filter)
+    anillamientos_anillador <- subset(anillamientos_anillador, tolower(NombreAnillador) == tolower(anilladores_name_filter))
+    anillamientos_anillador <- na.omit(anillamientos_anillador)
+    
+    min_year <- min(anillamientos$AñoCaptura)
+    max_year <- max(anillamientos$AñoCaptura)
+    
+    hist(anillamientos_anillador$AñoCaptura,
+         xlab = "Año",
+         ylab = "Frecuencia",
+         main = paste(anilladores_name_filter, "capturas por año"),
+         breaks = seq(min_year - 0.5, max_year + 0.5, by = 1))
+  })
+  output$histograma_anillador_meses <- renderPlot({
+    anillamientos_anillador <- anillamientos[, (names(anillamientos) %in% c("NombreAnillador", "FechaCaptura"))]
+    anilladores_name_filter <- input$anillador_anillamiento_mes
+    anillamientos_anillador <- subset(anillamientos_anillador, tolower(NombreAnillador) == tolower(anilladores_name_filter))
+    anillamientos_anillador$FechaCaptura <- as.Date(anillamientos_anillador$FechaCaptura)
+    anillamientos_anillador$MesCaptura <- month(anillamientos_anillador$FechaCaptura)
+    anillamientos_anillador <- na.omit(anillamientos_anillador)
+    
+    hist(anillamientos_anillador$MesCaptura,
+         breaks = seq(1, 12, by = 1),  # specify breaks for each month
+         xlab = "Mes",
+         ylab = "Frecuencia",
+         main = paste(anilladores_name_filter, "capturas por mes"))
+  })
+  #Procesamiento anillamientos anilladores/mes
+  output$histograma_anillador_meses <- renderPlot({
+    anillamientos_anillador <- anillamientos[, (names(anillamientos) %in% c("NombreAnillador", "FechaCaptura"))]
+    anilladores_name_filter <- input$anillador_anillamiento_mes
+    anillamientos_anillador <- subset(anillamientos_anillador, tolower(NombreAnillador) == tolower(anilladores_name_filter))
+    anillamientos_anillador$FechaCaptura <- as.Date(anillamientos_anillador$FechaCaptura)
+    anillamientos_anillador$MesCaptura <- month(anillamientos_anillador$FechaCaptura)
+    anillamientos_anillador <- na.omit(anillamientos_anillador)
+    
+    hist(anillamientos_anillador$MesCaptura,
+         breaks = seq(1, 12, by = 1),  # specify breaks for each month
+         xlab = "Mes",
+         ylab = "Frecuencia",
+         main = paste(anilladores_name_filter, "capturas por mes"))
+  })
+  #Procesamiento anillamientos especies/mes
+  output$histograma_anilladores_mes <- renderPlot({
+    anillamientos_anillador <- anillamientos[, (names(anillamientos) %in% c("NombreAnillador", "FechaCaptura"))]
+    month_filter <- input$mes_anillamiento
+    mes <- translate_month(month_filter)
+    month_number <- match(mes, month.name)
+    anillamientos_anillador$FechaCaptura <- as.Date(anillamientos_anillador$FechaCaptura)
+    anillamientos_anillador$MesCaptura <- month(anillamientos_anillador$FechaCaptura)
+    anillamientos_anillador <- subset(anillamientos_anillador, MesCaptura == month_number)
+    anillamientos_anillador <- na.omit(anillamientos_anillador)
+    
+    anilladores_counts <- table(anillamientos_anillador$NombreAnillador)
+    anilladores_counts <- anilladores_counts[order(-anilladores_counts)]
+    anilladores_counts <- head(anilladores_counts, 10)
+    anilladores_counts <- anilladores_counts[order(anilladores_counts)]
+    anilladores_names <- names(anilladores_counts)
+    colors <- rainbow(length(anilladores_counts))
+    
+    max_count <- max(anilladores_counts)
+    xlim <- c(0, ifelse(max_count > 12000, max_count, 12000))
+
+    
+    barplot(anilladores_counts,
+            col = rev(colors),
+            xlab = "Cantidad de capturas",
+            main = paste("Capturas en", month_filter),
+            horiz = TRUE,
+            names.arg = FALSE,
+            xlim = xlim)
+    
+    legend("bottomright", inset=c(0,0), legend = rev(anilladores_names), fill = colors, bg = adjustcolor("white", alpha = 0.8))
+  })
   
   #Procesamiento anillamientos especies/mes
   output$histograma_meses <- renderPlot({
@@ -219,11 +331,7 @@ server <- function(input, output, session) {
     anillamientos_especie <- anillamientos[, (names(anillamientos) %in% c("NombreEspecie", "FechaCaptura"))]
     month_filter <- input$mes_anillamiento
     mes <- translate_month(month_filter)
-    print(input$mes_anillamiento)
-    print(mes)
     month_number <- match(mes, month.name)
-    print(month.name)
-    print(month_number)
     anillamientos_especie$FechaCaptura <- as.Date(anillamientos_especie$FechaCaptura)
     anillamientos_especie$MesCaptura <- month(anillamientos_especie$FechaCaptura)
     anillamientos_especie <- subset(anillamientos_especie, MesCaptura == month_number)
