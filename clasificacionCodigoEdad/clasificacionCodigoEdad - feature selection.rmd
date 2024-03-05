@@ -1,0 +1,133 @@
+```{r}
+# Install and load the lubridate package if not already installed
+if (!requireNamespace("lubridate", quietly = TRUE)) {
+  install.packages("lubridate")
+}
+library(lubridate)
+
+# Install and load the xgboost package if not already installed
+if (!requireNamespace("xgboost", quietly = TRUE)) {
+  install.packages("xgboost")
+}
+library(xgboost)
+
+# Install and load the lightgbm package if not already installed
+if (!requireNamespace("lightgbm", quietly = TRUE)) {
+  install.packages("lightgbm")
+}
+library(lightgbm)
+
+# Install and load the data.table package if not already installed
+if (!requireNamespace("data.table", quietly = TRUE)) {
+  install.packages("data.table")
+}
+library(data.table)
+
+# Install and load the dplyr package if not already installed
+if (!requireNamespace("dplyr", quietly = TRUE)) {
+  install.packages("dplyr")
+}
+library(dplyr)
+
+# Install and load the caret package if not already installed
+if (!requireNamespace("caret", quietly = TRUE)) {
+  install.packages("caret")
+}
+library(caret)
+```
+
+# Step 1: Data Preprocessing
+
+```{r}
+# Load dataset
+anillamientos <- read.csv("../limpieza/limpio/anillamiento_familia.csv")
+```
+
+```{r}
+dataset_trabajo <- anillamientos
+dataset_trabajo <- na.omit(dataset_trabajo)
+dataset_trabajo$FechaCaptura <- as.Date(dataset_trabajo$FechaCaptura)
+dataset_trabajo$MesCaptura <- month(dataset_trabajo$FechaCaptura)
+dataset_trabajo$CodigoEdad <- as.numeric(dataset_trabajo$CodigoEdad)
+dataset_trabajo <- na.omit(dataset_trabajo)
+dataset_trabajo <- dataset_trabajo[dataset_trabajo$CodigoEdad <= 9, ]
+dataset_trabajo$CodigoAnillador <- as.integer(as.factor(dataset_trabajo$CodigoAnillador))
+dataset_trabajo$NombreAnillador <- as.integer(as.factor(dataset_trabajo$NombreAnillador))
+dataset_trabajo$Anilla <- as.integer(as.factor(dataset_trabajo$Anilla))
+dataset_trabajo$NombreComun <- as.integer(as.factor(dataset_trabajo$NombreComun))
+dataset_trabajo$NombreEspecie <- as.integer(as.factor(dataset_trabajo$NombreEspecie))
+dataset_trabajo$Familia <- as.integer(as.factor(dataset_trabajo$Familia))
+dataset_trabajo$Orden <- as.integer(as.factor(dataset_trabajo$Orden))
+dataset_trabajo$Grupo <- as.integer(as.factor(dataset_trabajo$Grupo))
+dataset_trabajo$CodigoEspecie <- as.integer(as.factor(dataset_trabajo$CodigoEspecie))
+dataset_trabajo$FechaCaptura <- as.integer(as.factor(dataset_trabajo$FechaCaptura))
+dataset_trabajo$CodigoSexo <- as.integer(as.factor(dataset_trabajo$CodigoSexo))
+dataset_trabajo$NombreLocalidad <- as.integer(as.factor(dataset_trabajo$NombreLocalidad))
+dataset_trabajo$MUNICIPIO <- as.integer(as.factor(dataset_trabajo$MUNICIPIO))
+dataset_trabajo$CodigoLocalidad <- as.integer(as.factor(dataset_trabajo$CodigoLocalidad))
+dataset_trabajo$Observaciones <- as.integer(as.factor(dataset_trabajo$Observaciones))
+dataset_trabajo$CodigoHabitat <- as.integer(as.factor(dataset_trabajo$CodigoHabitat))
+dataset_trabajo$CodigoMetodo <- as.integer(as.factor(dataset_trabajo$CodigoMetodo))
+dataset_trabajo$NumRedes <- as.integer(as.factor(dataset_trabajo$NumRedes))
+dataset_trabajo$HoraCaptura <- as.integer(as.factor(dataset_trabajo$HoraCaptura))
+dataset_trabajo$HoraDesde <- as.integer(as.factor(dataset_trabajo$HoraDesde))
+dataset_trabajo$HoraHasta <- as.integer(as.factor(dataset_trabajo$HoraHasta))
+dataset_trabajo$TipoRegistro <- as.integer(as.factor(dataset_trabajo$TipoRegistro))
+dataset_trabajo$CodigoCentro <- as.integer(as.factor(dataset_trabajo$CodigoCentro))
+dataset_trabajo$CodigoReclamo <- as.integer(as.factor(dataset_trabajo$CodigoReclamo))
+dataset_trabajo$DataFrameName <- as.integer(as.factor(dataset_trabajo$DataFrameName))
+```
+
+```{r}
+dataset_trabajo <- na.omit(dataset_trabajo)
+```
+
+```{r}
+set.seed(123)
+
+train_index <- sample(1:nrow(dataset_trabajo), 0.7 * nrow(dataset_trabajo))
+train_data <- dataset_trabajo[train_index, ]
+train_data_no_codigoedad <- subset(train_data, select = -CodigoEdad)
+test_data <- dataset_trabajo[-train_index, ]
+```
+
+
+# Step 2: Model Training
+
+# Train a xgb models
+
+```{r}
+start_time <- Sys.time()
+
+xgb_model <- xgboost(data = as.matrix(train_data[, !names(train_data) %in% c("CodigoEdad")]),
+                     label = train_data$CodigoEdad,
+                     nrounds = 50,
+                     verbose = FALSE,
+                     objective = "multi:softmax",
+                     num_class = 10
+)
+
+end_time <- Sys.time()
+elapsed_time <- end_time - start_time
+print(elapsed_time)
+```
+```{r}
+predictions <- predict(xgb_model, as.matrix(test_data[, !names(test_data) %in% c("CodigoEdad")]),)
+```
+
+# Evaluate the model
+```{r}
+confusion_matrix <- table(Actual = test_data$CodigoEdad, Predicted = predictions + 1) # add 1 to predictions to match labels
+accuracy <- sum(diag(confusion_matrix)) / sum(confusion_matrix)
+print(paste("Accuracy:", accuracy))
+```
+# Feature Importance
+
+```{r}
+importance_matrix <- xgb.importance(model = xgb_model)
+print(importance_matrix)
+```
+
+```{r}
+xgb.plot.importance(importance_matrix = head(importance_matrix,8))
+```
