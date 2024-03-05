@@ -609,3 +609,325 @@ freq_esp <- as.data.frame(freq_esp)
 
 write.csv(combined_df, file = './data/combined_anillamiento.csv', row.names = FALSE)
 
+##Anillamiento
+
+file_path <- "./data/combined_anillamiento.csv"
+
+anillamiento <- read.csv(file_path)
+
+# Function to count NA values in a dataframe
+count_na <- function(dataframe) {
+  sum(is.na(dataframe))
+}
+
+# Call the function with your dataframe
+na_count <- count_na(anillamiento)
+print(na_count)
+
+na_rows <- anillamiento[!complete.cases(anillamiento), ]
+
+anillamiento$CodigoSexo[is.na(anillamiento$CodigoSexo)] <- -1
+
+na_count <- count_na(anillamiento)
+print(na_count)
+
+# Install and load the readr package if not already installed
+if (!requireNamespace("readr", quietly = TRUE)) {
+  install.packages("readr")
+}
+library(readr)
+
+# Set the file path
+file_path <- "./limpio/anillamiento.csv"
+
+# Write the dataframe to an Excel file
+write_csv(anillamiento, file_path)
+
+# Print a message indicating success
+cat("Dataframe exported successfully to", file_path, "\n")
+
+##Controles españa y extranjeros
+
+# Set the file path
+file_path <- "../data/controles_espana.csv"
+file_path2 <- "../data/controles_extranjeros.csv"
+
+# Read the Excel file
+controles_espana <- read.csv(file_path)
+controles_extranjeros <- read.csv(file_path2)
+
+# Install and load the dplyr package if not already installed
+if (!requireNamespace("dplyr", quietly = TRUE)) {
+  install.packages("dplyr")
+}
+library(dplyr)
+
+# Combine DIA, MES, and AÑO columns and format as DD/MM/YYYY
+controles_espana$"FECHA CONTROL 1" <- as.Date(paste(controles_espana$DIA, controles_espana$MES, controles_espana$AÑO, sep = "/"), format = "%d/%m/%Y")
+controles_extranjeros$"FECHA CONTROL 1" <- as.Date(paste(controles_extranjeros$DIA, controles_extranjeros$MES, controles_extranjeros$AÑO, sep = "/"), format = "%d/%m/%Y")
+
+# Print the head of the dataframe to verify the new column
+head(controles_espana,10)
+head(controles_extranjeros,10)
+
+controles_espana <- controles_espana[, !(names(controles_espana) %in% c("Grasa", "Ala", "peso", "tarso", "pico", "cola", "Hora"))]
+controles_extranjeros <- controles_extranjeros[, !(names(controles_extranjeros) %in% c("Grasa", "Ala", "peso", "tarso", "pico", "cola", "Hora"))]
+
+head(controles_espana,10)
+head(controles_extranjeros,10)
+
+anillamiento <- list("anillamiento")
+
+control <- list(
+  "control",
+  "encontrado herido y no liberado",
+  "encontrado herido y  liberado",
+  "anillamiento suelta silvestrista",
+  "encontrado enfermo y  liberado",
+  "encontrado exahusto y liberado en buen estado",
+  "encontrado herido y  liberado, disparo",
+  "ala rota",
+  "atropellado recuperado y liberado",
+  "encontrada enferma y liberada en buen estado",
+  "encontrada sin volar no liberada",
+  "mantenida en cautividad",
+  "control",
+  "encontrado enfermo y  liberado",
+  "control anilla naranja",
+  "capturada en red de pesca y liberada",
+  "capturada para enjaular",
+  "control anilla roja",
+  "control cambio anilla ac4162",
+  "encontrado en la playa y liberado",
+  "encontrado exhausta y liberado en buen estado",
+  "encontrado herida y no liberada",
+  "mantenida en cautividad"
+)
+
+muerto <- list(
+  "cazada escopeta", 
+  "encontrado muerto",
+  "cazada escopeta solo anilla",
+  "cazada",
+  "atropellado",
+  "cazado con red de suelo",
+  "colision con tendido electrico",
+  "encontrada muerta",
+  "encontrada solo anilla",
+  "cazada con escopeta",
+  "encotrado muerto",
+  "cazada con red de tiro no se libera",
+  "cazado con escopeta",
+  "capturada por buho o rapaz",
+  "atropellada",
+  "capturada por un animal domestico no gato",
+  "cazada por buho o rapaz",
+  "cazada por esmerejon",
+  "cazado",
+  "encontrada anilla con detector de metales",
+  "caido en un estanque",
+  "enredada en red para proteger frutales y piscifactorias",
+  "envenenada",
+  "envenenado",
+  "pinchado en despensa de lanius excubitor",
+  "cazado con escopeta fecha carta",
+  "colision con tendido electrico",
+  "anilla leida telescopio",
+  "cazada con percha",
+  "cazada con red de tiro no se libera",
+  "capturada por un gato",           
+  "cazada con escopeta",
+  "colision contra cristales",
+  "control anilla roja leido telescopio",
+  "encontrada solo anilla",
+  "encontrado muerto anilla roja",
+  "muerto trampa para otros animales",
+  "ahogoda en deposito de agua",
+  "anilla en egagropila",
+  "capturada por buho o rapaz",
+  "capturada por un animal silvestre",
+  "cazada red de suelo",
+  "cazado con percha",
+  "colision con cristales",
+  "colision con un avion",      
+  "colision contra un coche anilla naranja",
+  "encontrada la pata con la anilla",
+  "encontrada solo anilla con detector de metales",
+  "encontrado muerto anilla naranja",
+  "muerta por botulismo",
+  "muerta por colision con vehiculo",
+  "muerta por un gato",
+  "muerto en red japonesa ahogado",
+  "otros",
+  "solo anilla",
+  "solo huesos y pvc"
+)
+
+# Function to swap values based on arrays
+swap_values <- function(x) {
+  x <- tolower(trimws(x))
+  if (x %in% muerto) {
+    return("muerto")
+  } else if (x %in% control) {
+    return("control")
+  } else if (x %in% anillamiento) {
+    return("anillamiento")
+  } else {
+    return("control")
+  }
+}
+
+controles_espana$`Observaciones simple` <- sapply(controles_espana$Observaciones, swap_values)
+
+controles_extranjeros$`Observaciones simple` <- sapply(controles_extranjeros$Observaciones, swap_values)
+
+head(controles_espana,10)
+head(controles_extranjeros,10)
+
+distance_between <- function(location1, country1, location2, country2) {
+  # Install and load the ggmap package if not already installed
+  if (!requireNamespace("ggmap", quietly = TRUE)) {
+    install.packages("ggmap")
+  }
+  library(ggmap)
+  
+  # Install and load the geosphere package if not already installed
+  if (!requireNamespace("geosphere", quietly = TRUE)) {
+    install.packages("geosphere")
+  }
+  library(geosphere)
+  
+  # The API keys may not be valid at this time. Substitute them for appropiate ones
+  
+  register_stadiamaps("959128be-7040-455a-a96d-3a4fede1ba6a", write = FALSE)
+  register_google("AIzaSyB5mUIt_VgX0xIQHDwwdFNtP9nUFHw5t8U")
+  
+  # Get coordinates for location1 and location2
+  coords1 <- geocode(paste(location1, country1, sep = ", "))
+  coords2 <- geocode(paste(location2, country2, sep = ", "))
+  
+  # Calculate distance using Haversine formula
+  distance_km <- distVincentyEllipsoid(coords1, coords2) / 1000
+  
+  ret <- list(distance_km, coords1, coords2)
+  
+  # Return the distance
+  return(ret)
+}
+
+merge_control_rows <- function(df) {
+  # Iterate through each row
+  for (i in 1:nrow(df)) {
+    # Extract the current row
+    current_row <- df[i, ]
+    
+    matching_row <- df[df$METAL == current_row$METAL & df$MODO != "A" & df$`FECHA CONTROL 1` > current_row$`FECHA CONTROL 1`, ]
+    
+    if (nrow(matching_row) > 0) {
+      matching_row <- matching_row %>% arrange(`FECHA CONTROL 1`)
+      matching_row <- head(matching_row,1)
+      
+      days <- difftime(matching_row$`FECHA CONTROL 1`, current_row$`FECHA CONTROL 1`, units = "days")
+      
+      # Create the new date columns
+      df[i, "FECHA CONTROL 2"] <- matching_row$`FECHA CONTROL 1`
+      if ("LOCALIDAD" %in% colnames(matching_row)) {
+        df[i, "LOCALIDAD CONTROL 2"] <- matching_row$LOCALIDAD
+        df[i, "PAIS CONTROL 2"] <- matching_row$PAIS
+        distance <- distance_between(df[i, "LOCALIDAD"], df[i, "PAIS"], df[i, "LOCALIDAD CONTROL 2"], df[i, "PAIS CONTROL 2"])
+      }
+      else {
+        df[i, "LUGAR CONTROL 2"] <- matching_row$LUGAR
+        df[i, "MUNICIPIO CONTROL 2"] <- matching_row$MUNICIPIO
+        df[i, "PROVINCIA CONTROL 2"] <- matching_row$PROVINCIA
+        distance <- distance_between(df[i, "MUNICIPIO"], df[i, "MUNICIPIO CONTROL 2"], "Spain", "Spain")
+      }
+      df[i, "Kms"] <- distance[[1]]
+      df[i, "LONGITUDE CONTROL 1"] <- distance[[2]][1, "lon"]
+      df[i, "LATITUDE CONTROL 1"] <- distance[[2]][1, "lat"]
+      df[i, "LONGITUDE CONTROL 2"] <- distance[[3]][1, "lon"]
+      df[i, "LATITUDE CONTROL 2"] <- distance[[3]][1, "lat"]
+      df[i, "EDAD CONTROL 2"] <- matching_row$EDAD
+      df[i, "SEXO CONTROL 2"] <- matching_row$SEXO
+      df[i, "ANILLADOR CONTROL 2"] <- matching_row$ANILLADOR
+      df[i, "Dias"] <- days
+      df[i, "Dias anotados"] <- matching_row$Dias
+      df[i, "Kms anotados"] <- matching_row$Kms
+      df[i, "Observaciones control 2"] <- matching_row$Observaciones
+      df[i, "Observaciones simple control 2"] <- matching_row$`Observaciones simple`
+    }
+    else {
+      df[i, "FECHA CONTROL 2"] <- NA
+    }
+  }
+  
+  df <- subset(df, !is.na(`FECHA CONTROL 2`))
+  
+  return(df)
+}
+
+controles_espana_merged <- merge_control_rows(controles_espana)
+controles_extranjeros_merged <- merge_control_rows(controles_extranjeros)
+
+# Print the head of the dataframe to verify the new column
+head(controles_espana_merged,10)
+head(controles_extranjeros_merged,10)
+
+# Install and load the readr package if not already installed
+if (!requireNamespace("readr", quietly = TRUE)) {
+  install.packages("readr")
+}
+library(readr)
+
+# Set the file path
+file_path <- "./limpio/controles_espana.csv"
+file_path2 <- "./limpio/controles_extranjeros.csv"
+file_path_merged <- "./limpio/controles_espana_merged.csv"
+file_path_merged2 <- "./limpio/controles_extranjeros_merged.csv"
+
+# Write the dataframe to an Excel file
+write_csv(controles_espana, file_path)
+write_csv(controles_extranjeros, file_path2)
+write_csv(controles_espana_merged, file_path_merged)
+write_csv(controles_extranjeros_merged, file_path_merged2)
+
+# Print a message indicating success
+cat("Dataframe exported successfully to", file_path, "\n")
+cat("Dataframe exported successfully to", file_path2, "\n")
+cat("Dataframe exported successfully to", file_path_merged, "\n")
+cat("Dataframe exported successfully to", file_path_merged2, "\n")
+
+##Controles_sin_datos_de_anillamiento
+
+# Set the file path
+file_path <- "../data/controles_sin_datos_de_anillamiento.csv"
+
+# Read the Excel file
+controles_sin_datos_de_anillamiento <- read.csv(file_path)
+
+# Combine DIA, MES, and AÑO columns and format as DD/MM/YYYY
+controles_sin_datos_de_anillamiento$FECHA <- as.Date(paste(controles_sin_datos_de_anillamiento$Dia, controles_sin_datos_de_anillamiento$Mes, controles_sin_datos_de_anillamiento$Año, sep = "/"), format = "%d/%m/%Y")
+
+# Print the head of the dataframe to verify the new column
+head(controles_sin_datos_de_anillamiento,10)
+
+controles_sin_datos_de_anillamiento <- controles_sin_datos_de_anillamiento[, !(names(controles_sin_datos_de_anillamiento) %in% c("Tarso", "Ancho.tarso", "Cola", "Pico"))]
+
+head(controles_sin_datos_de_anillamiento,10)
+
+controles_sin_datos_de_anillamiento$`Observaciones simple` <- sapply(controles_sin_datos_de_anillamiento$Observaciones, swap_values)
+
+# Install and load the readr package if not already installed
+if (!requireNamespace("readr", quietly = TRUE)) {
+  install.packages("readr")
+}
+library(readr)
+
+# Set the file path
+file_path <- "./limpio/controles_sin_datos_de_anillamiento.csv"
+
+# Write the dataframe to an Excel file
+write_csv(controles_sin_datos_de_anillamiento, file_path)
+
+# Print a message indicating success
+cat("Dataframe exported successfully to", file_path, "\n")

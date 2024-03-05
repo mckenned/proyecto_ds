@@ -1,7 +1,7 @@
 ##Anillamiento
 
 ```{r}
-file_path <- "../data/combined_anillamiento.csv"
+file_path <- "./data/combined_anillamiento.csv"
 
 anillamiento <- read.csv(file_path)
 ```
