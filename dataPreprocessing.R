@@ -649,8 +649,8 @@ cat("Dataframe exported successfully to", file_path, "\n")
 ##Controles españa y extranjeros
 
 # Set the file path
-file_path <- "../data/controles_espana.csv"
-file_path2 <- "../data/controles_extranjeros.csv"
+file_path <- "./data/controles_espana.csv"
+file_path2 <- "./data/controles_extranjeros.csv"
 
 # Read the Excel file
 controles_espana <- read.csv(file_path)
@@ -900,7 +900,7 @@ cat("Dataframe exported successfully to", file_path_merged2, "\n")
 ##Controles_sin_datos_de_anillamiento
 
 # Set the file path
-file_path <- "../data/controles_sin_datos_de_anillamiento.csv"
+file_path <- "./data/controles_sin_datos_de_anillamiento.csv"
 
 # Read the Excel file
 controles_sin_datos_de_anillamiento <- read.csv(file_path)
