@@ -154,7 +154,7 @@ ui <- fluidPage(
         id = "tab",
         tabPanel("Histograma tiempo Anillamiento y Control", plotOutput("histograma")),
         tabPanel("Mapa", leafletOutput("mapa")),
-        tabPanel("Imagen", imageOutput("imagen")),
+        tabPanel("Tasa de anillamiento", imageOutput("imagen")),
         tabPanel("Histograma de especie por meses", plotOutput("histograma_meses")),
         tabPanel("Histograma de especies por mes", plotOutput("histograma_especies_meses")),
         tabPanel("Histograma de especie por años", plotOutput("histograma_años")),
