@@ -11,12 +11,6 @@ if (!requireNamespace("xgboost", quietly = TRUE)) {
 }
 library(xgboost)
 
-# Install and load the caret package if not already installed
-if (!requireNamespace("caret", quietly = TRUE)) {
-  install.packages("caret")
-}
-library(caret)
-
 # Install and load the lightgbm package if not already installed
 if (!requireNamespace("lightgbm", quietly = TRUE)) {
   install.packages("lightgbm")
@@ -34,6 +28,12 @@ if (!requireNamespace("dplyr", quietly = TRUE)) {
   install.packages("dplyr")
 }
 library(dplyr)
+
+# Install and load the caret package if not already installed
+if (!requireNamespace("caret", quietly = TRUE)) {
+  install.packages("caret")
+}
+library(caret)
 ```
 
 # Step 1: Data Preprocessing
@@ -42,6 +42,7 @@ library(dplyr)
 # Load dataset
 anillamientos <- read.csv("../limpieza/limpio/anillamiento_familia.csv")
 ```
+
 
 ```{r}
 anillamientos_especie <- anillamientos[, (names(anillamientos) %in% c("NombreEspecie", "FechaCaptura", "CodigoEdad", "MUNICIPIO"))]
@@ -56,9 +57,6 @@ names(dataset_trabajo)[1] <- "Identificador"
 dataset_trabajo$FechaCaptura <- as.Date(dataset_trabajo$FechaCaptura)
 dataset_trabajo$MesCaptura <- month(dataset_trabajo$FechaCaptura)
 dataset_trabajo <- dataset_trabajo[, (!names(dataset_trabajo) %in% c("FechaCaptura"))]
-```
-
-```{r}
 dataset_trabajo <- dataset_trabajo[dataset_trabajo$MUNICIPIO != "", ]
 dataset_trabajo$CodigoEdad <- as.numeric(dataset_trabajo$CodigoEdad)
 dataset_trabajo <- dataset_trabajo[dataset_trabajo$CodigoEdad <= 9, ]
@@ -84,6 +82,21 @@ test_data <- dataset_trabajo[-train_index, ]
 # Train a xgb models
 
 ```{r}
+start_time <- Sys.time()
+xgb_model_10 <- xgboost(data = as.matrix(train_data[, c("Identificador", "MUNICIPIO", "MesCaptura")]),
+                     label = train_data$CodigoEdad,
+                     nrounds = 10,
+                     verbose = FALSE,
+                     objective = "multi:softmax",
+                     num_class = 10
+)
+end_time <- Sys.time()
+elapsed_time <- end_time - start_time
+print(elapsed_time)
+```
+
+```{r}
+start_time <- Sys.time()
 xgb_model_50 <- xgboost(data = as.matrix(train_data[, c("Identificador", "MUNICIPIO", "MesCaptura")]),
                      label = train_data$CodigoEdad,
                      nrounds = 50,
@@ -91,9 +104,13 @@ xgb_model_50 <- xgboost(data = as.matrix(train_data[, c("Identificador", "MUNICI
                      objective = "multi:softmax",
                      num_class = 10
 )
+end_time <- Sys.time()
+elapsed_time <- end_time - start_time
+print(elapsed_time)
 ```
 
 ```{r}
+start_time <- Sys.time()
 xgb_model_100 <- xgboost(data = as.matrix(train_data[, c("Identificador", "MUNICIPIO", "MesCaptura")]),
                      label = train_data$CodigoEdad,
                      nrounds = 100,
@@ -101,6 +118,23 @@ xgb_model_100 <- xgboost(data = as.matrix(train_data[, c("Identificador", "MUNIC
                      objective = "multi:softmax",
                      num_class = 10
 )
+end_time <- Sys.time()
+elapsed_time <- end_time - start_time
+print(elapsed_time)
+```
+
+```{r}
+start_time <- Sys.time()
+xgb_model_200 <- xgboost(data = as.matrix(train_data[, c("Identificador", "MUNICIPIO", "MesCaptura")]),
+                     label = train_data$CodigoEdad,
+                     nrounds = 200,
+                     verbose = FALSE,
+                     objective = "multi:softmax",
+                     num_class = 10
+)
+end_time <- Sys.time()
+elapsed_time <- end_time - start_time
+print(elapsed_time)
 ```
 
 # Train a lightgbm models
@@ -119,36 +153,59 @@ params <- list(objective = "multiclass",
 ```
 
 ```{r}
+start_time <- Sys.time()
 lightgbm_model_100 <- lgb.train(params = params,
                                 data = train,
                                 nrounds = 100,
                                 verbose = 0)
+end_time <- Sys.time()
+elapsed_time <- end_time - start_time
+print(elapsed_time)
 ```
 
 ```{r}
+start_time <- Sys.time()
 lightgbm_model_500 <- lgb.train(params = params,
                                 data = train,
                                 nrounds = 500,
                                 verbose = 0)
+end_time <- Sys.time()
+elapsed_time <- end_time - start_time
+print(elapsed_time)
 ```
 
 ```{r}
+start_time <- Sys.time()
 lightgbm_model_1000 <- lgb.train(params = params,
                                 data = train,
                                 nrounds = 1000,
                                 verbose = 0)
+end_time <- Sys.time()
+elapsed_time <- end_time - start_time
+print(elapsed_time)
 ```
 
 ```{r}
+start_time <- Sys.time()
 lightgbm_model_2000 <- lgb.train(params = params,
                                 data = train,
                                 nrounds = 2000,
                                 verbose = 0)
+end_time <- Sys.time()
+elapsed_time <- end_time - start_time
+print(elapsed_time)
 ```
 
 # Step 3: Model Evaluation
 
 # Predict on the testing set and evaluate
+```{r}
+predictions_xgb_10 <- predict(xgb_model_10, as.matrix(test_data[, c("Identificador", "MUNICIPIO", "MesCaptura")]))
+conf_matrix_xgb_10 <- table(predictions_xgb_10, test_data$CodigoEdad)
+accuracy_xgb_10 <- sum(diag(conf_matrix_xgb_10)) / sum(conf_matrix_xgb_10)
+print(paste("Accuracy 10 rounds:", accuracy_xgb_10))
+```
+
 ```{r}
 predictions_xgb_50 <- predict(xgb_model_50, as.matrix(test_data[, c("Identificador", "MUNICIPIO", "MesCaptura")]))
 conf_matrix_xgb_50 <- table(predictions_xgb_50, test_data$CodigoEdad)
@@ -164,11 +221,26 @@ print(paste("Accuracy 100 rounds:", accuracy_xgb_100))
 ```
 
 ```{r}
+predictions_xgb_200 <- predict(xgb_model_200, as.matrix(test_data[, c("Identificador", "MUNICIPIO", "MesCaptura")]))
+conf_matrix_xgb_200 <- table(predictions_xgb_200, test_data$CodigoEdad)
+accuracy_xgb_200 <- sum(diag(conf_matrix_xgb_200)) / sum(conf_matrix_xgb_200)
+print(paste("Accuracy 200 rounds:", accuracy_xgb_200))
+```
+
+```{r}
 predictions_lightgbm_100 <- predict(lightgbm_model_100, as.matrix(test_data[, c("Identificador", "MUNICIPIO", "MesCaptura")]))
 predicted_labels <- as.factor(apply(predictions_lightgbm_100, 1, which.max))
 conf_matrix_lightgbm_100 <- table(predicted_labels, test_data$CodigoEdad)
 accuracy_lightgbm_100 <- sum(diag(conf_matrix_lightgbm_100)) / sum(conf_matrix_lightgbm_100)
 print(paste("Accuracy 100 rounds:", accuracy_lightgbm_100))
+```
+
+```{r}
+predictions_lightgbm_500 <- predict(lightgbm_model_500, as.matrix(test_data[, c("Identificador", "MUNICIPIO", "MesCaptura")]))
+predicted_labels <- as.factor(apply(predictions_lightgbm_500, 1, which.max))
+conf_matrix_lightgbm_500 <- table(predicted_labels, test_data$CodigoEdad)
+accuracy_lightgbm_500 <- sum(diag(conf_matrix_lightgbm_500)) / sum(conf_matrix_lightgbm_500)
+print(paste("Accuracy 500 rounds:", accuracy_lightgbm_500))
 ```
 
 ```{r}
