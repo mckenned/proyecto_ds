@@ -495,7 +495,7 @@ server <- function(input, output, session) {
   
   # Mostrar imagen
   output$imagen <- renderImage({
-    list(src = "../Danielle/images/Decomp_Acro_scir_rio_guad.png",
+    list(src = "Decomp_Acro_scir_rio_guad.png",
          contentType = "image/png",
          width = 400,
          height = 300)
