@@ -14,8 +14,7 @@
 
 ## David
 
-- Podemos visualizar los datos dynámicamente con filtros en un Dashboard?
-- [¿Como cambió el anillamiento a lo largo del tiempo? (cantidad total de especies anilladas, cantidad de familias anilladas, lugares donde anillan)]
+- [¿Cúal es la diferencia de tiempo de anillamiento y control para las especies según su localidad?
 
 ## Matthew
 
