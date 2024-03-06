@@ -95,6 +95,8 @@ test_data <- dataset_trabajo[-train_index, ]
 
 
 ```{r}
+start_time <- Sys.time()
+
 columns_to_use <- setdiff(colnames(train_data), "CodigoEdad")
 
 xgb_model_1 <- xgboost(data = as.matrix(train_data[, columns_to_use]),
@@ -104,10 +106,16 @@ xgb_model_1 <- xgboost(data = as.matrix(train_data[, columns_to_use]),
                      objective = "multi:softmax",
                      num_class = 10
 )
+
+end_time <- Sys.time()
+elapsed_time <- end_time - start_time
+print(elapsed_time)
 ```
 
 
 ```{r}
+start_time <- Sys.time()
+
 columns_to_use <- setdiff(colnames(train_data), "CodigoEdad")
 
 xgb_model_5 <- xgboost(data = as.matrix(train_data[, columns_to_use]),
@@ -117,6 +125,10 @@ xgb_model_5 <- xgboost(data = as.matrix(train_data[, columns_to_use]),
                      objective = "multi:softmax",
                      num_class = 10
 )
+
+end_time <- Sys.time()
+elapsed_time <- end_time - start_time
+print(elapsed_time)
 ```
 
 # Step 3: Model Evaluation
