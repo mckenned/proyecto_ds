@@ -10,7 +10,7 @@
 
 ## Pablo
 
-- ¿Cuál es el mayor anillador para X especie? Se podría acotar por tiempo también
+- ¿Cuál es el mayor anillador? Se podría acotar por tiempo también
 
 ## David
 
